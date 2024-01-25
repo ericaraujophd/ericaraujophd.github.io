@@ -33,3 +33,6 @@ My PhD Thesis [Contagious: Modeling the spread of behaviours, perceptions and em
 * MSc in Computer Science, [Federal University of Minas Gerais](https://ufmg.br/), Brazil, 2009
 * BSc in Computer Science, [Federal University of Viçosa](https://www.ufv.br/), Brazil, 2007
 
+---
+
+You can find more about me on my [LinkTree](https://linktr.ee/earaujo).
