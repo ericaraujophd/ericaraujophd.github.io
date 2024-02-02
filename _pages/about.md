@@ -12,6 +12,8 @@ redirect_from:
 
 ---
 
+Test 1 -- To be removed
+
 Olá! My name is Eric Araújo, and currently, I hold the following positions:
 
 * Associate Professor at the [Computer Science Department](https://dcc.ufla.br/) at [UFLA](https://ufla.br/) (Universidade Federal de Lavras, Brazil);
