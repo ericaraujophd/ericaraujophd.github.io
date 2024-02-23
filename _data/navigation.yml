@@ -4,8 +4,8 @@ main:
     url: /publications/
     # url: "https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en"
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Talks"
+    url: /talks/    
 
   # - title: "Teaching"
   #   url: /teaching/    
