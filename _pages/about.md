@@ -21,11 +21,11 @@ Olá! My name is Eric Araújo, and currently, I hold the following positions:
 
 ## Research Work
 
-My main work is with **cognitive modelling of social contagion** phenomena. In other words, I explore the ways people influence each other about their opinions, behaviour and perceptions using **agent-based and temporal-causal models**.
+My main research work is with **cognitive modelling of social contagion** phenomena. In other words, I explore the ways people influence each other about their opinions, behaviour and perceptions using **agent-based and temporal-causal models**.
 
-My contributions are mainly in cognitive computing, modelling and simulation areas. Therefore, the work I develop is multidisciplinary, using computer science tools to solve problems in areas such as public security, the spread of fake news, promoting healthier lifestyles, etc.
+I have contributions in the areas of cognitive computing, modelling and simulation. Therefore, the work I develop is multidisciplinary, using computer science tools to solve problems in areas such as public security, the spread of fake news, promoting healthier lifestyles, etc.
 
-My PhD Thesis [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](../files/Contagious_Eric_Araujo.pdf) is available for download.
+You can download my PhD Thesis on the following linl -- [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](../files/Contagious_Eric_Araujo.pdf).
 
 ## Education
 
