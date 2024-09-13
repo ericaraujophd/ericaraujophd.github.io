@@ -14,7 +14,7 @@ redirect_from:
 
 Olá! My name is Eric Araújo, and currently, I hold the following positions:
 
-* Associate Professor at the [Computer Science Department](https://dcc.ufla.br/) at [UFLA](https://ufla.br/) (Universidade Federal de Lavras, Brazil);
+* Professor at the [Computer Science Department](https://calvin.edu/academics/school-stem/computer-science) at [Calvin University](https://calvin.edu/);
 * Head of the Behavioural Informatics Laboratory (BILbo);
 
 
@@ -25,7 +25,7 @@ My main work is with **cognitive modelling of social contagion** phenomena. In o
 
 My contributions are mainly in cognitive computing, modelling and simulation areas. Therefore, the work I develop is multidisciplinary, using computer science tools to solve problems in areas such as public security, the spread of fake news, promoting healthier lifestyles, etc.
 
-My PhD Thesis [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](https://drive.google.com/file/d/12fdR1cLRy0w3ZdYKSot8UX0hrbqrOA7k/view?usp=sharing) is available for download.
+My PhD Thesis [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](../files/Contagious_Eric_Araujo.pdf) is available for download.
 
 ## Education
 
