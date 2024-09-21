@@ -2,7 +2,7 @@
 title: "Every Square Inch"
 ---
 
-![](images/dsbox.png){style="float: right;" fig-alt="Hex logo that says \"Data Science in a Box\"" fig-align="right" width="250"}
+![](files/Self-BW-Adjusted.png){style="float: right;" fig-alt="Portrait at Búzios in 2023." fig-align="right" width="250"}
 
 ### Computational Modeling for the Flourishing of the Whole Creation
 
