@@ -1,31 +1,30 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/faea2121-c6bb-4355-bbf4-d5afb9dd0224/deploy-status)](https://app.netlify.com/sites/datasciencebox/deploys)
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+## Data Science Course in a Box
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+Data Science in a Box contains the materials required to teach (or learn from) an introductory data science course using R, all of which are freely-available and open-source.
+They include course materials such as slide decks, homework assignments, guided labs, sample exams, a final project assignment, as well as materials for instructors such as pedagogical tips, information on computing infrastructure, technology stack, and course logistics.
 
-# Instructions
+See [datasciencebox.org](https://datasciencebox.org/) for everything you need to know about the project!
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+Note that all materials are released with [Creative Commons Attribution Share Alike 4.0 International](LICENSE.md) license.
 
-See more info at https://academicpages.github.io/
+## Questions, bugs, feature requests
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+You can file an issue to get help, report a bug, or make a feature request.
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+Before opening a new issue, be sure to [search issues and pull requests](https://github.com/rstudio-education/datascience-box/issues) to make sure the bug hasn't been reported and/or already fixed in the development version.
+By default, the search will be pre-populated with `is:issue is:open`.
+You can [edit the qualifiers](https://help.github.com/articles/searching-issues-and-pull-requests/) (e.g. `is:pr`, `is:closed`) as needed.
+For example, you'd simply remove `is:open` to search *all* issues in the repo, open or closed.
 
-# Changelog -- bugfixes and enhancements
+If your issue involves R code, please make a minimal **repr**oducible **ex**ample using the [reprex](https://reprex.tidyverse.org/) package.
+If you haven't heard of or used reprex before, you're in for a treat!
+Seriously, reprex will make all of your R-question-asking endeavors easier (which is a pretty insane ROI for the five to ten minutes it'll take you to learn what it's all about).
+For additional reprex pointers, check out the [Get help!](https://www.tidyverse.org/help/)
+section of the tidyverse site.
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+## Code of Conduct
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+Please note that the datascience-box project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
