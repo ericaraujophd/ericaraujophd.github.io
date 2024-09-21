@@ -22,7 +22,7 @@ website:
 
   page-footer:
     left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    background: "#AF601A"
+    background: "#1B4F72"
     right:
     - text: "License"
       href: LICENSE.md
@@ -30,7 +30,7 @@ website:
       href: CODE_OF_CONDUCT.md
 
   navbar:
-    background: "#AF601A"
+    background: "#1B4F72"
     logo: "files/Calvin_College.png"
     align: center
     title: false
