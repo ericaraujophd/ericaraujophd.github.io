@@ -47,8 +47,8 @@ website:
     left:
       - text: "Overview"
         href: index.qmd
-      - text: "Hello #dsbox!"
-        href: hello.qmd
+      - text: "Publications"
+        href: publications.qmd
       - text: "Content"
         href: content.qmd
       - text: "Infrastructure"
@@ -57,13 +57,14 @@ website:
         href: design.qmd
 
   sidebar:
-    - id: hello-dsbox
-      title: "Hello #dsbox!"
+    - id: publications
+      title: "Publications"
       style: "floating"
       collapse-level: 2
       align: left
       contents:
-        - href: hello.qmd
+        - href: publications.qmd
+        - href: publications/2024.qmd
         - href: 01-overview.qmd
         - href: 01-design-principles.qmd
         - href: 01-topics.qmd
