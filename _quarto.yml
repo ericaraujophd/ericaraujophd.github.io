@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - "images/twitter-card.png"
+    - "files/Calvin_College.png"
     - "course-materials/_slides/"
     
 website:
@@ -30,7 +31,7 @@ website:
 
   navbar:
     background: "#A7D5E8"
-    logo: "images/dsbox.png"
+    logo: "files/Calvin_College.png"
     align: center
     title: false
     collapse-below: lg
