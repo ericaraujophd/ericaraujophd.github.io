@@ -22,7 +22,7 @@ website:
 
   page-footer:
     left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    background: "#1B4F72"
+    background: "#d9d2e9"
     right:
     - text: "License"
       href: LICENSE.md
@@ -30,7 +30,7 @@ website:
       href: CODE_OF_CONDUCT.md
 
   navbar:
-    background: "#1B4F72"
+    background: "#d9d2e9"
     logo: "files/Calvin_College.png"
     align: center
     title: false
@@ -49,12 +49,12 @@ website:
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Content"
-        href: content.qmd
-      - text: "Infrastructure"
-        href: infrastructure.qmd
-      - text: "Design"
-        href: design.qmd
+      # - text: "Content"
+      #   href: content.qmd
+      # - text: "Infrastructure"
+      #   href: infrastructure.qmd
+      # - text: "Design"
+      #   href: design.qmd
 
   sidebar:
     - id: publications
@@ -65,41 +65,41 @@ website:
       contents:
         - href: publications.qmd
         - href: publications/2024.qmd
-        - href: 01-overview.qmd
-        - href: 01-design-principles.qmd
-        - href: 01-topics.qmd
-        - href: 01-tech-stack.qmd
-        - href: 01-community.qmd
+        # - href: 01-overview.qmd
+        # - href: 01-design-principles.qmd
+        # - href: 01-topics.qmd
+        # - href: 01-tech-stack.qmd
+        # - href: 01-community.qmd
 
-    - id: content
-      title: "Content"
-      contents:
-        - href: content.qmd
-        - href: 02-hello-world.qmd
-        - href: 02-exploring-data.qmd
-        - href: 02-ethics.qmd
-        - href: 02-making-rigorous-conclusions.qmd
-        - href: 02-looking-further.qmd
-        - href: 02-interactive-tutorials.qmd
-        - href: 02-project.qmd
-        - href: 02-exams.qmd
+    # - id: content
+    #   title: "Content"
+    #   contents:
+    #     - href: content.qmd
+    #     - href: 02-hello-world.qmd
+    #     - href: 02-exploring-data.qmd
+    #     - href: 02-ethics.qmd
+    #     - href: 02-making-rigorous-conclusions.qmd
+    #     - href: 02-looking-further.qmd
+    #     - href: 02-interactive-tutorials.qmd
+    #     - href: 02-project.qmd
+    #     - href: 02-exams.qmd
 
-    - id: infrastructure
-      title: "Infrastructure"
-      contents:
-        - href: infrastructure.qmd
-        - href: 03-access-r.qmd
-        - href: 03-version-control.qmd
-        - href: 03-discussion.qmd
-        - href: 03-sharing.qmd
-        - href: 03-alternative-setups.qmd
+    # - id: infrastructure
+    #   title: "Infrastructure"
+    #   contents:
+    #     - href: infrastructure.qmd
+    #     - href: 03-access-r.qmd
+    #     - href: 03-version-control.qmd
+    #     - href: 03-discussion.qmd
+    #     - href: 03-sharing.qmd
+    #     - href: 03-alternative-setups.qmd
 
-    - id: design
-      align: left
-      contents:
-        - href: design.qmd
-        - href: 04-pedagogy.qmd
-        - href: 04-schedule.qmd
+    # - id: design
+    #   align: left
+    #   contents:
+    #     - href: design.qmd
+    #     - href: 04-pedagogy.qmd
+    #     - href: 04-schedule.qmd
 
 format:
   html:
