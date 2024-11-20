@@ -8,7 +8,7 @@ title: "Every Square Inch"
 
 Olá! My name is Eric Araújo, and currently, I hold the following positions:
 
-- Professor at the [Computer Science Department](https://calvin.edu/academics/school-stem/computer-science) at [Calvin University](https://calvin.edu/);
+- Associate Professor at the [Computer Science Department](https://calvin.edu/academics/school-stem/computer-science) at [Calvin University](https://calvin.edu/);
 - Head of the Behavioural Informatics Laboratory (BILbo);
 
 ### Scholarship
