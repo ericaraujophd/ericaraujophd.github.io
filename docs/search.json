@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "kudos/kudos.html",
-    "href": "kudos/kudos.html",
-    "title": "Eric Araújo",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
     "section": "",
-    "text": "2021-03-17\n\nDear Mine,\nI wanted to take this opportunity to thank you for the wonderful Data Science in a Box materials.  I have been using them extensively in a new course I am putting together.  The title of the course is “predictive analytics” but I also am tasked with teaching them programming and getting data ready, so your course is at a great level for the students who have only had one introductory course in statistics.  I am adding and subtracting things but having your work was a life saver for me given all that is going on.  I am hopefully giving you appropriate creative attribution.\nhttps://laurark.github.io/sta323content/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html#2 is an example of how I did it on a slide.\nI have learned so much from you..  Thank you so very much for all the work you do and for your wonderful materials and training videos.\nI was able to integrate the XaringanXtra scribble into my slides as well.  https://pkg.garrickadenbuie.com/xaringanExtra/#/scribble  . I was super excited, impressed and grateful Matt and Garrett built this after I asked for it.\nThank you again.\nLaura\nLaura Ring Kapitula, PhD Associate Professor Department of Statistics\nGrand Valley State University"
+    "text": "19º Congresso Brasileiro de Sistemas (CBS) - Goiânia, Brazil\n\nSlides\n\n\nLink\n\n\n\n\n\n\nComing soon…"
+  },
+  {
+    "objectID": "presentations.html#section",
+    "href": "presentations.html#section",
+    "title": "Presentations",
+    "section": "",
+    "text": "19º Congresso Brasileiro de Sistemas (CBS) - Goiânia, Brazil\n\nSlides\n\n\nLink\n\n\n\n\n\n\nComing soon…"
+  },
+  {
+    "objectID": "infrastructure.html",
+    "href": "infrastructure.html",
+    "title": "Computational infrastructure",
+    "section": "",
+    "text": "One of the design principles of this course is “cherish day one” – get students from nothing to their first meaningful data visualization within the first 10 minutes of the course. Achieving this is possible, but requires careful consideration of the computing infrastructure. This section outlines how one can set up their course to run on RStudio Cloud, use GitHub for not only version control and collaboration but also as the learning management system for the course, and build their course materials with packages from the *down universe (rmarkdown, blogdown, xaringan, etc.). Lastly, the alternative setups section describes other approaches to setting up the computing infrastructure that can be just as efficient and effective as the ones described in the main choices for the course, and discusses pros and cons.\nWant some resources for learning more about teaching with Data Science in a Box or need a 10 or 15-week term schedule? You’ve come to the right place."
   },
   {
     "objectID": "publications.html",
@@ -108,10 +122,136 @@
     "text": "Olá! My name is Eric Araújo, and currently, I hold the following positions:\n\nAssociate Professor at the Computer Science Department at Calvin University;\nHead of the Behavioural Informatics Laboratory (BILbo);\n\n\nScholarship\nMy main research work is with cognitive modelling of social contagion phenomena. In other words, I explore the ways people influence each other about their opinions, behaviour and perceptions using agent-based and temporal-causal models.\nI have contributions in the areas of cognitive computing, modelling and simulation. Therefore, the work I develop is multidisciplinary, using computer science tools to solve problems in areas such as public security, the spread of fake news, promoting healthier lifestyles, etc.\nYou can download my PhD Thesis on the following link – Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks.\n\n\nEducation\n\nPhD in Computer Science, Vrije Universiteit Amsterdam, The Netherlands, 2018\nMSc in Computer Science, Federal University of Minas Gerais, Brazil, 2009\nBSc in Computer Science, Federal University of Viçosa, Brazil, 2007\n\nYou can find more about me on my LinkTree."
   },
   {
-    "objectID": "infrastructure.html",
-    "href": "infrastructure.html",
-    "title": "Computational infrastructure",
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#quem-sou-eu",
+    "href": "presentations/2024/CBS-Brasil/abms.html#quem-sou-eu",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Quem sou eu?",
+    "text": "Quem sou eu?\n\n\n\n\nEric Araújo\n\nProfessor Associado da Calvin University (USA)\nCoordenador BILbo (Behavioral Informatics Laboratory)\nPhD pela Vrije Universiteit Amsterdam"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#agenda",
+    "href": "presentations/2024/CBS-Brasil/abms.html#agenda",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Agenda",
+    "text": "Agenda\n\nO que é Modelagem Baseada em Agentes?\nAplicações Práticas da Modelagem Baseada em Agentes.\nOrientação a Dados na Criação de Modelos\nAplicações e Exemplos\nInteração"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#solucionando-problemas",
+    "href": "presentations/2024/CBS-Brasil/abms.html#solucionando-problemas",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Solucionando Problemas",
+    "text": "Solucionando Problemas\n\n\n\n\n\n“Não podemos resolver problemas usando o mesmo tipo de pensamento que usamos quando os criamos.”\n– Albert Einstein"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#section",
+    "href": "presentations/2024/CBS-Brasil/abms.html#section",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "1",
+    "text": "1\nModelagem baseada em agentes (MBAs) são modelos onde múltiplas entidades percebem e respondem estocasticamente às condições do ambiente local, imitando o comportamento de sistemas complexos de larga escala."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#criando-mbas",
+    "href": "presentations/2024/CBS-Brasil/abms.html#criando-mbas",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "1.1 Criando MBAs",
+    "text": "1.1 Criando MBAs\n\n\n\n\nDo que a simulação é feita?\nAgentes, objetos ou entidades que agem autonomamente.\n\n\n\n\n\n\nComo os agentes interagem?\nOs agentes acessam e interagem com o ambiente local por meio de regras internas simples para tomada de decisões, movimentação e ação.\n\n\n\n\n\n\nO que é analisado? \nO comportamento agregado do sistema simulado é o resultado da intensa interação entre os comportamentos relativamente simples de seus agentes individuais"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#vantagens-dos-mbas",
+    "href": "presentations/2024/CBS-Brasil/abms.html#vantagens-dos-mbas",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "1.2 Vantagens dos MBAs",
+    "text": "1.2 Vantagens dos MBAs\n\n\n\n\nVisualização gráfica de comportamentos.\n\n\n\n\n\n\n\n\nVantagens em custo e tempo em relação a experimentos do mundo real.\n\n\n\n\n\n\n\nEstudos onde não é possível testes no mundo real."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#trabalhos-segurança-pública",
+    "href": "presentations/2024/CBS-Brasil/abms.html#trabalhos-segurança-pública",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "2.1 Trabalhos: Segurança pública",
+    "text": "2.1 Trabalhos: Segurança pública\n\n\n\n\nRaquel Rosés, Cristina Kadar, Nick Malleson, A data-driven agent-based simulation to predict crime patterns in an urban environment, Computers, Environment and Urban Systems, Volume 89, 2021, ISSN 0198-9715."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#trabalhos-forças-armadas",
+    "href": "presentations/2024/CBS-Brasil/abms.html#trabalhos-forças-armadas",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "2.1 Trabalhos: Forças Armadas",
+    "text": "2.1 Trabalhos: Forças Armadas\n\n\n\n\nYun, Woo-Seop, Moon, Il-Chul and Lee, Tae-Eog (2015) Agent-Based Simulation of Time to Decide: Military Commands and Time Delays. Journal of Artificial Societies and Social Simulation 18 (4) 10. doi: 10.18564/jasss.2871"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#trabalhos-formação-e-sociedade",
+    "href": "presentations/2024/CBS-Brasil/abms.html#trabalhos-formação-e-sociedade",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "2.1 Trabalhos: Formação e Sociedade",
+    "text": "2.1 Trabalhos: Formação e Sociedade\nMazhar Sajjad, Karandeep Singh, Euihyun Paik and Chang-Won Ahn (2016) A Data-Driven Approach for Agent-Based Modeling: Simulating the Dynamics of Family Formation"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#trabalhos-saúde",
+    "href": "presentations/2024/CBS-Brasil/abms.html#trabalhos-saúde",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "2.1 Trabalhos: Saúde",
+    "text": "2.1 Trabalhos: Saúde\nHunter E, Mac Namee B, Kelleher J (2019) An open-data-driven agent-based model to simulate infectious disease outbreaks"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#modelos-simples-vs-análises-complexas",
+    "href": "presentations/2024/CBS-Brasil/abms.html#modelos-simples-vs-análises-complexas",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Modelos Simples vs Análises Complexas",
+    "text": "Modelos Simples vs Análises Complexas\n\nevacuação de estádios\no caso das bicicletas na Holanda\nqueimadas\n\n\nConsidere o processo de pessoas deixando o estádio depois de um evento esportivo. Desenvolver um modelo para uma multidão de indivíduos seria algo entediante e tornaria qualquer mudança global no modelo difícil.\nAo invés disso, um agente (no caso, uma pessoa) poderia receber uma série de regras simples: - Tente ir para o portão de saída mais próximo - Se tiver muita gente na sua frente, tente se mover para a direita ou para a esquerda. - Se tiver esperado um certo tempo sem conseguir se aproximar do portão, tente se movimentar para longe da multidão. - Tente ficar próximo das outras pessoas do seu grupo de família ou amigos.\nEm 1987, Reynolds descrever três regras para o comportamento de pássaros, conhecido como boids: - prevenção de colisão - manutenção de velocidade de acordo com os demais do grupo - centralidade no grupo\nEssas regras são simples de serem listadas, mas nem sempre fáceis de serem implementadas. Mas, uma vez que as regras foram criadas, fica fácil popular um modelo baseado em agentes tanto com um pequeno quanto grande grupo de agentes.\n\nAlém disso, os agentes podem ser programados para aprender. Pode-se dar, por exemplo, 10 regras para um agente, e à medida que ele verifica o sucesso ou não de acordo com a regra escolhida, pesos diferentes são dados para as escolhas.\nUm exemplo seria o aumento na matrícula de novos estudantes e uma redução nos espaços para estacionamento no campus, o que significaria que nas primeiras semanas do ano acadêmico, seria difícil de encontrar lugares para estacionar entre 7:00 e 09:00. Após algumas semanas, algumas pessoas mudaram seu comportamento: - algumas chegam mais cedo para garantir um lugar perto do seu prédio - algumas chegam mais tarde, quando mais vagas são encontradas à medida que as aulas terminam e pessoas saem para almoçar - outras estacionam fora do campus e caminham para evitar ter que procurar estacionamento - outras começam a pedalar ou usar o transporte público."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#análises-complexas",
+    "href": "presentations/2024/CBS-Brasil/abms.html#análises-complexas",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Análises Complexas",
+    "text": "Análises Complexas\n“Os três objetivos primários de experimentos computacionais são: (i) predizer a resposta para entradas novas, (ii) otimizar a função de parâmetros de entradas, e (iii) calibrar o código do computadoR com dados reais.” Sacks et al. (1989)\n\nO que nos faz pensar que a análise desses modelos simples é complexa? - ela requer uma forma diferente de análise dos problemas tradicionais de simulação\nSacks et al. (1989) fala sobre os três objetos principais de experimentos computacionais. Infelizmente, para muitos modelos baseados em agentes, não é possível atingir nenhum deles!"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#análises-complexas-1",
+    "href": "presentations/2024/CBS-Brasil/abms.html#análises-complexas-1",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Análises Complexas",
+    "text": "Análises Complexas\nQueimadas\n\nExemplo: Desastres naturais são, felizmente, eventos não comuns em relação à ocorrência.\nQuando eles ocorrem, existem alguns poucos fatores que conseguimos manipular, como distribuir comida de forma centralizada ou distribuída.\nNão conseguimos controlar a raiva, a fome, ou a agressividade das pessoas em busca de comida ou tentando evacuar a área.\nTemos implicações éticas também a serem consideradas em experimentos dessa natureza com humanos.\nDessa forma, enquanto podemos coletar uma evidência irrisória do que aconteceu, nós não conseguimos medir, durante ou depois do desastre, quaisquer dos valores intangíveis que podem nos informar sobre o porquê do acontecido.\nNão será possível também coletar dados para calibrar o modelo, muito menos para predizer ou otimizar.\nAo invés disso, geralmente consideramos que a melhor análise é buscar por insights ou uma compreensão básica do modelo.\nAo buscar insights, temos a esperança de encontrar relações entre os diferentes fatores importantes e suas interações, assim como buscar regiões, limites e limiares onde coisas interessantes acontecem.\nO que quero dizer é: enquanto modelos baseados em agentes são normalmente menores e mais simples do que outros tipos de simulação, o ambiente pode ser bastante complexo."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#modelos-empíricos-vs-modelos-abstratos",
+    "href": "presentations/2024/CBS-Brasil/abms.html#modelos-empíricos-vs-modelos-abstratos",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Modelos Empíricos vs Modelos Abstratos",
+    "text": "Modelos Empíricos vs Modelos Abstratos\n\nPerguntas de pesquisa que demandam mecanismos com alta acurácia na predição, e quando o modelo precisa ser incorporado de forma realista. Modelos desse tipo são usados para definição de políticas públicas.\nModelos abstratos, ao contrário, partem de perguntas investigativas de teorias existentes, ou para a criação de novas teorias. ABMs para esses modelos geralmente são de alto nível e buscam encontrar padrões que demonstrem viradas na resposta, como o modelo de Schelling de segregação racial.\nApesar da necessidade de base empírica para modelos que busquem representar de formar realista, completa ou parcialmente, a realidade, não é comum encontrar este tipo de trabalho na literatura. Isso é resultado tanto da falta de disponibilidade de dados como da falta de qualidade dos dados em níveis abstratos aceitáveis.\n\nFalar da experiência ao trabalhar com esse tipo de pesquisa.\n\nCom a emergência do Big data, onde dados são disponibilizados de forma individualizada, em alta velocidade (quase em tempo real) e cobrindo de forma exaustiva toda a população, presenciamos um ponto de virada na construção de modelos baseados em agentes de cinco anos para cá."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#caracterizando-os-dados-usados-em-mba",
+    "href": "presentations/2024/CBS-Brasil/abms.html#caracterizando-os-dados-usados-em-mba",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "caracterizando os dados usados em mba",
+    "text": "caracterizando os dados usados em mba\n\nalt\nTipo de dado: qualitativo: entrevistas, grupos de foco, etnografia.\nMedidas repetidas: a repetição de coleta de dados indica se é possível capturar mudanças temporais nos dados empíricos.\nA ideia é verificar padrões ao longo do tempo em níveis individuais e populacionais.\nLongitudinal: mesmos sujeitos medidos Cross-sectional: sujeitos diferentes medidos\nExemplo de estudos com hábitos de cigarro e PAL (physical Activity level)\nImpacto no modelo: mostra como as mudanças causadas dependem da forma como o dado é usado.\nInicialização: o modelo não é alterado, mas apenas os valores dos atributos iniciais ou de ambiente das variáveis muda.\nModificação da estrutura: uma modificação rastreável é feita no modelo, como modificar a fórmula que define a renda anual de cada agente usando dados para gerar uma regressão linear.\nGeração de estrutura: a estrutura do modelo é parcial ou completamente criada do zero. Dessa forma, mudanças não podem ser rastreadas.\nCONSIDERAÇÃO DO AGENTE Nível populacional: dados de nível agregado, como os tipos dos agentes, distribuição de probabilidades, percentuais indicando uma propriedade do agente ou a chance de um evento/ação. Geralmente valores distribuídos igualmente entre os agentes. ex. Censo\nIndividual: dados longitudinais alimentados a cada agente de forma única."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#uma-proposta-de-modelagem-orientada-a-dados-kavak-hamdi-et-al.-2018",
+    "href": "presentations/2024/CBS-Brasil/abms.html#uma-proposta-de-modelagem-orientada-a-dados-kavak-hamdi-et-al.-2018",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Uma proposta de modelagem orientada a dados (Kavak, Hamdi, et al., 2018)",
+    "text": "Uma proposta de modelagem orientada a dados (Kavak, Hamdi, et al., 2018)\nVISÃO CONTEXTUAL\nImagem 1\n\nModelo conceitual: descreve os detalhes do modelo em forma de texto ou diagramas\nFonte de dados: sistema ou repositório que contém os dados usados para os agentes.\nSistema de geração de agentes orientados a dados: é o coração do método. A parte que pega os dados e o modelo conceitual para criar os agentes orientados a dados.\nMáquina de simulação: roda os cenários pré-especificados com os agentes gerados.\nO MODELO CONCEITUAL do sistema deve conter, ao menos: - uma declaração de propósito, descrevendo o objetivo do modelo - os tipos de agentes com seus atributos e assinaturas de comportamento - o tipo do ambiente e as variáveis.\nExemplo do modelo das favelas e covid-19."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#uma-proposta-de-modelagem-orientada-a-dados-kavak-hamdi-et-al.-2018-1",
+    "href": "presentations/2024/CBS-Brasil/abms.html#uma-proposta-de-modelagem-orientada-a-dados-kavak-hamdi-et-al.-2018-1",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Uma proposta de modelagem orientada a dados (Kavak, Hamdi, et al., 2018)",
+    "text": "Uma proposta de modelagem orientada a dados (Kavak, Hamdi, et al., 2018)\nVISÃO DE ALTO NÍVEL\nImagem 2\n\nPREPARAÇÃO DOS DADOS: ciclo dos dados, desde a aquisição até o seu uso em passos seguintes.\nUso do KDD para processamento dos dados. Remoção de ruído, manuseio dos dados faltantes, transformação dos dados e remoção de entradas não usadas para a criação do comportamento e valores de atributo.\nO processo de treinamento e ajuste dos atributos é um passo opcional usado quando pelo menos um atributo de um agente precisa ser inicializado baseado na dispersão entre a população do mundo real. Os dados são passados por algum algoritmo de aprendizagem de máquina para inicialização dos atributos."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#uma-proposta-de-modelagem-orientada-a-dados-kavak-hamdi-et-al.-2018-2",
+    "href": "presentations/2024/CBS-Brasil/abms.html#uma-proposta-de-modelagem-orientada-a-dados-kavak-hamdi-et-al.-2018-2",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Uma proposta de modelagem orientada a dados (Kavak, Hamdi, et al., 2018)",
+    "text": "Uma proposta de modelagem orientada a dados (Kavak, Hamdi, et al., 2018)\nVISÃO INDIVIDUAL DA CRIAÇÃO DO AGENTE\nImagem 3\n\nNa organização e tratamento dos ATRIBUTOS: - Inicialização direta: passa o valor pelos dois processos sem modificação - Inicialização baseada em procura: usa uma tabela de busca para adequar o valor à uma categoria. Por exemplo, idade vira faixa de idade. - Inicialização baseada no modelo: organiza e transforma os dados em uma entrada para modelos de inferência (aprendizagem de máquina ou estatístico).\nNa geração de regras de COMPORTAMENTO Organizar e transformar”os dados são transformados para que cada ação e parâmetros relacionados se tornem um único registro. Esses registros serão usados para treinar o modelo da máquina de aprendizagem. O modelo gerado é encapsulado como uma função e se torna uma função do agente que reflete as regras de comportamento."
+  },
+  {
+    "objectID": "kudos/kudos.html",
+    "href": "kudos/kudos.html",
+    "title": "Eric Araújo",
     "section": "",
-    "text": "One of the design principles of this course is “cherish day one” – get students from nothing to their first meaningful data visualization within the first 10 minutes of the course. Achieving this is possible, but requires careful consideration of the computing infrastructure. This section outlines how one can set up their course to run on RStudio Cloud, use GitHub for not only version control and collaboration but also as the learning management system for the course, and build their course materials with packages from the *down universe (rmarkdown, blogdown, xaringan, etc.). Lastly, the alternative setups section describes other approaches to setting up the computing infrastructure that can be just as efficient and effective as the ones described in the main choices for the course, and discusses pros and cons.\nWant some resources for learning more about teaching with Data Science in a Box or need a 10 or 15-week term schedule? You’ve come to the right place."
+    "text": "2021-03-17\n\nDear Mine,\nI wanted to take this opportunity to thank you for the wonderful Data Science in a Box materials.  I have been using them extensively in a new course I am putting together.  The title of the course is “predictive analytics” but I also am tasked with teaching them programming and getting data ready, so your course is at a great level for the students who have only had one introductory course in statistics.  I am adding and subtracting things but having your work was a life saver for me given all that is going on.  I am hopefully giving you appropriate creative attribution.\nhttps://laurark.github.io/sta323content/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html#2 is an example of how I did it on a slide.\nI have learned so much from you..  Thank you so very much for all the work you do and for your wonderful materials and training videos.\nI was able to integrate the XaringanXtra scribble into my slides as well.  https://pkg.garrickadenbuie.com/xaringanExtra/#/scribble  . I was super excited, impressed and grateful Matt and Garrett built this after I asked for it.\nThank you again.\nLaura\nLaura Ring Kapitula, PhD Associate Professor Department of Statistics\nGrand Valley State University"
   }
 ]

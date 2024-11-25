@@ -49,8 +49,8 @@ website:
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
-      # - text: "Content"
-      #   href: content.qmd
+      - text: "Presentations"
+        href: presentations.qmd
       # - text: "Infrastructure"
       #   href: infrastructure.qmd
       # - text: "Design"
