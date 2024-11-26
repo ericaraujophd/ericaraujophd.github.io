@@ -250,6 +250,7 @@ Considere o processo de pessoas deixando o estádio depois de um evento esportiv
 Desenvolver um modelo para uma multidão de indivíduos seria algo complexo e tornaria qualquer mudança global no modelo difícil.
 
 Ao invés disso, um agente (no caso, uma pessoa) poderia receber uma série de regras simples:
+
 - Tente ir para o portão de saída mais próximo
 - Se tiver muita gente na sua frente, tente se mover para a direita ou para a esquerda.
 - Se tiver esperado um certo tempo sem conseguir se aproximar do portão, tente se movimentar para longe da multidão.
@@ -264,6 +265,7 @@ Ao invés disso, um agente (no caso, uma pessoa) poderia receber uma série de r
 
 :::{.notes}
 Em 1987, Reynolds descreve três regras para o comportamento de pássaros, conhecido como boids:
+
 - prevenção de  colisão
 - manutenção de velocidade de acordo com os demais do grupo
 - centralidade no grupo
@@ -297,6 +299,7 @@ Regra Única *vs* Agentes que Aprendem (Adaptam)
 Além disso, os agentes podem ser programados para aprender. Pode-se dar, por exemplo, 10 regras para um agente, e à medida que ele verifica o sucesso ou não de acordo com a regra escolhida, pesos diferentes são dados para as escolhas.
 
 Um exemplo seria o caso de um aumento na matrícula de novos estudantes ao mesmo tempo em que há uma redução nos espaços para estacionamento no campus. Nas primeiras semanas do ano acadêmico, seria difícil de encontrar lugares para estacionar entre 7:00 e 09:00. Após algumas semanas, algumas pessoas mudaram seu comportamento: 
+
 - algumas chegam mais cedo para garantir um lugar perto do seu prédio
 - algumas chegam mais tarde, quando mais vagas são encontradas à medida que as aulas terminam e pessoas saem para almoçar
 - outras estacionam fora do campus e caminham para evitar ter que procurar estacionamento
@@ -321,6 +324,7 @@ MBAs cumprem os 3 objetivos?
 
 :::{.notes}
 O que nos faz pensar que a análise de modelos simples é complexa?
+
 - ela requer uma forma diferente de análise dos problemas tradicionais de simulação
 
 Sacks et al. (1989) fala sobre os três objetos principais de experimentos computacionais.
@@ -407,6 +411,7 @@ Sistema de geração de agentes orientados a dados: é o coração do método. A
 Máquina de simulação: roda os cenários pré-especificados com os agentes gerados.
 
 O MODELO CONCEITUAL do sistema deve conter, ao menos:
+
 - uma declaração de propósito, descrevendo o objetivo do modelo
 - os tipos de agentes com seus atributos e assinaturas de comportamento
 - o tipo do ambiente e as variáveis.
@@ -436,11 +441,13 @@ O processo de treinamento e ajuste dos atributos é um passo opcional usado quan
 
 :::{.notes}
 Na organização e tratamento dos ATRIBUTOS:
+
 - Inicialização direta: passa o valor pelos dois processos sem modificação
 - Inicialização baseada em procura: usa uma tabela de busca para adequar o valor à uma categoria. Por exemplo, idade vira faixa de idade.
 - Inicialização baseada no modelo: organiza e transforma os dados em uma entrada para modelos de inferência (aprendizagem de máquina ou estatístico).
 
 Na geração de regras de COMPORTAMENTO
+
 Organizar e transformar: os dados são transformados para que cada ação e parâmetros relacionados se tornem um único registro. Esses registros serão usados para treinar o modelo da máquina de aprendizagem. O modelo gerado é encapsulado como uma função e se torna uma função do agente que reflete as regras de comportamento.
 :::
 
@@ -537,16 +544,8 @@ Aumento em **700\%** na opinião geral das pessoas em relação à adesão aos p
 <!-- ::: -->
 :::
 :::
-
-
-
-
 :::
 ::::
-
-
-
-
 
 
 ## Conclusões

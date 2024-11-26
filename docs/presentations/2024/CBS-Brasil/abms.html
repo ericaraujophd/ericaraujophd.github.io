@@ -545,7 +545,13 @@ Eric Araújo
 </div></div>
 <aside class="notes">
 <p>Considere o processo de pessoas deixando o estádio depois de um evento esportivo. Desenvolver um modelo para uma multidão de indivíduos seria algo complexo e tornaria qualquer mudança global no modelo difícil.</p>
-<p>Ao invés disso, um agente (no caso, uma pessoa) poderia receber uma série de regras simples: - Tente ir para o portão de saída mais próximo - Se tiver muita gente na sua frente, tente se mover para a direita ou para a esquerda. - Se tiver esperado um certo tempo sem conseguir se aproximar do portão, tente se movimentar para longe da multidão. - Tente ficar próximo das outras pessoas do seu grupo de família ou amigos.</p>
+<p>Ao invés disso, um agente (no caso, uma pessoa) poderia receber uma série de regras simples:</p>
+<ul>
+<li>Tente ir para o portão de saída mais próximo</li>
+<li>Se tiver muita gente na sua frente, tente se mover para a direita ou para a esquerda.</li>
+<li>Se tiver esperado um certo tempo sem conseguir se aproximar do portão, tente se movimentar para longe da multidão.</li>
+<li>Tente ficar próximo das outras pessoas do seu grupo de família ou amigos.</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -562,11 +568,14 @@ Eric Araújo
 <h2>2.2 Modelos Simples vs Análises Complexas (Boids Model)</h2>
 <iframe data-external="1" src="https://www.youtube.com/embed/X0sE10zUYyY" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <aside class="notes">
-<p>Em 1987, Reynolds descreve três regras para o comportamento de pássaros, conhecido como boids: - prevenção de colisão - manutenção de velocidade de acordo com os demais do grupo - centralidade no grupo</p>
+<p>Em 1987, Reynolds descreve três regras para o comportamento de pássaros, conhecido como boids:</p>
 <ul>
-<li><strong>Separation:</strong> If there are other boids immediately in front of you, turn away from them to avoid collisions and crowding.</li>
-<li><strong>Alignment:</strong> Turn to align with the average heading of nearby boids.</li>
-<li><strong>Cohesion:</strong> Attempt to stay close to nearby flockmates by steering toward the average position of neaby boids.</li>
+<li><p>prevenção de colisão</p></li>
+<li><p>manutenção de velocidade de acordo com os demais do grupo</p></li>
+<li><p>centralidade no grupo</p></li>
+<li><p><strong>Separation:</strong> If there are other boids immediately in front of you, turn away from them to avoid collisions and crowding.</p></li>
+<li><p><strong>Alignment:</strong> Turn to align with the average heading of nearby boids.</p></li>
+<li><p><strong>Cohesion:</strong> Attempt to stay close to nearby flockmates by steering toward the average position of neaby boids.</p></li>
 </ul>
 <p>Essas regras são simples de serem listadas, mas nem sempre fáceis de serem implementadas. Mas, uma vez que as regras foram criadas, fica fácil popular um modelo baseado em agentes tanto com um pequeno quanto grande grupo de agentes.</p>
 <style type="text/css">
@@ -597,7 +606,13 @@ Eric Araújo
 </div></div>
 <aside class="notes">
 <p>Além disso, os agentes podem ser programados para aprender. Pode-se dar, por exemplo, 10 regras para um agente, e à medida que ele verifica o sucesso ou não de acordo com a regra escolhida, pesos diferentes são dados para as escolhas.</p>
-<p>Um exemplo seria o caso de um aumento na matrícula de novos estudantes ao mesmo tempo em que há uma redução nos espaços para estacionamento no campus. Nas primeiras semanas do ano acadêmico, seria difícil de encontrar lugares para estacionar entre 7:00 e 09:00. Após algumas semanas, algumas pessoas mudaram seu comportamento: - algumas chegam mais cedo para garantir um lugar perto do seu prédio - algumas chegam mais tarde, quando mais vagas são encontradas à medida que as aulas terminam e pessoas saem para almoçar - outras estacionam fora do campus e caminham para evitar ter que procurar estacionamento - outras começam a pedalar ou usar o transporte público.</p>
+<p>Um exemplo seria o caso de um aumento na matrícula de novos estudantes ao mesmo tempo em que há uma redução nos espaços para estacionamento no campus. Nas primeiras semanas do ano acadêmico, seria difícil de encontrar lugares para estacionar entre 7:00 e 09:00. Após algumas semanas, algumas pessoas mudaram seu comportamento:</p>
+<ul>
+<li>algumas chegam mais cedo para garantir um lugar perto do seu prédio</li>
+<li>algumas chegam mais tarde, quando mais vagas são encontradas à medida que as aulas terminam e pessoas saem para almoçar</li>
+<li>outras estacionam fora do campus e caminham para evitar ter que procurar estacionamento</li>
+<li>outras começam a pedalar ou usar o transporte público.</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -625,7 +640,10 @@ Eric Araújo
 <p>MBAs cumprem os 3 objetivos?</p>
 </div>
 <aside class="notes">
-<p>O que nos faz pensar que a análise de modelos simples é complexa? - ela requer uma forma diferente de análise dos problemas tradicionais de simulação</p>
+<p>O que nos faz pensar que a análise de modelos simples é complexa?</p>
+<ul>
+<li>ela requer uma forma diferente de análise dos problemas tradicionais de simulação</li>
+</ul>
 <p>Sacks et al.&nbsp;(1989) fala sobre os três objetos principais de experimentos computacionais. Infelizmente, para muitos modelos baseados em agentes, não é possível atingir nenhum deles!</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -717,7 +735,12 @@ Eric Araújo
 <p>Fonte de dados: sistema ou repositório que contém os dados usados para os agentes.</p>
 <p>Sistema de geração de agentes orientados a dados: é o coração do método. A parte que pega os dados e o modelo conceitual para criar os agentes orientados a dados.</p>
 <p>Máquina de simulação: roda os cenários pré-especificados com os agentes gerados.</p>
-<p>O MODELO CONCEITUAL do sistema deve conter, ao menos: - uma declaração de propósito, descrevendo o objetivo do modelo - os tipos de agentes com seus atributos e assinaturas de comportamento - o tipo do ambiente e as variáveis.</p>
+<p>O MODELO CONCEITUAL do sistema deve conter, ao menos:</p>
+<ul>
+<li>uma declaração de propósito, descrevendo o objetivo do modelo</li>
+<li>os tipos de agentes com seus atributos e assinaturas de comportamento</li>
+<li>o tipo do ambiente e as variáveis.</li>
+</ul>
 <p>Exemplo do modelo das favelas e covid-19.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -756,8 +779,14 @@ Eric Araújo
 <h4 id="visão-individual-da-criação-do-agente-kavak-hamdi-et-al.-2018">VISÃO INDIVIDUAL DA CRIAÇÃO DO AGENTE (Kavak, Hamdi, et al., 2018)</h4>
 
 <img data-src="./imgs/flowchart3.png" class="r-stretch"><aside class="notes">
-<p>Na organização e tratamento dos ATRIBUTOS: - Inicialização direta: passa o valor pelos dois processos sem modificação - Inicialização baseada em procura: usa uma tabela de busca para adequar o valor à uma categoria. Por exemplo, idade vira faixa de idade. - Inicialização baseada no modelo: organiza e transforma os dados em uma entrada para modelos de inferência (aprendizagem de máquina ou estatístico).</p>
-<p>Na geração de regras de COMPORTAMENTO Organizar e transformar: os dados são transformados para que cada ação e parâmetros relacionados se tornem um único registro. Esses registros serão usados para treinar o modelo da máquina de aprendizagem. O modelo gerado é encapsulado como uma função e se torna uma função do agente que reflete as regras de comportamento.</p>
+<p>Na organização e tratamento dos ATRIBUTOS:</p>
+<ul>
+<li>Inicialização direta: passa o valor pelos dois processos sem modificação</li>
+<li>Inicialização baseada em procura: usa uma tabela de busca para adequar o valor à uma categoria. Por exemplo, idade vira faixa de idade.</li>
+<li>Inicialização baseada no modelo: organiza e transforma os dados em uma entrada para modelos de inferência (aprendizagem de máquina ou estatístico).</li>
+</ul>
+<p>Na geração de regras de COMPORTAMENTO</p>
+<p>Organizar e transformar: os dados são transformados para que cada ação e parâmetros relacionados se tornem um único registro. Esses registros serão usados para treinar o modelo da máquina de aprendizagem. O modelo gerado é encapsulado como uma função e se torna uma função do agente que reflete as regras de comportamento.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
