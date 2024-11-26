@@ -465,14 +465,18 @@ Organizar e transformar: os dados são transformados para que cada ação e par�
 
 ## 4.1 Padrões de roubos de rua na cidade de Lavras (MG)
 
-![](./imgs/modelo.png)
+![Cohen e Felson (1979): Crime concentrates in space and time and in between the targets.](./imgs/routine-activity-theory.jpg)
+
+## 4.1 Padrões de roubos de rua na cidade de Lavras (MG)
+
+![Araújo E, Gerritsen C. Creating a temporal pattern for street robberies using ABM and data from a small city in South East Brazil. InAgent-Based Modelling for Criminological Theory Testing and Development 2020 Nov 29 (pp. 146-166). Routledge.](./imgs/modelo.png)
 
 
 ## 4.1 Padrões de roubos de rua na cidade de Lavras (MG)
 
 ![](./imgs/comparison_emp_sim.png)
 
-## 4.2 Espalhamento da COVID-19 em contextos de desigualdade social 
+## 4.2 COVID-19 em contextos de desigualdade social 
 
 **Dados**
 
@@ -481,4 +485,82 @@ Organizar e transformar: os dados são transformados para que cada ação e par�
 - Dados socioeconomicos da região estudada (Copacabana, Ipanema e Complexo do Pavão-Pavãozinho)
 - Dados do Ministério da Saúde sobre infraestrutura hospitalar 
 
-## 4.2 Espalhamento da COVID-19 em contextos de desigualdade social 
+## 4.2 COVID-19 em contextos de desigualdade social 
+
+- Carga viral do indivíduo infectado
+- Número de contatos físicos
+- Possíveis graus de severidade da doença de acordo com as características do infectado
+- Ações de distanciamento social, isolamento social, quarentena, lockdown
+- Demografia do espaço a ser modelado
+
+## 4.2 COVID-19 em contextos de desigualdade social 
+
+![Klôh VP, Silva GD, Ferro M, Araújo E, de Melo CB, de Andrade Lima JR, Martins ER. The virus and socioeconomic inequality: An agent-based model to simulate and assess the impact of interventions to reduce the spread of COVID-19 in Rio de Janeiro, Brazil. Brazilian Journal of Health Review. 2020 Apr 26;3(2):3647-73.](./imgs/seir.png)
+
+## 4.2 COVID-19 em contextos de desigualdade social 
+
+![](./imgs/favela1.png)
+
+## 4.2 COVID-19 em contextos de desigualdade social 
+
+<!-- ![](./imgs/favela2.png) -->
+![](./imgs/C1_full_screen.png)
+
+## 4.3 Espalhamento de comportamento em redes sociais
+
+- Modelo teórico sobre adesão aos protocolos de saúde em um cenário de pandemia
+- Consideração do papel das agências públicas de saúde na adesão
+- Análise de diferentes tipos de topologia para a rede de conexões
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](./imgs/opinions.png)
+:::
+
+::: {.column width="60%"}
+
+::: {.fragment .fade-in fragment-index=1}
+::: {.fragment .highlight-blue fragment-index=2}
+::: {.fragment .semi-fade-out fragment-index=3}
+Aumento em **700\%** na opinião geral das pessoas em relação à adesão aos protocolos de saúde caso 10% da rede se torne completamente convencida de que os protocolos são importantes e fazem diferença.
+:::
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=1}
+::: {.fragment .highlight-blue fragment-index=3}
+<!-- ::: {.fragment .semi-fade-out fragment-index=4} -->
+**80\%** de aumento na adesão se o governo lançar campanhas para incentivar as pessoas a aderirem às medidas de cuidado com a saúde e contenção do vírus.
+<!-- ::: -->
+:::
+:::
+
+
+
+
+:::
+::::
+
+
+
+
+
+
+## Conclusões
+
+- MBAs são de grande relevância, e agora se potencializam com o uso de dados.
+- Vários problemas que não podem ser estudados por questões éticas ou limitações encontram espaço neste área de estudo.
+- Modelar o mundo requer princípios éticos e responsabilidade na demonstração dos resultados.
+
+## C. S. Lewis
+
+> "Eu não recebi nenhuma garantia de que qualquer coisa que possamos fazer erradicará o sofrimento. Acredito que **os melhores resultados** são alcançados por pessoas que trabalham silenciosamente em **objetivos limitados**, como a abolição do comércio de escravos, a reforma prisional, leis trabalhistas ou o combate à tuberculose, e não por aqueles que acreditam ser capazes de alcançar justiça, saúde ou paz universais. Penso que a arte de viver consiste em **enfrentar cada mal imediato da melhor maneira possível**." (O Peso de Glória)
+
+# Obrigado!
+
+📩 eric.araujo@calvin.edu
+
+🌐 ericaraujo.com

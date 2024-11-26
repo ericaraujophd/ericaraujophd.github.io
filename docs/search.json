@@ -273,28 +273,77 @@
     "href": "presentations/2024/CBS-Brasil/abms.html#padrões-de-roubos-de-rua-na-cidade-de-lavras-mg-1",
     "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
     "section": "4.1 Padrões de roubos de rua na cidade de Lavras (MG)",
-    "text": "4.1 Padrões de roubos de rua na cidade de Lavras (MG)"
+    "text": "4.1 Padrões de roubos de rua na cidade de Lavras (MG)\n\nCohen e Felson (1979): Crime concentrates in space and time and in between the targets."
   },
   {
     "objectID": "presentations/2024/CBS-Brasil/abms.html#padrões-de-roubos-de-rua-na-cidade-de-lavras-mg-2",
     "href": "presentations/2024/CBS-Brasil/abms.html#padrões-de-roubos-de-rua-na-cidade-de-lavras-mg-2",
     "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
     "section": "4.1 Padrões de roubos de rua na cidade de Lavras (MG)",
+    "text": "4.1 Padrões de roubos de rua na cidade de Lavras (MG)\n\nAraújo E, Gerritsen C. Creating a temporal pattern for street robberies using ABM and data from a small city in South East Brazil. InAgent-Based Modelling for Criminological Theory Testing and Development 2020 Nov 29 (pp. 146-166). Routledge."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#padrões-de-roubos-de-rua-na-cidade-de-lavras-mg-3",
+    "href": "presentations/2024/CBS-Brasil/abms.html#padrões-de-roubos-de-rua-na-cidade-de-lavras-mg-3",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "4.1 Padrões de roubos de rua na cidade de Lavras (MG)",
     "text": "4.1 Padrões de roubos de rua na cidade de Lavras (MG)"
   },
   {
-    "objectID": "presentations/2024/CBS-Brasil/abms.html#espalhamento-da-covid-19-em-contextos-de-desigualdade-social",
-    "href": "presentations/2024/CBS-Brasil/abms.html#espalhamento-da-covid-19-em-contextos-de-desigualdade-social",
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social",
+    "href": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social",
     "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
-    "section": "4.2 Espalhamento da COVID-19 em contextos de desigualdade social",
-    "text": "4.2 Espalhamento da COVID-19 em contextos de desigualdade social\nDados\n\nCenso demográfico do Rio de Janeiro\nDados do desenvolvimento da doença\nDados socioeconomicos da região estudada (Copacabana, Ipanema e Complexo do Pavão-Pavãozinho)\nDados do Ministério da Saúde sobre infraestrutura hospitalar"
+    "section": "4.2 COVID-19 em contextos de desigualdade social",
+    "text": "4.2 COVID-19 em contextos de desigualdade social\nDados\n\nCenso demográfico do Rio de Janeiro\nDados do desenvolvimento da doença\nDados socioeconomicos da região estudada (Copacabana, Ipanema e Complexo do Pavão-Pavãozinho)\nDados do Ministério da Saúde sobre infraestrutura hospitalar"
   },
   {
-    "objectID": "presentations/2024/CBS-Brasil/abms.html#espalhamento-da-covid-19-em-contextos-de-desigualdade-social-1",
-    "href": "presentations/2024/CBS-Brasil/abms.html#espalhamento-da-covid-19-em-contextos-de-desigualdade-social-1",
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social-1",
+    "href": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social-1",
     "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
-    "section": "4.2 Espalhamento da COVID-19 em contextos de desigualdade social",
-    "text": "4.2 Espalhamento da COVID-19 em contextos de desigualdade social\n\n\n\n\n19º CBS"
+    "section": "4.2 COVID-19 em contextos de desigualdade social",
+    "text": "4.2 COVID-19 em contextos de desigualdade social\n\nCarga viral do indivíduo infectado\nNúmero de contatos físicos\nPossíveis graus de severidade da doença de acordo com as características do infectado\nAções de distanciamento social, isolamento social, quarentena, lockdown\nDemografia do espaço a ser modelado"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social-2",
+    "href": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social-2",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "4.2 COVID-19 em contextos de desigualdade social",
+    "text": "4.2 COVID-19 em contextos de desigualdade social\n\nKlôh VP, Silva GD, Ferro M, Araújo E, de Melo CB, de Andrade Lima JR, Martins ER. The virus and socioeconomic inequality: An agent-based model to simulate and assess the impact of interventions to reduce the spread of COVID-19 in Rio de Janeiro, Brazil. Brazilian Journal of Health Review. 2020 Apr 26;3(2):3647-73."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social-3",
+    "href": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social-3",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "4.2 COVID-19 em contextos de desigualdade social",
+    "text": "4.2 COVID-19 em contextos de desigualdade social"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social-4",
+    "href": "presentations/2024/CBS-Brasil/abms.html#covid-19-em-contextos-de-desigualdade-social-4",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "4.2 COVID-19 em contextos de desigualdade social",
+    "text": "4.2 COVID-19 em contextos de desigualdade social"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#espalhamento-de-comportamento-em-redes-sociais",
+    "href": "presentations/2024/CBS-Brasil/abms.html#espalhamento-de-comportamento-em-redes-sociais",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "4.3 Espalhamento de comportamento em redes sociais",
+    "text": "4.3 Espalhamento de comportamento em redes sociais\n\nModelo teórico sobre adesão aos protocolos de saúde em um cenário de pandemia\nConsideração do papel das agências públicas de saúde na adesão\nAnálise de diferentes tipos de topologia para a rede de conexões"
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#conclusões",
+    "href": "presentations/2024/CBS-Brasil/abms.html#conclusões",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "Conclusões",
+    "text": "Conclusões\n\nMBAs são de grande relevância, e agora se potencializam com o uso de dados.\nVários problemas que não podem ser estudados por questões éticas ou limitações encontram espaço neste área de estudo.\nModelar o mundo requer princípios éticos e responsabilidade na demonstração dos resultados."
+  },
+  {
+    "objectID": "presentations/2024/CBS-Brasil/abms.html#c.-s.-lewis",
+    "href": "presentations/2024/CBS-Brasil/abms.html#c.-s.-lewis",
+    "title": "Explorando o Potencial da Modelagem Baseada em Agentes",
+    "section": "C. S. Lewis",
+    "text": "C. S. Lewis\n\n“Eu não recebi nenhuma garantia de que qualquer coisa que possamos fazer erradicará o sofrimento. Acredito que os melhores resultados são alcançados por pessoas que trabalham silenciosamente em objetivos limitados, como a abolição do comércio de escravos, a reforma prisional, leis trabalhistas ou o combate à tuberculose, e não por aqueles que acreditam ser capazes de alcançar justiça, saúde ou paz universais. Penso que a arte de viver consiste em enfrentar cada mal imediato da melhor maneira possível.” (O Peso de Glória)"
   },
   {
     "objectID": "kudos/kudos.html",
