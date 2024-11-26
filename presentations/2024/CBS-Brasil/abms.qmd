@@ -92,7 +92,7 @@ Os agentes acessam e interagem com o **ambiente local** por meio de **regras int
 <!-- ::: {.fragment .semi-fade-out fragment-index=5} -->
 <u>**O que é analisado? **</u>
 
-O **comportamento agregado** do sistema simulado é o resultado da intensa interação entre os comportamentos relativamente simples de seus agentes individuais
+O **comportamento agregado** do sistema simulado é o resultado da intensa interação entre os comportamentos relativamente simples de seus agentes individuais.
 <!-- ::: -->
 :::
 :::
@@ -342,7 +342,7 @@ A MBA vem ganhando bastante projeção nas últimas décadas, pela sua capacidad
 Também permite que processos paralelos, interações não-lineares e heterogeneidade de sistemas sociais que dificilmente são capturados em outros tipos de  modelagem.
 :::
 
-## Modelos Empíricos vs Modelos Abstratos
+## 3.1 Modelos Empíricos vs Modelos Abstratos
 
 **A constante inquietação para a validação dos modelos.**
 
@@ -362,7 +362,7 @@ Aa falta de disponibilidade de dados e a falta de qualidade dos dados faz com qu
 Com a emergência do Big data, presenciamos um ponto de virada na construção de modelos baseados em agentes de cinco anos para cá. Porém ainda estamos no processo...
 :::
 
-## Caracterizando os Dados usados em MBA 
+## 3.2 Caracterizando os Dados usados em MBA 
 
 ![](./imgs/tipos-dados.png)
 
@@ -395,7 +395,7 @@ ex. Censo
 Individual:  dados longitudinais alimentados a cada agente de forma única.
 :::
 
-## Uma proposta de modelagem orientada a dados
+## 3.3 Uma proposta de modelagem orientada a dados
 
 #### VISÃO CONTEXTUAL (Kavak, Hamdi, et al., 2018) 
 
@@ -419,7 +419,7 @@ O MODELO CONCEITUAL do sistema deve conter, ao menos:
 Exemplo do modelo das favelas e covid-19.
 :::
 
-## Uma proposta de modelagem orientada a dados
+## 3.3 Uma proposta de modelagem orientada a dados
 
 #### VISÃO DE ALTO NÍVEL (Kavak, Hamdi, et al., 2018)
 
@@ -433,7 +433,7 @@ Uso do KDD para processamento dos dados. Remoção de ruído, manuseio dos dados
 O processo de treinamento e ajuste dos atributos é um passo opcional usado quando pelo menos um atributo de um agente precisa ser inicializado baseado na dispersão entre a população do mundo real. Os dados são passados por algum algoritmo de aprendizagem de máquina para inicialização dos atributos.
 :::
 
-## Uma proposta de modelagem orientada a dados 
+## 3.3 Uma proposta de modelagem orientada a dados 
 
 #### VISÃO INDIVIDUAL DA CRIAÇÃO DO AGENTE (Kavak, Hamdi, et al., 2018)
 
