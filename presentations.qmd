@@ -10,7 +10,7 @@ editor: visual
 **19º Congresso Brasileiro de Sistemas (CBS) - Goiânia, Brazil**
 
 ::: slides
-[Slides (under construction)](/presentations/2024/CBS-Brasil/abms.qmd)
+[Slides 11/29/2024](/presentations/2024/CBS-Brasil/abms.qmd)
 :::
 
 ::: source

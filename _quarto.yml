@@ -51,8 +51,8 @@ website:
         href: publications.qmd
       - text: "Presentations"
         href: presentations.qmd
-      # - text: "Infrastructure"
-      #   href: infrastructure.qmd
+      - text: "Teaching"
+        href: teaching.qmd
       # - text: "Design"
       #   href: design.qmd
 
