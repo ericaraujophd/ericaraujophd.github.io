@@ -11,35 +11,28 @@ Here are the links to my class websites.
 
 ::::::: slide-deck
 
+**Spring 2025**
+
+::: source
+[CS112 - Introduction to Data Structures](https://ericaraujo.com/25sp-cs112/){target="_blank"}
+:::
+
+::: source
+[CS354A - Data Bases Management (in construction)](https://ericaraujo.com/25sp-cs354a/){target="_blank"}
+:::
+
+:::::::
+
+::::::: slide-deck
+
 **Fall 2024**
 
 ::: source
-[CS112 - Introduction to Data Structures (in construction)](https://ericaraujo.com/24fa-cs112/){target="_blank"}
+[CS112 - Introduction to Data Structures (incomplete)](https://ericaraujo.com/24fa-cs112/){target="_blank"}
 :::
 
 ::: source
-[CS300b - Agent Modeling (in construction)](https://ericaraujo.com/24fa-cs300b/){target="_blank"}
+[CS300b - Agent Modeling (incomplete)](https://ericaraujo.com/24fa-cs300b/){target="_blank"}
 :::
 
-
-<!-- ::: slides
-[Slides 11/29/2024](/presentations/2024/CBS-Brasil/abms.qmd)
-::: -->
-
-<!-- ::: reading
-[The virus and socioeconomic inequality: An agent-based model to simulate and assess the impact of interventions to reduce the spread of COVID-19 in Rio de Janeiro, Brazil](https://ojs.brazilianjournals.com.br/ojs/index.php/BJHR/article/view/9209) -->
-
-
-<!-- 
--   R4DS :: [Chp 2 - Introduction](https://r4ds.had.co.nz/explore-intro.html)
--   IMS :: [Sec 1.1 & 1.2 - Case study & Data basics](https://openintro-ims.netlify.app/data-hello.html)
--->
-
-<!-- ::: -->
-
-<!-- **Applying agent-based modelling (ABM) to evaluation - Professor Nigel Gilbert** -->
-
-<!-- ::: video
-[Coming soon...]()
-::: -->
 :::::::
