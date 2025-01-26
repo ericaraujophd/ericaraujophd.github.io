@@ -64,6 +64,7 @@ website:
       align: left
       contents:
         - href: publications.qmd
+        - href: publications/2025.qmd
         - href: publications/2024.qmd
         # - href: 01-overview.qmd
         # - href: 01-design-principles.qmd
