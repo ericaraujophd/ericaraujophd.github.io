@@ -18,7 +18,7 @@ Here are the links to my class websites.
 :::
 
 ::: source
-[CS354A - Data Bases Management (in construction)](https://ericaraujo.com/25sp-cs354a/){target="_blank"}
+[CS354A - Data Bases Management (under construction)](https://ericaraujo.com/25sp-cs354A/){target="_blank"}
 :::
 
 :::::::
