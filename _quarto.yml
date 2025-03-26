@@ -74,11 +74,13 @@ website:
         # - href: 01-tech-stack.qmd
         # - href: 01-community.qmd
 
-    # - id: content
-    #   title: "Content"
-    #   contents:
-    #     - href: content.qmd
-    #     - href: 02-hello-world.qmd
+    - id: content
+      title: "Advising"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - href: advising.qmd
     #     - href: 02-exploring-data.qmd
     #     - href: 02-ethics.qmd
     #     - href: 02-making-rigorous-conclusions.qmd
