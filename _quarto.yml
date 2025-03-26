@@ -81,7 +81,7 @@ website:
       align: left
       contents:
         - href: advising.qmd
-    #     - href: 02-exploring-data.qmd
+        - href: advising-past.qmd
     #     - href: 02-ethics.qmd
     #     - href: 02-making-rigorous-conclusions.qmd
     #     - href: 02-looking-further.qmd
