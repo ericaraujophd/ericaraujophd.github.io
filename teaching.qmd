@@ -7,8 +7,6 @@ editor: visual
 
 > "Tell me and I forget. Teach me and I remember. Involve me and I learn." -- Benjamin Franklin
 
-Here are the links to my class websites.
-
 ::::::: slide-deck
 
 **Spring 2025**
@@ -18,7 +16,7 @@ Here are the links to my class websites.
 :::
 
 ::: source
-[CS354A - Data Bases Management (under construction)](https://ericaraujo.com/25sp-cs354A/){target="_blank"}
+[CS354A - Databases Management Systems (under construction)](https://ericaraujo.com/25sp-cs354A/){target="_blank"}
 :::
 
 :::::::

@@ -51,6 +51,8 @@ website:
         href: presentations.qmd
       - text: "Teaching"
         href: teaching.qmd
+      - text: "Advising"
+        href: advising.qmd
       - text: "CFR Generator"
         href: cfr.html
       # - text: "Design"
