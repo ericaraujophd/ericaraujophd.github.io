@@ -11,6 +11,7 @@ website:
   title: "Eric Araújo"
   description: "Eric Araújo's personal website"
   site-url: "https://ericaraujo.com/"
+  favicon: "files/Calvin_College.png"
   
   repo-url: https://github.com/ericaraujophd/ericaraujophd.github.io.git
   repo-actions: [edit, issue]
@@ -22,7 +23,7 @@ website:
 
   page-footer:
     left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    background: "#BD64B5"
+    background: "#0070C0"
     right:
     - text: "License"
       href: LICENSE.md
@@ -30,7 +31,7 @@ website:
       href: CODE_OF_CONDUCT.md
 
   navbar:
-    background: "#BD64B5"
+    background: "#0070C0"
     logo: "files/Calvin_College.png"
     align: center
     title: false
