@@ -28,6 +28,11 @@ You can download my PhD Thesis on the following link
 
 You can find more about me on my [LinkTree](https://linktr.ee/earaujo){target="_blank"}.
 
+### Recent Updates:
+
+- I will be presenting a paper about "Modeling Introversion in the Classroom: An Agent-Based Approach" at [Autonomous Agents for Social Good 2025](https://panosd.eu/aasg2025/call/){target=_blank} in Detroit this year. The paper is a result of the Senior Project developed by the B.S. students Daniel Kwon and Jaden Brookens.
+- My abstract on "Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling" was accepted for an oral presentation during [ASA 2025](https://network.asa3.org/mpage/ASA2025){target=_blank}.
+
 <!-- ## License {.unnumbered}
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
