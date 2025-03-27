@@ -32,6 +32,7 @@ You can find more about me on my [LinkTree](https://linktr.ee/earaujo){target="_
 
 - I will be presenting a paper about "Modeling Introversion in the Classroom: An Agent-Based Approach" at [Autonomous Agents for Social Good 2025](https://panosd.eu/aasg2025/call/){target=_blank} in Detroit this year. The paper is a result of the Senior Project developed by the B.S. students Daniel Kwon and Jaden Brookens.
 - My abstract on "Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling" was accepted for an oral presentation during [ASA 2025](https://network.asa3.org/mpage/ASA2025){target=_blank}.
+- A paper entitled [The use of agent-based modeling in the study of complex systems](https://doi.org/10.1590/1806-9126-RBEF-2024-0464){target="_blank"} (in Portuguese only) was accepted at the Brazilian Journal of Physics Teaching. This was a result of the Masters studies of Clayton R.da Silva in partnership with Prof. Angélica S. Mata.
 
 <!-- ## License {.unnumbered}
 
