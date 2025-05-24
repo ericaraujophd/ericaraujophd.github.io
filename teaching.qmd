@@ -7,8 +7,7 @@ editor: visual
 
 > "Tell me and I forget. Teach me and I remember. Involve me and I learn." -- Benjamin Franklin
 
-::::::: slide-deck
-
+::::: slide-deck
 **Spring 2025**
 
 ::: source
@@ -18,11 +17,9 @@ editor: visual
 ::: source
 [CS354A - Databases Management Systems (under construction)](https://ericaraujo.com/25sp-cs354A/){target="_blank"}
 :::
+:::::
 
-:::::::
-
-::::::: slide-deck
-
+::::: slide-deck
 **Fall 2024**
 
 ::: source
@@ -32,5 +29,4 @@ editor: visual
 ::: source
 [CS300b - Agent Modeling (incomplete)](https://ericaraujo.com/24fa-cs300b/){target="_blank"}
 :::
-
-:::::::
+:::::
