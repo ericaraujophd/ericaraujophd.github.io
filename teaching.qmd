@@ -19,6 +19,7 @@ editor: visual
 :::
 :::::
 
+::::: slide-deck
 **Spring 2025**
 
 ::: source
