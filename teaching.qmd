@@ -8,6 +8,17 @@ editor: visual
 > "Tell me and I forget. Teach me and I remember. Involve me and I learn." -- Benjamin Franklin
 
 ::::: slide-deck
+**Fall 2025**
+
+::: source
+[CS112 - Introduction to Data Structures (under construction)](https://ericaraujo.com/25fa-cs112/){target="_blank"}
+:::
+
+::: source
+[HNRS251 - Social Computing (under construction)](https://ericaraujo.com/socialcomputing/intro.html#){target="_blank"}
+:::
+:::::
+
 **Spring 2025**
 
 ::: source
@@ -15,7 +26,7 @@ editor: visual
 :::
 
 ::: source
-[CS354A - Databases Management Systems (under construction)](https://ericaraujo.com/25sp-cs354A/){target="_blank"}
+[CS354A - Databases Management Systems (incomplete)](https://ericaraujo.com/25sp-cs354A/){target="_blank"}
 :::
 :::::
 
