@@ -76,7 +76,7 @@
     "href": "index.html",
     "title": "Every Square Inch",
     "section": "",
-    "text": "Olá! My name is Eric Araújo, and currently, I hold the following positions:\n\nAssociate Professor at the Computer Science Department at Calvin University\nHead of the Behavioural Informatics Laboratory (BILbo)\n\n\nScholarship\nEric investigates the spread of opinions, sentiments, and behaviors in complex systems through multiagent modeling and simulations, offering insights into social dynamics in politics, cooperation, health, criminology, and religion.\nTherefore, the work I develop is multidisciplinary, using computer science tools to solve problems in areas such as public security, the spread of fake news, promoting healthier lifestyles, etc.\nYou can download my PhD Thesis on the following link\n\nContagious: Modeling the spread of behaviours, perceptions and emotions in social networks.\n\n\n\nEducation\n\nPhD in Computer Science, Vrije Universiteit Amsterdam, The Netherlands, 2018\nMSc in Computer Science, Federal University of Minas Gerais, Brazil, 2009\nBSc in Computer Science, Federal University of Viçosa, Brazil, 2007\n\nYou can find more about me on my LinkTree.\n\n\nRecent Updates:\n\nI will participate in the event “Algorithms, Democracy and Society: challenges and perspectives” on May 28th and 29th talking about education, AI and society (in Portuguese).\nI will be presenting a paper about “Modeling Introversion in the Classroom: An Agent-Based Approach” at Autonomous Agents for Social Good 2025 in Detroit on May 19, 2025. The paper is a result of the Senior Project developed by the B.S. students Daniel Kwon and Jaden Brookens.\nMy abstract on “Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling” was accepted for an oral presentation during ASA 2025.\nA paper entitled The use of agent-based modeling in the study of complex systems (in Portuguese only) was accepted at the Brazilian Journal of Physics Teaching. This was a result of the Masters studies of Clayton R.da Silva in partnership with Prof. Angélica S. Mata."
+    "text": "Olá! My name is Eric Araújo, and currently, I hold the following positions:\n\nAssociate Professor at the Computer Science Department at Calvin University\nHead of the Behavioural Informatics Laboratory (BILbo)\n\n\nScholarship\nEric investigates the spread of opinions, sentiments, and behaviors in complex systems through multiagent modeling and simulations, offering insights into social dynamics in politics, cooperation, health, criminology, and religion.\nTherefore, the work I develop is multidisciplinary, using computer science tools to solve problems in areas such as public security, the spread of fake news, promoting healthier lifestyles, etc.\nYou can download my PhD Thesis on the following link\n\nContagious: Modeling the spread of behaviours, perceptions and emotions in social networks.\n\n\n\nEducation\n\nPhD in Computer Science, Vrije Universiteit Amsterdam, The Netherlands, 2018\nMSc in Computer Science, Federal University of Minas Gerais, Brazil, 2009\nBSc in Computer Science, Federal University of Viçosa, Brazil, 2007\n\nYou can find more about me on my LinkTree.\n\n\nRecent Updates:\n\nA new paper was accepted for the Journal of Complex Systems. This is a work developed by the masters student Matheus Flausino and co-supervised with Prof. Dr. Angelica de Sousa da Mata. The work is entitled Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil.\nA work in collaboration with Fiocruz (Brazil) will be presented as a poster during the INSNA Sunbelt 2025, to happen in Paris, France. The work is entitled Scientific Collaboration in Health and Life Sciences: A Study of Brazil’s Contributions and Partnerships.\nI participated in the event “Algorithms, Democracy and Society: challenges and perspectives” on May 28th and 29th talking about education, AI and society (in Portuguese).\nI presented a paper about “Modeling Introversion in the Classroom: An Agent-Based Approach” at Autonomous Agents for Social Good 2025 in Detroit on May 19, 2025. The paper is a result of the Senior Project developed by the B.S. students Daniel Kwon and Jaden Brookens.\nMy abstract on “Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling” was accepted for an oral presentation during ASA 2025.\nA paper entitled The use of agent-based modeling in the study of complex systems (in Portuguese only) was accepted at the Brazilian Journal of Physics Teaching. This was a result of the Masters studies of Clayton R.da Silva in partnership with Prof. Angélica S. Mata."
   },
   {
     "objectID": "content.html",
@@ -167,7 +167,7 @@
     "href": "publications/2025.html",
     "title": "2025",
     "section": "",
-    "text": "Araújo, Eric. Algoritmos de Recomendação, Curadoria e Identidade: Moldando uma Vida Piedosa no Mundo Digital. Unus Mundus, Belo Horizonte, n. 5, jan-jun, 2025. (In Portuguese. If you want an English copy, contact me.)\nSilva, C. R. da ., Mesquita, O., Araújo, E., & Mata, A. S.. (2025). Uso da modelagem baseada em agentes no estudo de sistemas complexos. Revista Brasileira De Ensino De Física, 47, e20240464. https://doi.org/10.1590/1806-9126-RBEF-2024-0464",
+    "text": "Araújo, Eric. Algoritmos de Recomendação, Curadoria e Identidade: Moldando uma Vida Piedosa no Mundo Digital. Unus Mundus, Belo Horizonte, n. 5, jan-jun, 2025. (In Portuguese. If you want an English copy, contact me.)",
     "crumbs": [
       "Publications",
       "2025"
@@ -178,7 +178,29 @@
     "href": "publications/2025.html#essays",
     "title": "2025",
     "section": "",
-    "text": "Araújo, Eric. Algoritmos de Recomendação, Curadoria e Identidade: Moldando uma Vida Piedosa no Mundo Digital. Unus Mundus, Belo Horizonte, n. 5, jan-jun, 2025. (In Portuguese. If you want an English copy, contact me.)\nSilva, C. R. da ., Mesquita, O., Araújo, E., & Mata, A. S.. (2025). Uso da modelagem baseada em agentes no estudo de sistemas complexos. Revista Brasileira De Ensino De Física, 47, e20240464. https://doi.org/10.1590/1806-9126-RBEF-2024-0464",
+    "text": "Araújo, Eric. Algoritmos de Recomendação, Curadoria e Identidade: Moldando uma Vida Piedosa no Mundo Digital. Unus Mundus, Belo Horizonte, n. 5, jan-jun, 2025. (In Portuguese. If you want an English copy, contact me.)",
+    "crumbs": [
+      "Publications",
+      "2025"
+    ]
+  },
+  {
+    "objectID": "publications/2025.html#journal-papers",
+    "href": "publications/2025.html#journal-papers",
+    "title": "2025",
+    "section": "Journal Papers",
+    "text": "Journal Papers\n\n[To appear] Matheus de Andrade Flausino, Eric Araújo, Angelica Sousa da Mata. Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil. Journal of Complex Networks. 2025.\nSilva, C. R. da ., Mesquita, O., Araújo, E., & Mata, A. S.. (2025). Uso da modelagem baseada em agentes no estudo de sistemas complexos. Revista Brasileira De Ensino De Física, 47, e20240464. https://doi.org/10.1590/1806-9126-RBEF-2024-0464",
+    "crumbs": [
+      "Publications",
+      "2025"
+    ]
+  },
+  {
+    "objectID": "publications/2025.html#conference-papers",
+    "href": "publications/2025.html#conference-papers",
+    "title": "2025",
+    "section": "Conference Papers",
+    "text": "Conference Papers\n\nJuliana Freitas Lopes, Priscila Costa Albuquerque, Eric Araújo, Fabio Zicker, Bruna de Paula Fonseca e Fonseca. (2025). Scientific Collaboration in Health and Life Sciences: A Study of Brazil’s Contributions and Partnerships. Paris, France. INSNA Sunbelt 2025.",
     "crumbs": [
       "Publications",
       "2025"
@@ -452,7 +474,7 @@
     "href": "advising-past.html#m.sc.-students",
     "title": "Advising: Past",
     "section": " M.Sc. Students",
-    "text": "M.Sc. Students\nKELLY IAPUQUE RODRIGUES DE SOUSA (2023)\nTHIAGO DO PRADO RAMOS (2023)\nMATHEUS DE ANDRADE FLAUSINO (2025)\nROLF PAGOTTO VEIGA (2024)\nALESSANDRA LOUZADA TERRA (2025)\nTHIAGO GUEDES DE JESUS (2024)\nCLAYTON RAMOS DA SILVA (2024)",
+    "text": "M.Sc. Students\nKELLY IAPUQUE RODRIGUES DE SOUSA (2023)\nTHIAGO DO PRADO RAMOS (2023)\nMATHEUS DE ANDRADE FLAUSINO (2025)\nROLF PAGOTTO VEIGA (2024)\nALESSANDRA LOUZADA TERRA. Machine Learning for Data Analysis in Graphs: A Study on the Mobility of Medical Students in Brazil. Finished in January 2025.\nTHIAGO GUEDES DE JESUS (2024)\nCLAYTON RAMOS DA SILVA (2024)",
     "crumbs": [
       "Advising",
       "Advising: Past"
@@ -463,7 +485,7 @@
     "href": "advising-past.html#phd-students",
     "title": "Advising: Past",
     "section": " PhD Students",
-    "text": "PhD Students\nLEONARDO BIAZOLI (2025)",
+    "text": "PhD Students\nLEONARDO BIAZOLI. Data-Driven Strategies for Inferring from Large-Scale Bibliometric Datasets. Finished in February 2025",
     "crumbs": [
       "Advising",
       "Advising: Past"

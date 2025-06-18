@@ -30,8 +30,11 @@ You can find more about me on my [LinkTree](https://linktr.ee/earaujo){target="_
 
 ### Recent Updates:
 
-- I will participate in the event ["Algorithms, Democracy and Society: challenges and perspectives"](https://algoritmosesociedade.inf.ufg.br/#inicio){target="_blank} on May 28th and 29th talking about education, AI and society (in Portuguese).
-- I will be presenting a paper about "Modeling Introversion in the Classroom: An Agent-Based Approach" at [Autonomous Agents for Social Good 2025](https://panosd.eu/aasg2025/call/){target=_blank} in Detroit on May 19, 2025. The paper is a result of the Senior Project developed by the B.S. students Daniel Kwon and Jaden Brookens.
+- A new paper was accepted for the **Journal of Complex Systems**. This is a work developed by the masters student Matheus Flausino and co-supervised with Prof. Dr. Angelica de Sousa da Mata. The work is entitled **Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil.**
+- A work in collaboration with Fiocruz (Brazil) will be presented as a poster during the INSNA Sunbelt 2025, to happen in Paris, France. The work is entitled [Scientific Collaboration in Health and Life Sciences: A Study of Brazil's Contributions and Partnerships](https://www.conftool.pro/sunbelt2025/index.php?page=browseSessions&form_session=196#paperID891){target=_blank}.
+
+- I participated in the event ["Algorithms, Democracy and Society: challenges and perspectives"](https://algoritmosesociedade.inf.ufg.br/#inicio){target="_blank} on May 28th and 29th talking about education, AI and society (in Portuguese).
+- I presented a paper about "Modeling Introversion in the Classroom: An Agent-Based Approach" at [Autonomous Agents for Social Good 2025](https://panosd.eu/aasg2025/call/){target=_blank} in Detroit on May 19, 2025. The paper is a result of the Senior Project developed by the B.S. students Daniel Kwon and Jaden Brookens.
 - My abstract on "Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling" was accepted for an oral presentation during [ASA 2025](https://network.asa3.org/mpage/ASA2025){target=_blank}.
 - A paper entitled [The use of agent-based modeling in the study of complex systems](https://doi.org/10.1590/1806-9126-RBEF-2024-0464){target="_blank"} (in Portuguese only) was accepted at the Brazilian Journal of Physics Teaching. This was a result of the Masters studies of Clayton R.da Silva in partnership with Prof. Angélica S. Mata.
 

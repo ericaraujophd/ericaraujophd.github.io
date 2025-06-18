@@ -19,7 +19,7 @@ MATHEUS DE ANDRADE FLAUSINO (2025)
 
 ROLF PAGOTTO VEIGA (2024)
 
-ALESSANDRA LOUZADA TERRA (2025)
+ALESSANDRA LOUZADA TERRA. **Machine Learning for Data Analysis in Graphs: A Study on the Mobility of Medical Students in Brazil.** Finished in January 2025.
 
 THIAGO GUEDES DE JESUS (2024)
 
@@ -27,4 +27,4 @@ CLAYTON RAMOS DA SILVA (2024)
 
 ## ![](images/paste-1.png){width="30"} PhD Students
 
-LEONARDO BIAZOLI (2025)
+LEONARDO BIAZOLI. **Data-Driven Strategies for Inferring from Large-Scale Bibliometric Datasets.** Finished in February 2025
