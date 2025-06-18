@@ -6,4 +6,12 @@ title: "2025"
 
 -   Araújo, Eric. [Algoritmos de Recomendação, Curadoria e Identidade: Moldando uma Vida Piedosa no Mundo Digital](https://unusmundus.academiaabc2.org.br/algoritmos-de-recomendacao-curadoria-e-identidade/){target="_blank"}. Unus Mundus, Belo Horizonte, n. 5, jan-jun, 2025. (In Portuguese. If you want an English copy, contact me.)
 
+## Journal Papers
+
+- [To appear] Matheus de Andrade Flausino, **Eric Araújo**, Angelica Sousa da Mata. Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil. Journal of Complex Networks. 2025.
 -   Silva, C. R. da ., Mesquita, O., Araújo, E., & Mata, A. S.. (2025). [Uso da modelagem baseada em agentes no estudo de sistemas complexos](https://doi.org/10.1590/1806-9126-RBEF-2024-0464){target="_blank"}. Revista Brasileira De Ensino De Física, 47, e20240464. https://doi.org/10.1590/1806-9126-RBEF-2024-0464
+
+## Conference Papers
+
+-  Juliana Freitas Lopes, Priscila Costa Albuquerque, **Eric Araújo**, Fabio Zicker, Bruna de Paula Fonseca e Fonseca. (2025). Scientific Collaboration in Health and Life Sciences: A Study of Brazil's Contributions and Partnerships. Paris, France. INSNA Sunbelt 2025.
+
