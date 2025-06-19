@@ -10,6 +10,7 @@ title: "2025"
 
 - [To appear] Matheus de Andrade Flausino, **Eric Araújo**, Angelica Sousa da Mata. Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil. Journal of Complex Networks. 2025.
 -   Silva, C. R. da ., Mesquita, O., Araújo, E., & Mata, A. S.. (2025). [Uso da modelagem baseada em agentes no estudo de sistemas complexos](https://doi.org/10.1590/1806-9126-RBEF-2024-0464){target="_blank"}. Revista Brasileira De Ensino De Física, 47, e20240464. https://doi.org/10.1590/1806-9126-RBEF-2024-0464
+-   [To appear] Carlos Henrique da Silveira, Renato Figueiredo Frade, **Eric Araújo**, João Paulo Roquim Romanelli. **Caracterização Temporal de Roubos de Rua: Um Contraste entre os Contextos Pré-Pandêmico e Pandêmico.** Revista Brasileira de Segurança Pública. 2025.
 
 ## Conference Papers
 
