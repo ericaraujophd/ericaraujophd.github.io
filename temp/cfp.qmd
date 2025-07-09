@@ -1,20 +1,21 @@
 # AI & Faith Conference - Technology Track
 
-The AI & Technology track invites presentations that explore the design, implementation, and critical reflection on artificial intelligence and emerging technologies, particularly in light of deeper questions of meaning, ethics, and human responsibility. We seek contributions that examine not only the technical dimensions of AI but also the societal and spiritual implications embedded in the systems we build and deploy.
+The **AI & Technology** track welcomes presentations that showcase technical work at the intersection of artificial intelligence, emerging technologies, and human values. We seek contributions from engineers, data scientists, developers, researchers, and technologists who are building, analyzing, or deploying AI systems and infrastructure—with awareness of the ethical, societal, and spiritual questions they raise.
 
-Topics of interest include (but are not limited to):
+We encourage submissions that include real-world systems, prototypes, algorithms, deployments, or performance evaluations—particularly those that:
 
-* AI system design: transparency, value alignment, and human oversight
-* Algorithmic bias, fairness, and ethical governance
-* Generative AI and machine creativity
-* Automation, robotics, and questions of human agency
-* Infrastructure and power in AI ecosystems
-* Surveillance, privacy, and data dignity
-* Ecological impacts of AI and sustainable development
-* Global and local justice in AI access and application
-* Embodied AI and human-machine interaction
-* Frontiers beyond AI: quantum computing, neurotechnology, synthetic life
+* Address bias, fairness, or transparency in AI models
+* Implement value-aligned system architectures or explainable AI
+* Optimize or audit AI pipelines for ethical considerations
+* Explore human-AI collaboration, interaction, or oversight
+* Measure or mitigate ecological or computational costs of AI
+* Use AI for social good or to serve underserved communities
+* Incorporate privacy-preserving technologies (e.g., differential privacy, federated learning)
+* Examine AI infrastructure (e.g., model scale, access, open-source vs. proprietary tradeoffs)
+* Develop tools to support ethical decision-making in technical teams
 
-We welcome interdisciplinary voices—technologists, ethicists, researchers, industry professionals, and practitioners—who can bring critical insight into how technology shapes and is shaped by the moral and spiritual dimensions of human life.
+We also welcome technical demonstrations, case studies, or behind-the-scenes insights into how teams are grappling with difficult design trade-offs in real systems. If your work is shaped by ethical inquiry, human-centered values, or faith-informed motivations—but grounded in code, data, or hardware—we want to hear from you.
 
-Whether your work is theoretical, applied, or exploratory, we encourage proposals that stimulate dialogue across sectors and faith traditions about the kind of future we are creating with technology—and for whom.
+Let’s explore together what it means to build responsible and meaningful technology in a rapidly evolving world.
+
+The papers will be submitted through the following link, and must have a maximum number of 4 pages. The template for the papers can be found on Overleaf (LateX) or Word (Docx).
