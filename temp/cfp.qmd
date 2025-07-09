@@ -1,0 +1,19 @@
+# AI & Faith Conference - Technology Track
+
+The AI & Technology track invites presentations that explore the design, implementation, and critical reflection on artificial intelligence and emerging technologies, particularly in light of deeper questions of meaning, ethics, and human responsibility. We seek contributions that examine not only the technical dimensions of AI but also the societal and spiritual implications embedded in the systems we build and deploy.
+
+Topics of interest include (but are not limited to):
+* AI system design: transparency, value alignment, and human oversight
+* Algorithmic bias, fairness, and ethical governance
+* Generative AI and machine creativity
+* Automation, robotics, and questions of human agency
+* Infrastructure and power in AI ecosystems
+* Surveillance, privacy, and data dignity
+* Ecological impacts of AI and sustainable development
+* Global and local justice in AI access and application
+* Embodied AI and human-machine interaction
+* Frontiers beyond AI: quantum computing, neurotechnology, synthetic life
+
+We welcome interdisciplinary voices—technologists, ethicists, researchers, industry professionals, and practitioners—who can bring critical insight into how technology shapes and is shaped by the moral and spiritual dimensions of human life.
+
+Whether your work is theoretical, applied, or exploratory, we encourage proposals that stimulate dialogue across sectors and faith traditions about the kind of future we are creating with technology—and for whom.
