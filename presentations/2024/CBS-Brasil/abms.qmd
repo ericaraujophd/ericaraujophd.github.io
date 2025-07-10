@@ -10,170 +10,159 @@ format:
         history: false
 ---
 
-
 ## Quem sou eu?
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="30%"}
 ![](./imgs/foto-bw.png)
-
 :::
 
 ::: {.column width="70%"}
-
 Eric Araújo
 
-  * Professor Associado da Calvin University (USA)
-  * Coordenador BILbo (Behavioral Informatics Laboratory)
-  * PhD pela Vrije Universiteit Amsterdam
-
+-   Professor Associado da Calvin University (USA)
+-   Coordenador BILbo (Behavioral Informatics Laboratory)
+-   PhD pela Vrije Universiteit Amsterdam
 :::
-
-::::
-
+:::::
 
 ## Agenda
 
-1. O que é Modelagem Baseada em Agentes?
-2. Aplicações Práticas da Modelagem Baseada em Agentes.
-3. Orientação a Dados na Criação de Modelos
-4. Aplicações e Exemplos
-5. Interação
+1.  O que é Modelagem Baseada em Agentes?
+2.  Aplicações Práticas da Modelagem Baseada em Agentes.
+3.  Orientação a Dados na Criação de Modelos
+4.  Aplicações e Exemplos
+5.  Interação
 
 ## Solucionando Problemas
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="30%"}
 ![](./imgs/Albert_Einstein_Head.jpg)
 :::
+
 ::: {.column width="70%"}
-
-
 > "Não podemos resolver problemas usando o mesmo tipo de pensamento que usamos quando os criamos."
-> 
+>
 > -- Albert Einstein
-
 :::
-::::
+:::::
 
 # 1. O que é Modelagem Baseada em Agentes?
 
 ## 1
-Modelagem baseada em agentes (MBAs) são modelos onde **múltiplas entidades** percebem e respondem **estocasticamente** às condições do ambiente local, imitando  o comportamento de sistemas complexos de larga escala.
+
+Modelagem baseada em agentes (MBAs) são modelos onde **múltiplas entidades** percebem e respondem **estocasticamente** às condições do ambiente local, imitando o comportamento de sistemas complexos de larga escala.
 
 ## 1.1 Criando MBAs
 
 <!-- ::: {.fragment fragment-index=1} -->
-::: {.fragment .fade-in fragment-index=1}
-::: {.fragment .highlight-red fragment-index=2}
-::: {.fragment .semi-fade-out fragment-index=3}
+
+::::: {.fragment .fade-in fragment-index="1"}
+:::: {.fragment .highlight-red fragment-index="2"}
+::: {.fragment .semi-fade-out fragment-index="3"}
 <u>**Do que a simulação é feita?**</u>
 
 Agentes, objetos ou entidades que agem **autonomamente**.
+:::
+::::
+:::::
 
-:::
-:::
-:::
-
-::: {.fragment .fade-in fragment-index=1}
-::: {.fragment .highlight-red fragment-index=3}
-::: {.fragment .semi-fade-out fragment-index=4}
+::::: {.fragment .fade-in fragment-index="1"}
+:::: {.fragment .highlight-red fragment-index="3"}
+::: {.fragment .semi-fade-out fragment-index="4"}
 <u>**Como os agentes interagem?**</u>
 
 Os agentes acessam e interagem com o **ambiente local** por meio de **regras internas simples** para tomada de decisões, movimentação e ação.
 :::
-:::
-:::
+::::
+:::::
 
-::: {.fragment .fade-in fragment-index=1}
-::: {.fragment .highlight-red fragment-index=4}
+:::: {.fragment .fade-in fragment-index="1"}
+::: {.fragment .highlight-red fragment-index="4"}
 <!-- ::: {.fragment .semi-fade-out fragment-index=5} -->
-<u>**O que é analisado? **</u>
 
-O **comportamento agregado** do sistema simulado é o resultado da intensa interação entre os comportamentos relativamente simples de seus agentes individuais.
-<!-- ::: -->
-:::
-:::
+<u>**O que é analisado?** </u>
 
+O **comportamento agregado** do sistema simulado é o resultado da intensa interação entre os comportamentos relativamente simples de seus agentes individuais. <!-- ::: -->
+:::
+::::
 
 ## 1.2 Vantagens dos MBAs
 
-::: {.fragment .fade-in fragment-index=1}
-::: {.fragment .highlight-blue fragment-index=2}
-::: {.fragment .semi-fade-out fragment-index=3}
-1. **Visualização gráfica** de comportamentos.
+::::: {.fragment .fade-in fragment-index="1"}
+:::: {.fragment .highlight-blue fragment-index="2"}
+::: {.fragment .semi-fade-out fragment-index="3"}
+1.  **Visualização gráfica** de comportamentos.
 :::
+::::
+:::::
+
+::::: {.fragment .fade-in fragment-index="1"}
+:::: {.fragment .highlight-blue fragment-index="3"}
+::: {.fragment .semi-fade-out fragment-index="4"}
+2.  Vantagens em **custo** e **tempo** em relação a experimentos do mundo real.
 :::
+::::
+:::::
+
+:::: {.fragment .fade-in fragment-index="1"}
+::: {.fragment .highlight-blue fragment-index="4"}
+3.  Estudos onde não é possível testes no mundo real.
 :::
-::: {.fragment .fade-in fragment-index=1}
-::: {.fragment .highlight-blue fragment-index=3}
-::: {.fragment .semi-fade-out fragment-index=4}
-2. Vantagens em **custo** e **tempo** em relação a experimentos do mundo real.
-:::
-:::
-:::
-::: {.fragment .fade-in fragment-index=1}
-::: {.fragment .highlight-blue fragment-index=4}
-3. Estudos onde não é possível testes no mundo real.
-:::
-:::
+::::
 
 # 2. Aplicações práticas da modelagem baseada em agentes
 
----
+------------------------------------------------------------------------
 
-<center><figure>
+<center>
 
-<img src="/presentations/2024/CBS-Brasil/imgs/Thesis-Cover.png" alt="" width="500"/>
+<figure><img src="/presentations/2024/CBS-Brasil/imgs/Thesis-Cover.png" width="500"/></figure>
 
-</figure></center>
+</center>
 
+------------------------------------------------------------------------
 
----
+:::: {.fragment .fade-in}
+::: {.absolute top="0" left="0"}
+![](./imgs/book1.jpg){height="400px"}
+:::
+::::
 
-:::{.fragment .fade-in}
-:::{.absolute top=0 left=0}
-![](./imgs/book1.jpg){height=400px}
+:::: {.fragment .fade-in}
+::: {.absolute top="0" left="350"}
+![](./imgs/book2.jpg){height="400px"}
 :::
-:::
+::::
 
-:::{.fragment .fade-in}
-:::{.absolute top=0 left=350}
-![](./imgs/book2.jpg){height=400px}
+:::: {.fragment .fade-in}
+::: {.absolute top="0" left="700"}
+![](./imgs/book3.jpg){height="400px"}
 :::
-:::
+::::
 
-:::{.fragment .fade-in}
-:::{.absolute top=0 left=700}
-![](./imgs/book3.jpg){height=400px}
+:::: {.fragment .fade-in}
+::: {.absolute top="300" left="50"}
+![](./imgs/book4.jpg){height="400px"}
 :::
-:::
+::::
 
-:::{.fragment .fade-in}
-:::{.absolute top=300 left=50}
-![](./imgs/book4.jpg){height=400px}
+:::: {.fragment .fade-in}
+::: {.absolute top="300" left="400"}
+![](./imgs/book5.jpg){height="400px"}
 :::
-:::
+::::
 
-:::{.fragment .fade-in}
-:::{.absolute top=300 left=400}
-![](./imgs/book5.jpg){height=400px}
+:::: {.fragment .fade-in}
+::: {.absolute top="300" left="750"}
+![](./imgs/book6.jpg){height="400px"}
 :::
-:::
-
-:::{.fragment .fade-in}
-:::{.absolute top=300 left=750}
-![](./imgs/book6.jpg){height=400px}
-:::
-:::
-
+::::
 
 ## 2.1 Trabalhos: Segurança pública
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
 ![](./imgs/seguranca-publica.png)
 :::
@@ -181,14 +170,13 @@ O **comportamento agregado** do sistema simulado é o resultado da intensa inter
 ::: {.column width="50%"}
 Raquel Rosés, Cristina Kadar, Nick Malleson, **A data-driven agent-based simulation to predict crime patterns in an urban environment**, Computers, Environment and Urban Systems, Volume 89, 2021, ISSN 0198-9715.
 :::
-::::
+:::::
 
-   <!-- 1. Groff, E.R. (2007) Simulation for Theory Testing and Experimentation: An Example Using Routine Activity Theory and Street Robbery -->
+<!-- 1. Groff, E.R. (2007) Simulation for Theory Testing and Experimentation: An Example Using Routine Activity Theory and Street Robbery -->
 
 ## 2.1 Trabalhos: Forças Armadas
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
 ![](./imgs/militar.png)
 :::
@@ -196,14 +184,13 @@ Raquel Rosés, Cristina Kadar, Nick Malleson, **A data-driven agent-based simula
 ::: {.column width="50%"}
 Yun, Woo-Seop, Moon, Il-Chul and Lee, Tae-Eog (2015). **Agent-Based Simulation of Time to Decide: Military Commands and Time Delays.** Journal of Artificial Societies and Social Simulation 18 (4) 10. doi: 10.18564/jasss.2871
 :::
-::::
+:::::
 
 <!-- Woo-Seop Yun, Il-Chul Moon and Tae-Eog Lee (2015) Agent-Based Simulation of Time to Decide: Military Commands and Time Delays -->
 
 ## 2.1 Trabalhos: Formação e Sociedade
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
 ![](./imgs/formacao-familia.png)
 :::
@@ -211,14 +198,11 @@ Yun, Woo-Seop, Moon, Il-Chul and Lee, Tae-Eog (2015). **Agent-Based Simulation o
 ::: {.column width="50%"}
 Sajjad, M., Singh, K., Paik, E., & Ahn, C. W. (2016). **A data-driven approach for agent-based modeling: Simulating the dynamics of family formation**. Journal of Artificial Societies and Social Simulation, 19(1), 9.
 :::
-::::
-
-
+:::::
 
 ## 2.1 Trabalhos: Saúde
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
 ![](./imgs/saude.png)
 :::
@@ -226,13 +210,11 @@ Sajjad, M., Singh, K., Paik, E., & Ahn, C. W. (2016). **A data-driven approach f
 ::: {.column width="50%"}
 Hunter E, Mac Namee B, KelleheHunter E, Mac Namee B, Kelleher J (2018) An open-data-driven agent-based model to simulate infectious disease outbreaks. PLOS ONE 13(12): e0208775. https://doi.org/10.1371/journal.pone.0208775
 :::
-::::
-
+:::::
 
 ## 2.2 Modelos Simples vs Análises Complexas
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="60%"}
 ![Origem: *Imagem criada com o uso de IA*](./imgs/estadio.png)
 :::
@@ -242,47 +224,44 @@ Hunter E, Mac Namee B, KelleheHunter E, Mac Namee B, Kelleher J (2018) An open-d
 
 Modelo para uma multidão *vs* Modelo para um Agente
 :::
-::::
+:::::
 
-
-:::{.notes}
-Considere o processo de pessoas deixando o estádio depois de um evento esportivo.
-Desenvolver um modelo para uma multidão de indivíduos seria algo complexo e tornaria qualquer mudança global no modelo difícil.
+::: notes
+Considere o processo de pessoas deixando o estádio depois de um evento esportivo. Desenvolver um modelo para uma multidão de indivíduos seria algo complexo e tornaria qualquer mudança global no modelo difícil.
 
 Ao invés disso, um agente (no caso, uma pessoa) poderia receber uma série de regras simples:
 
-- Tente ir para o portão de saída mais próximo
-- Se tiver muita gente na sua frente, tente se mover para a direita ou para a esquerda.
-- Se tiver esperado um certo tempo sem conseguir se aproximar do portão, tente se movimentar para longe da multidão.
-- Tente ficar próximo das outras pessoas do seu grupo de família ou amigos.
-
+-   Tente ir para o portão de saída mais próximo
+-   Se tiver muita gente na sua frente, tente se mover para a direita ou para a esquerda.
+-   Se tiver esperado um certo tempo sem conseguir se aproximar do portão, tente se movimentar para longe da multidão.
+-   Tente ficar próximo das outras pessoas do seu grupo de família ou amigos.
 :::
-
 
 ## 2.2 Modelos Simples vs Análises Complexas (Boids Model)
 
 {{< video https://www.youtube.com/watch?v=X0sE10zUYyY width="100%" height="70%" >}}
 
-:::{.notes}
+::: notes
 Em 1987, Reynolds descreve três regras para o comportamento de pássaros, conhecido como boids:
 
-- prevenção de  colisão
-- manutenção de velocidade de acordo com os demais do grupo
-- centralidade no grupo
+-   prevenção de colisão
+
+-   manutenção de velocidade de acordo com os demais do grupo
+
+-   centralidade no grupo
 
 -   **Separation:** If there are other boids immediately in front of you, turn away from them to avoid collisions and crowding.
--   **Alignment:** Turn to align with the average heading of nearby boids.
--   **Cohesion:** Attempt to stay close to nearby flockmates by steering toward the average position of neaby boids.
 
+-   **Alignment:** Turn to align with the average heading of nearby boids.
+
+-   **Cohesion:** Attempt to stay close to nearby flockmates by steering toward the average position of neaby boids.
 
 Essas regras são simples de serem listadas, mas nem sempre fáceis de serem implementadas. Mas, uma vez que as regras foram criadas, fica fácil popular um modelo baseado em agentes tanto com um pequeno quanto grande grupo de agentes.
 :::
 
-
 ## 2.2 Modelos Simples vs Análises Complexas (Agentes Adaptativos)
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
 ![Origem: *Imagem criada com o uso de IA*](./imgs/universidade.png)
 :::
@@ -292,54 +271,47 @@ Essas regras são simples de serem listadas, mas nem sempre fáceis de serem imp
 
 Regra Única *vs* Agentes que Aprendem (Adaptam)
 :::
-::::
+:::::
 
-:::{.notes}
-
+::: notes
 Além disso, os agentes podem ser programados para aprender. Pode-se dar, por exemplo, 10 regras para um agente, e à medida que ele verifica o sucesso ou não de acordo com a regra escolhida, pesos diferentes são dados para as escolhas.
 
-Um exemplo seria o caso de um aumento na matrícula de novos estudantes ao mesmo tempo em que há uma redução nos espaços para estacionamento no campus. Nas primeiras semanas do ano acadêmico, seria difícil de encontrar lugares para estacionar entre 7:00 e 09:00. Após algumas semanas, algumas pessoas mudaram seu comportamento: 
+Um exemplo seria o caso de um aumento na matrícula de novos estudantes ao mesmo tempo em que há uma redução nos espaços para estacionamento no campus. Nas primeiras semanas do ano acadêmico, seria difícil de encontrar lugares para estacionar entre 7:00 e 09:00. Após algumas semanas, algumas pessoas mudaram seu comportamento:
 
-- algumas chegam mais cedo para garantir um lugar perto do seu prédio
-- algumas chegam mais tarde, quando mais vagas são encontradas à medida que as aulas terminam e pessoas saem para almoçar
-- outras estacionam fora do campus e caminham para evitar ter que procurar estacionamento
-- outras começam a pedalar ou usar o transporte público.
+-   algumas chegam mais cedo para garantir um lugar perto do seu prédio
+-   algumas chegam mais tarde, quando mais vagas são encontradas à medida que as aulas terminam e pessoas saem para almoçar
+-   outras estacionam fora do campus e caminham para evitar ter que procurar estacionamento
+-   outras começam a pedalar ou usar o transporte público.
 :::
-
 
 ## 2.3 Análises Complexas
 
-
-> “Os três objetivos primários de **experimentos computacionais** são: 
-> 
-> (i) predizer a resposta para entradas novas, 
-> (ii) otimizar a função de parâmetros de entradas, e 
+> “Os três objetivos primários de **experimentos computacionais** são:
+>
+> (i) predizer a resposta para entradas novas,
+> (ii) otimizar a função de parâmetros de entradas, e
 > (iii) calibrar o código do computador com dados reais.”
-> 
+>
 > -- Sacks et al. (1989)
 
 ::: {.fragment .fade-up}
 MBAs cumprem os 3 objetivos?
 :::
 
-:::{.notes}
+::: notes
 O que nos faz pensar que a análise de modelos simples é complexa?
 
-- ela requer uma forma diferente de análise dos problemas tradicionais de simulação
+-   ela requer uma forma diferente de análise dos problemas tradicionais de simulação
 
-Sacks et al. (1989) fala sobre os três objetos principais de experimentos computacionais.
-Infelizmente, para muitos modelos baseados em agentes, não é possível atingir nenhum deles!
+Sacks et al. (1989) fala sobre os três objetos principais de experimentos computacionais. Infelizmente, para muitos modelos baseados em agentes, não é possível atingir nenhum deles!
 :::
-
-
 
 # 3. Orientação a Dados na Criação de Modelos Baseados em Agentes
 
-
-:::{.notes}
+::: notes
 A MBA vem ganhando bastante projeção nas últimas décadas, pela sua capacidade de correspondência ontológica um-para-um entre o modelo e o mundo real.
 
-Também permite que processos paralelos, interações não-lineares e heterogeneidade de sistemas sociais que dificilmente são capturados em outros tipos de  modelagem.
+Também permite que processos paralelos, interações não-lineares e heterogeneidade de sistemas sociais que dificilmente são capturados em outros tipos de modelagem.
 :::
 
 ## 3.1 Modelos Empíricos vs Modelos Abstratos
@@ -348,35 +320,30 @@ Também permite que processos paralelos, interações não-lineares e heterogene
 
 ![Origem: *Imagem criada com o uso de IA*](./imgs/dados.png)
 
-
-:::{.notes}
-
+::: notes
 Perguntas de pesquisa que demandam acurácia na predição necessitam de dados.
 
 Porém, perguntas investigativas para avaliação de teorias existentes, ou para criação de novas teorias, ou mesmo que demandam dados impossíveis de serem obtidos, podem se utilizar de modelos abstratos, como o famoso modelo de Schelling de segregação.
 
 Aa falta de disponibilidade de dados e a falta de qualidade dos dados faz com que modelos sejam criados em níveis abstratos aceitáveis.
 
-- Falar da experiência ao trabalhar com esse tipo de pesquisa.
+-   Falar da experiência ao trabalhar com esse tipo de pesquisa.
 
 Com a emergência do Big data, presenciamos um ponto de virada na construção de modelos baseados em agentes de cinco anos para cá. Porém ainda estamos no processo...
 :::
 
-## 3.2 Caracterizando os Dados usados em MBA 
+## 3.2 Caracterizando os Dados usados em MBA
 
 ![](./imgs/tipos-dados.png)
 
-
-:::{.notes}
-Tipo de dado:
-qualitativo: entrevistas, grupos de foco, etnografia.
+::: notes
+Tipo de dado: qualitativo: entrevistas, grupos de foco, etnografia.
 
 Medidas repetidas: a repetição de coleta de dados indica se é possível capturar mudanças temporais nos dados empíricos.
 
 A ideia é verificar padrões ao longo do tempo em níveis individuais e populacionais.
 
-Longitudinal: mesmos sujeitos medidos
-Cross-sectional: sujeitos diferentes medidos
+Longitudinal: mesmos sujeitos medidos Cross-sectional: sujeitos diferentes medidos
 
 Exemplo de estudos com hábitos de cigarro e PAL (physical Activity level)
 
@@ -388,20 +355,18 @@ Modificação da estrutura: uma modificação rastreável é feita no modelo, co
 
 Geração de estrutura: a estrutura do modelo é parcial ou completamente criada do zero. Dessa forma, mudanças não podem ser rastreadas.
 
-CONSIDERAÇÃO DO AGENTE
-Nível populacional: dados de nível agregado, como os tipos dos agentes, distribuição de probabilidades, percentuais indicando uma propriedade do agente ou a chance de um evento/ação. Geralmente valores distribuídos igualmente entre os agentes.
-ex. Censo
+CONSIDERAÇÃO DO AGENTE Nível populacional: dados de nível agregado, como os tipos dos agentes, distribuição de probabilidades, percentuais indicando uma propriedade do agente ou a chance de um evento/ação. Geralmente valores distribuídos igualmente entre os agentes. ex. Censo
 
-Individual:  dados longitudinais alimentados a cada agente de forma única.
+Individual: dados longitudinais alimentados a cada agente de forma única.
 :::
 
 ## 3.3 Uma proposta de modelagem orientada a dados
 
-#### VISÃO CONTEXTUAL (Kavak, Hamdi, et al., 2018) 
+#### VISÃO CONTEXTUAL (Kavak, Hamdi, et al., 2018)
 
 ![](./imgs/flowchart1.png)
 
-:::{.notes}
+::: notes
 Modelo conceitual: descreve os detalhes do modelo em forma de texto ou diagramas
 
 Fonte de dados: sistema ou repositório que contém os dados usados para os agentes.
@@ -412,9 +377,9 @@ Máquina de simulação: roda os cenários pré-especificados com os agentes ger
 
 O MODELO CONCEITUAL do sistema deve conter, ao menos:
 
-- uma declaração de propósito, descrevendo o objetivo do modelo
-- os tipos de agentes com seus atributos e assinaturas de comportamento
-- o tipo do ambiente e as variáveis.
+-   uma declaração de propósito, descrevendo o objetivo do modelo
+-   os tipos de agentes com seus atributos e assinaturas de comportamento
+-   o tipo do ambiente e as variáveis.
 
 Exemplo do modelo das favelas e covid-19.
 :::
@@ -425,7 +390,7 @@ Exemplo do modelo das favelas e covid-19.
 
 ![](./imgs/flowchart2.png)
 
-:::{.notes}
+::: notes
 PREPARAÇÃO DOS DADOS: ciclo dos dados, desde a aquisição até o seu uso em passos seguintes.
 
 Uso do KDD para processamento dos dados. Remoção de ruído, manuseio dos dados faltantes, transformação dos dados e remoção de entradas não usadas para a criação do comportamento e valores de atributo.
@@ -433,18 +398,18 @@ Uso do KDD para processamento dos dados. Remoção de ruído, manuseio dos dados
 O processo de treinamento e ajuste dos atributos é um passo opcional usado quando pelo menos um atributo de um agente precisa ser inicializado baseado na dispersão entre a população do mundo real. Os dados são passados por algum algoritmo de aprendizagem de máquina para inicialização dos atributos.
 :::
 
-## 3.3 Uma proposta de modelagem orientada a dados 
+## 3.3 Uma proposta de modelagem orientada a dados
 
 #### VISÃO INDIVIDUAL DA CRIAÇÃO DO AGENTE (Kavak, Hamdi, et al., 2018)
 
 ![](./imgs/flowchart3.png)
 
-:::{.notes}
+::: notes
 Na organização e tratamento dos ATRIBUTOS:
 
-- Inicialização direta: passa o valor pelos dois processos sem modificação
-- Inicialização baseada em procura: usa uma tabela de busca para adequar o valor à uma categoria. Por exemplo, idade vira faixa de idade.
-- Inicialização baseada no modelo: organiza e transforma os dados em uma entrada para modelos de inferência (aprendizagem de máquina ou estatístico).
+-   Inicialização direta: passa o valor pelos dois processos sem modificação
+-   Inicialização baseada em procura: usa uma tabela de busca para adequar o valor à uma categoria. Por exemplo, idade vira faixa de idade.
+-   Inicialização baseada no modelo: organiza e transforma os dados em uma entrada para modelos de inferência (aprendizagem de máquina ou estatístico).
 
 Na geração de regras de COMPORTAMENTO
 
@@ -453,21 +418,19 @@ Organizar e transformar: os dados são transformados para que cada ação e par�
 
 # 4. Aplicações de orientação a dados na criação de modelos baseados em agentes
 
-
-## 4.1 Padrões de roubos de rua  na cidade de lavras
+## 4.1 Padrões de roubos de rua na cidade de lavras
 
 **Dados**
 
-- Registros de ocorrências da PMMG
-- Censo demográfico da cidade de Lavras
+-   Registros de ocorrências da PMMG
+-   Censo demográfico da cidade de Lavras
 
 ## 4.1 Padrões de roubos de rua na cidade de Lavras (MG)
 
-::: {.r-stack}
+::: r-stack
 ![](./imgs/map_lavras_center.png){.fragment width="600"}
 
 ![](./imgs/netlogo_map.png){.fragment width="700"}
-
 :::
 
 ## 4.1 Padrões de roubos de rua na cidade de Lavras (MG)
@@ -478,81 +441,78 @@ Organizar e transformar: os dados são transformados para que cada ação e par�
 
 ![Araújo E, Gerritsen C. Creating a temporal pattern for street robberies using ABM and data from a small city in South East Brazil. InAgent-Based Modelling for Criminological Theory Testing and Development 2020 Nov 29 (pp. 146-166). Routledge.](./imgs/modelo.png)
 
-
 ## 4.1 Padrões de roubos de rua na cidade de Lavras (MG)
 
 ![](./imgs/comparison_emp_sim.png)
 
-## 4.2 COVID-19 em contextos de desigualdade social 
+## 4.2 COVID-19 em contextos de desigualdade social
 
 **Dados**
 
-- Censo demográfico do Rio de Janeiro
-- Dados do desenvolvimento da doença
-- Dados socioeconomicos da região estudada (Copacabana, Ipanema e Complexo do Pavão-Pavãozinho)
-- Dados do Ministério da Saúde sobre infraestrutura hospitalar 
+-   Censo demográfico do Rio de Janeiro
+-   Dados do desenvolvimento da doença
+-   Dados socioeconomicos da região estudada (Copacabana, Ipanema e Complexo do Pavão-Pavãozinho)
+-   Dados do Ministério da Saúde sobre infraestrutura hospitalar
 
-## 4.2 COVID-19 em contextos de desigualdade social 
+## 4.2 COVID-19 em contextos de desigualdade social
 
-- Carga viral do indivíduo infectado
-- Número de contatos físicos
-- Possíveis graus de severidade da doença de acordo com as características do infectado
-- Ações de distanciamento social, isolamento social, quarentena, lockdown
-- Demografia do espaço a ser modelado
+-   Carga viral do indivíduo infectado
+-   Número de contatos físicos
+-   Possíveis graus de severidade da doença de acordo com as características do infectado
+-   Ações de distanciamento social, isolamento social, quarentena, lockdown
+-   Demografia do espaço a ser modelado
 
-## 4.2 COVID-19 em contextos de desigualdade social 
+## 4.2 COVID-19 em contextos de desigualdade social
 
 ![Klôh VP, Silva GD, Ferro M, Araújo E, de Melo CB, de Andrade Lima JR, Martins ER. The virus and socioeconomic inequality: An agent-based model to simulate and assess the impact of interventions to reduce the spread of COVID-19 in Rio de Janeiro, Brazil. Brazilian Journal of Health Review. 2020 Apr 26;3(2):3647-73.](./imgs/seir.png)
 
-## 4.2 COVID-19 em contextos de desigualdade social 
+## 4.2 COVID-19 em contextos de desigualdade social
 
 ![](./imgs/favela1.png)
 
-## 4.2 COVID-19 em contextos de desigualdade social 
+## 4.2 COVID-19 em contextos de desigualdade social
 
 <!-- ![](./imgs/favela2.png) -->
+
 ![](./imgs/C1_full_screen.png)
 
 ## 4.3 Espalhamento de comportamento em redes sociais
 
-- Modelo teórico sobre adesão aos protocolos de saúde em um cenário de pandemia
-- Consideração do papel das agências públicas de saúde na adesão
-- Análise de diferentes tipos de topologia para a rede de conexões
+-   Modelo teórico sobre adesão aos protocolos de saúde em um cenário de pandemia
+-   Consideração do papel das agências públicas de saúde na adesão
+-   Análise de diferentes tipos de topologia para a rede de conexões
 
----
+------------------------------------------------------------------------
 
-:::: {.columns}
-
+:::::::::: columns
 ::: {.column width="40%"}
 ![](./imgs/opinions.png)
 :::
 
-::: {.column width="60%"}
-
-::: {.fragment .fade-in fragment-index=1}
-::: {.fragment .highlight-blue fragment-index=2}
-::: {.fragment .semi-fade-out fragment-index=3}
-Aumento em **700\%** na opinião geral das pessoas em relação à adesão aos protocolos de saúde caso 10% da rede se torne completamente convencida de que os protocolos são importantes e fazem diferença.
-:::
-:::
-:::
-
-::: {.fragment .fade-in fragment-index=1}
-::: {.fragment .highlight-blue fragment-index=3}
-<!-- ::: {.fragment .semi-fade-out fragment-index=4} -->
-**80\%** de aumento na adesão se o governo lançar campanhas para incentivar as pessoas a aderirem às medidas de cuidado com a saúde e contenção do vírus.
-<!-- ::: -->
-:::
-:::
+:::::::: {.column width="60%"}
+::::: {.fragment .fade-in fragment-index="1"}
+:::: {.fragment .highlight-blue fragment-index="2"}
+::: {.fragment .semi-fade-out fragment-index="3"}
+Aumento em **700%** na opinião geral das pessoas em relação à adesão aos protocolos de saúde caso 10% da rede se torne completamente convencida de que os protocolos são importantes e fazem diferença.
 :::
 ::::
+:::::
 
+:::: {.fragment .fade-in fragment-index="1"}
+::: {.fragment .highlight-blue fragment-index="3"}
+<!-- ::: {.fragment .semi-fade-out fragment-index=4} -->
+
+**80%** de aumento na adesão se o governo lançar campanhas para incentivar as pessoas a aderirem às medidas de cuidado com a saúde e contenção do vírus. <!-- ::: -->
+:::
+::::
+::::::::
+::::::::::
 
 ## Conclusões
 
-- MBAs são de grande relevância, e agora se potencializam com o uso de dados.
-- Vários problemas que não podem ser estudados por questões éticas ou limitações encontram espaço neste área de estudo.
-- Modelar o mundo requer princípios éticos e responsabilidade na demonstração dos resultados.
+-   MBAs são de grande relevância, e agora se potencializam com o uso de dados.
+-   Vários problemas que não podem ser estudados por questões éticas ou limitações encontram espaço neste área de estudo.
+-   Modelar o mundo requer princípios éticos e responsabilidade na demonstração dos resultados.
 
 ## C. S. Lewis
 
@@ -560,6 +520,6 @@ Aumento em **700\%** na opinião geral das pessoas em relação à adesão aos p
 
 # Obrigado!
 
-📩 eric.araujo@calvin.edu
+📩 eric.araujo\@calvin.edu
 
 🌐 ericaraujo.com
