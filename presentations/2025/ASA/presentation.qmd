@@ -16,14 +16,63 @@ Bryan Chapell, in his book *The Multigenerational Church Crisis: Why We Don't Un
 
 The table below summarizes the key differences between the two generations, highlighting the contrasting values and priorities that contribute to the polarization within church communities:
 
-| Aspect                     | Younger Generation (Gen Z) | Older Generation (Baby Boomers) |
+: {tbl-colwidths="[15,42.5,42.5]"}
+
+| Aspect                     | Older Generation (Fifties and Older) | Younger Generation (Forties and Younger) |
 |----------------------------|----------------------------|----------------------------------|
-| Values                     | Individualism, social justice, inclusivity | Tradition, authority, stability |
+| Perception                 | "We are (were) a majority" | "We are a minority" |
+| Mission                    | Take control of culture | Make credible our faith |
+| Means                      | Bring a halt to:<br>(1) abortion<br>(2) homosexual agenda<br>(3) pornography<br>(4) illegal drugs<br>(5) gambling<br>(6) green movement<br>(7) illegal immigration<br>(8) racial discrimination | Help with:<br>(1) adoption and foster care<br>(2) care for and witness to LGBTQ+ persons<br>(3) liberating victims of sex trafficking and sex addiction<br>(4) substance addiction counseling and rescue<br>(5) gaming and gambling addictions<br>(6) creation care<br>(7) refugee compassion and care<br>(8) racial reconciliation and justice |
 
 
 Even though recent research has shown that the church decline stabilized in the last years, it also shows a division and a preference for different types of churches based on demographic factors such as age, gender, and political affiliation. This division is particularly pronounced among younger generations, who are more likely to seek out churches that align with their values and beliefs.
 
-## Agent-Based Modeling
+## Theoretical Framework: Polarization in Christian Communities
+
+In his paper titled "Political Polarization and the Churches: Tocqueville on religion, democracy and future of Christianity", Charles McDaniel Jr. presents a very interesting picture of the church according to the predictions of Alexis de Tocqueville. He argues that the church is a crucial institution for maintaining social cohesion and preventing political polarization. However, he also acknowledges that the church is not immune to the forces of polarization and that it can contribute to the fragmentation of society.
+
+In this work they point out to one of Tocqueville's sources, Father Mullon who worked as a missionary among Native American tribes in Michigan, saying he 
+
+> posited an inverse relationship between religion's influence in society and its involvement in politics, stating that the "less religion and its ministers are mixed up with government, the less they are involved in political debate, the more influential religious ideas will become".
+
+
+Dan White Jr. in his book *Love Over Fear: Facing Monsters, Befriending Enemies, and Healing Our Polarized World* (2020) argues that polarization is a pervasive issue in contemporary society, affecting not only political discourse but also personal relationships and community dynamics. He emphasizes the need for empathy, understanding, and love as antidotes to polarization, suggesting that these values can help bridge divides and foster reconciliation.
+
+He defines polarization this way:
+
+> Polarization takes people that have something in common, emphasizes their  differences, hardens their differences into disgust, and turns their disgust into  blatant hatred. It creates two sharply contrasting groups and pits them against  each other, shaping us for only two options—"our side" or "their side." It's a  suffocating social arrangement. Polarization is a power and principality.
+
+In his many examples of how he experienced polarization in his own life, he points out to a moment when two families left his church because of a feeling of threat due to the presence of others with a different political view. He says:
+
+> I grieved that both of these folks could not stay in the mix together. They were  repelled by each other. Rather than moving toward one another, despite their differences, they chose more distance.
+
+There is a common understanding on matters such as people's opinions, beliefs, and behaviors that they are not static, but rather dynamic and subject to change over time. This is particularly true in the context of political polarization, where individuals' views can shift in response to various factors, such as social influences, media exposure, and personal experiences.
+
+But there is also an understanding that changes don't come easily, and that people are often resistant to changing their opinions, especially when they are strongly held. This resistance can be driven by a variety of factors, including cognitive biases, social pressures, and emotional attachments to one's beliefs.
+
+In the context of Christian communities, this resistance to change can be particularly pronounced, as individuals may feel a strong sense of identity and belonging tied to their religious beliefs. This can make it difficult for them to engage with differing perspectives or to consider alternative viewpoints.
+
+Fortunately, or unfortunately, we are people of the Bible. We take Jesus' words seriously, even when they seem too naive or impractical.
+
+> You have heard that it was said, 'Love your neighbor  and hate your enemy.' But I tell you, love your enemies and pray for those who hurt  you, that you may be children of your Father in heaven... if you love those who love  you, what reward will you get? . . . And if you are hospitable to only your own  people, what are you doing more than others?" (Matt. 5:1, 43–48, Msg).
+
+Jesus' teachings on love and forgiveness challenge us to transcend our differences and embrace a more inclusive and compassionate approach to relationships. He calls us to love not only our friends and neighbors but also our enemies, urging us to pray for those who hurt us and to extend hospitality beyond our own circles.
+
+But how does that lead us to models of Christian communities? How can we model the dynamics of political polarization in Christian communities, taking into account the teachings of Jesus and the complexities of human behavior?
+
+## Computational Approach Overview
+
+### Complex Systems
+
+Our simulation requires a complex systems approach, taking into account the interactions between various agents and their environments. This involves modeling not only individual behaviors but also the emergent properties that arise from these interactions.
+
+We consider that people's opinions, beliefs, and behaviors are not static, but rather dynamic and subject to change over time. This is particularly true in the context of political polarization, where individuals' views can shift in response to various factors, such as social influences, media exposure, and personal experiences.
+
+Our model incorporates the dynamics based on social influences, media exposure and considers cognitive biases that can affect how individuals perceive and respond to differing viewpoints. This allows us to capture the complexities of political polarization in Christian communities, where individuals may feel a strong sense of identity and belonging tied to their religious beliefs.
+
+Over time, our agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation. The model will include individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
+
+### Agent-Based Modeling
 
 Agent-based modeling (ABM) is a powerful computational approach that allows researchers to simulate the interactions of individual agents within a system. This method is particularly useful for studying complex social phenomena, such as political polarization, as it enables the exploration of how individual behaviors and interactions can lead to emergent patterns at the group level.
 
@@ -35,7 +84,9 @@ This method was originally developed in the 1970s and 1980s with models for soci
 
 ABMs receive different names in different fields, such as multi-agent systems, agent-based simulations, and agent-based computational economics. However, they all share the same basic principles of simulating the interactions of individual agents within a system.
 
-## Methods for Building Behavioral Models
+## Methodology
+
+### Methods for Building Behavioral Models
 
 Building behavioral models involves several key steps, including defining the agents, their behaviors, and the environment in which they interact. The process typically begins with identifying the key components of the system being studied and determining how these components interact with one another.
 
@@ -43,7 +94,7 @@ Once the agents and their behaviors have been defined, the next step is to imple
 
 The model can then be tested and validated by running simulations and comparing the results to empirical data or theoretical predictions. This process often involves iterating on the model design to refine the agents' behaviors and improve the accuracy of the simulations.
 
-## Challenges in Creating Behavioral Models
+### Challenges in Creating Behavioral Models
 
 Creating behavioral models presents several challenges, including the complexity of accurately representing individual behaviors and interactions. One of the main difficulties is capturing the diversity of behaviors and preferences among agents, which can lead to emergent patterns that are not easily predictable.
 
@@ -54,4 +105,43 @@ Additionally, validating the model against empirical data can be challenging, as
 Finally, interpreting the results of the simulations can be complex, as emergent patterns may not have straightforward explanations. Researchers must carefully analyze the results and consider the implications for understanding the system being studied.
 
 ## Proposed Model for Political Polarization in Christian Communities
+
+In his paper titled "Political Polarization and the Churches: Tocqueville on religion, democracy and future of Christianity", Charles McDaniel Jr. presents a very interesting picture of the church according to the predictions of Alexis de Tocqueville. He argues that the church is a crucial institution for maintaining social cohesion and preventing political polarization. However, he also acknowledges that the church is not immune to the forces of polarization and that it can contribute to the fragmentation of society.
+
+In this work they point out to one of Tocqueville's sources, Father Mullon who worked as a missionary among Native American tribes in Michigan, saying he 
+
+> posited an inverse relationship between religion’s influence in society and its involvement in politics, stating that the “less religion and its ministers are mixed up with government, the less they are involved in political debate, the more influential religious ideas will become”.
+
+
+Dan White Jr. in his book *Love Over Fear: Facing Monsters, Befriending Enemies, and Healing Our Polarized World* (2020) argues that polarization is a pervasive issue in contemporary society, affecting not only political discourse but also personal relationships and community dynamics. He emphasizes the need for empathy, understanding, and love as antidotes to polarization, suggesting that these values can help bridge divides and foster reconciliation.
+
+He defines polarization this way:
+
+> Polarization takes people that have something in common, emphasizes their  differences, hardens their differences into disgust, and turns their disgust into  blatant hatred. It creates two sharply contrasting groups and pits them against  each other, shaping us for only two options—“our side” or “their side.” It’s a  suffocating social arrangement. Polarization is a power and principality.
+
+In his many examples of how he experienced polarization in his own life, he points out to a moment when two families left his church because of a feeling of threat due to the presence of others with a different political view. He says:
+
+> I grieved that both of these folks could not stay in the mix together. They were  repelled by each other. Rather than moving toward one another, despite their differences, they chose more distance.
+
+There is a common understanding on matters such as people's opinions, beliefs, and behaviors that they are not static, but rather dynamic and subject to change over time. This is particularly true in the context of political polarization, where individuals' views can shift in response to various factors, such as social influences, media exposure, and personal experiences.
+
+But there is also an understanding that changes don't come easily, and that people are often resistant to changing their opinions, especially when they are strongly held. This resistance can be driven by a variety of factors, including cognitive biases, social pressures, and emotional attachments to one's beliefs.
+
+In the context of Christian communities, this resistance to change can be particularly pronounced, as individuals may feel a strong sense of identity and belonging tied to their religious beliefs. This can make it difficult for them to engage with differing perspectives or to consider alternative viewpoints.
+
+Fortunately, or unfortunately, we are people of the Bible. We take Jesus' words seriously, even when they seem too naive or impractical.
+
+> You have heard that it was said, ‘Love your neighbor  and hate your enemy.’ But I tell you, love your enemies and pray for those who hurt  you, that you may be children of your Father in heaven... if you love those who love  you, what reward will you get? . . . And if you are hospitable to only your own  people, what are you doing more than others?” (Matt. 5:1, 43–48, Msg).
+
+Jesus' teachings on love and forgiveness challenge us to transcend our differences and embrace a more inclusive and compassionate approach to relationships. He calls us to love not only our friends and neighbors but also our enemies, urging us to pray for those who hurt us and to extend hospitality beyond our own circles.
+
+But how does that lead us to models of Christian communities? How can we model the dynamics of political polarization in Christian communities, taking into account the teachings of Jesus and the complexities of human behavior?
+
+This work is an attempt to answer these questions by building a model that captures the dynamics of political polarization in Christian communities, while also considering the teachings of Jesus and the complexities of human behavior.
+
+In the past years I've worked with cognitive models addressing the dynamics of social networks, such as the spread of crime in neighborhoods, the dynamics of cooperation, and the dynamics of health behaviors. These models have shown that individual behaviors and interactions can lead to emergent patterns at the group level, such as the emergence of polarization and the spread of misinformation.
+
+Drawing from Schelling's model of residential segregation, we can build a model that captures the dynamics of political polarization in Christian communities. The model will include individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
+
+This first attempt is a simple model that captures the dynamics of political polarization in Christian communities. The model includes individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
 
