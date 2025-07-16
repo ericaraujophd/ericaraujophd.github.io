@@ -1,0 +1,13 @@
+# Abstract Submitted to Baylor University
+
+In an age marked by increasing political polarization, churches have become both sanctuaries of spiritual life and sites of cultural tension. This project investigates how political polarization shapes—and is shaped by—relationships, discourse, and spiritual identity within Christian communities. By building computational models of opinion dynamics and social influence, the project offers a novel way to understand the subtle, often invisible processes through which division emerges and spreads in church networks.
+
+Using Agent-Based Modeling (ABM), we simulate how individuals in a congregation respond to political and theological stimuli, interact with peers, and adjust their beliefs over time. These agents are not abstract automatons, but are grounded in a rich psychological and theological anthropology. Drawing on the writings of Herman Bavinck, the model incorporates notions of personality, conscience, volition, and community—all essential to understanding human behavior in a covenantal context.
+
+Empirical data from Pew Research Center and related sources inform the model’s assumptions, enabling simulations that reflect real-world diversity in denominational background, media exposure, and social cohesion. We examine how events such as sermons, elections, or controversies catalyze polarization within congregational networks. Special attention is paid to mechanisms like cognitive dissonance, moral justification, and echo chambers, which distort the pursuit of truth and reconciliation.
+
+Theologically, the project invites reflection on the church’s calling to be a body marked by unity in Christ amid cultural fragmentation. Culturally, it asks how digital media, political ideology, and identity politics intersect with the ecclesial imagination. By visualizing how fragmentation takes root and spreads, the models help us see what’s at stake—and where hope remains.
+
+This research is deeply interdisciplinary, sitting at the crossroads of computer science, theology, psychology, and cultural studies. It offers a diagnostic tool for scholars, pastors, and lay leaders concerned with the health of Christian witness in divided times. More than just explanation, the goal is to open space for imagination: how might church communities foster resilience, bridge divides, and embody alternative forms of belonging?
+
+Ultimately, this project contributes to a larger conversation about the moral and spiritual shape of our common life. By uniting empirical insight with theological depth, it seeks to model not only how polarization happens—but how the church might respond faithfully.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>presentation – Eric Araújo</title>
+<title>abstract – Eric Araújo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -151,24 +151,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#behavioral-insights-into-political-polarization-in-christian-communities-through-computational-modeling" id="toc-behavioral-insights-into-political-polarization-in-christian-communities-through-computational-modeling" class="nav-link active" data-scroll-target="#behavioral-insights-into-political-polarization-in-christian-communities-through-computational-modeling">Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#theoretical-framework-polarization-in-christian-communities" id="toc-theoretical-framework-polarization-in-christian-communities" class="nav-link" data-scroll-target="#theoretical-framework-polarization-in-christian-communities">Theoretical Framework: Polarization in Christian Communities</a></li>
-  <li><a href="#computational-approach-overview" id="toc-computational-approach-overview" class="nav-link" data-scroll-target="#computational-approach-overview">Computational Approach Overview</a>
-  <ul class="collapse">
-  <li><a href="#complex-systems" id="toc-complex-systems" class="nav-link" data-scroll-target="#complex-systems">Complex Systems</a></li>
-  <li><a href="#agent-based-modeling" id="toc-agent-based-modeling" class="nav-link" data-scroll-target="#agent-based-modeling">Agent-Based Modeling</a></li>
-  </ul></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a>
-  <ul class="collapse">
-  <li><a href="#methods-for-building-behavioral-models" id="toc-methods-for-building-behavioral-models" class="nav-link" data-scroll-target="#methods-for-building-behavioral-models">Methods for Building Behavioral Models</a></li>
-  <li><a href="#challenges-in-creating-behavioral-models" id="toc-challenges-in-creating-behavioral-models" class="nav-link" data-scroll-target="#challenges-in-creating-behavioral-models">Challenges in Creating Behavioral Models</a></li>
-  </ul></li>
-  <li><a href="#proposed-model-for-political-polarization-in-christian-communities" id="toc-proposed-model-for-political-polarization-in-christian-communities" class="nav-link" data-scroll-target="#proposed-model-for-political-polarization-in-christian-communities">Proposed Model for Political Polarization in Christian Communities</a></li>
-  </ul></li>
+  <li><a href="#abstract-submitted-to-baylor-university" id="toc-abstract-submitted-to-baylor-university" class="nav-link active" data-scroll-target="#abstract-submitted-to-baylor-university">Abstract Submitted to Baylor University</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ericaraujophd/ericaraujophd.github.io.git/edit/main/presentations/2025/ASA/presentation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ericaraujophd/ericaraujophd.github.io.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ericaraujophd/ericaraujophd.github.io.git/edit/main/presentations/2026/Baylor/abstract.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ericaraujophd/ericaraujophd.github.io.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -176,142 +161,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Hi, I’m Eric Araújo, professor of Computer Science at Calvin University, Michigan, USA. I am a Brazilian computational scientist with a PhD in Computer Science from the Free University, The Netherlands. My research interests include complex systems, agent-based modeling, and social networks. I am passionate about using computational methods to understand and address real-world problems.</p>
-<section id="behavioral-insights-into-political-polarization-in-christian-communities-through-computational-modeling" class="level1">
-<h1>Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling</h1>
-<p>This is a multidisciplinary work that involves a handful areas for study and a great deal of application. I will start by explaining what are agent-based models through some of my previous works. I will also talk about the methods for building behavioral models and the challenges when creating them. I will present then a draft for what is required to develop a model that account for the problem of Christian communities.</p>
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>We live in a time of increasing political polarization, where individuals and groups are often divided along ideological lines. This polarization can have significant implications for social cohesion, democratic processes, and the functioning of communities. In this context, understanding the dynamics of political polarization is crucial for fostering dialogue and promoting social harmony.</p>
-<p>The de-churching phenomenon, characterized by the decline in church attendance and participation, has been a notable trend in recent years. This trend is particularly pronounced among younger generations, who are increasingly distancing themselves from traditional religious institutions. The reasons for this shift are complex and multifaceted, encompassing cultural, social, and personal factors.</p>
-<p>In his recent book, <em>The Great De-Churching</em>, Jim Davis and Michael Graham explore the factors contributing to this phenomenon and its implications for society. They argue that the decline in church attendance is not merely a statistical trend but a reflection of deeper societal changes, including shifts in values, beliefs, and community engagement.</p>
-<p>Bryan Chapell, in his book <em>The Multigenerational Church Crisis: Why We Don’t Understand Each Other and How to Unite in Mission</em> (2024), delves into the challenges faced by churches in bridging generational divides. He emphasizes the importance of understanding the perspectives and experiences of different age groups to foster unity and collaboration within congregations. He also points out that the de-churching process is not exclusive to younger generations, but also affects older generations, leading to a complex interplay of beliefs and practices within the church community.</p>
-<p>The table below summarizes the key differences between the two generations, highlighting the contrasting values and priorities that contribute to the polarization within church communities:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 43%">
-<col style="width: 43%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Aspect</th>
-<th>Older Generation (Fifties and Older)</th>
-<th>Younger Generation (Forties and Younger)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Perception</td>
-<td>“We are (were) a majority”</td>
-<td>“We are a minority”</td>
-</tr>
-<tr class="even">
-<td>Mission</td>
-<td>Take control of culture</td>
-<td>Make credible our faith</td>
-</tr>
-<tr class="odd">
-<td>Means</td>
-<td>Bring a halt to:<br>(1) abortion<br>(2) homosexual agenda<br>(3) pornography<br>(4) illegal drugs<br>(5) gambling<br>(6) green movement<br>(7) illegal immigration<br>(8) racial discrimination</td>
-<td>Help with:<br>(1) adoption and foster care<br>(2) care for and witness to LGBTQ+ persons<br>(3) liberating victims of sex trafficking and sex addiction<br>(4) substance addiction counseling and rescue<br>(5) gaming and gambling addictions<br>(6) creation care<br>(7) refugee compassion and care<br>(8) racial reconciliation and justice</td>
-</tr>
-</tbody>
-</table>
-<p>Even though recent research has shown that the church decline stabilized in the last years, it also shows a division and a preference for different types of churches based on demographic factors such as age, gender, and political affiliation. This division is particularly pronounced among younger generations, who are more likely to seek out churches that align with their values and beliefs.</p>
-</section>
-<section id="theoretical-framework-polarization-in-christian-communities" class="level2">
-<h2 class="anchored" data-anchor-id="theoretical-framework-polarization-in-christian-communities">Theoretical Framework: Polarization in Christian Communities</h2>
-<p>In his paper titled “Political Polarization and the Churches: Tocqueville on religion, democracy and future of Christianity”, Charles McDaniel Jr.&nbsp;presents a very interesting picture of the church according to the predictions of Alexis de Tocqueville. He argues that the church is a crucial institution for maintaining social cohesion and preventing political polarization. However, he also acknowledges that the church is not immune to the forces of polarization and that it can contribute to the fragmentation of society.</p>
-<p>In this work they point out to one of Tocqueville’s sources, Father Mullon who worked as a missionary among Native American tribes in Michigan, saying he</p>
-<blockquote class="blockquote">
-<p>posited an inverse relationship between religion’s influence in society and its involvement in politics, stating that the “less religion and its ministers are mixed up with government, the less they are involved in political debate, the more influential religious ideas will become”.</p>
-</blockquote>
-<p>Dan White Jr.&nbsp;in his book <em>Love Over Fear: Facing Monsters, Befriending Enemies, and Healing Our Polarized World</em> (2020) argues that polarization is a pervasive issue in contemporary society, affecting not only political discourse but also personal relationships and community dynamics. He emphasizes the need for empathy, understanding, and love as antidotes to polarization, suggesting that these values can help bridge divides and foster reconciliation.</p>
-<p>He defines polarization this way:</p>
-<blockquote class="blockquote">
-<p>Polarization takes people that have something in common, emphasizes their differences, hardens their differences into disgust, and turns their disgust into blatant hatred. It creates two sharply contrasting groups and pits them against each other, shaping us for only two options—“our side” or “their side.” It’s a suffocating social arrangement. Polarization is a power and principality.</p>
-</blockquote>
-<p>In his many examples of how he experienced polarization in his own life, he points out to a moment when two families left his church because of a feeling of threat due to the presence of others with a different political view. He says:</p>
-<blockquote class="blockquote">
-<p>I grieved that both of these folks could not stay in the mix together. They were repelled by each other. Rather than moving toward one another, despite their differences, they chose more distance.</p>
-</blockquote>
-<p>There is a common understanding on matters such as people’s opinions, beliefs, and behaviors that they are not static, but rather dynamic and subject to change over time. This is particularly true in the context of political polarization, where individuals’ views can shift in response to various factors, such as social influences, media exposure, and personal experiences.</p>
-<p>But there is also an understanding that changes don’t come easily, and that people are often resistant to changing their opinions, especially when they are strongly held. This resistance can be driven by a variety of factors, including cognitive biases, social pressures, and emotional attachments to one’s beliefs.</p>
-<p>In the context of Christian communities, this resistance to change can be particularly pronounced, as individuals may feel a strong sense of identity and belonging tied to their religious beliefs. This can make it difficult for them to engage with differing perspectives or to consider alternative viewpoints.</p>
-<p>Fortunately, or unfortunately, we are people of the Bible. We take Jesus’ words seriously, even when they seem too naive or impractical.</p>
-<blockquote class="blockquote">
-<p>You have heard that it was said, ‘Love your neighbor and hate your enemy.’ But I tell you, love your enemies and pray for those who hurt you, that you may be children of your Father in heaven… if you love those who love you, what reward will you get? . . . And if you are hospitable to only your own people, what are you doing more than others?” (Matt. 5:1, 43–48, Msg).</p>
-</blockquote>
-<p>Jesus’ teachings on love and forgiveness challenge us to transcend our differences and embrace a more inclusive and compassionate approach to relationships. He calls us to love not only our friends and neighbors but also our enemies, urging us to pray for those who hurt us and to extend hospitality beyond our own circles.</p>
-<p>But how does that lead us to models of Christian communities? How can we model the dynamics of political polarization in Christian communities, taking into account the teachings of Jesus and the complexities of human behavior?</p>
-</section>
-<section id="computational-approach-overview" class="level2">
-<h2 class="anchored" data-anchor-id="computational-approach-overview">Computational Approach Overview</h2>
-<section id="complex-systems" class="level3">
-<h3 class="anchored" data-anchor-id="complex-systems">Complex Systems</h3>
-<p>Our simulation requires a complex systems approach, taking into account the interactions between various agents and their environments. This involves modeling not only individual behaviors but also the emergent properties that arise from these interactions.</p>
-<p>We consider that people’s opinions, beliefs, and behaviors are not static, but rather dynamic and subject to change over time. This is particularly true in the context of political polarization, where individuals’ views can shift in response to various factors, such as social influences, media exposure, and personal experiences.</p>
-<p>Our model incorporates the dynamics based on social influences, media exposure and considers cognitive biases that can affect how individuals perceive and respond to differing viewpoints. This allows us to capture the complexities of political polarization in Christian communities, where individuals may feel a strong sense of identity and belonging tied to their religious beliefs.</p>
-<p>Over time, our agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation. The model will include individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.</p>
-</section>
-<section id="agent-based-modeling" class="level3">
-<h3 class="anchored" data-anchor-id="agent-based-modeling">Agent-Based Modeling</h3>
-<p>Agent-based modeling (ABM) is a powerful computational approach that allows researchers to simulate the interactions of individual agents within a system. This method is particularly useful for studying complex social phenomena, such as political polarization, as it enables the exploration of how individual behaviors and interactions can lead to emergent patterns at the group level.</p>
-<p>In other words, ABMs are computational models that simulate behavior of individual agents. ABMs are useful for studying emergent phenomena, where the behavior of the whole system is not simply the sum of the behaviors of its parts. They are particularly useful for studying complex systems, such as social networks, where individual behaviors can lead to unexpected outcomes.</p>
-<p>One of the main benefits of ABMs is their ability to capture the heterogeneity of individual agents and their interactions. This allows researchers to explore how different behaviors and interactions can lead to different outcomes, such as the emergence of political polarization.</p>
-<p>This method was originally developed in the 1970s and 1980s with models for social segregation, such as Schelling’s model of residential segregation. Since then, ABMs have been applied to a wide range of fields, including economics, ecology, and sociology.</p>
-<p>ABMs receive different names in different fields, such as multi-agent systems, agent-based simulations, and agent-based computational economics. However, they all share the same basic principles of simulating the interactions of individual agents within a system.</p>
-</section>
-</section>
-<section id="methodology" class="level2">
-<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
-<section id="methods-for-building-behavioral-models" class="level3">
-<h3 class="anchored" data-anchor-id="methods-for-building-behavioral-models">Methods for Building Behavioral Models</h3>
-<p>Building behavioral models involves several key steps, including defining the agents, their behaviors, and the environment in which they interact. The process typically begins with identifying the key components of the system being studied and determining how these components interact with one another.</p>
-<p>Once the agents and their behaviors have been defined, the next step is to implement the model using a programming language or simulation platform. This involves coding the rules that govern the agents’ interactions and specifying how the model will be run.</p>
-<p>The model can then be tested and validated by running simulations and comparing the results to empirical data or theoretical predictions. This process often involves iterating on the model design to refine the agents’ behaviors and improve the accuracy of the simulations.</p>
-</section>
-<section id="challenges-in-creating-behavioral-models" class="level3">
-<h3 class="anchored" data-anchor-id="challenges-in-creating-behavioral-models">Challenges in Creating Behavioral Models</h3>
-<p>Creating behavioral models presents several challenges, including the complexity of accurately representing individual behaviors and interactions. One of the main difficulties is capturing the diversity of behaviors and preferences among agents, which can lead to emergent patterns that are not easily predictable.</p>
-<p>Another challenge is ensuring that the model is computationally efficient, as complex models can require significant computational resources to run. This can limit the scale and scope of the simulations, making it difficult to explore certain aspects of the system being studied.</p>
-<p>Additionally, validating the model against empirical data can be challenging, as it requires access to high-quality data and a clear understanding of the underlying processes being modeled. This can be particularly difficult in social systems, where data may be sparse or difficult to obtain.</p>
-<p>Finally, interpreting the results of the simulations can be complex, as emergent patterns may not have straightforward explanations. Researchers must carefully analyze the results and consider the implications for understanding the system being studied.</p>
-</section>
-</section>
-<section id="proposed-model-for-political-polarization-in-christian-communities" class="level2">
-<h2 class="anchored" data-anchor-id="proposed-model-for-political-polarization-in-christian-communities">Proposed Model for Political Polarization in Christian Communities</h2>
-<p>In his paper titled “Political Polarization and the Churches: Tocqueville on religion, democracy and future of Christianity”, Charles McDaniel Jr.&nbsp;presents a very interesting picture of the church according to the predictions of Alexis de Tocqueville. He argues that the church is a crucial institution for maintaining social cohesion and preventing political polarization. However, he also acknowledges that the church is not immune to the forces of polarization and that it can contribute to the fragmentation of society.</p>
-<p>In this work they point out to one of Tocqueville’s sources, Father Mullon who worked as a missionary among Native American tribes in Michigan, saying he</p>
-<blockquote class="blockquote">
-<p>posited an inverse relationship between religion’s influence in society and its involvement in politics, stating that the “less religion and its ministers are mixed up with government, the less they are involved in political debate, the more influential religious ideas will become”.</p>
-</blockquote>
-<p>Dan White Jr.&nbsp;in his book <em>Love Over Fear: Facing Monsters, Befriending Enemies, and Healing Our Polarized World</em> (2020) argues that polarization is a pervasive issue in contemporary society, affecting not only political discourse but also personal relationships and community dynamics. He emphasizes the need for empathy, understanding, and love as antidotes to polarization, suggesting that these values can help bridge divides and foster reconciliation.</p>
-<p>He defines polarization this way:</p>
-<blockquote class="blockquote">
-<p>Polarization takes people that have something in common, emphasizes their differences, hardens their differences into disgust, and turns their disgust into blatant hatred. It creates two sharply contrasting groups and pits them against each other, shaping us for only two options—“our side” or “their side.” It’s a suffocating social arrangement. Polarization is a power and principality.</p>
-</blockquote>
-<p>In his many examples of how he experienced polarization in his own life, he points out to a moment when two families left his church because of a feeling of threat due to the presence of others with a different political view. He says:</p>
-<blockquote class="blockquote">
-<p>I grieved that both of these folks could not stay in the mix together. They were repelled by each other. Rather than moving toward one another, despite their differences, they chose more distance.</p>
-</blockquote>
-<p>There is a common understanding on matters such as people’s opinions, beliefs, and behaviors that they are not static, but rather dynamic and subject to change over time. This is particularly true in the context of political polarization, where individuals’ views can shift in response to various factors, such as social influences, media exposure, and personal experiences.</p>
-<p>But there is also an understanding that changes don’t come easily, and that people are often resistant to changing their opinions, especially when they are strongly held. This resistance can be driven by a variety of factors, including cognitive biases, social pressures, and emotional attachments to one’s beliefs.</p>
-<p>In the context of Christian communities, this resistance to change can be particularly pronounced, as individuals may feel a strong sense of identity and belonging tied to their religious beliefs. This can make it difficult for them to engage with differing perspectives or to consider alternative viewpoints.</p>
-<p>Fortunately, or unfortunately, we are people of the Bible. We take Jesus’ words seriously, even when they seem too naive or impractical.</p>
-<blockquote class="blockquote">
-<p>You have heard that it was said, ‘Love your neighbor and hate your enemy.’ But I tell you, love your enemies and pray for those who hurt you, that you may be children of your Father in heaven… if you love those who love you, what reward will you get? . . . And if you are hospitable to only your own people, what are you doing more than others?” (Matt. 5:1, 43–48, Msg).</p>
-</blockquote>
-<p>Jesus’ teachings on love and forgiveness challenge us to transcend our differences and embrace a more inclusive and compassionate approach to relationships. He calls us to love not only our friends and neighbors but also our enemies, urging us to pray for those who hurt us and to extend hospitality beyond our own circles.</p>
-<p>But how does that lead us to models of Christian communities? How can we model the dynamics of political polarization in Christian communities, taking into account the teachings of Jesus and the complexities of human behavior?</p>
-<p>This work is an attempt to answer these questions by building a model that captures the dynamics of political polarization in Christian communities, while also considering the teachings of Jesus and the complexities of human behavior.</p>
-<p>In the past years I’ve worked with cognitive models addressing the dynamics of social networks, such as the spread of crime in neighborhoods, the dynamics of cooperation, and the dynamics of health behaviors. These models have shown that individual behaviors and interactions can lead to emergent patterns at the group level, such as the emergence of polarization and the spread of misinformation.</p>
-<p>Drawing from Schelling’s model of residential segregation, we can build a model that captures the dynamics of political polarization in Christian communities. The model will include individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.</p>
-<p>This first attempt is a simple model that captures the dynamics of political polarization in Christian communities. The model includes individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.</p>
+<section id="abstract-submitted-to-baylor-university" class="level1">
+<h1>Abstract Submitted to Baylor University</h1>
+<p>In an age marked by increasing political polarization, churches have become both sanctuaries of spiritual life and sites of cultural tension. This project investigates how political polarization shapes—and is shaped by—relationships, discourse, and spiritual identity within Christian communities. By building computational models of opinion dynamics and social influence, the project offers a novel way to understand the subtle, often invisible processes through which division emerges and spreads in church networks.</p>
+<p>Using Agent-Based Modeling (ABM), we simulate how individuals in a congregation respond to political and theological stimuli, interact with peers, and adjust their beliefs over time. These agents are not abstract automatons, but are grounded in a rich psychological and theological anthropology. Drawing on the writings of Herman Bavinck, the model incorporates notions of personality, conscience, volition, and community—all essential to understanding human behavior in a covenantal context.</p>
+<p>Empirical data from Pew Research Center and related sources inform the model’s assumptions, enabling simulations that reflect real-world diversity in denominational background, media exposure, and social cohesion. We examine how events such as sermons, elections, or controversies catalyze polarization within congregational networks. Special attention is paid to mechanisms like cognitive dissonance, moral justification, and echo chambers, which distort the pursuit of truth and reconciliation.</p>
+<p>Theologically, the project invites reflection on the church’s calling to be a body marked by unity in Christ amid cultural fragmentation. Culturally, it asks how digital media, political ideology, and identity politics intersect with the ecclesial imagination. By visualizing how fragmentation takes root and spreads, the models help us see what’s at stake—and where hope remains.</p>
+<p>This research is deeply interdisciplinary, sitting at the crossroads of computer science, theology, psychology, and cultural studies. It offers a diagnostic tool for scholars, pastors, and lay leaders concerned with the health of Christian witness in divided times. More than just explanation, the goal is to open space for imagination: how might church communities foster resilience, bridge divides, and embody alternative forms of belonging?</p>
+<p>Ultimately, this project contributes to a larger conversation about the moral and spiritual shape of our common life. By uniting empirical insight with theological depth, it seeks to model not only how polarization happens—but how the church might respond faithfully.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -887,7 +746,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ericaraujophd/ericaraujophd.github.io.git/edit/main/presentations/2025/ASA/presentation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ericaraujophd/ericaraujophd.github.io.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ericaraujophd/ericaraujophd.github.io.git/edit/main/presentations/2026/Baylor/abstract.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ericaraujophd/ericaraujophd.github.io.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
