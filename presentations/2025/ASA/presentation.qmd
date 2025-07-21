@@ -1,5 +1,3 @@
-Hi, I'm Eric Araújo, professor of Computer Science at Calvin University, Michigan, USA. I am a Brazilian computational scientist with a PhD in Computer Science from the Free University, The Netherlands. My research interests include complex systems, agent-based modeling, and social networks. I am passionate about using computational methods to understand and address real-world problems.
-
 # Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling
 
 This is a multidisciplinary work that involves a handful areas for study and a great deal of application. I will start by explaining what are agent-based models through some of my previous works. I will also talk about the methods for building behavioral models and the challenges when creating them. I will present then a draft for what is required to develop a model that account for the problem of Christian communities.

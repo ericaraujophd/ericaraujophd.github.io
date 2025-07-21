@@ -2,6 +2,24 @@
 title: "Presentations"
 editor: visual
 ---
+## 2025
+
+:::::: slide-deck
+**ASA Annual Meeting 2025 - SCIENCE & TECHNOLOGY AS WORSHIP**
+
+::: slides
+[Slides 11/29/2024](/presentations/2025/ASA/asa2025Araujo.pdf)
+:::
+
+::: source
+<a href="https://network.asa3.org/mpage/ASA2025">2025 ASA Link</a>
+:::
+
+::: reading
+[Presentation - Text](/presentations/2025/ASA/presentation.qmd)
+:::
+
+::::::
 
 ## 2024
 
@@ -32,7 +50,7 @@ editor: visual
 
 <!-- **Applying agent-based modelling (ABM) to evaluation - Professor Nigel Gilbert** -->
 
-::: video
+<!-- ::: video
 [Coming soon...]()
-:::
+::: -->
 ::::::
