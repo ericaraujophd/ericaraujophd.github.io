@@ -8,7 +8,7 @@ editor: visual
 **ASA Annual Meeting 2025 - SCIENCE & TECHNOLOGY AS WORSHIP**
 
 ::: slides
-[Slides 11/29/2024](/presentations/2025/ASA/asa2025Araujo.pdf)
+[Slides 07/19/2025](/presentations/2025/ASA/asa2025Araujo.pdf)
 :::
 
 ::: source

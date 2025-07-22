@@ -1,21 +1,18 @@
 # AI & Faith Conference - Technology Track
 
-The **AI & Technology** track welcomes presentations that showcase technical work at the intersection of artificial intelligence, emerging technologies, and human values. We seek contributions from engineers, data scientists, developers, researchers, and technologists who are building, analyzing, or deploying AI systems and infrastructure—with awareness of the ethical, societal, and spiritual questions they raise.
+The **AI & STEM** track welcomes presentations that showcase technical work at the intersection of artificial intelligence, emerging technologies, and Christianity. We seek contributions from computer scientists, engineers, data scientists, researchers, and other scientists who are building, analyzing, or deploying AI systems and infrastructure—with awareness of the ethical, societal, and spiritual questions they raise.
 
 We encourage submissions that include real-world systems, prototypes, algorithms, deployments, or performance evaluations—particularly those that:
 
+* Use of AI in STEM fields
+* Christian values in AI development, such as human formation, dignity, and flourishing
 * Address bias, fairness, or transparency in AI models
 * Implement value-aligned system architectures or explainable AI
-* Optimize or audit AI pipelines for ethical considerations
 * Explore human-AI collaboration, interaction, or oversight
 * Measure or mitigate ecological or computational costs of AI
-* Use AI for social good or to serve underserved communities
-* Incorporate privacy-preserving technologies (e.g., differential privacy, federated learning)
-* Examine AI infrastructure (e.g., model scale, access, open-source vs. proprietary tradeoffs)
+* Use AI for social good and to serve underserved communities
 * Develop tools to support ethical decision-making in technical teams
 
-We also welcome technical demonstrations, case studies, or behind-the-scenes insights into how teams are grappling with difficult design trade-offs in real systems. If your work is shaped by ethical inquiry, human-centered values, or faith-informed motivations—but grounded in code, data, or hardware—we want to hear from you.
+We also welcome technical demonstrations, case studies, or behind-the-scenes insights into how teams are grappling with difficult design trade-offs in real systems. If your work is shaped by ethical inquiry, human-centered values, or faith-informed motivations, we want to hear from you.
 
-Let’s explore together what it means to build responsible and meaningful technology in a rapidly evolving world.
-
-The papers will be submitted through the following link, and must have a maximum number of 4 pages. The template for the papers can be found on Overleaf (LateX) or Word (Docx).
+Papers length is limited to 500 words not counting images, diagrams, tables and references. Templates for LateX and Microsoft Word are available [link]. Submit papers for consideration through the following link.
