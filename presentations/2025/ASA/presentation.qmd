@@ -14,14 +14,13 @@ Bryan Chapell, in his book *The Multigenerational Church Crisis: Why We Don't Un
 
 The table below summarizes the key differences between the two generations, highlighting the contrasting values and priorities that contribute to the polarization within church communities:
 
-: {tbl-colwidths="[15,42.5,42.5]"}
+| Aspect | Older Generation (Fifties and Older) | Younger Generation (Forties and Younger) |
+|-----------------------|-----------------------|---------------------------|
+| Perception | "We are (were) a majority" | "We are a minority" |
+| Mission | Take control of culture | Make credible our faith |
+| Means | Bring a halt to:<br>(1) abortion<br>(2) homosexual agenda<br>(3) pornography<br>(4) illegal drugs<br>(5) gambling<br>(6) green movement<br>(7) illegal immigration<br>(8) racial discrimination | Help with:<br>(1) adoption and foster care<br>(2) care for and witness to LGBTQ+ persons<br>(3) liberating victims of sex trafficking and sex addiction<br>(4) substance addiction counseling and rescue<br>(5) gaming and gambling addictions<br>(6) creation care<br>(7) refugee compassion and care<br>(8) racial reconciliation and justice |
 
-| Aspect                     | Older Generation (Fifties and Older) | Younger Generation (Forties and Younger) |
-|----------------------------|----------------------------|----------------------------------|
-| Perception                 | "We are (were) a majority" | "We are a minority" |
-| Mission                    | Take control of culture | Make credible our faith |
-| Means                      | Bring a halt to:<br>(1) abortion<br>(2) homosexual agenda<br>(3) pornography<br>(4) illegal drugs<br>(5) gambling<br>(6) green movement<br>(7) illegal immigration<br>(8) racial discrimination | Help with:<br>(1) adoption and foster care<br>(2) care for and witness to LGBTQ+ persons<br>(3) liberating victims of sex trafficking and sex addiction<br>(4) substance addiction counseling and rescue<br>(5) gaming and gambling addictions<br>(6) creation care<br>(7) refugee compassion and care<br>(8) racial reconciliation and justice |
-
+: {tbl-colwidths="\[15,42.5,42.5\]"}
 
 Even though recent research has shown that the church decline stabilized in the last years, it also shows a division and a preference for different types of churches based on demographic factors such as age, gender, and political affiliation. This division is particularly pronounced among younger generations, who are more likely to seek out churches that align with their values and beliefs.
 
@@ -29,20 +28,19 @@ Even though recent research has shown that the church decline stabilized in the 
 
 In his paper titled "Political Polarization and the Churches: Tocqueville on religion, democracy and future of Christianity", Charles McDaniel Jr. presents a very interesting picture of the church according to the predictions of Alexis de Tocqueville. He argues that the church is a crucial institution for maintaining social cohesion and preventing political polarization. However, he also acknowledges that the church is not immune to the forces of polarization and that it can contribute to the fragmentation of society.
 
-In this work they point out to one of Tocqueville's sources, Father Mullon who worked as a missionary among Native American tribes in Michigan, saying he 
+In this work they point out to one of Tocqueville's sources, Father Mullon who worked as a missionary among Native American tribes in Michigan, saying he
 
 > posited an inverse relationship between religion's influence in society and its involvement in politics, stating that the "less religion and its ministers are mixed up with government, the less they are involved in political debate, the more influential religious ideas will become".
-
 
 Dan White Jr. in his book *Love Over Fear: Facing Monsters, Befriending Enemies, and Healing Our Polarized World* (2020) argues that polarization is a pervasive issue in contemporary society, affecting not only political discourse but also personal relationships and community dynamics. He emphasizes the need for empathy, understanding, and love as antidotes to polarization, suggesting that these values can help bridge divides and foster reconciliation.
 
 He defines polarization this way:
 
-> Polarization takes people that have something in common, emphasizes their  differences, hardens their differences into disgust, and turns their disgust into  blatant hatred. It creates two sharply contrasting groups and pits them against  each other, shaping us for only two options—"our side" or "their side." It's a  suffocating social arrangement. Polarization is a power and principality.
+> Polarization takes people that have something in common, emphasizes their differences, hardens their differences into disgust, and turns their disgust into blatant hatred. It creates two sharply contrasting groups and pits them against each other, shaping us for only two options—"our side" or "their side." It's a suffocating social arrangement. Polarization is a power and principality.
 
 In his many examples of how he experienced polarization in his own life, he points out to a moment when two families left his church because of a feeling of threat due to the presence of others with a different political view. He says:
 
-> I grieved that both of these folks could not stay in the mix together. They were  repelled by each other. Rather than moving toward one another, despite their differences, they chose more distance.
+> I grieved that both of these folks could not stay in the mix together. They were repelled by each other. Rather than moving toward one another, despite their differences, they chose more distance.
 
 There is a common understanding on matters such as people's opinions, beliefs, and behaviors that they are not static, but rather dynamic and subject to change over time. This is particularly true in the context of political polarization, where individuals' views can shift in response to various factors, such as social influences, media exposure, and personal experiences.
 
@@ -52,7 +50,7 @@ In the context of Christian communities, this resistance to change can be partic
 
 Fortunately, or unfortunately, we are people of the Bible. We take Jesus' words seriously, even when they seem too naive or impractical.
 
-> You have heard that it was said, 'Love your neighbor  and hate your enemy.' But I tell you, love your enemies and pray for those who hurt  you, that you may be children of your Father in heaven... if you love those who love  you, what reward will you get? . . . And if you are hospitable to only your own  people, what are you doing more than others?" (Matt. 5:1, 43–48, Msg).
+> You have heard that it was said, 'Love your neighbor and hate your enemy.' But I tell you, love your enemies and pray for those who hurt you, that you may be children of your Father in heaven... if you love those who love you, what reward will you get? . . . And if you are hospitable to only your own people, what are you doing more than others?" (Matt. 5:1, 43–48, Msg).
 
 Jesus' teachings on love and forgiveness challenge us to transcend our differences and embrace a more inclusive and compassionate approach to relationships. He calls us to love not only our friends and neighbors but also our enemies, urging us to pray for those who hurt us and to extend hospitality beyond our own circles.
 
@@ -106,7 +104,69 @@ Finally, interpreting the results of the simulations can be complex, as emergent
 
 In his paper titled "Political Polarization and the Churches: Tocqueville on religion, democracy and future of Christianity", Charles McDaniel Jr. presents a very interesting picture of the church according to the predictions of Alexis de Tocqueville. He argues that the church is a crucial institution for maintaining social cohesion and preventing political polarization. However, he also acknowledges that the church is not immune to the forces of polarization and that it can contribute to the fragmentation of society.
 
-In this work they point out to one of Tocqueville's sources, Father Mullon who worked as a missionary among Native American tribes in Michigan, saying he 
+In this work they point out to one of Tocqueville's sources, Father Mullon who worked as a missionary among Native American tribes in Michigan, saying he
+
+> posited an inverse relationship between religion’s influence in society and its involvement in politics, stating that the “less religion and its ministers are mixed up with government, the less they are involved in political debate, the more influential religious ideas will become”.
+
+Dan White Jr. in his book *Love Over Fear: Facing Monsters, Befriending Enemies, and Healing Our Polarized World* (2020) argues that polarization is a pervasive issue in contemporary society, affecting not only political discourse but also personal relationships and community dynamics. He emphasizes the need for empathy, understanding, and love as antidotes to polarization, suggesting that these values can help bridge divides and foster reconciliation.
+
+He defines polarization this way:
+
+> Polarization takes people that have something in common, emphasizes their differences, hardens their differences into disgust, and turns their disgust into blatant hatred. It creates two sharply contrasting groups and pits them against each other, shaping us for only two options—“our side” or “their side.” It’s a suffocating social arrangement. Polarization is a power and principality.
+
+In his many examples of how he experienced polarization in his own life, he points out to a moment when two families left his church because of a feeling of threat due to the presence of others with a different political view. He says:
+
+> I grieved that both of these folks could not stay in the mix together. They were repelled by each other. Rather than moving toward one another, despite their differences, they chose more distance.
+
+There is a common understanding on matters such as people's opinions, beliefs, and behaviors that they are not static, but rather dynamic and subject to change over time. This is particularly true in the context of political polarization, where individuals' views can shift in response to various factors, such as social influences, media exposure, and personal experiences.
+
+But there is also an understanding that changes don't come easily, and that people are often resistant to changing their opinions, especially when they are strongly held. This resistance can be driven by a variety of factors, including cognitive biases, social pressures, and emotional attachments to one's beliefs.
+
+In the context of Christian communities, this resistance to change can be particularly pronounced, as individuals may feel a strong sense of identity and belonging tied to their religious beliefs. This can make it difficult for them to engage with differing perspectives or to consider alternative viewpoints.
+
+Fortunately, or unfortunately, we are people of the Bible. We take Jesus' words seriously, even when they seem too naive or impractical.
+
+> You have heard that it was said, ‘Love your neighbor and hate your enemy.’ But I tell you, love your enemies and pray for those who hurt you, that you may be children of your Father in heaven... if you love those who love you, what reward will you get? . . . And if you are hospitable to only your own people, what are you doing more than others?” (Matt. 5:1, 43–48, Msg).
+
+Jesus' teachings on love and forgiveness challenge us to transcend our differences and embrace a more inclusive and compassionate approach to relationships. He calls us to love not only our friends and neighbors but also our enemies, urging us to pray for those who hurt us and to extend hospitality beyond our own circles.
+
+But how does that lead us to models of Christian communities? How can we model the dynamics of political polarization in Christian communities, taking into account the teachings of Jesus and the complexities of human behavior?
+
+This work is an attempt to answer these questions by building a model that captures the dynamics of political polarization in Christian communities, while also considering the teachings of Jesus and the complexities of human behavior.
+
+In the past years I've worked with cognitive models addressing the dynamics of social networks, such as the spread of crime in neighborhoods, the dynamics of cooperation, and the dynamics of health behaviors. These models have shown that individual behaviors and interactions can lead to emergent patterns at the group level, such as the emergence of polarization and the spread of misinformation.
+
+Drawing from Schelling's model of residential segregation, we can build a model that captures the dynamics of political polarization in Christian communities. The model will include individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
+
+This first attempt is a simple model that captures the dynamics of political polarization in Christian communities. The model includes individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
+
+## Slide 14: My Previous Work and Research Foundation
+
+In the past years I've worked with cognitive models addressing the dynamics of social networks, such as the spread of crime in neighborhoods, the dynamics of cooperation, and the dynamics of health behaviors. These models have shown that individual behaviors and interactions can lead to emergent patterns at the group level, such as the emergence of polarization and the spread of misinformation.
+
+Drawing from Schelling's model of residential segregation, we can build a model that captures the dynamics of political polarization in Christian communities. The model will include individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
+
+This work is an attempt to answer these questions by building a model that captures the dynamics of political polarization in Christian communities, while also considering the teachings of Jesus and the complexities of human behavior.
+
+---
+
+## Slide 15: Proposed Model - First Attempt
+
+This first attempt is a simple model that captures the dynamics of political polarization in Christian communities. The model includes individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
+
+---
+
+# Technical Implementation of the Church Polarization Model
+
+## Slide 16: Model Overview and Implementation Platform
+
+Our agent-based model represents a church community with 400 seats, where members attend Sunday services, interact with each other, and form or weaken social connections based on their political compatibility. Each simulation tick represents one Sunday service, allowing us to observe how polarization develops over weeks and months.
+
+The model is built on the principle that political differences create tension in social interactions, which affects people's emotional well-being and their desire to continue participating in the community. We implement this model using NetLogo 6.4.0, a powerful platform specifically designed for agent-based modeling.
+
+---
+
+## Slide 17: Agent Properties - Individual Characteristics 
 
 > posited an inverse relationship between religion’s influence in society and its involvement in politics, stating that the “less religion and its ministers are mixed up with government, the less they are involved in political debate, the more influential religious ideas will become”.
 
@@ -143,3 +203,64 @@ Drawing from Schelling's model of residential segregation, we can build a model 
 
 This first attempt is a simple model that captures the dynamics of political polarization in Christian communities. The model includes individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
 
+## Agent Properties and Model Structure
+
+Each church member in our model has four key attributes that drive their behavior:
+
+- **Political Leaning:** This ranges from -1 to +1, where negative values represent progressive views and positive values represent conservative views. We use a normal distribution with tanh transformation to ensure realistic political distributions while keeping values bounded.
+
+- **Threshold Tolerance:** This represents how much political difference an individual can tolerate in their interactions, ranging from 0 to 1. Higher values mean greater tolerance for political diversity.
+
+- **Activity Level:** This determines the probability that someone will attend church services, ranging from 0 to 1. This starts high but can decrease based on negative experiences.
+
+- **Emotional State:** This captures their current well-being level, also ranging from -1 to +1. This is the key outcome variable that determines whether someone stays or leaves.
+
+The church environment is modeled as a realistic 400-seat sanctuary with 25 rows of pews. Each row has 16 seats arranged as 8 seats, then a center aisle, then 8 more seats. This spatial arrangement matters because people tend to interact more with those sitting nearby.
+
+Church members are connected through a social network that represents friendships and regular social interactions. These connections are initially formed based on spatial proximity, political homophily, and regular attendance patterns. Each connection has two properties: tie strength, which measures relationship intensity, and political similarity, which tracks how compatible the connected individuals are politically.
+
+## Model Dynamics and Implementation
+
+Each Sunday follows a five-step simulation cycle. Members decide whether to attend based on their activity level and emotional state. Attending members interact with others, following realistic patterns where they prioritize existing strong connections, then nearby neighbors, then random others. The quality of each interaction depends on political similarity and mutual tolerance, with these interactions affecting emotional states through our core mathematical model.
+
+The heart of our model is the equation for updating emotional states: 
+
+**Emotional State = Base + α × (Connection Score) - β × (Dissimilarity Penalty)**
+
+The base represents a person's natural emotional baseline when attending church. Alpha (α) weights how much positive interactions with connected friends boost emotional state, while beta (β) weights how much negative interactions with politically different people hurt emotional state.
+
+The social network evolves dynamically based on interactions. Connections can strengthen through positive shared experiences, new connections can form between people with high political similarity and positive interactions, and connections can weaken through poor interactions or missed attendance. This process typically leads to increasing political homophily over time.
+
+## Model Parameters and Departure Mechanisms
+
+Members can permanently leave the church based on three factors: low emotional state (when consistently negative experiences occur), extended non-attendance (after 8 weeks of not attending), and very low activity level (when motivation to participate drops below 0.3). When someone leaves, they sever all social connections and disappear from the community, representing permanent departure rather than temporary absence.
+
+The model has several key parameters that can be adjusted to explore different scenarios. Alpha (α) controls how much positive social connections matter for emotional well-being, while beta (β) controls how much political differences hurt emotional well-being. Church size can be varied from 50 to 600 members to explore how community size affects polarization dynamics, and base emotional state sets the baseline mood level for church attendance.
+
+## Model Outputs and Research Applications
+
+The model tracks numerous metrics to assess polarization and community health, including attendance patterns, political metrics, emotional well-being, network statistics, and departure tracking. Agents are color-coded by political leaning (red for conservative, blue for progressive, purple for moderate), and social connections can be displayed to show network structure.
+
+This model can be used to explore several important research questions about how different levels of political tolerance affect community stability, what role strong social connections play in preventing departures, and how community size affects polarization dynamics. The model also allows us to test interventions, such as increasing everyone's tolerance or strengthening existing friendships.
+
+## Model Validation and Limitations
+
+This model addresses real challenges facing religious communities today, as many churches report increasing political tension among members, with some people leaving due to political disagreements. The model helps us understand the mechanisms behind these dynamics - how individual psychology, social networks, and political differences interact to create community-level outcomes. While simplified, the model captures key processes: homophily in relationship formation, the emotional impact of political disagreement, and the cumulative effect of negative experiences leading to departure.
+
+Like all models, this one has limitations. It simplifies complex human behavior and doesn't capture many factors that influence church participation, such as theology, leadership, family connections, or external life events. Future extensions could include leadership effects, external events, belief change through social influence, and multiple communities. Despite these limitations, the model provides a useful framework for understanding how political polarization unfolds in close-knit communities.
+
+## Model Demonstration
+
+![NetLogo Model Interface](imgs/netlogo.png)
+
+This visual demonstration illustrates the model in action, showing the church layout with members color-coded by political leaning, social connections forming and evolving over time, real-time metrics showing polarization dynamics, and the effects of parameter adjustments. This helps demonstrate how individual behaviors aggregate into community-level patterns of polarization and fragmentation.
+
+## Conclusion and Future Directions
+
+This agent-based model demonstrates how individual-level political differences can lead to community-level polarization and fragmentation. The key insight is that even small amounts of political friction, when accumulated over many interactions and many weeks, can drive people away from communities they once valued.
+
+The model shows that both social connections and political tolerance play crucial roles in community stability. Strong friendships can buffer against political stress, while low tolerance for political differences can be destructive.
+
+Most importantly, the model reveals that polarization is not inevitable - it emerges from the interaction of individual psychology, social network structure, and community dynamics. Understanding these mechanisms is the first step toward developing strategies to maintain unity in diverse communities.
+
+This computational approach provides a bridge between the theoretical insights from Tocqueville, Dan White Jr., and Bryan Chapell, and the practical realities facing Christian communities today. It offers a tool for exploring interventions and understanding the conditions under which love can indeed overcome fear and polarization.

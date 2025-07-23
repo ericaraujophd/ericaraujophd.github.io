@@ -27,8 +27,6 @@ website:
     right:
     - text: "License"
       href: LICENSE.md
-    - text: "Code of Conduct"
-      href: CODE_OF_CONDUCT.md
 
   navbar:
     background: "#0070C0"
