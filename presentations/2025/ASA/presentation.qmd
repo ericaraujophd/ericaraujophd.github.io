@@ -140,33 +140,15 @@ Drawing from Schelling's model of residential segregation, we can build a model 
 
 This first attempt is a simple model that captures the dynamics of political polarization in Christian communities. The model includes individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
 
-## Slide 14: My Previous Work and Research Foundation
-
 In the past years I've worked with cognitive models addressing the dynamics of social networks, such as the spread of crime in neighborhoods, the dynamics of cooperation, and the dynamics of health behaviors. These models have shown that individual behaviors and interactions can lead to emergent patterns at the group level, such as the emergence of polarization and the spread of misinformation.
 
-Drawing from Schelling's model of residential segregation, we can build a model that captures the dynamics of political polarization in Christian communities. The model will include individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
+Drawing from Schelling's model of residential segregation, we can build a model that captures the dynamics of political polarization in Christian communities. This work is an attempt to answer these questions by building a model that captures the dynamics of political polarization in Christian communities, while also considering the teachings of Jesus and the complexities of human behavior.
 
-This work is an attempt to answer these questions by building a model that captures the dynamics of political polarization in Christian communities, while also considering the teachings of Jesus and the complexities of human behavior.
-
----
-
-## Slide 15: Proposed Model - First Attempt
-
-This first attempt is a simple model that captures the dynamics of political polarization in Christian communities. The model includes individual agents representing members of the community, each with their own beliefs and preferences. The agents will interact with one another and with their environment, leading to emergent patterns of polarization and fragmentation.
-
----
-
-# Technical Implementation of the Church Polarization Model
-
-## Slide 16: Model Overview and Implementation Platform
+## Model Overview and Implementation
 
 Our agent-based model represents a church community with 400 seats, where members attend Sunday services, interact with each other, and form or weaken social connections based on their political compatibility. Each simulation tick represents one Sunday service, allowing us to observe how polarization develops over weeks and months.
 
-The model is built on the principle that political differences create tension in social interactions, which affects people's emotional well-being and their desire to continue participating in the community. We implement this model using NetLogo 6.4.0, a powerful platform specifically designed for agent-based modeling.
-
----
-
-## Slide 17: Agent Properties - Individual Characteristics 
+The model is built on the principle that political differences create tension in social interactions, which affects people's emotional well-being and their desire to continue participating in the community. We implement this model using NetLogo 6.4.0, a powerful platform specifically designed for agent-based modeling. 
 
 > posited an inverse relationship between religion’s influence in society and its involvement in politics, stating that the “less religion and its ministers are mixed up with government, the less they are involved in political debate, the more influential religious ideas will become”.
 
