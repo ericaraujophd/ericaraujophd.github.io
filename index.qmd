@@ -13,7 +13,7 @@ Olá! My name is Eric Araújo, and currently, I hold the following positions:
 
 ### Scholarship
 
-Eric investigates the spread of opinions, sentiments, and behaviors in **complex systems** through **multiagent modeling and simulations**, offering insights into **social dynamics** in politics, cooperation, health, criminology, and religion.
+I investigate the spread of opinions, sentiments, and behaviors in **complex systems** through **multiagent modeling and simulations**, offering insights into **social dynamics** in politics, cooperation, health, criminology, and religion.
 
 Therefore, the work I develop is multidisciplinary, using computer science tools to solve problems in areas such as public security, the spread of fake news, promoting healthier lifestyles, etc.
 
@@ -21,7 +21,10 @@ You can download my PhD Thesis on the following link
 
 - [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](./files/Contagious_Eric_Araujo.pdf){target="_blank"}.
 
+My CV in English is available [in this link](cv/Eric_Ara%C3%BAjo_CV.md){target="_blank"} and my [ORCID](https://orcid.org/0000-0003-4263-9075){target="_blank"}.
+
 ### Education
+
 - PhD in Computer Science, [Vrije Universiteit Amsterdam](https://vu.nl/nl){target="_blank"}, The Netherlands, 2018
 - MSc in Computer Science, [Federal University of Minas Gerais](https://ufmg.br/){target="_blank"}, Brazil, 2009
 - BSc in Computer Science, [Federal University of Viçosa](https://www.ufv.br/){target="_blank"}, Brazil, 2007
