@@ -5,26 +5,28 @@ editor: visual
 
 ## ![](images/paste-3.png){width="30"} B.S. Students
 
-**Jaden Brookens**. B.S., Calvin University. Fall 2024, Spring 2025.
-
-**Daniel Kwon**. B.S., Calvin University. Fall 2024, Spring 2025.
+:::
+## Senior Project: Cognitive Modeling of Introversion in the Classroom
+- **Jaden Brookens**. B.Sc., Calvin University. Fall 2024, Spring 2025.
+- **Daniel Kwon**. B.Sc., Calvin University. Fall 2024, Spring 2025.
+:::
 
 ## ![](images/paste-2.png){width="30"} M.Sc. Students
 
-KELLY IAPUQUE RODRIGUES DE SOUSA (2023)
+**Kelly Elly Iapuque Rodrigues de Sousa**. M.Sc., Federal University of Minas Gerais, Brazil. 2023.
 
-THIAGO DO PRADO RAMOS (2023)
+**Thiago do Prado Ramos (2023)**
 
-MATHEUS DE ANDRADE FLAUSINO (2025)
+**Matheus de Andrade Flausino (2025)**
 
-ROLF PAGOTTO VEIGA (2024)
+**Rolf Pagotto Veiga (2024)**
 
-ALESSANDRA LOUZADA TERRA. **Machine Learning for Data Analysis in Graphs: A Study on the Mobility of Medical Students in Brazil.** Finished in January 2025.
+**Alessandra Louzada Terra**. **Machine Learning for Data Analysis in Graphs: A Study on the Mobility of Medical Students in Brazil.** Finished in January 2025.
 
-THIAGO GUEDES DE JESUS (2024)
+**Thiago Guedes de Jesus (2024)**
 
-CLAYTON RAMOS DA SILVA (2024)
+**Clayton Ramos da Silva (2024)**
 
 ## ![](images/paste-1.png){width="30"} PhD Students
 
-LEONARDO BIAZOLI. **Data-Driven Strategies for Inferring from Large-Scale Bibliometric Datasets.** Finished in February 2025
+**Leonardo Biazoli**. **Data-Driven Strategies for Inferring from Large-Scale Bibliometric Datasets.** Finished in February 2025
