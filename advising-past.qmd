@@ -6,20 +6,32 @@ editor: visual
 ## ![](images/paste-3.png){width="30"} B.S. Students
 
 :::{.callout-note}
-## Senior Project: Cognitive Modeling of Introversion in the Classroom
-- **Jaden Brookens**. B.Sc., Calvin University. Fall 2024, Spring 2025.
-- **Daniel Kwon**. B.Sc., Calvin University. Fall 2024, Spring 2025.
+## **Senior Project:** Cognitive Modeling of Introversion in the Classroom
+- **Jaden Brookens**. Calvin University. Fall 2024, Spring 2025.
+- **Daniel Kwon**. Calvin University. Fall 2024, Spring 2025.
 :::
 
 ## ![](images/paste-2.png){width="30"} M.Sc. Students
 
-**Kelly Elly Iapuque Rodrigues de Sousa**. M.Sc., Federal University of Minas Gerais, Brazil. 2023.
+::: {.callout-note}
+## **Thesis:** Urban Afforestation and Public Safety: A Bibliometric Study Using the Consolidated Meta-Analytical Focus Theory (In Portuguese)
+**Kelly Iapuque Rodrigues de Sousa**. Federal University of Lavras, Brazil. 2021-2023.
+:::
 
-**Thiago do Prado Ramos (2023)**
+::: {.callout-note}
+## **Thesis:** Wireless Network Sizing of an University Campus Based in Connection Log Analysis
+**Thiago do Prado Ramos**. Federal University of Lavras, Brazil. 2021-2023.
+:::
 
-**Matheus de Andrade Flausino (2025)**
+::: {.callout-note}
+## **Thesis:** Morphological and Urban Topological Analysis of Cities in Southeast Brazil to Understand Street Robberies Patterns
+**Matheus de Andrade Flausino**. Federal University of Lavras, Brazil. 2022-2024.
+:::
 
-**Rolf Pagotto Veiga (2024)**
+::: {.callout-note}
+## **Thesis:** Development of Guidelines for Automatic Classification Focused on Identifying Christian Music
+**Rolf Pagotto Veiga**. Federal University of Lavras, Brazil. 2022-2024.
+:::
 
 **Alessandra Louzada Terra**. **Machine Learning for Data Analysis in Graphs: A Study on the Mobility of Medical Students in Brazil.** Finished in January 2025.
 
@@ -27,6 +39,6 @@ editor: visual
 
 **Clayton Ramos da Silva (2024)**
 
-## ![](images/paste-1.png){width="30"} PhD Students
+## ![](images/paste-1.png){width="30"} Ph.D. Students
 
 **Leonardo Biazoli**. **Data-Driven Strategies for Inferring from Large-Scale Bibliometric Datasets.** Finished in February 2025
