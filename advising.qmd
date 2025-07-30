@@ -11,6 +11,6 @@ editor: visual
 
 **Katelin Jandris**. B.S., Calvin University. Fall 2025.
 
-## ![](images/paste-2.png){width="30"} M.Sc. Students
+<!-- ## ![](images/paste-2.png){width="30"} M.Sc. Students -->
 
-## ![](images/paste-1.png){width="30"} PhD Students
+<!-- ## ![](images/paste-1.png){width="30"} PhD Students -->
