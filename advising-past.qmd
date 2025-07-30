@@ -9,12 +9,12 @@ editor: visual
 ## Cognitive Modeling of Introversion in the Classroom
 - **Jaden Brookens**. 
   - Calvin University, USA. 
-  - Starting: Fall 2024
-  - Finished: Spring 2025.
+  - **Started:** Fall 2024
+  - **Finished:** Spring 2025.
 - **Daniel Kwon**. 
   - Calvin University, USA. 
-  - Starting: Fall 2024
-  - Finished: Spring 2025.
+  - **Started:** Fall 2024
+  - **Finished:** Spring 2025.
 :::
 
 ## ![](images/paste-2.png){width="30"} M.Sc. Students
@@ -23,56 +23,56 @@ editor: visual
 ## Urban Afforestation and Public Safety: A Bibliometric Study Using the Consolidated Meta-Analytical Focus Theory (In Portuguese)
 - **Kelly Iapuque Rodrigues de Sousa**. 
   - Federal University of Lavras, Brazil. 
-  - Starting: 2021
-  - Finished: 2023.
+  - **Started:** 2021
+  - **Finished:** 2023.
 :::
 
 ::: {.callout-note}
 ## Wireless Network Sizing of an University Campus Based in Connection Log Analysis
 - **Thiago do Prado Ramos**. 
   - Federal University of Lavras, Brazil.
-  - Starting: 2021
-  - Finished: 2023.
+  - **Started:** 2021
+  - **Finished:** 2023.
 :::
 
 ::: {.callout-note}
 ## Morphological and Urban Topological Analysis of Cities in Southeast Brazil to Understand Street Robberies Patterns
 - **Matheus de Andrade Flausino**. 
   - Federal University of Lavras, Brazil. 
-  - Starting: 2022
-  - Finished: 2024.
+  - **Started:** 2022
+  - **Finished:** 2024.
 :::
 
 ::: {.callout-note}
 ## Development of Guidelines for Automatic Classification Focused on Identifying Christian Music
 - **Rolf Pagotto Veiga**. 
   - Federal University of Lavras, Brazil. 
-  - Starting: 2022
-  - Finished: 2024.
+  - **Started:** 2022
+  - **Finished:** 2024.
 :::
 
 ::: {.callout-note}
 ## Machine Learning for Data Analysis in Graphs: A Study on the Mobility of Medical Students in Brazil
 - **Alessandra Louzada Terra**. 
   - Federal University of Lavras, Brazil. 
-  - Starting: 2023
-  - Finished: 2024.
+  - **Started:** 2023
+  - **Finished:** 2024.
 :::
 
 ::: {.callout-note}
 ## Epidemic Modeling in Spatial Networks based on Evolutionary Dynamics of Game Theory
 - **Thiago Guedes de Jesus**. 
   - Federal University of Lavras, Brazil. 
-  - Starting: 2022
-  - Finished: 2024.
+  - **Started:** 2022
+  - **Finished:** 2024.
 :::
 
 ::: {.callout-note}
 ## Modeling the propagation of Visceral Leishmaniasis using complex networks and machine learning techniques
 - **Clayton Ramos da Silva**. 
   - Federal University of Lavras, Brazil. 
-  - Starting: 2022
-  - Finished: 2024.
+  - **Started:** 2022
+  - **Finished:** 2024.
 :::
 
 ## ![](images/paste-1.png){width="30"} Ph.D. Students
@@ -81,6 +81,6 @@ editor: visual
 ## Data-Driven Strategies for Inferring from Large-Scale Bibliometric Datasets
 - **Leonardo Biazoli**.
   - Federal University of Lavras, Brazil.
-  - Starting: 2022
-  - Finished: 2025.
+  - **Started:** 2022
+  - **Finished:** 2025.
 :::
