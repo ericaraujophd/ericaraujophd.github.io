@@ -5,11 +5,22 @@ editor: visual
 
 ## ![](images/paste-3.png){width="30"} B.S. Students
 
-**Esther Asuquo**. B.S., Calvin University. Spring 2025.
+::: {.callout-note}
+## Modeling Gram-Negative Bacterial Infections: An Agent-Based Approach
+- **Esther Asuquo**. 
+  - Calvin University, USA. 
+  - Starting: Spring 2025.
+- **David Barry**. 
+  - Calvin University, USA. 
+  - Starting: Spring 2025.
+:::
 
-**David Barry**. B.S., Calvin University. Spring 2025.
-
-**Katelin Jandris**. B.S., Calvin University. Fall 2025.
+:::{.callout-note}
+## Cognitive Modeling of Church Polarization
+- **Katelin Jandris**. B.S., 
+  - Calvin University, USA. 
+  - Starting: Fall 2025.
+:::
 
 <!-- ## ![](images/paste-2.png){width="30"} M.Sc. Students -->
 
