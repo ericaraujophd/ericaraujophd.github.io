@@ -6,7 +6,7 @@ editor: visual
 ## ![](images/paste-3.png){width="30"} B.S. Students
 
 :::{.callout-note}
-## **Senior Project:** Cognitive Modeling of Introversion in the Classroom
+## Cognitive Modeling of Introversion in the Classroom
 - **Jaden Brookens**. Calvin University. Fall 2024, Spring 2025.
 - **Daniel Kwon**. Calvin University. Fall 2024, Spring 2025.
 :::
@@ -14,30 +14,53 @@ editor: visual
 ## ![](images/paste-2.png){width="30"} M.Sc. Students
 
 ::: {.callout-note}
-## **Thesis:** Urban Afforestation and Public Safety: A Bibliometric Study Using the Consolidated Meta-Analytical Focus Theory (In Portuguese)
-**Kelly Iapuque Rodrigues de Sousa**. Federal University of Lavras, Brazil. 2021-2023.
+## Urban Afforestation and Public Safety: A Bibliometric Study Using the Consolidated Meta-Analytical Focus Theory (In Portuguese)
+- **Kelly Iapuque Rodrigues de Sousa**. 
+  - Federal University of Lavras, Brazil. 
+  - 2021-2023.
 :::
 
 ::: {.callout-note}
-## **Thesis:** Wireless Network Sizing of an University Campus Based in Connection Log Analysis
-**Thiago do Prado Ramos**. Federal University of Lavras, Brazil. 2021-2023.
+## Wireless Network Sizing of an University Campus Based in Connection Log Analysis
+- **Thiago do Prado Ramos**. 
+  - Federal University of Lavras, Brazil. 
+  - 2021-2023.
 :::
 
 ::: {.callout-note}
-## **Thesis:** Morphological and Urban Topological Analysis of Cities in Southeast Brazil to Understand Street Robberies Patterns
-**Matheus de Andrade Flausino**. Federal University of Lavras, Brazil. 2022-2024.
+## Morphological and Urban Topological Analysis of Cities in Southeast Brazil to Understand Street Robberies Patterns
+- **Matheus de Andrade Flausino**. 
+  - Federal University of Lavras, Brazil. 
+  - 2022-2024.
 :::
 
 ::: {.callout-note}
-## **Thesis:** Development of Guidelines for Automatic Classification Focused on Identifying Christian Music
-**Rolf Pagotto Veiga**. Federal University of Lavras, Brazil. 2022-2024.
+## Development of Guidelines for Automatic Classification Focused on Identifying Christian Music
+- **Rolf Pagotto Veiga**. 
+  - Federal University of Lavras, Brazil. 
+  - 2022-2024.
 :::
 
-**Alessandra Louzada Terra**. **Machine Learning for Data Analysis in Graphs: A Study on the Mobility of Medical Students in Brazil.** Finished in January 2025.
+::: {.callout-note}
+## Machine Learning for Data Analysis in Graphs: A Study on the Mobility of Medical Students in Brazil
+- **Alessandra Louzada Terra**. 
+  - Federal University of Lavras, Brazil. 
+  - 2023-2024.
+:::
 
-**Thiago Guedes de Jesus (2024)**
+::: {.callout-note}
+## Epidemic Modeling in Spatial Networks based on Evolutionary Dynamics of Game Theory
+- **Thiago Guedes de Jesus**. 
+  - Federal University of Lavras, Brazil. 
+  - 2022-2024.
+:::
 
-**Clayton Ramos da Silva (2024)**
+::: {.callout-note}
+## Modeling the propagation of Visceral Leishmaniasis using complex networks and machine learning techniques
+- **Clayton Ramos da Silva**. 
+  - Federal University of Lavras, Brazil. 
+  - 2022-2024.
+:::
 
 ## ![](images/paste-1.png){width="30"} Ph.D. Students
 
