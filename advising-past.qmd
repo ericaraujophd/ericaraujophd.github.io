@@ -5,7 +5,7 @@ editor: visual
 
 ## ![](images/paste-3.png){width="30"} B.S. Students
 
-:::
+:::{.callout-note}
 ## Senior Project: Cognitive Modeling of Introversion in the Classroom
 - **Jaden Brookens**. B.Sc., Calvin University. Fall 2024, Spring 2025.
 - **Daniel Kwon**. B.Sc., Calvin University. Fall 2024, Spring 2025.
