@@ -8,8 +8,8 @@ title: "Every Square Inch"
 
 Olá! My name is Eric Araújo, and I currently hold the following positions:
 
-- Associate Professor in the [Computer Science Department](https://calvin.edu/academics/school-stem/computer-science){target="_blank"} at [Calvin University](https://calvin.edu/){target="_blank"}
-- Head of the Behavioural Informatics Laboratory (BILbo)
+-   Associate Professor in the [Computer Science Department](https://calvin.edu/academics/school-stem/computer-science){target="_blank"} at [Calvin University](https://calvin.edu/){target="_blank"}
+-   Head of the Behavioural Informatics Laboratory (BILbo)
 
 ### Scholarship
 
@@ -17,28 +17,28 @@ I investigate the spread of opinions, sentiments, and behaviors in **complex sys
 
 My work is multidisciplinary; I use computer science tools to solve problems in areas such as public security, the spread of fake news, and promoting healthier lifestyles.
 
-You can download my PhD thesis from the following link: 
+You can download my PhD thesis from the following link:
 
-- [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](./files/Contagious_Eric_Araujo.pdf){target="_blank"}.
+-   [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](./files/Contagious_Eric_Araujo.pdf){target="_blank"}.
 
 My CV in English is available [in this link](cv/Eric_Araujo_CV.pdf){target="_blank"}.
 
 ### Education
 
-- Ph.D. in Computer Science, [Vrije Universiteit Amsterdam](https://vu.nl/nl){target="_blank"}, The Netherlands, 2018
-- M.Sc. in Computer Science, [Federal University of Minas Gerais](https://ufmg.br/){target="_blank"}, Brazil, 2009
-- B.Sc. in Computer Science, [Federal University of Viçosa](https://www.ufv.br/){target="_blank"}, Brazil, 2007
+-   Ph.D. in Computer Science, [Vrije Universiteit Amsterdam](https://vu.nl/nl){target="_blank"}, The Netherlands, 2018
+-   M.Sc. in Computer Science, [Federal University of Minas Gerais](https://ufmg.br/){target="_blank"}, Brazil, 2009
+-   B.Sc. in Computer Science, [Federal University of Viçosa](https://www.ufv.br/){target="_blank"}, Brazil, 2007
 
 You can find more about me on my [LinkTree](https://linktr.ee/earaujo){target="_blank"}.
 
 ### Recent Updates:
 
-- I presented a work titled *Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling* at [ASA 2025](https://network.asa3.org/mpage/ASA2025){target=_blank} on July 19, 2025. To see my presentation, click [here](https://ericaraujo.com/presentations/2025/ASA/presentation.html){target="_blank"}.
+-   I presented a work titled *Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling* at [ASA 2025](https://network.asa3.org/mpage/ASA2025){target="_blank"} on July 19, 2025. To see my presentation, click [here](https://ericaraujo.com/presentations/2025/ASA/presentation.html){target="_blank"}.
 
-- A new paper entitled [*Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil*](https://doi.org/10.1093/comnet/cnaf016){target=_blank} was accepted by the *Journal of Complex Systems*. This work was developed by the master’s student Matheus Flausino and co-supervised with Prof. Dr. Angelica de Sousa da Mata.
+-   A new paper entitled [*Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil*](https://doi.org/10.1093/comnet/cnaf016){target="_blank"} was accepted by the *Journal of Complex Systems*. This work was developed by the master’s student Matheus Flausino and co-supervised with Prof. Dr. Angelica de Sousa da Mata.
 
-- A work in collaboration with Fiocruz (Brazil) will be presented as a poster during the INSNA Sunbelt 2025, to happen in Paris, France. The work is entitled [Scientific Collaboration in Health and Life Sciences: A Study of Brazil's Contributions and Partnerships](https://www.conftool.pro/sunbelt2025/index.php?page=browseSessions&form_session=196#paperID891){target=_blank}.
+-   A work in collaboration with Fiocruz (Brazil) will be presented as a poster during the INSNA Sunbelt 2025, to happen in Paris, France. The work is entitled [Scientific Collaboration in Health and Life Sciences: A Study of Brazil's Contributions and Partnerships](https://www.conftool.pro/sunbelt2025/index.php?page=browseSessions&form_session=196#paperID891){target="_blank"}.
 
-- I participated in the event ["Algorithms, Democracy and Society: challenges and perspectives"](https://algoritmosesociedade.inf.ufg.br/#inicio){target="_blank} on May 28, 2025 talking about education, AI and society (in Portuguese).
+-   I participated in the event ["Algorithms, Democracy and Society: challenges and perspectives"](https://algoritmosesociedade.inf.ufg.br/#inicio){target="\"_blank"} on May 28, 2025 talking about education, AI and society (in Portuguese).
 
-- A paper entitled [*The use of agent-based modeling in the study of complex systems*](https://doi.org/10.1590/1806-9126-RBEF-2024-0464){target="_blank"} (in Portuguese only), was accepted by the *Brazilian Journal of Physics Teaching*. This is the result of the master's studies of Clayton R. da Silva, in partnership with Prof. Angélica S. Mata.
+-   A paper entitled [*The use of agent-based modeling in the study of complex systems*](https://doi.org/10.1590/1806-9126-RBEF-2024-0464){target="_blank"} (in Portuguese only), was accepted by the *Brazilian Journal of Physics Teaching*. This is the result of the master's studies of Clayton R. da Silva, in partnership with Prof. Angélica S. Mata.
