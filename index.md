@@ -1,0 +1,141 @@
+---
+title: "Every Square Inch"
+---
+
+<div style="display: grid; grid-template-columns: 250px 1fr; gap: 20px; align-items: start;">
+  <img src="files/Self-BW-Adjusted.png" alt="Portrait at Búzios in 2023" width="250" style="width: 100%; height: auto;">
+  <div>
+    <p>Olá! My name is Eric Araújo, Brazilian, married to Amy Paul, and I currently hold the following positions:</p>
+    <ul>
+      <li>Associate Professor in the <a href="https://calvin.edu/academics/school-stem/computer-science">Computer Science Department</a> at <a href="https://calvin.edu/">Calvin University</a></li>
+      <li>Head of the Behavioural Informatics Laboratory (BILbo)</li>
+    </ul>
+  </div>
+</div>
+
+:::{note} Academic Vision
+My research explores computational approaches to understanding human behavior and social dynamics, seeking to contribute meaningful insights that serve the common good through rigorous scholarship and ethical technology development.
+:::
+
+---
+
+## 🔬 Research & Scholarship
+
+I investigate the spread of opinions, sentiments, and behaviors in **complex systems** through **multiagent modeling and simulations**, offering insights into **social dynamics** across diverse domains including politics, cooperation, health, criminology, and religion.
+
+:::{tip} Multidisciplinary Approach
+:class: dropdown
+
+My work bridges computer science with multiple domains, using computational tools to address real-world challenges:
+
+**🏛️ Political Science**: Modeling opinion dynamics and polarization in communities  
+**🏥 Public Health**: Understanding behavior spread and intervention strategies  
+**🛡️ Public Security**: Analyzing crime patterns through network topology  
+**📱 Social Computing**: Investigating misinformation spread and social influence  
+**🌱 Behavioral Change**: Promoting healthier lifestyles through computational insights
+
+**Core Methodologies:**
+
+- Agent-based modeling and simulation
+- Complex network analysis
+- Social dynamics modeling
+- Cognitive behavioral frameworks
+- Machine learning applications
+:::
+
+### 📖 Academic Resources
+
+:::{seealso} Key Publications & Resources
+**PhD Thesis**: [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](./files/Contagious_Eric_Araujo.pdf)
+
+**Academic CV**: [Complete Curriculum Vitae](cv/Eric_Araujo_CV.pdf) (English)
+
+**Professional Profile**: [LinkTree Directory](https://linktr.ee/earaujo) - Links to academic profiles and social media
+:::
+
+---
+
+## 🎓 Educational Background
+
+:::{important} Academic Formation
+**Ph.D. in Computer Science** (2018)  
+[Vrije Universiteit Amsterdam](https://vu.nl/nl), The Netherlands  
+*Dissertation: Computational modeling of social contagion processes*
+
+**Master of Science in Computer Science** (2009)  
+[Federal University of Minas Gerais](https://ufmg.br/), Brazil  
+*Focus: Complex systems and network analysis*
+
+**Bachelor of Science in Computer Science** (2007)  
+[Federal University of Viçosa](https://www.ufv.br/), Brazil  
+*Foundation in computational mathematics and algorithms*
+:::
+
+---
+
+## 🛠️ Research Tools & Applications
+
+I develop and maintain several computational tools that demonstrate practical applications of my research:
+
+:::{hint} Interactive Research Tools
+**[CFR Generator](cfr.html)** 🎯  
+Theme Word Generator tool for content analysis and research organization
+
+**[Weekly Schedule](schedule.html)** 📅  
+Interactive schedule viewer showcasing academic calendar management
+
+*These tools reflect my commitment to making research methodologies accessible and practical for broader academic and professional communities.*
+:::
+
+---
+
+## 📰 Recent Updates & Achievements
+
+:::{note} Latest Academic Activities
+:class: dropdown
+
+### 🎤 Recent Presentations (2025)
+
+**American Scientific Affiliation Conference**  
+*July 19, 2025* - Presented *Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling* at [ASA 2025](https://network.asa3.org/mpage/ASA2025)  
+📊 [View Full Presentation](https://ericaraujo.com/presentations/2025/ASA/presentation.html)
+
+**International AI & Society Symposium**  
+*May 28, 2025* - Participated in ["Algorithms, Democracy and Society: challenges and perspectives"](https://algoritmosesociedade.inf.ufg.br/#inicio) discussing education, AI and society (Portuguese)
+
+### 📚 Recent Publications
+
+**Journal of Complex Systems** (2025)  
+[*Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil*](https://doi.org/10.1093/comnet/cnaf016)  
+*Co-supervised with Prof. Dr. Angelica de Sousa da Mata, developed by master's student Matheus Flausino*
+
+**Brazilian Journal of Physics Teaching** (2024)  
+[*The use of agent-based modeling in the study of complex systems*](https://doi.org/10.1590/1806-9126-RBEF-2024-0464) (Portuguese)  
+*Result of Clayton R. da Silva's master's studies, in partnership with Prof. Angélica S. Mata*
+
+### 🌍 International Collaboration
+
+**INSNA Sunbelt 2025 - Paris, France**  
+Poster presentation: [Scientific Collaboration in Health and Life Sciences: A Study of Brazil's Contributions and Partnerships](https://www.conftool.pro/sunbelt2025/index.php?page=browseSessions&form_session=196#paperID891)  
+*Collaboration with Fiocruz (Brazil) examining global health research networks*
+:::
+
+---
+
+## 🔗 Explore More
+
+:::{seealso} Academic Portfolio
+**[📚 Publications](publications.md)** - Complete research publications organized by time period
+
+**[🎤 Presentations](presentations.md)** - Conference talks and academic presentations  
+
+**[🎓 Teaching](teaching.md)** - Course information and educational philosophy
+
+**[👥 Advising](advising.md)** - Student mentorship and research supervision
+
+**[📈 Updates](updates.md)** - Archived news and academic milestones
+:::
+
+---
+
+*"Every square inch of this world belongs to Christ, who is Lord of all."* - Abraham Kuyper

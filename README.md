@@ -1,32 +1,118 @@
-PRE JUPYTER BOOK
+# Eric Araújo - Academic Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/faea2121-c6bb-4355-bbf4-d5afb9dd0224/deploy-status)](https://app.netlify.com/sites/datasciencebox/deploys)
+This is the source code for Eric Araújo's personal academic website, built with **Jupyter Book v2** and the MyST Document Engine.
 
-## Data Science Course in a Box
+## 🎯 About
 
-Data Science in a Box contains the materials required to teach (or learn from) an introductory data science course using R, all of which are freely-available and open-source.
-They include course materials such as slide decks, homework assignments, guided labs, sample exams, a final project assignment, as well as materials for instructors such as pedagogical tips, information on computing infrastructure, technology stack, and course logistics.
+This website showcases the academic work and Christian scholarship of Eric Araújo, Associate Professor in the Computer Science Department at Calvin University. The site emphasizes the integration of Reformed faith with rigorous academic inquiry across all areas of teaching, research, and service.
 
-See [datasciencebox.org](https://datasciencebox.org/) for everything you need to know about the project!
+## 🚀 Built With
 
-Note that all materials are released with [Creative Commons Attribution Share Alike 4.0 International](LICENSE.md) license.
+- **Jupyter Book v2** - Modern documentation and book building
+- **MyST Markdown** - Enhanced markdown with rich features
+- **MyST Document Engine** - Powerful publishing platform
+- **Python** - Development environment
 
-## Questions, bugs, feature requests
+## 🏗️ Development
 
-You can file an issue to get help, report a bug, or make a feature request.
+### Prerequisites
 
-Before opening a new issue, be sure to [search issues and pull requests](https://github.com/rstudio-education/datascience-box/issues) to make sure the bug hasn't been reported and/or already fixed in the development version.
-By default, the search will be pre-populated with `is:issue is:open`.
-You can [edit the qualifiers](https://help.github.com/articles/searching-issues-and-pull-requests/) (e.g. `is:pr`, `is:closed`) as needed.
-For example, you'd simply remove `is:open` to search *all* issues in the repo, open or closed.
+- Python 3.8+
+- Virtual environment
+- Jupyter Book v2
 
-If your issue involves R code, please make a minimal **repr**oducible **ex**ample using the [reprex](https://reprex.tidyverse.org/) package.
-If you haven't heard of or used reprex before, you're in for a treat!
-Seriously, reprex will make all of your R-question-asking endeavors easier (which is a pretty insane ROI for the five to ten minutes it'll take you to learn what it's all about).
-For additional reprex pointers, check out the [Get help!](https://www.tidyverse.org/help/)
-section of the tidyverse site.
+### Setup
 
-## Code of Conduct
+1. Clone the repository:
+```bash
+git clone https://github.com/ericaraujophd/ericaraujophd.github.io.git
+cd ericaraujophd.github.io
+```
 
-Please note that the datascience-box project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
-By contributing to this project, you agree to abide by its terms.
+2. Create and activate virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On macOS/Linux
+# or
+.venv\Scripts\activate     # On Windows
+```
+
+3. Install dependencies:
+```bash
+pip install jupyter-book
+```
+
+4. Start development server:
+```bash
+jupyter-book start --port 3002
+```
+
+The site will be available at `http://localhost:3002`
+
+## 📁 Structure
+
+```
+├── myst.yml                 # Jupyter Book v2 configuration
+├── index.md                 # Homepage with academic overview
+├── publications/            # Time-clustered publications (2015-2019, 2020-2024, 2025-2029)
+├── advising/               # Student advising (current/past)
+├── teaching.md             # Teaching philosophy and courses
+├── presentations.md        # Conference presentations
+├── updates.md              # News and announcements
+├── cfr.html               # Calvin Faith Reader tool
+├── schedule.html          # Academic schedule
+├── files/                 # Documents and assets
+├── images/                # Image resources
+└── cv/                    # Curriculum vitae
+```
+
+## ✨ Features
+
+- **MyST Admonitions** - Rich content blocks (notes, tips, warnings, etc.)
+- **Hierarchical Navigation** - Organized content structure
+- **Responsive Design** - Works on all devices
+- **Faith Integration** - Balanced Reformed Christian perspective
+- **Academic Focus** - Publications, teaching, and research showcase
+- **DOI Integration** - Automatic DOI linking for publications
+
+## 🛠️ Building
+
+To build the site for production:
+
+```bash
+jupyter-book build .
+```
+
+Built files will be in `_build/html/`
+
+## 📝 Content Management
+
+### Publications
+Publications are organized by 5-year periods in the `publications/` directory for better navigation and maintenance.
+
+### Advising
+Student information is organized hierarchically with current and past advisees for privacy and organization.
+
+### Navigation
+The site includes custom navigation actions:
+- ✝️ CFR Generator - Calvin Faith Reader tool
+- 📅 Schedule - Academic calendar
+- GitHub - Source code repository
+
+## 🤝 Contributing
+
+This is a personal academic website. For suggestions or corrections, please open an issue.
+
+## 📄 License
+
+Content is licensed under [Creative Commons Attribution Share Alike 4.0 International](LICENSE.md).
+
+## 🔗 Links
+
+- **Live Site**: [ericaraujophd.github.io](https://ericaraujophd.github.io)
+- **Calvin University**: [calvin.edu](https://calvin.edu)
+- **Computer Science Department**: [calvin.edu/academics/departments-programs/computer-science](https://calvin.edu/academics/departments-programs/computer-science)
+
+---
+
+> "In the great theater of human life it is only to God and the angels that we ought to play our parts." - **John Calvin**

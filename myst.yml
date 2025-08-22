@@ -1,0 +1,66 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+project:
+  id: 31a13458-eebf-4894-ace6-fe17bf64ba1e
+  title: "Eric Araújo"
+  description: "Eric Araújo's personal website"
+  keywords: ["Academic", "Computer Science", "Calvin University", "Teaching", "Research"]
+  authors:
+    - name: "Eric Araújo"
+      email: "earaujo@calvin.edu"
+      twitter: "@ericfaraujo"
+  github: https://github.com/ericaraujophd/ericaraujophd.github.io
+  
+  # Include HTML files as static assets
+  resources:
+    - cfr.html
+    - schedule.html
+    - files/
+    - images/
+    - cv/
+  
+  # Table of contents matching your Quarto navigation structure
+  toc:
+    - file: index.md
+      title: "Overview"
+    - file: publications.md
+      title: "Publications"
+      children:
+        - file: publications/2025-2029.md
+          title: "2025-2029"
+        - file: publications/2020-2024.md
+          title: "2020-2024"
+        - file: publications/2015-2019.md
+          title: "2015-2019"
+    - file: presentations.md
+      title: "Presentations"
+    - file: teaching.md
+      title: "Teaching"
+    - file: advising.md
+      title: "Advising"
+      children:
+        - file: advising/current.md
+          title: "Current"
+        - file: advising/past.md
+          title: "Past"
+    - file: updates.md
+      title: "Updates and Events"
+
+site:
+  template: book-theme
+  title: "Eric Araújo"
+  actions:
+    - title: "✝️ CFR Generator"
+      url: cfr.html
+    - title: "📅 Schedule"
+      url: schedule.html
+    - title: "GitHub"
+      url: https://github.com/ericaraujophd/ericaraujophd.github.io
+  options:
+    favicon: files/Calvin_College.png
+    logo: files/Calvin_College_White.png
+    logo_text: "Eric Araújo"
+    hide_toc: false
+    hide_outline: false
+    show_navbar: false
