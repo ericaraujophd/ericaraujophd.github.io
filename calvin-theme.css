@@ -1,0 +1,81 @@
+/* Calvin University Branding Styles - TEST */
+
+/* Test: Make everything blue to see if CSS loads */
+* {
+    background-color: #003f7f !important;
+}
+
+/* Header container styling */
+div[class*="bg-white/80"][class*="backdrop-blur"] {
+    background-color: #003f7f !important;
+    backdrop-filter: none !important;
+}
+
+/* Text color adjustments for Calvin blue header */
+.bg-white\/80 .text-stone-800,
+.bg-white\/80 .text-stone-700,
+.bg-white\/80 .dark\:text-stone-200,
+.bg-white\/80 .dark\:text-white,
+nav .text-stone-800,
+nav .text-stone-700,
+nav .dark\:text-stone-200,
+nav .dark\:text-white {
+    color: white !important;
+}
+
+/* Button and link styling in header */
+.bg-white\/80 button,
+.bg-white\/80 a,
+nav button,
+nav a {
+    color: white !important;
+    border-color: white !important;
+}
+
+/* Hover effects for header elements */
+.bg-white\/80 button:hover,
+.bg-white\/80 a:hover,
+nav button:hover,
+nav a:hover {
+    color: #e0e0e0 !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Specific styling for action buttons */
+a[class*="border-stone-700"] {
+    border-color: white !important;
+    color: white !important;
+}
+
+a[class*="border-stone-700"]:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #e0e0e0 !important;
+}
+
+/* Theme toggle button */
+button.theme {
+    border-color: white !important;
+    color: white !important;
+}
+
+button.theme:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Search button styling */
+button[aria-haspopup="dialog"] {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+}
+
+/* Logo text styling */
+.text-md.sm\:text-xl.tracking-tight {
+    color: white !important;
+}
+
+/* Menu button styling for mobile */
+button[class*="text-stone-800"] svg,
+button[class*="text-stone-700"] svg {
+    color: white !important;
+}

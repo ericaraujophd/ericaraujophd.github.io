@@ -55,11 +55,9 @@ site:
       url: cfr.html
     - title: "📅 Schedule"
       url: schedule.html
-    - title: "GitHub"
-      url: https://github.com/ericaraujophd/ericaraujophd.github.io
   options:
     favicon: files/Calvin_College.png
-    logo: files/Calvin_College_White.png
+    logo: files/Calvin_College.png
     logo_text: "Eric Araújo"
     hide_toc: false
     hide_outline: false
