@@ -24,12 +24,14 @@ This website showcases the academic work and Christian scholarship of Eric Araú
 ### Setup
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/ericaraujophd/ericaraujophd.github.io.git
 cd ericaraujophd.github.io
 ```
 
 2. Create and activate virtual environment:
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On macOS/Linux
@@ -38,16 +40,18 @@ source .venv/bin/activate  # On macOS/Linux
 ```
 
 3. Install dependencies:
+
 ```bash
 pip install jupyter-book
 ```
 
 4. Start development server:
+
 ```bash
-jupyter-book start --port 3002
+jupyter-book start --port 3001
 ```
 
-The site will be available at `http://localhost:3002`
+The site will be available at `http://localhost:3001`
 
 ## 📁 Structure
 
