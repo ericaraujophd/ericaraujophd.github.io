@@ -53,10 +53,10 @@ site:
   actions:
     - title: "✝️ CFR Generator"
       url: cfr.html
-      target: _blank
+      target: "_blank"
     - title: "📅 Schedule"
       url: schedule.html
-      target: _blank
+      target: "_blank"
   options:
     favicon: files/Calvin_College.png
     logo: files/Calvin_College.png
