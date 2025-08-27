@@ -52,10 +52,10 @@ site:
   title: "Eric Araújo"
   actions:
     - title: "✝️ CFR Generator"
-      href: cfr.html
+      url: cfr.html
       target: _blank
     - title: "📅 Schedule"
-      href: schedule.html
+      url: schedule.html
       target: _blank
   options:
     favicon: files/Calvin_College.png
@@ -64,3 +64,4 @@ site:
     hide_toc: false
     hide_outline: false
     show_navbar: false
+    target: _blank
