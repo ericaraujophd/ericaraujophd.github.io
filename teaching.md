@@ -6,7 +6,7 @@ editor: visual
 > "Tell me and I forget. Teach me and I remember. Involve me and I learn." -- Benjamin Franklin
 
 :::{note} Teaching Philosophy
-I believe in hands-on learning and real-world applications. My courses emphasize practical problem-solving, collaborative learning, and connecting theoretical concepts to current industry practices.
+I believe in hands-on learning and real-world applications. My courses emphasize practical problem-solving, collaborative learning, and connecting theoretical concepts to current real life problems. I also value the deep reflection on how our worldview and faith influence our understanding of technology and its impact on society.
 :::
 
 ---
@@ -19,14 +19,10 @@ I believe in hands-on learning and real-world applications. My courses emphasize
 - **Website**: [ericaraujo.com/25fa-cs112/](https://ericaraujo.com/25fa-cs112/)
 - **Description**: Fundamental data structures and algorithms
 
-:::{tip} Course Highlights
-This iteration focuses on algorithm visualization and includes new interactive coding exercises using modern tools.
-:::
-
 ### HNRS251 - Social Computing
 
 - **Status**: Under construction  
-- **Website**: [Social Computing Course](https://ericaraujo.com/socialcomputing/intro.html#)
+- **Website**: [Social Computing Course](https://ericaraujo.com/25fa-social-modeling/)
 - **Description**: Honors course exploring computational social science
 
 :::{important} New Course Alert!
@@ -35,7 +31,11 @@ This is a brand new honors course that combines computer science with social sci
 
 ---
 
-## 🌸 Spring 2025
+## Previous semesters
+
+::::{admonition} 🌸 Spring 2025
+:class: dropdown
+:icon: false
 
 ### CS112 - Introduction to Data Structures (Spring 2025)
 
@@ -43,23 +43,17 @@ This is a brand new honors course that combines computer science with social sci
 - **Website**: [ericaraujo.com/25sp-cs112/](https://ericaraujo.com/25sp-cs112/)
 - **Description**: Fundamental data structures and algorithms
 
-:::{seealso} Student Feedback
-This course received excellent student evaluations with particular praise for the practical programming projects and clear explanations of complex concepts.
-:::
-
 ### CS354A - Database Management Systems
 
 - **Status**: Incomplete
 - **Website**: [ericaraujo.com/25sp-cs354A/](https://ericaraujo.com/25sp-cs354A/)
 - **Description**: Introduction to database design and management
 
-:::{warning} Course Materials Under Development
-Some course materials are still being finalized. Please check the course website regularly for updates.
-:::
+::::
 
----
-
-## 🍂 Fall 2024
+::::{admonition} 🍂 Fall 2024
+:class: dropdown
+:icon: false
 
 ### CS112 - Introduction to Data Structures (Fall 2024)
 
@@ -76,6 +70,8 @@ Some course materials are still being finalized. Please check the course website
 :::{hint} Research Integration
 This advanced course directly connects to my research in agent-based modeling and provides students with opportunities to work on real research projects.
 :::
+
+::::
 
 ---
 
