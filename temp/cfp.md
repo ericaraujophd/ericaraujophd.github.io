@@ -1,4 +1,4 @@
-# AI & Faith Conference - STEM Track
+# Faith & AI Conference - STEM Track
 
 The **AI & STEM** track welcomes presentations that showcase technical work at the intersection of artificial intelligence, emerging technologies, and Christianity. We seek contributions from computer scientists, engineers, data scientists, researchers, and other scientists who are building, analyzing, or deploying AI systems and infrastructure—with awareness of the ethical, societal, and spiritual questions they raise.
 
@@ -19,6 +19,6 @@ You may be the first author of only one submission to the AI & STEM track. If yo
 
 Papers length is limited to 4000 characters (including spaces) not counting references. Submit papers for consideration through the [following link](https://forms.office.com/r/LFtHSYhDZS).
 
-This track is part of the <a href="https://calvin.edu/faith-and-technology" target="_blank">**AI &amp; Faith Conference**</a> at <a href="https://calvin.edu" target="_blank">Calvin University</a>.
+This track is part of the <a href="https://calvin.edu/faith-and-technology/faith-and-ai-conference" target="_blank">**Faith &amp; AI Conference**</a> at <a href="https://calvin.edu" target="_blank">Calvin University</a>.
 
 If you need any help or have questions, please contact the track chairs through the [email](mailto:AI-STEM@calvin.edu).
