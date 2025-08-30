@@ -5,13 +5,16 @@ editor: visual
 
 > "Tell me and I forget. Teach me and I remember. Involve me and I learn." -- Benjamin Franklin
 
-:::{note} Teaching Philosophy
+:::{caution} Teaching Philosophy
 I believe in hands-on learning and real-world applications. My courses emphasize practical problem-solving, collaborative learning, and connecting theoretical concepts to current real life problems. I also value the deep reflection on how our worldview and faith influence our understanding of technology and its impact on society.
 :::
 
 ---
 
-## 🍂 Fall 2025
+::::{admonition} 🍂 Fall 2025
+:class: dropdown
+:icon: false
+:open: true
 
 ### CS112 - Introduction to Data Structures (Fall 2025)
 
@@ -28,6 +31,7 @@ I believe in hands-on learning and real-world applications. My courses emphasize
 :::{important} New Course Alert!
 This is a brand new honors course that combines computer science with social science research methods.
 :::
+::::
 
 ---
 
