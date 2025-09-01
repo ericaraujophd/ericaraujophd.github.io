@@ -83,8 +83,7 @@ Each update reflects the privilege of contributing to human flourishing through 
 
 - **August 28, 2024**: Served as **External Committee Member** for PhD Qualification Exam of *Jamile Santos dos Santos*
 - **Supervision**: Under *Prof. Daniel Gregorio Alfaro Vigo* on **Complex Systems Analysis**
-- **International Impact**: Contributing expertise to global academic community
-- **Professional Service**: Using gifts and knowledge to serve fellow scholars internationally
+- **Work title**: Modelagem Epidêmica de Propagação de Informação em Multi-redes (Epidemic Modeling of Information Propagation in Multi-networks)
 
 #### Brazilian Systems Congress
 

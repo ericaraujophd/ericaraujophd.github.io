@@ -82,7 +82,13 @@ Read the full Call for Papers and &rarr; <a href="temp/cfp.html" target="_blank"
 :::{note} Latest Academic Activities
 :class: dropdown
 
+### Academic Service & International Collaboration
 
+#### Masters Examination Committee
+
+- **August 22, 2025**: Served as **External Committee Member** for Masters Exam of *Stephano Daniel Santos*
+- **Supervision**: Under *Prof. Teodorico de Castro Ramalho* and *Prof. Danton Diego Ferreira* on **Agrochemistry**
+- **Work title**: Enhancing Prediction Accuracy of Portland Cement Compressive Strength at Low Cost Using Machine Learning and Chemometric Techniques
 
 ### Recent Presentations (2025)
 
