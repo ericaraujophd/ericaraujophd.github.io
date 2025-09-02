@@ -46,6 +46,9 @@ project:
           title: "Past"
     - file: updates.md
       title: "Updates and Events"
+    - file: faithandai/cfp.md
+      title: "Call for Papers - AI & STEM Track"
+      hidden: true
 
 site:
   template: book-theme
