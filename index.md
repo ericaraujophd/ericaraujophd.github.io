@@ -77,7 +77,7 @@ My work bridges computer science with multiple domains, using computational tool
 
 The call for papers for the **AI & STEM** track at the <a href="https://calvin.edu/faith-and-technology" target="_blank">AI & Faith Conference</a> is now open! Submissions are welcome at the intersection of artificial intelligence, emerging technologies, and Christianity.
 
-Read the full Call for Papers and &rarr; [submit your work](faithandai/cfp.md)
+Read the full Call for Papers and &rarr; [submit your work](faithandai/cfp-ai-stem.md)
 
 :::{note} Latest Academic Activities
 :class: dropdown
