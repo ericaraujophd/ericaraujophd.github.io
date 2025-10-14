@@ -4,7 +4,7 @@ title: "Every Square Inch"
 
 <div style="display: grid; grid-template-columns: 250px 1fr; gap: 20px; align-items: start;">
   <!-- <img src="files/Self-BW-Adjusted.png" alt="Portrait at Búzios in 2023" width="250" style="width: 100%; height: auto;"> -->
-  <img src="files/_HY_1710.jpg" alt="Portrait from September 2024" width="250" style="width: 100%; height: auto;">
+  <img src="files/headshot.jpg" alt="Portrait from September 2024" width="250" style="width: 100%; height: auto;">
   <div>
     <p>Olá! My name is Eric Araújo, Brazilian, married to Amy Paul, and I currently hold the following positions:</p>
     <ul>
