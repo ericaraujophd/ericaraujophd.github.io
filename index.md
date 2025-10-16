@@ -1,19 +1,37 @@
 ---
-title: "Every Square Inch"
+title: "Social Computing Modeling & Teaching"
 ---
 
 <div style="display: grid; grid-template-columns: 250px 1fr; gap: 20px; align-items: start;">
-  <!-- <img src="files/Self-BW-Adjusted.png" alt="Portrait at Búzios in 2023" width="250" style="width: 100%; height: auto;"> -->
+  <div style="float:left;">
   <img src="files/headshot.jpg" alt="Portrait from September 2024" width="250" style="width: 100%; height: auto;">
+  </div>
   <div>
-    <p>Olá! My name is Eric Araújo, Brazilian, married to Amy Paul, and I currently hold the following positions:</p>
+    <p>Olá! My name is Eric Araújo, Brazilian and I currently hold the following positions:</p>
     <ul>
       <li>Associate Professor in the <a href="https://calvin.edu/academics/school-stem/computer-science">Computer Science Department</a> at <a href="https://calvin.edu/">Calvin University</a></li>
       <li>Head of the Behavioural Informatics Laboratory (BILbo)</li>
     </ul>
     <p>My research explores computational approaches to understanding human behavior and social dynamics, seeking to contribute meaningful insights that serve the common good through rigorous scholarship and ethical technology development.</p>
+    <p>I investigate the spread of opinions, sentiments, and behaviors in <b>complex systems</b> through <b>multiagent modeling and simulations</b>, offering insights into <b>social dynamics</b> across diverse domains including politics, cooperation, health, criminology, and religion.
+    </p>
   </div>
 </div>
+
+---
+
+## Academic Formation
+**Ph.D. in Computer Science** (2018)  
+[Vrije Universiteit Amsterdam](https://vu.nl/nl), The Netherlands  
+*Dissertation: Computational modeling of social contagion processes*
+
+**M.S. in Computer Science** (2009)  
+[Federal University of Minas Gerais](https://ufmg.br/), Brazil  
+*Focus: Computer Networks: Protocol TCP and its Applications*
+
+**B.S. in Computer Science** (2007)  
+[Federal University of Viçosa](https://www.ufv.br/), Brazil  
+*Free Software Development and FPGA Applications*
 
 ---
 
@@ -53,23 +71,6 @@ My work bridges computer science with multiple domains, using computational tool
 
 ---
 
-## 🎓 Educational Background
-
-:::{important} Academic Formation
-**Ph.D. in Computer Science** (2018)  
-[Vrije Universiteit Amsterdam](https://vu.nl/nl), The Netherlands  
-*Dissertation: Computational modeling of social contagion processes*
-
-**M.S. in Computer Science** (2009)  
-[Federal University of Minas Gerais](https://ufmg.br/), Brazil  
-*Focus: Computer Networks: Protocol TCP and its Applications*
-
-**B.S. in Computer Science** (2007)  
-[Federal University of Viçosa](https://www.ufv.br/), Brazil  
-*Free Software Development and FPGA Applications*
-:::
-
----
 
 
 ## 📰 Recent Updates & Achievements
