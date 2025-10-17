@@ -13,10 +13,9 @@ title: "Social Computing Modeling & Teaching"
       <li>Head of the Behavioural Informatics Laboratory (BILbo)</li>
     </ul>
     <p>My research explores computational approaches to understanding human behavior and social dynamics, seeking to contribute meaningful insights that serve the common good through rigorous scholarship and ethical technology development.</p>
-    <p>I investigate the spread of opinions, sentiments, and behaviors in <b>complex systems</b> through <b>multiagent modeling and simulations</b>, offering insights into <b>social dynamics</b> across diverse domains including politics, cooperation, health, criminology, and religion.
-    </p>
   </div>
 </div>
+<p>I investigate the spread of opinions, sentiments, and behaviors in <b>complex systems</b> through <b>multiagent modeling and simulations</b>, offering insights into <b>social dynamics</b> across diverse domains including politics, cooperation, health, criminology, and religion.</p>
 
 ---
 
