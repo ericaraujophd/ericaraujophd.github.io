@@ -53,7 +53,7 @@ Please reach out if you're interested in collaborating or sharing resources.
 ### HNRS251 - Social Computing
 
 - **Status**: ⚙️ Ongoing
-- **Website**: [Social Computing Course](https://ericaraujo.com/25fa-social-modeling/)
+- **Website**: [Social Computing Course](https://ericaraujo.com/socialmodeling/)
 - **Description**: Honors course exploring computational social science
 
 ::::
