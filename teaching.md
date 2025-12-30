@@ -6,7 +6,6 @@ sidebar: true
 
 > "Tell me and I forget. Teach me and I remember. Involve me and I learn." -- Benjamin Franklin
 
-
 I believe in hands-on learning and real-world applications. My courses emphasize practical problem-solving, collaborative learning, and connecting theoretical concepts to current real life problems. I also value the deep reflection on how our worldview and faith influence our understanding of technology and its impact on society.
 
 ---
@@ -39,28 +38,51 @@ Please reach out if you're interested in collaborating or sharing resources.
 
 ## Currently Teaching
 
-::::{admonition} 🍂 Fall 2025
+::::{admonition} 🌸 Spring 2026
 :class: dropdown
 :icon: false
 :open: true
 
-### CS112 - Introduction to Data Structures (Fall 2025)
+### CS112 - Introduction to Data Structures (Spring 2026)
 
 - **Status**: ⚙️ Ongoing
-- **Website**: [ericaraujo.com/25fa-cs112/](https://ericaraujo.com/25fa-cs112/)
+- **Website**: [26SP-CS112](https://ericaraujo.com/26sp-cs112/)
 - **Description**: Fundamental data structures and algorithms
 
-### HNRS251 - Social Computing
+### CS214 - Concepts of Programming Languages
 
 - **Status**: ⚙️ Ongoing
-- **Website**: [Social Computing Course](https://ericaraujo.com/socialmodeling/)
-- **Description**: Honors course exploring computational social science
+- **Website**: [26SP-CS214](https://ericaraujo.com/26sp-cs214/)
+- **Description**: Comparative study of programming languages and paradigms
 
+### CS354A - Database Management Systems (Spring 2026)
+
+- **Status**: ⚙️ Ongoing
+- **Website**: [26SP-CS354A](https://ericaraujo.com/26sp-cs354A/)
+- **Description**: Introduction to database design and management
 ::::
 
 ---
 
 ## Previous semesters
+
+::::{admonition} 🍂 Fall 2025
+:class: dropdown
+:icon: false
+
+### CS112 - Introduction to Data Structures (Fall 2025)
+
+- **Status**: ✅ Complete
+- **Website**: [ericaraujo.com/25fa-cs112/](https://ericaraujo.com/25fa-cs112/)
+- **Description**: Fundamental data structures and algorithms
+
+### HNRS251 - Social Computing
+
+- **Status**: ✅ Complete
+- **Website**: [Social Computing Course](https://ericaraujo.com/socialmodeling/)
+- **Description**: Honors course exploring computational social science
+
+::::
 
 ::::{admonition} 🌸 Spring 2025
 :class: dropdown
