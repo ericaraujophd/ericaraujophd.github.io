@@ -1,14 +1,13 @@
 ---
-title: "Advising"
+title: "Advising Guidelines"
 ---
-
 
 ## Student Mentorship & Academic Guidance
 
 As an educator and researcher at Calvin University, I am passionate about mentoring students at various stages of their academic journey. My advising philosophy is grounded in the Reformed tradition, emphasizing the integration of values and learning while fostering independent thinking, research excellence, and personal growth. I support students in achieving their academic and professional goals through work that honors God and serves the common good.
 
 :::{note} Values & Learning Integration
-My advising approach is rooted in a Christian worldview, which sees all of creation as God's domain and all legitimate human activity as having potential for glorifying God. I believe in a collaborative mentoring approach that combines structured guidance with intellectual freedom, encouraging students to explore how their computational work can serve meaningful purposes and contribute to human flourishing. My goal is to help students develop critical thinking skills, research methodologies, and the confidence to tackle complex problems while maintaining a thoughtful perspective on technology's role in society.
+My advising approach is rooted in a Christian standpoint, which sees all of creation as God's domain and all legitimate human activity as having potential for glorifying God. I believe in a collaborative mentoring approach that combines structured guidance with intellectual freedom, encouraging students to explore how their computational work can serve meaningful purposes and contribute to human flourishing. My goal is to help students develop critical thinking skills, research methodologies, and the confidence to tackle complex problems while maintaining a thoughtful perspective on technology's role in society.
 :::
 
 ## Research Areas & Opportunities
@@ -25,22 +24,14 @@ My students work on cutting-edge projects that combine technical excellence with
 - **Technology Integration**: Exploring how digital tools can support community formation and meaningful connection
 :::
 
-## Student Levels & Programs
+##  For Prospective Advisees - Values & Learning Integration
 
-I mentor students across different academic levels:
-
-- **🎓 B.S. Students**: Senior projects, independent studies, and research experiences that integrate values and learning
-- **🎓 M.S. Students**: Master's thesis supervision with emphasis on ethical technology and thoughtful stewardship
-- **🎓 Ph.D. Students**: Doctoral dissertation guidance exploring technology's role in meaningful service
-
-:::{important} For Prospective Advisees - Values & Learning Integration
 If you're interested in working with me, please review my current and past student projects to understand how we integrate thoughtful perspectives with rigorous computational research. I particularly welcome students who are passionate about:
 
 - Exploring how technology can serve meaningful purposes and promote human flourishing
 - Investigating ethical dimensions of artificial intelligence and data science
 - Understanding the intersection of values, technology, and social justice
 - Developing computational approaches that honor human dignity and responsibility
-:::
 
 ## Perspective on Technology & Research
 
