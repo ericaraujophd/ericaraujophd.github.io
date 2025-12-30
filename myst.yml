@@ -31,7 +31,6 @@ project:
     - file: presentations.md
     - file: teaching.md
     - title: Advising
-    # - file: advising.md
       children:
         - file: advising/current.md
         - file: advising/past.md
