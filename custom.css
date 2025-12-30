@@ -1,0 +1,9 @@
+/* Custom styles for Eric Araújo's website */
+
+/* Force footer logo to be small */
+footer img[alt="Calvin University crest"] {
+  height: 48px !important;
+  max-height: 52px !important;
+  width: auto !important;
+  max-width: 110px !important;
+}

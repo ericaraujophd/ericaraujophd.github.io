@@ -19,6 +19,7 @@ project:
     - files/
     - images/
     - cv/
+    - custom.css
   
   # Table of contents matching your navigation structure
   toc:
@@ -59,3 +60,4 @@ site:
     hide_toc: false
     hide_outline: false
     show_navbar: false
+    style: custom.css
