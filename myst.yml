@@ -50,6 +50,8 @@ site:
     - title: "📅 Schedule"
       url: schedule.html
       target: _blank
+  parts:
+    footer: footer.md
   options:
     favicon: files/Calvin_College.png
     logo: files/Calvin_College.png
