@@ -1,6 +1,6 @@
 # Eric Araújo - Academic Website
 
-This is the source code for Eric Araújo's personal academic website, built with **Jupyter Book v2** and the MyST Document Engine.
+This is the source code for Eric Araújo's personal academic website, built with the **MyST Document Engine**.
 
 ## 🎯 About
 
@@ -8,18 +8,16 @@ This website showcases the academic work and Christian scholarship of Eric Araú
 
 ## 🚀 Built With
 
-- **Jupyter Book v2** - Modern documentation and book building
+- **MyST** - Modern documentation and publishing platform
 - **MyST Markdown** - Enhanced markdown with rich features
-- **MyST Document Engine** - Powerful publishing platform
-- **Python** - Development environment
+- **Node.js** - MyST CLI runtime
 
 ## 🏗️ Development
 
 ### Prerequisites
 
-- Python 3.8+
-- Virtual environment
-- Jupyter Book v2
+- Node.js 18+
+- npm or yarn
 
 ### Setup
 
@@ -30,25 +28,16 @@ git clone https://github.com/ericaraujophd/ericaraujophd.github.io.git
 cd ericaraujophd.github.io
 ```
 
-2. Create and activate virtual environment:
+2. Install MyST CLI:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate  # On macOS/Linux
-# or
-.venv\Scripts\activate     # On Windows
+npm install -g mystmd
 ```
 
-3. Install dependencies:
+3. Start development server:
 
 ```bash
-pip install jupyter-book
-```
-
-4. Start development server:
-
-```bash
-jupyter-book start --port 3001
+myst start --port 3001
 ```
 
 The site will be available at `http://localhost:3001`
@@ -56,7 +45,7 @@ The site will be available at `http://localhost:3001`
 ## 📁 Structure
 
 ```
-├── myst.yml                 # Jupyter Book v2 configuration
+├── myst.yml                 # MyST configuration
 ├── index.md                 # Homepage with academic overview
 ├── publications/            # Time-clustered publications (2015-2019, 2020-2024, 2025-2029)
 ├── advising/               # Student advising (current/past)
@@ -84,10 +73,10 @@ The site will be available at `http://localhost:3001`
 To build the site for production:
 
 ```bash
-jupyter-book build .
+myst build --html
 ```
 
-Built files will be in `_build/html/`
+Built files will be in `_build/site/`
 
 ## 📝 Content Management
 

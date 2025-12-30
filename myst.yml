@@ -23,15 +23,16 @@ project:
   # Table of contents matching your navigation structure
   toc:
     - file: index.md
-    - title: Publications
+    - file: teaching.md
+    - title: "Publications"
       children:
         - file: publications/2025-2029.md
         - file: publications/2020-2024.md
         - file: publications/2015-2019.md
     - file: presentations.md
-    - file: teaching.md
     - title: Advising
       children:
+        - file: advising.md
         - file: advising/current.md
         - file: advising/past.md
     - file: updates.md
