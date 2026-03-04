@@ -4,3 +4,5 @@
 
 The Australian government says Deloitte Australia agreed to refund part of a $290,000 payment for a report that contained AI-generated errors.
 
+- [No, AI is not about to kill the software industry](https://www.fastcompany.com/91498768/saaspocalypse)
+
