@@ -1,4 +1,7 @@
-# Abstract Submitted to Baylor University
+---
+title: "Cognitive Modeling of Christian Communities: Developing Intelligent Agents to Address the Polarization Effects in Churches"
+subtitle: "Abstract Submitted to Baylor University"
+---
 
 In an age marked by increasing political polarization, churches have become both sanctuaries of spiritual life and sites of cultural tension. This project investigates how political polarization shapes—and is shaped by—relationships, discourse, and spiritual identity within Christian communities. By building computational models of opinion dynamics and social influence, the project offers a novel way to understand the subtle, often invisible processes through which division emerges and spreads in church networks.
 
