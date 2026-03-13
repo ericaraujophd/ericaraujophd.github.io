@@ -12,6 +12,37 @@ My presentations reflect Calvin University's commitment to integrating values wi
 
 ---
 
+## 🎤 2026 Presentations
+
+### Baylor Symposium on Faith & Culture 2026
+
+:::{note} Technology and the Human Person in the Age of AI
+:class: dropdown
+
+**Date:** February 26-28, 2026  
+**Location:** Waco, Texas
+**Theme:** Technology and the Human Person in the Age of AI
+
+**Presentation Focus:**
+
+My presentation focused on presenting a framework for understanding the three aspects that define the life of Christian communities. These aspects are used to model the life of Christian communities in agent-based models, which can be used to explore how different factors influence the growth and development of these communities.
+
+**Key Topics:**
+
+- Agent-based modeling of Christian communities
+- Cognitive modeling
+- Social modeling
+
+**Materials:**
+
+- **📝 Proposed Text:** [Abstract Accepted](/presentations/2026/Baylor/abstract.md)
+- **📊 Slides:** [Baylor Symposium 2026 - February 2026](/presentations/2026/Baylor/2026-Baylor.pdf)
+- **🔗 Conference Info:** [Baylor Symposium on Faith & Culture 2026](https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3)
+
+:::
+
+---
+
 ## 🎤 2025 Presentations
 
 ### ASA Annual Meeting 2025 - Science & Technology as Worship
