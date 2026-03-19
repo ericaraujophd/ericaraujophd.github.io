@@ -52,7 +52,7 @@ site:
       url: cfr.html
       target: _blank
     - title: "📅 Schedule"
-      url: schedule.html
+      url: https://outlook.office365.com/owa/calendar/c0bd07a3f1d64aaf9a74c91921ce7536@calvin.edu/79189cd730424803bceba861959c7e752179000899390454025/calendar.html
       target: _blank
   parts:
     footer: footer.md
