@@ -2,7 +2,7 @@
 title: "Presentations"
 ---
 
-Talks, panels, and posters from 2021 onward. Published conference papers are listed under each year where applicable.
+Talks, panels, and posters. Published conference papers are listed under each year where applicable.
 
 ---
 
