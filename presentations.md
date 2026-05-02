@@ -10,7 +10,7 @@ Talks, panels, and posters from 2021 onward. Published conference papers are lis
 
 ### Talks & Presentations
 
-- [Cognitive Modeling of Church Polarization](https://conference.netlogo.org/2026/cfp). NetLogo Conference 2026. Chicago, IL. *Presented by students Katelin Jandris, Ryan Klein, and Ovgu Tufan (senior project).*
+- [Cognitive Modeling of Church Polarization](https://conference.netlogo.org/2026/cfp). NetLogo Conference 2026. Chicago, IL. *To be presented by students Katelin Jandris, Ryan Klein, and Ovgu Tufan (senior project).*
 - [A Framework for Modeling Christian Communities with Agent-Based Models](https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3). Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person in the Age of AI. Waco, TX. [Slides](/presentations/2026/Baylor/2026-Baylor.pdf).
 
 ## 2025

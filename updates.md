@@ -8,8 +8,8 @@ Recent activity is also visible on the [main page](index.md).
 
 ## 2026
 
-**May 1, 2026** — [NetLogo Conference 2026 — Cognitive Modeling of Church Polarization](https://conference.netlogo.org/2026/cfp)  
-Students Katelin Jandris, Ryan Klein, and Ovgu Tufan presented *Cognitive Modeling of Church Polarization* at the NetLogo Conference 2026 in Chicago.
+**July 1, 2026** — [NetLogo Conference 2026 — Cognitive Modeling of Church Polarization](https://conference.netlogo.org/2026/cfp)  
+Students Katelin Jandris, Ryan Klein, and Ovgu Tufan will present *Cognitive Modeling of Church Polarization* at the NetLogo Conference 2026 in Chicago, July 2026.
 
 **May 1, 2026** — [Nagel Institute Fellowship](https://nagelinstitute.org/fellowships/)  
 Awarded a Nagel Institute Fellowship for the Study of World Christianity at Calvin University, supporting research on computational modeling of world Christian communities.

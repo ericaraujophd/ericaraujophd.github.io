@@ -6,10 +6,6 @@ project:
   title: "Eric Araújo"
   description: "Eric Araújo's personal website"
   keywords: ["Academic", "Computer Science", "Calvin University", "Teaching", "Research"]
-  authors:
-    - name: "Eric Araújo"
-      email: "eric.araujo@calvin.edu"
-      twitter: "@ericfaraujo"
   github: https://github.com/ericaraujophd/ericaraujophd.github.io
   
   # Include HTML files as static assets
