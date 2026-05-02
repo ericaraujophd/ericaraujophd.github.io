@@ -23,7 +23,7 @@ For educators: some of my course materials — including agent-based modeling tu
 
 **[CS214 — Concepts of Programming Languages](https://ericaraujo.com/26sp-cs214/)** — Comparative study of programming language paradigms.
 
-**[CS354A — Database Management Systems](https://ericaraujo.com/26sp-cs354A/)** — Introduction to database design and management.
+**[CS354A — Database Management Systems](https://ericaraujo.com/26sp-cs354a/)** — Introduction to database design and management.
 
 ---
 

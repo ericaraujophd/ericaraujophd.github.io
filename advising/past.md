@@ -24,7 +24,7 @@ title: "Past Students"
 
 - **Brady Swiech**, **Tim David**, **Zach Redder** — *Scale66 — AI Platform for Marketing Content Generation* (Calvin University, Fall 2025–Spring 2026)
 - **Katelin Jandris**, **Ryan Klein**, **Ovgu Tufan** — *Cognitive Modeling of Church Polarization* (Calvin University, Fall 2025–Spring 2026)
-  *Outcome:* Presentation at NetLogo Conference 2026 (Chicago)
+  *Outcome:* Accepted presentation at NetLogo Conference 2026 (Chicago — July 2026)
 - **Esther Asuquo**, **David Barry** — *Modeling Gram-Negative Bacterial Infections: An Agent-Based Approach* (Calvin University, Spring 2025–Fall 2025)
 - **Jaden Brookens**, **Daniel Kwon** — *Modeling Introversion in the Classroom: An Agent-Based Approach* (Calvin University, Fall 2024–Spring 2025)
   *Outcome:* Conference paper at AASG 2025 (Detroit)
