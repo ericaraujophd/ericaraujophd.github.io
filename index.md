@@ -1,132 +1,71 @@
 ---
-title: "Social Computing Modeling & Teaching"
+title: "Eric Araújo"
 ---
 
-<div style="display: grid; grid-template-columns: 250px 1fr; gap: 20px; align-items: start;">
-  <div style="float:left;">
-  <img src="files/headshot.jpg" alt="Portrait from September 2024" width="250" style="width: 100%; height: auto;">
+<div style="display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: start; margin-bottom: 1.5rem;">
+  <div>
+    <img src="files/headshot.jpg" alt="Portrait from September 2024" style="width: 100%; height: auto; border-radius: 6px;">
   </div>
   <div>
-    <p>Olá! My name is Eric Araújo and I am currently an Associate Professor in the <a href="https://calvin.edu/academics/school-stem/computer-science">Computer Science Department</a> at <a href="https://calvin.edu/">Calvin University</a></p>
-    <p>My research explores computational approaches to understanding human behavior and social dynamics. The main principle of my studies are the intention to contribute meaningfully to the common good through rigorous scholarship and ethical frameworks. I investigate the spread of opinions, sentiments, and behaviors in <b>complex systems</b> through <b>multiagent modeling and simulations</b>, offering insights into <b>social dynamics</b> across diverse domains including politics, cooperation, health, criminology, and religion.</p>
+    <p>Olá! I am an Associate Professor in the <a href="https://calvin.edu/academics/school-stem/computer-science">Computer Science Department</a> at <a href="https://calvin.edu/">Calvin University</a>.</p>
+    <p>My research uses computational methods to understand human behavior and social dynamics — particularly the spread of opinions, sentiments, and behaviors through complex systems. I work with <strong>multiagent modeling and simulation</strong> across domains including political polarization, public health, urban security, and religious communities.</p>
+    <p>At Calvin, I teach courses in computer science, data science, and agent-based modeling. I enjoy mentoring students in research that takes both technical rigor and ethical reflection seriously.</p>
   </div>
 </div>
-  <p>At Calvin University, I teach courses in computer science, data science, and agent-based modeling, always emphasizing the integration of faith and learning. I am passionate about mentoring students in research that combines technical excellence with Christian values, preparing them for careers that serve both God and society.</p>
 
 ---
 
 ## Academic Formation
 
-**Ph.D. in Computer Science** (2018)  
-[Vrije Universiteit Amsterdam](https://vu.nl/nl), The Netherlands  
+**Ph.D. in Computer Science** (2018) — [Vrije Universiteit Amsterdam](https://vu.nl/nl), The Netherlands  
 *Dissertation: Computational modeling of social contagion processes*
 
-**M.S. in Computer Science** (2009)  
-[Federal University of Minas Gerais](https://ufmg.br/), Brazil  
-*Focus: Computer Networks: Protocol TCP and its Applications*
+**M.S. in Computer Science** (2009) — [Federal University of Minas Gerais](https://ufmg.br/), Brazil
 
-**B.S. in Computer Science** (2007)  
-[Federal University of Viçosa](https://www.ufv.br/), Brazil  
-*Free Software Development and FPGA Applications*
+**B.S. in Computer Science** (2007) — [Federal University of Viçosa](https://www.ufv.br/), Brazil
 
 ---
 
-## 🔬 Research & Scholarship
+## Research & Scholarship
 
-Most of my writings will be found in here. This page is permanently under construction, so if you want to have my whole body of publications in one place, I recommend going to my <a href="https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en&authuser=1">Google Scholar profile</a>.
+My work bridges computer science and the social sciences, applying agent-based modeling and complex network analysis to questions of social dynamics. Active domains include political opinion formation, crime network topology, epidemiological behavior spread, and computational modeling of religious communities.
 
-You can also find my CV in Portuguese at <a href="http://lattes.cnpq.br/8108200264338612">Lattes CV</a>. Also, my social networks in English are <a href="https://www.researchgate.net/profile/Eric_Fernandes_De_Mello_Araujo">ResearchGate</a> and <a href="https://www.threads.net/@eric.araujo.phd?hl=en">Threads</a>.
+Core methodologies: agent-based modeling and simulation, complex network analysis, social dynamics modeling, cognitive behavioral frameworks, and machine learning applications.
 
-My CV in English is available <a href="cv/Eric_Araujo_CV.pdf">in this link</a> and my <a href="https://orcid.org/0000-0003-4263-9075">ORCID</a>.
+You can find the full publication list on this site or on my [Google Scholar profile](https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en&authuser=1). My CV in English is [available here](cv/Eric_Araujo_CV.pdf), and my [ORCID](https://orcid.org/0000-0003-4263-9075) and [Lattes CV](http://lattes.cnpq.br/8108200264338612) (Portuguese) are also linked. I also have a [YouTube channel](https://www.youtube.com/EricAra%C3%BAjo) with teaching resources on agent-based modeling with NetLogo.
 
-I have also created a <a href="https://www.youtube.com/EricAra%C3%BAjo">YouTube channel</a> during the 2020 pandemic to divulge my work as well as teaching resources on Agent-based modeling with Netlogo.
+My PhD thesis: [*Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks*](./files/Contagious_Eric_Araujo.pdf)
 
-You can find my **PhD Thesis** in here: [Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks](./files/Contagious_Eric_Araujo.pdf)
-
-Please let me know if any links are not working, or if you need some of my papers and can't access them by <a href="mailto:eric.araujo@calvin.edu">emailing me</a>.
-
-### Multidisciplinary Approach
-
-My work bridges computer science with multiple domains, using computational tools to address real-world challenges:
-
-**🙏 Community, Faith & Computational Modeling**: Understanding the main dynamics of faith communities through the use of computational models  
-**🏛️ Political Science**: Modeling opinion dynamics and polarization in communities  
-**🏥 Public Health**: Understanding behavior spread and intervention strategies  
-**🛡️ Public Security**: Analyzing crime patterns through network topology  
-**📱 Social Computing**: Investigating misinformation spread and social influence  
-**🌱 Behavioral Change**: Promoting healthier lifestyles through computational insights
-
-**Core Methodologies:**
-
-- Agent-based modeling and simulation
-- Complex network analysis
-- Social dynamics modeling
-- Cognitive behavioral frameworks
-- Machine learning applications
+If any links are broken or you need a paper you cannot access, please [email me](mailto:eric.araujo@calvin.edu).
 
 ---
 
-## 📰 Recent Updates & Achievements
+## Recent News
 
-### 🚀 Call for Papers: AI & STEM Track Now Open
+<!-- NEWS_START -->
 
-The call for papers for the **AI & STEM** track at the <a href="https://calvin.edu/faith-and-technology" target="_blank">Wisdom in the Age of AI Conference</a> is now open! Submissions are welcome at the intersection of artificial intelligence, emerging technologies, and Christianity.
+**May 1, 2026** — [NetLogo Conference 2026 — Cognitive Modeling of Church Polarization](https://conference.netlogo.org/2026/cfp)  
+Students Katelin Jandris, Ryan Klein, and Ovgu Tufan presented *Cognitive Modeling of Church Polarization* at the NetLogo Conference 2026 in Chicago.
 
-Read the full Call for Papers and &rarr; [submit your work](faithandai/cfp-ai-stem.md)
+**May 1, 2026** — [Nagel Institute Fellowship](https://nagelinstitute.org/fellowships/)  
+Awarded a Nagel Institute Fellowship for the Study of World Christianity at Calvin University, supporting research on computational modeling of world Christian communities.
 
-:::{note} Latest Academic Activities
-:class: dropdown
+**May 1, 2026** — [McGregor Undergraduate Research Fellowship](https://calvin.edu/faculty-development-research/student-research-opportunities/mcgregor-undergraduate-research-program)  
+Awarded a McGregor Undergraduate Research Fellowship at Calvin University, supporting collaborative faculty-student research.
 
-### Academic Service & International Collaboration
+**February 27, 2026** — [Baylor Symposium on Faith & Culture 2026](https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3)  
+Presented *A Framework for Modeling Christian Communities with Agent-Based Models* at the Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person in the Age of AI. Waco, TX.
 
-#### Masters Examination Committee
+**February 1, 2026** — [Quantitative Science Studies — Brain Drain to Brain Circulation](https://doi.org/10.1162/QSS.a.411)  
+Published: *From brain drain to brain circulation: International researcher mobility in Brazilian health and life sciences (2005–2020)*. Quantitative Science Studies. With Leonardo Biazoli, Priscila Albuquerque, and team (Fiocruz).
 
-- **August 22, 2025**: Served as **External Committee Member** for Masters Exam of *Stephano Daniel Santos*
-- **Supervision**: Under *Prof. Teodorico de Castro Ramalho* and *Prof. Danton Diego Ferreira* on **Agrochemistry**
-- **Work title**: Enhancing Prediction Accuracy of Portland Cement Compressive Strength at Low Cost Using Machine Learning and Chemometric Techniques
+**August 22, 2025** — **Masters Exam Committee (UFLA Brazil)**  
+Served as external committee member for the Masters Exam of Stephano Daniel Santos, on machine learning for prediction of Portland cement compressive strength (advisors: Profs. Teodorico de Castro Ramalho and Danton Diego Ferreira).
 
-### Recent Presentations (2025)
+[See all past updates →](updates.md)
 
-**American Scientific Affiliation Conference**  
-*July 19, 2025* - Presented *Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling* at [ASA 2025](https://network.asa3.org/mpage/ASA2025)  
-📊 [View Full Presentation](https://ericaraujo.com/presentations/2025/ASA/presentation.html)
-
-**International AI & Society Symposium**  
-*May 28, 2025* - Participated in ["Algorithms, Democracy and Society: challenges and perspectives"](https://algoritmosesociedade.inf.ufg.br/#inicio) discussing education, AI and society (Portuguese)
-
-### Recent Publications
-
-**Journal of Complex Systems** (2025)  
-[*Exploring the Link Between Urban Topology and Street Crime Using Complex Networks: A Case Study from Southeast Brazil*](https://doi.org/10.1093/comnet/cnaf016)  
-*Co-supervised with Prof. Dr. Angelica de Sousa da Mata, developed by master's student Matheus Flausino*
-
-**Brazilian Journal of Physics Teaching** (2024)  
-[*The use of agent-based modeling in the study of complex systems*](https://doi.org/10.1590/1806-9126-RBEF-2024-0464) (Portuguese)  
-*Result of Clayton R. da Silva's master's studies, in partnership with Prof. Angélica S. Mata*
-
-### International Collaboration
-
-**INSNA Sunbelt 2025 - Paris, France**  
-Poster presentation: [Scientific Collaboration in Health and Life Sciences: A Study of Brazil's Contributions and Partnerships](https://www.conftool.pro/sunbelt2025/index.php?page=browseSessions&form_session=196#paperID891)  
-*Collaboration with Fiocruz (Brazil) examining global health research networks*
-:::
+<!-- NEWS_END -->
 
 ---
 
-## 🔗 Explore More
-
-:::{seealso} Academic Portfolio
-**[📚 Publications](publications.md)** - Complete research publications organized by time period
-
-**[🎤 Presentations](presentations.md)** - Conference talks and academic presentations  
-
-**[🎓 Teaching](teaching.md)** - Course information and educational philosophy
-
-**[👥 Advising](advising.md)** - Student mentorship and research supervision
-
-**[📈 Updates](updates.md)** - Archived news and academic milestones
-:::
-
----
-
-*"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: 'Mine!'"* - Abraham Kuyper
+*"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: 'Mine!'"* — Abraham Kuyper
