@@ -30,6 +30,9 @@ Published: *From brain drain to brain circulation: International researcher mobi
 
 ## 2025
 
+**December 19, 2025** — [Nagel Institute Newsletter — Faculty Fellow Appointment](files/newsletters/Dec19.2025.Nagel.PDF)  
+Appointed as a 2026 Faculty Fellow at the Nagel Institute for the Study of World Christianity, as announced in the December 2025 newsletter *Voices of the World Church*. The fellowship supports research using multiagent modeling and simulation to study social and religious dynamics.
+
 **August 22, 2025** — **Masters Exam Committee (UFLA Brazil)**  
 Served as external committee member for the Masters Exam of Stephano Daniel Santos, on machine learning for prediction of Portland cement compressive strength (advisors: Profs. Teodorico de Castro Ramalho and Danton Diego Ferreira).
 
