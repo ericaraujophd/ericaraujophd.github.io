@@ -26,7 +26,7 @@ Talks, panels, and posters. Published conference papers are listed under each ye
 
 ### Talks & Presentations
 
-- [Agent-Based Modeling Applications in Brazilian Contexts](https://19cbs.inf.ufg.br/). 19º Congresso Brasileiro de Sistemas (CBS). Goiânia, Brazil. [Slides](/presentations/2024/CBS-Brasil/abms.qmd). *In Portuguese.*
+- [Agent-Based Modeling Applications in Brazilian Contexts](https://19cbs.inf.ufg.br/). 19º Congresso Brasileiro de Sistemas (CBS). Goiânia, Brazil. *In Portuguese.*
 
 ## 2020
 
@@ -53,7 +53,7 @@ Talks, panels, and posters. Published conference papers are listed under each ye
 
 ### Conference Papers
 
-- **Eric Araújo**, Michel Klein, Aart van Halteren. [Social Connection Dynamics in a Health Promotion Network](https://doi.org/10.1007/978-3-319-50901-3_66). *Complex Networks & Their Applications V*. Cham.
+- **Eric Araújo**, Michel Klein, Aart van Halteren. Social Connection Dynamics in a Health Promotion Network. *Complex Networks & Their Applications V*. Cham. \[[doi:10.1007/978-3-319-50901-3_66](https://doi.org/10.1007/978-3-319-50901-3_66)\]
 - Julia S. Mollee, **Eric Araújo**, Adnan Manzoor, Aart T. van Halteren, Michel Klein. [Explaining Changes in Physical Activity Through a Computational Model of Social Contagion](https://doi.org/10.1007/978-3-319-54241-6_19). *Complex Networks VIII*. Cham.
 - Julia S. Mollee, **Eric Araújo**, Michel C. A. Klein. [Exploring Parameter Tuning for Analysis and Optimization of a Computational Model](https://doi.org/10.1007/978-3-319-60045-1_36). *Advances in Artificial Intelligence: From Theory to Practice*. Cham.
 - **Eric Araújo**, Annelore Franke, Rukshar Wagid Hosain. [A Temporal-Causal Model for Spread of Messages in Disasters](https://doi.org/10.1007/978-3-319-67077-5_37). *Computational Collective Intelligence*. Cham.
