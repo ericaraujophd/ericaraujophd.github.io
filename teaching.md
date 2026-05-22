@@ -17,17 +17,18 @@ For educators: some of my course materials — including agent-based modeling tu
 
 ---
 
-## Currently Teaching — Spring 2026
+## Previous Semesters
+
+::::{admonition} Spring 2026
+:class: dropdown
+:icon: false
 
 **[CS112 — Introduction to Data Structures](https://ericaraujo.com/26sp-cs112/)** — Fundamental data structures and algorithms.
 
 **[CS214 — Concepts of Programming Languages](https://ericaraujo.com/26sp-cs214/)** — Comparative study of programming language paradigms.
 
 **[CS354A — Database Management Systems](https://ericaraujo.com/26sp-cs354a/)** — Introduction to database design and management.
-
----
-
-## Previous Semesters
+::::
 
 ::::{admonition} Fall 2025
 :class: dropdown
