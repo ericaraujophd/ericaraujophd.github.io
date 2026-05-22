@@ -30,13 +30,13 @@ Published: *From brain drain to brain circulation: International researcher mobi
 
 ## 2025
 
-**December 19, 2025** — [Nagel Institute Newsletter — Faculty Fellow Appointment](files/newsletters/Dec19.2025.Nagel.PDF)  
+**December 19, 2025** — [Nagel Institute Newsletter — Faculty Fellow Appointment](files/newsletters/Dec19.2025.Nagel.pdf)  
 Appointed as a 2026 Faculty Fellow at the Nagel Institute for the Study of World Christianity, as announced in the December 2025 newsletter *Voices of the World Church*. The fellowship supports research using multiagent modeling and simulation to study social and religious dynamics.
 
 **August 22, 2025** — **Masters Exam Committee (UFLA Brazil)**  
 Served as external committee member for the Masters Exam of Stephano Daniel Santos, on machine learning for prediction of Portland cement compressive strength (advisors: Profs. Teodorico de Castro Ramalho and Danton Diego Ferreira).
 
-**July 19, 2025** — [ASA 2025 — Behavioral Insights into Political Polarization](https://ericaraujo.com/presentations/2025/ASA/asa2025Araujo.pdf)  
+**July 19, 2025** — [ASA 2025 — Behavioral Insights into Political Polarization](/presentations/2025/ASA/asa2025Araujo.pdf)  
 Presented *Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling* at the American Scientific Affiliation Annual Meeting.
 
 **May 28, 2025** — [Algorithms Democracy and Society (Brazil)](https://algoritmosdesociedade.inf.ufg.br/#inicio)  
