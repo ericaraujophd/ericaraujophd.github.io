@@ -39,7 +39,7 @@ Served as external committee member for the Masters Exam of Stephano Daniel Sant
 **July 19, 2025** — [ASA 2025 — Behavioral Insights into Political Polarization](/presentations/2025/ASA/asa2025Araujo.pdf)  
 Presented *Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling* at the American Scientific Affiliation Annual Meeting.
 
-**May 28, 2025** — [Algorithms Democracy and Society (Brazil)](https://algoritmosdesociedade.inf.ufg.br/#inicio)  
+**May 28, 2025** — **Algorithms Democracy and Society (Brazil)**  
 Participated in the event Algorithms, Democracy and Society: challenges and perspectives, discussing education, AI, and society (in Portuguese).
 
 **May 19, 2025** — [AASG 2025 — Modeling Introversion in the Classroom](https://panosd.eu/aasg2025/call/)  

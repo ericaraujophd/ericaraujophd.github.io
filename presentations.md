@@ -19,7 +19,7 @@ Talks, panels, and posters. Published conference papers are listed under each ye
 
 - [Behavioral Insights into Political Polarization in Christian Communities through Computational Modeling](https://network.asa3.org/mpage/ASA2025). American Scientific Affiliation (ASA) Annual Meeting 2025. Virtual/Hybrid. [Slides](/presentations/2025/ASA/asa2025Araujo.pdf).
 - *(poster)* **Scientific Collaboration in Health and Life Sciences: A Study of Brazil's Contributions and Partnerships**. INSNA Sunbelt 2025. Paris, France. *With Juliana Freitas Lopes et al. (Fiocruz).*
-- *(panel)* [Algorithms Democracy and Society: challenges and perspectives (Education and AI)](https://algoritmosdesociedade.inf.ufg.br/#inicio). Algoritmos e Sociedade — UFG. Brazil (online). *In Portuguese.*
+- *(panel)* **Algorithms Democracy and Society: challenges and perspectives (Education and AI)**. Algoritmos e Sociedade — UFG. Brazil (online). *In Portuguese.*
 - [Modeling Introversion in the Classroom: An Agent-Based Approach](https://panosd.eu/aasg2025/call/). Autonomous Agents for Social Good (AASG) 2025. Detroit, MI. *Presented by students Daniel Kwon and Jaden Brookens (senior project).*
 
 ## 2024
