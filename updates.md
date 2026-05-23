@@ -45,7 +45,7 @@ Participated in the event Algorithms, Democracy and Society: challenges and pers
 **May 19, 2025** — [AASG 2025 — Modeling Introversion in the Classroom](https://panosd.eu/aasg2025/call/)  
 Presented *Modeling Introversion in the Classroom: An Agent-Based Approach* at Autonomous Agents for Social Good 2025 in Detroit. Work by B.S. students Daniel Kwon and Jaden Brookens.
 
-**May 1, 2025** — [INSNA Sunbelt 2025 Poster — Scientific Collaboration in Health and Life Sciences](https://www.conftool.pro/sunbelt2025/index.php?page=browseSessions&form_session=196#paperID891)  
+**May 1, 2025** — **INSNA Sunbelt 2025 Poster — Scientific Collaboration in Health and Life Sciences**  
 Poster at INSNA Sunbelt 2025 (Paris): Scientific Collaboration in Health and Life Sciences: A Study of Brazil's Contributions and Partnerships. With Fiocruz (Brazil).
 
 **January 1, 2025** — [Journal of Complex Networks — Urban Topology and Street Crime](https://doi.org/10.1093/comnet/cnaf016)  
