@@ -19,6 +19,7 @@ For educators: some of my course materials — including agent-based modeling tu
 
 ## Previous Semesters
 
+
 ::::{admonition} Spring 2026
 :class: dropdown
 :icon: false
