@@ -58,6 +58,6 @@ site:
     logo: files/Calvin_College.png
     logo_text: "Eric Araújo"
     hide_toc: false
-    hide_outline: false
+    hide_outline: true
     show_navbar: false
     style: custom.css
