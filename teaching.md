@@ -18,7 +18,7 @@ For educators: some of my course materials — including agent-based modeling tu
 ---
 
 ## Previous Semesters
-
+git pull origin master    # get the fix I just committed
 
 ::::{admonition} Spring 2026
 :class: dropdown
