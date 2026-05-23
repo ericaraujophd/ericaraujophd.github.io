@@ -26,7 +26,7 @@ Talks, panels, and posters. Published conference papers are listed under each ye
 
 ### Talks & Presentations
 
-- [Agent-Based Modeling Applications in Brazilian Contexts](https://19cbs.inf.ufg.br/). 19º Congresso Brasileiro de Sistemas (CBS). Goiânia, Brazil. *In Portuguese.*
+- [Agent-Based Modeling Applications in Brazilian Contexts](/files/conference-archives/19cbs-ufg-2024.pdf). 19º Congresso Brasileiro de Sistemas (CBS). Goiânia, Brazil. *In Portuguese.*
 
 ## 2020
 
