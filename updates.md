@@ -11,6 +11,9 @@ Recent activity is also visible on the [main page](index.md).
 **July 1, 2026** — [NetLogo Conference 2026 — Cognitive Modeling of Church Polarization](https://conference.netlogo.org/2026/cfp)  
 Students Katelin Jandris, Ryan Klein, and Ovgu Tufan will present *Cognitive Modeling of Church Polarization* at the NetLogo Conference 2026 in Chicago, July 2026.
 
+**June 1, 2026** — [Revista Brasileira de Segurança Pública — Temporal Characterization of Street Robberies](https://doi.org/10.31060/rbsp.2026.v20.n2.2081)  
+Published: *Caracterização Temporal de Roubos de Rua Contrastando Contextos Pré-Pandêmico e Pandêmico*. Revista Brasileira de Segurança Pública, v. 20, n. 2, p. 54–81. With Renato Figueiredo Frade, João Paulo Roquim Romanelli, and Carlos Henrique da Silveira (UNIFEI).
+
 **May 1, 2026** — [Calvin Research Fellowship](https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships)  
 Awarded a Calvin Research Fellowship (2026/2027) supporting research on computational modeling of Christian communities.
 
