@@ -79,7 +79,7 @@ em { font-style: italic; }
 /* --- Mono label utility ------------------------------------ */
 .mono {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.18em;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -107,7 +107,7 @@ hr {
 
 .navbar-brand {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.2em;
   color: var(--text-muted);
   text-decoration: none;
@@ -121,7 +121,7 @@ hr {
 
 .navbar-links a {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -136,7 +136,7 @@ hr {
   border: 1px solid var(--border-mid);
   color: var(--text-muted);
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   padding: 4px 10px;
   transition: border-color 0.15s, color 0.15s;
@@ -164,7 +164,7 @@ hr {
 
 .hero-meta {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.22em;
   color: var(--text-dim);
   margin-bottom: 20px;
@@ -202,7 +202,7 @@ hr {
 
 .hero-links a {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 7px 18px;
@@ -244,7 +244,7 @@ hr {
 
 .bento-label {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.18em;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -257,18 +257,18 @@ hr {
 /* News card */
 .news-item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
 .news-item:last-of-type { margin-bottom: 0; border-bottom: none; }
-.news-date { font-family: var(--mono); font-size: 9px; color: var(--accent); margin-bottom: 5px; display: block; }
+.news-date { font-family: var(--mono); font-size: 11px; color: var(--accent); margin-bottom: 5px; display: block; }
 .news-title { font-size: 13px; color: var(--text-muted); line-height: 1.5; }
 .news-title a { color: var(--text-muted); }
 .news-title a:hover { color: var(--accent); opacity: 1; }
-.news-all { font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; color: var(--text-dim); text-decoration: none; margin-top: 16px; display: inline-block; }
+.news-all { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-dim); text-decoration: none; margin-top: 16px; display: inline-block; }
 .news-all:hover { color: var(--accent); opacity: 1; }
 
 /* Formation card */
 .degree { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
 .degree:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
 .degree-level { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; line-height: 1; margin-bottom: 6px; }
-.degree-school { font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; color: var(--text-dim); }
+.degree-school { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-dim); }
 .degree-school a { color: var(--text-dim); }
 .degree-note { font-size: 12px; color: var(--text-muted); font-style: italic; margin-top: 3px; }
 
@@ -302,7 +302,7 @@ hr {
 
 .bento-quote blockquote footer {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.18em;
   color: var(--accent);
   text-transform: uppercase;
@@ -334,7 +334,7 @@ hr {
 
 .pub-year-heading {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.2em;
   color: var(--accent);
   margin-bottom: 20px;
@@ -356,7 +356,7 @@ hr {
 
 .pub-type-tag {
   font-family: var(--mono);
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   color: var(--text-dim);
   text-transform: uppercase;
@@ -394,7 +394,7 @@ details.semester { background: var(--bg); }
 
 details.semester summary {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-muted);
@@ -421,7 +421,7 @@ details[open].semester summary { color: var(--accent); border-bottom-color: var(
 }
 
 .course-item { display: flex; flex-direction: column; gap: 2px; }
-.course-code { font-family: var(--mono); font-size: 9px; color: var(--accent); letter-spacing: 0.1em; }
+.course-code { font-family: var(--mono); font-size: 11px; color: var(--accent); letter-spacing: 0.1em; }
 .course-title { font-size: 14px; }
 .course-title a { color: var(--text); }
 .course-title a:hover { color: var(--accent); opacity: 1; }
@@ -448,12 +448,12 @@ details[open].semester summary { color: var(--accent); border-bottom-color: var(
 [data-theme="light"] .footer-logo-dark  { display: none; }
 
 .footer-name { font-size: 13px; font-weight: 500; }
-.footer-role { font-family: var(--mono); font-size: 9px; letter-spacing: 0.08em; color: var(--text-muted); margin-top: 3px; }
+.footer-role { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--text-muted); margin-top: 3px; }
 
 .footer-links { display: flex; gap: 20px; align-items: center; }
-.footer-links a { font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; color: var(--text-muted); text-decoration: none; text-transform: uppercase; }
+.footer-links a { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-muted); text-decoration: none; text-transform: uppercase; }
 .footer-links a:hover { color: var(--accent); opacity: 1; }
-.footer-copy { font-family: var(--mono); font-size: 9px; color: var(--text-dim); }
+.footer-copy { font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
 
 /* --- Responsive -------------------------------------------- */
 @media (max-width: 768px) {
