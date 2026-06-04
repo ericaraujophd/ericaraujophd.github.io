@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import students from '@data/students.json';
+
+interface Student {
+  id: string;
+  names: string[];
+  degree: 'Ph.D.' | 'M.S.' | 'B.S.' | 'Undergraduate';
+  institution: string;
+  project: string;
+  start: string;
+  end: string | null;
+  outcomes: string[];
+  doi?: string;
+  visible_web: boolean;
+}
+
+const all = (students as Student[]).filter(s => s.visible_web);
+const current = all.filter(s => !s.end || s.end === 'present');
+const past    = all.filter(s => s.end && s.end !== 'present');
+
+const byDegree = (list: Student[], degree: string) =>
+  list.filter(s => s.degree === degree);
+
+const degrees = ['Ph.D.', 'M.S.', 'B.S.'];
+---
+
+<BaseLayout title="Advising">
+  <div class="page-wrapper">
+
+    <div class="page-header">
+      <h1>Advising</h1>
+      <p>
+        I enjoy mentoring students at different stages of their academic journey — from first
+        research experiences through graduate-level work. Students in my group work on problems
+        in agent-based modeling, complex networks, social computing, machine learning, and
+        computational modeling of human behaviour.
+      </p>
+    </div>
+
+    <p style="margin-bottom: 2.5rem; font-size: 14px; color: var(--text-muted); max-width: 640px;">
+      If you're interested in working together, read through the past student projects to get a
+      sense of the work we do, then <a href="mailto:eric.araujo@calvin.edu">email me</a>.
+    </p>
+
+    {current.length > 0 && (
+      <section style="margin-bottom: 3rem;">
+        <h2>Current Students</h2>
+        <ul class="pub-list">
+          {current.map(s => (
+            <li class="pub-item">
+              <span class="pub-type-tag">{s.degree}</span>
+              <div class="pub-content">
+                <p class="pub-title">{s.names.join(', ')}</p>
+                <p class="pub-authors">{s.project}</p>
+                <p class="pub-venue">{s.institution} · {s.start}–present</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <section>
+      <h2>Past Students</h2>
+      {degrees.map(deg => {
+        const group = byDegree(past, deg);
+        if (!group.length) return null;
+        return (
+          <div style="margin-bottom: 2.5rem;">
+            <p class="pub-year-heading">{deg} Students</p>
+            <ul class="pub-list">
+              {group.map(s => (
+                <li class="pub-item">
+                  <span class="pub-type-tag">{s.start.slice(0, 4)}</span>
+                  <div class="pub-content">
+                    <p class="pub-title">{s.names.join(', ')}</p>
+                    <p class="pub-authors">{s.project}</p>
+                    <p class="pub-venue">{s.institution} · {s.start}–{s.end}</p>
+                    {s.outcomes.length > 0 && (
+                      <ul style="margin-top: 4px; padding-left: 16px; font-size: 12px; color: var(--accent);">
+                        {s.outcomes.map(o => <li>{o}</li>)}
+                      </ul>
+                    )}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })}
+    </section>
+
+  </div>
+</BaseLayout>

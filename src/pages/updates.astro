@@ -1,0 +1,91 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import publications from '@data/publications.json';
+import grants from '@data/grants.json';
+import presentations from '@data/presentations.json';
+import service from '@data/service.json';
+
+// Aggregate all news-visible items into a unified timeline
+type Entry = { date: string; label: string; title: string; url?: string; body?: string };
+
+const pubEntries: Entry[] = (publications as any[])
+  .filter(p => p.news && p.visible_web)
+  .map(p => ({
+    date: `${p.year}-${String(p.month ?? 1).padStart(2,'0')}-01`,
+    label: 'Publication',
+    title: p.title,
+    url: p.url,
+    body: `${p.venue}, ${p.year}.`,
+  }));
+
+const grantEntries: Entry[] = (grants as any[])
+  .filter(g => g.news && g.visible_web)
+  .map(g => ({
+    date: `${g.start_date}-01-01`,
+    label: 'Fellowship / Award',
+    title: g.name,
+    url: g.url,
+    body: g.summary,
+  }));
+
+const presEntries: Entry[] = (presentations as any[])
+  .filter(p => p.news && p.visible_web)
+  .map(p => ({
+    date: p.date,
+    label: 'Presentation',
+    title: p.title,
+    url: p.url,
+    body: `${p.event}. ${p.location}.`,
+  }));
+
+const serviceEntries: Entry[] = (service as any[])
+  .filter(s => s.news && s.visible_web)
+  .map(s => ({
+    date: s.date ?? `${s.start_date}-01-01`,
+    label: 'Service',
+    title: s.title,
+    body: s.summary,
+  }));
+
+const all = [...pubEntries, ...grantEntries, ...presEntries, ...serviceEntries]
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const years = [...new Set(all.map(e => new Date(e.date).getFullYear()))];
+
+const fmtDate = (d: string) =>
+  new Date(d).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+---
+
+<BaseLayout title="Updates" description="Recent news and updates from Eric Araújo.">
+  <div class="page-wrapper">
+
+    <div class="page-header">
+      <h1>News &amp; Updates</h1>
+      <p>Recent activity — publications, fellowships, presentations, and service.</p>
+    </div>
+
+    {years.map(year => (
+      <section class="pub-year-section">
+        <p class="pub-year-heading">{year}</p>
+        <ul class="pub-list">
+          {all.filter(e => new Date(e.date).getFullYear() === year).map(entry => (
+            <li class="pub-item">
+              <span class="pub-type-tag">{entry.label.split(' ')[0].toUpperCase().slice(0,4)}</span>
+              <div class="pub-content">
+                <p class="pub-title">
+                  {entry.url
+                    ? <a href={entry.url} target="_blank">{entry.title}</a>
+                    : entry.title
+                  }
+                </p>
+                {entry.body && <p class="pub-authors">{entry.body}</p>}
+                <p class="pub-venue">{fmtDate(entry.date)}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+  </div>
+</BaseLayout>

@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import allPubs from '@data/publications.json';
+
+interface Pub {
+  id: string;
+  type: 'journal' | 'conference' | 'book-chapter' | 'proceedings' | 'thesis';
+  title: string;
+  authors: string[];
+  venue: string;
+  year: number;
+  month?: number;
+  doi?: string;
+  url?: string;
+  visible_web: boolean;
+}
+
+const pubs = (allPubs as Pub[])
+  .filter(p => p.visible_web)
+  .sort((a, b) => b.year - a.year || (b.month ?? 0) - (a.month ?? 0));
+
+const years = [...new Set(pubs.map(p => p.year))];
+
+// Render **bold** author markup
+const renderAuthors = (authors: string[]) =>
+  authors
+    .map(a => a.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'))
+    .join(', ');
+
+const typeLabel: Record<string, string> = {
+  journal: 'JNL',
+  conference: 'CONF',
+  'book-chapter': 'CHAP',
+  proceedings: 'PROC',
+  thesis: 'THESIS',
+};
+---
+
+<BaseLayout title="Publications" description="Eric Araújo's full publication list.">
+  <div class="page-wrapper">
+
+    <div class="page-header">
+      <h1>Publications</h1>
+      <p>
+        Full list below. Also on
+        <a href="https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a>,
+        <a href="https://orcid.org/0000-0003-4263-9075" target="_blank">ORCID</a>, and
+        <a href="https://www.researchgate.net/profile/Eric_Fernandes_De_Mello_Araujo" target="_blank">ResearchGate</a>.
+        My <a href="/cv/Eric_Araujo_CV.pdf">CV (PDF)</a> is also available.
+        If you need a paper you can't access, <a href="mailto:eric.araujo@calvin.edu">email me</a>.
+      </p>
+    </div>
+
+    {years.map(year => (
+      <section class="pub-year-section">
+        <p class="pub-year-heading">{year}</p>
+        <ul class="pub-list">
+          {pubs.filter(p => p.year === year).map(pub => (
+            <li class="pub-item">
+              <span class="pub-type-tag">{typeLabel[pub.type] ?? pub.type}</span>
+              <div class="pub-content">
+                <p class="pub-title">
+                  {pub.url
+                    ? <a href={pub.url} target="_blank">{pub.title}</a>
+                    : pub.title
+                  }
+                </p>
+                <p class="pub-authors" set:html={renderAuthors(pub.authors)} />
+                <p class="pub-venue">
+                  {pub.venue}
+                  {pub.doi && (
+                    <> · <a href={`https://doi.org/${pub.doi}`} target="_blank" style="font-style:normal; font-size:11px;">DOI ↗</a></>
+                  )}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+  </div>
+</BaseLayout>

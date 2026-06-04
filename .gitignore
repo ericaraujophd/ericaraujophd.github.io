@@ -1,10 +1,13 @@
-# Quarto build outputs
+# Astro build outputs
+dist/
+.astro/
+node_modules/
+
+# Quarto / MyST (legacy)
 _site/
 /.quarto/
-*.ipynb_checkpoints
-
-# MyST/Jupyter Book (legacy)
 _build/
+*.ipynb_checkpoints
 
 # Python
 __pycache__/
