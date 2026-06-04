@@ -175,16 +175,6 @@ details summary:hover {
   border-left-color: var(--color-gold);
 }
 
-/* --- Hide page title on the home page --------------------- */
-/* Targets the MyST-rendered article title via the 'hide-page-title' class  */
-/* set in index.md frontmatter. Casts a wide net across known MyST selectors */
-.hide-page-title h1,
-.hide-page-title .article-header-title,
-.hide-page-title .article-header h1,
-.hide-page-title header h1 {
-  display: none;
-}
-
 /* --- Responsive: tighten on mobile ------------------------ */
 @media (max-width: 640px) {
   h1 { font-size: 1.6rem; }
