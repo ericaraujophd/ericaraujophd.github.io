@@ -49,6 +49,20 @@
     "visible_cv": false,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": null,
+    "url": "/files/newsletters/Dec19.2025.Nagel.PDF"
+  },
+  {
+    "id": "2025-defense-alessandra-louzada-terra",
+    "type": "defense-committee",
+    "role": "External Member",
+    "title": "Defense Committee — Alessandra Louzada Terra",
+    "institution": "PPGCC/UFLA Brazil",
+    "date": "2025-01-30",
+    "summary": "Served as external committee member for the defense of Alessandra Louzada Terra.",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": "docs/defense-committee/2025-Alessandra-Louzada-Terra/20250130-Alessandra-Louzada-Terra.pdf"
   }
 ]
