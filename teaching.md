@@ -1,10 +1,5 @@
 ---
 title: "Teaching"
-editor: visual
-sidebar: true
-site:
-  options:
-    hide_authors: true
 ---
 
 > "Tell me and I forget. Teach me and I remember. Involve me and I learn." — Benjamin Franklin
@@ -19,40 +14,36 @@ For educators: some of my course materials — including agent-based modeling tu
 
 ## Previous Semesters
 
-::::{admonition} Spring 2026
-:class: dropdown
-:icon: false
+::: {.callout-note title="Spring 2026" collapse="true" icon=false}
 
 **[CS112 — Introduction to Data Structures](https://ericaraujo.com/26sp-cs112/)** — Fundamental data structures and algorithms.
 
 **[CS214 — Concepts of Programming Languages](https://ericaraujo.com/26sp-cs214/)** — Comparative study of programming language paradigms.
 
 **[CS354A — Database Management Systems](https://ericaraujo.com/26sp-cs354a/)** — Introduction to database design and management.
-::::
 
-::::{admonition} Fall 2025
-:class: dropdown
-:icon: false
+:::
+
+::: {.callout-note title="Fall 2025" collapse="true" icon=false}
 
 **[CS112 — Introduction to Data Structures](https://ericaraujo.com/25fa-cs112/)** — Fundamental data structures and algorithms.
 
 **[HNRS251 — Social Computing](https://ericaraujo.com/socialmodeling/)** — Honors course exploring computational social science.
-::::
 
-::::{admonition} Spring 2025
-:class: dropdown
-:icon: false
+:::
+
+::: {.callout-note title="Spring 2025" collapse="true" icon=false}
 
 **[CS112 — Introduction to Data Structures](https://ericaraujo.com/25sp-cs112/)** — Fundamental data structures and algorithms.
 
 **[CS354A — Database Management Systems](https://ericaraujo.com/25sp-cs354A/)** — Introduction to database design and management.
-::::
 
-::::{admonition} Fall 2024
-:class: dropdown
-:icon: false
+:::
+
+::: {.callout-note title="Fall 2024" collapse="true" icon=false}
 
 **[CS112 — Introduction to Data Structures](https://ericaraujo.com/24fa-cs112/)** — Fundamental data structures and algorithms.
 
 **[CS300b — Agent Modeling](https://ericaraujo.com/24fa-cs300b/)** — Intermediate course on agent-based modeling and simulation, with opportunities to contribute to active research projects.
-::::
+
+:::

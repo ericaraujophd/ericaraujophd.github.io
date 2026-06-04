@@ -1,6 +1,10 @@
-# Jupyter Book / MyST build outputs
-_build/
+# Quarto build outputs
+_site/
+/.quarto/
 *.ipynb_checkpoints
+
+# MyST/Jupyter Book (legacy)
+_build/
 
 # Python
 __pycache__/
@@ -58,5 +62,3 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Quarto (legacy - keeping for reference)
-/.quarto/
