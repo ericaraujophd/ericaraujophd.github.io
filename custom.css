@@ -175,6 +175,14 @@ details summary:hover {
   border-left-color: var(--color-gold);
 }
 
+/* --- Hide page title on the home page --------------------- */
+/* MyST adds 'class' frontmatter value to the <article> element itself,    */
+/* so the selector must be article.hide-page-title h1, not .hide-page-title h1 */
+article.hide-page-title h1,
+article.hide-page-title h1.heading {
+  display: none !important;
+}
+
 /* --- Responsive: tighten on mobile ------------------------ */
 @media (max-width: 640px) {
   h1 { font-size: 1.6rem; }
