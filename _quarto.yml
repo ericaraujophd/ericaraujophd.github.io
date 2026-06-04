@@ -67,7 +67,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark:  darkly
     css: custom.css
     toc: false
     include-after-body: _footer.html

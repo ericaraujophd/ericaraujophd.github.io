@@ -256,6 +256,54 @@ body.home-page .home-hero figcaption {
   font-size: 0.8rem;
 }
 
+/* --- Dark mode overrides ---------------------------------- */
+/* Quarto adds class "quarto-dark" to <body> when dark mode  */
+body.quarto-dark {
+  --color-accent:        #C49A2C;   /* Calvin gold — warm, readable on dark bg */
+  --color-accent-light:  #d4aa45;
+  --color-gold:          #C49A2C;
+  --color-text:          #dee2e6;
+  --color-text-muted:    #adb5bd;
+  --color-bg:            #222222;   /* darkly body background */
+  --color-border:        #444444;
+  background-color: var(--color-bg);
+}
+
+/* callout header tints for dark bg */
+body.quarto-dark .callout-note .callout-header {
+  background: rgba(196, 154, 44, 0.12) !important;
+}
+body.quarto-dark .callout-tip .callout-header {
+  background: rgba(212, 170, 69, 0.1) !important;
+}
+body.quarto-dark .callout-caution .callout-header {
+  background: rgba(255, 255, 255, 0.06) !important;
+}
+body.quarto-dark .callout-important .callout-header,
+body.quarto-dark .callout-warning .callout-header {
+  background: rgba(196, 154, 44, 0.12) !important;
+}
+
+/* footer border adapts */
+body.quarto-dark .site-footer {
+  border-top-color: var(--color-accent);
+  background: var(--color-bg);
+}
+
+/* logo swaps */
+body.quarto-dark .navbar-logo {
+  content: url('/files/Calvin_College_White.png');
+}
+
+.site-footer-logo-dark { display: none; }
+body.quarto-dark .site-footer-logo-light { display: none; }
+body.quarto-dark .site-footer-logo-dark  { display: block; }
+
+/* photo shadow on dark bg */
+body.quarto-dark .home-hero-photo {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+}
+
 /* --- Responsive ------------------------------------------- */
 @media (max-width: 640px) {
   h1 { font-size: 1.6rem; }

@@ -1,7 +1,8 @@
 <footer class="site-footer">
   <div class="site-footer-inner">
     <div class="site-footer-brand">
-      <img src="/files/Calvin_College.png" alt="Calvin University crest" class="site-footer-logo" />
+      <img src="/files/Calvin_College.png"       alt="Calvin University crest" class="site-footer-logo site-footer-logo-light" />
+      <img src="/files/Calvin_College_White.png" alt="Calvin University crest" class="site-footer-logo site-footer-logo-dark" />
       <div>
         <div class="site-footer-name">Eric Araújo</div>
         <div class="site-footer-role">Associate Professor, Computer Science<br>Calvin University</div>
