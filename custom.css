@@ -76,6 +76,9 @@ blockquote {
   border-left-color: var(--color-accent) !important;
   background: rgba(110, 28, 46, 0.03);
 }
+.callout-note .callout-header {
+  background: rgba(110, 28, 46, 0.06) !important;
+}
 .callout-note .callout-title-container {
   color: var(--color-accent);
 }
