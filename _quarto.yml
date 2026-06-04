@@ -71,5 +71,6 @@ format:
       light: cosmo
       dark:  darkly
     css: custom.css
+    respect-user-color-scheme: true
     toc: false
     include-after-body: _footer.html

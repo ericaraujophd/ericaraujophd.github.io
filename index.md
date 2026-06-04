@@ -23,28 +23,10 @@ At Calvin, I teach courses in computer science, data science, and agent-based mo
 
 ---
 
-## Academic Formation
+::: {.bento-grid}
 
-**Ph.D. in Computer Science** (2018) — [Vrije Universiteit Amsterdam](https://vu.nl/nl), The Netherlands  
-*Dissertation: Computational modeling of social contagion processes*
-
-**M.S. in Computer Science** (2009) — [Federal University of Minas Gerais](https://ufmg.br/), Brazil
-
-**B.S. in Computer Science** (2007) — [Federal University of Viçosa](https://www.ufv.br/), Brazil
-
----
-
-## Research & Scholarship
-
-My work bridges computer science and the social sciences, applying agent-based modeling and complex network analysis to questions of social dynamics. Active domains include political opinion formation, crime network topology, epidemiological behavior spread, and computational modeling of religious communities.
-
-Core methodologies: agent-based modeling and simulation, complex network analysis, social dynamics modeling, cognitive behavioral frameworks, and machine learning applications.
-
-PhD thesis: [*Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks*](./files/Contagious_Eric_Araujo.pdf)
-
----
-
-## Recent News
+::: {.bento-card .bento-news}
+### Recent News
 
 <!-- NEWS_START -->
 
@@ -64,12 +46,41 @@ Awarded a Nagel Institute Fellowship for the Study of World Christianity at Calv
 Awarded a McGregor Undergraduate Research Fellowship at Calvin University, supporting collaborative faculty-student research.
 
 **February 27, 2026** — [Baylor Symposium on Faith & Culture 2026](https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3)  
-Presented *A Framework for Modeling Christian Communities with Agent-Based Models* at the Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person in the Age of AI. Waco, TX.
+Presented *A Framework for Modeling Christian Communities with Agent-Based Models* at the Baylor Symposium on Faith & Culture 2026. Waco, TX.
 
 [See all past updates →](updates.md)
 
 <!-- NEWS_END -->
+:::
 
----
+::: {.bento-card .bento-formation}
+### Formation
 
-> *"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: 'Mine!'"* — Abraham Kuyper
+**Ph.D.** Computer Science · 2018  
+[Vrije Universiteit Amsterdam](https://vu.nl/nl)  
+*Computational modeling of social contagion*
+
+**M.S.** Computer Science · 2009  
+[Federal University of Minas Gerais](https://ufmg.br/)
+
+**B.S.** Computer Science · 2007  
+[Federal University of Viçosa](https://www.ufv.br/)
+:::
+
+::: {.bento-card .bento-research}
+### Research & Scholarship
+
+My work bridges computer science and the social sciences, applying agent-based modeling and complex network analysis to questions of social dynamics. Active domains include political opinion formation, crime network topology, epidemiological behavior spread, and computational modeling of religious communities.
+
+Core methodologies: agent-based modeling and simulation, complex network analysis, social dynamics modeling, cognitive behavioral frameworks, and machine learning applications.
+
+[Google Scholar](https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en&authuser=1) · [ORCID](https://orcid.org/0000-0003-4263-9075) · [PhD thesis](./files/Contagious_Eric_Araujo.pdf)
+:::
+
+::: {.bento-card .bento-quote}
+> *"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: 'Mine!'"*
+>
+> — Abraham Kuyper
+:::
+
+:::
