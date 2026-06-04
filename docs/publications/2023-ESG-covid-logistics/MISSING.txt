@@ -1,0 +1,6 @@
+ADD PROOF HERE: PDF of the paper, or a DOI link file.
+Paper: Epidemiological Intelligence in Operation COVID-19 (ESG 2023). DOI: 10.47240/revistadaesg.v38i82.1250
+
+Options:
+  1. Drop the paper PDF here (rename to paper.pdf)
+  2. Create a file named doi.txt with the DOI/URL inside

@@ -1,5 +1,6 @@
 ---
 title: "Eric Araújo"
+hide_title: true
 ---
 
 <div style="display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: start; margin-bottom: 1.5rem;">
@@ -61,12 +62,6 @@ Awarded a McGregor Undergraduate Research Fellowship at Calvin University, suppo
 
 **February 27, 2026** — [Baylor Symposium on Faith & Culture 2026](https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3)  
 Presented *A Framework for Modeling Christian Communities with Agent-Based Models* at the Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person in the Age of AI. Waco, TX.
-
-**February 1, 2026** — [Quantitative Science Studies — Brain Drain to Brain Circulation](https://doi.org/10.1162/QSS.a.411)  
-Published: *From brain drain to brain circulation: International researcher mobility in Brazilian health and life sciences (2005–2020)*. Quantitative Science Studies. With Leonardo Biazoli, Priscila Albuquerque, and team (Fiocruz).
-
-**December 19, 2025** — [Nagel Institute Newsletter — Faculty Fellow Appointment](/files/newsletters/Dec19.2025.Nagel.pdf)  
-Appointed as a 2026 Faculty Fellow at the Nagel Institute for the Study of World Christianity, as announced in the December 2025 newsletter *Voices of the World Church*. The fellowship supports research using multiagent modeling and simulation to study social and religious dynamics.
 
 [See all past updates →](updates.md)
 

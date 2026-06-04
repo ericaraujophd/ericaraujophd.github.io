@@ -1,217 +1,277 @@
-# ericaraujophd.github.io — Maintenance Guide
+# ericaraujophd.github.io
 
-Personal academic website for Eric Araújo, built with [MyST](https://mystmd.org/). Most content is generated from source files — you should rarely need to edit the output `.md` files by hand.
+Eric Araújo's unified academic portfolio — single private repo containing the CV data, document archive, website source, and build pipeline.
 
-Live site: [ericaraujo.com](https://ericaraujo.com)
-
----
-
-## Quick reference
-
-| What to update | Edit this file | Then run |
-|---|---|---|
-| News / recent activity | `news.csv` | `python generate_news.py` |
-| Publications | `../rendercv/sources/pubs.bib` | `python generate_publications.py` |
-| Conference papers (also on Presentations) | `../rendercv/sources/pubs.bib` | `python generate_presentations.py` |
-| Talks, panels, posters | `presentations.csv` | `python generate_presentations.py` |
-| Teaching | `teaching.md` | *(edit directly)* |
-| Advising overview | `advising.md` | *(edit directly)* |
-| Current & past students | `students.csv` | `python generate_students.py` |
-| Navigation / site config | `myst.yml` | *(edit directly)* |
-| CSS / visual style | `custom.css` | *(edit directly)* |
-| Footer | `footer.md` | *(edit directly)* |
+**Live site:** https://ericaraujo.com  
+**GitHub Pages:** deployed from the `gh-pages` branch (built content only)
 
 ---
 
-## 1. Adding news
-
-Open `news.csv` and prepend a new row (newest items at the top).
-
-```csv
-date,type,title,description,url
-2026-09-01,publication,Journal Name — Short Title,"Full sentence description.",https://doi.org/...
-```
-
-**Columns:**
-
-- `date` — `YYYY-MM-DD`. Use `YYYY-01-01` when only the year is known.
-- `type` — `publication`, `presentation`, `talk`, `service`, `award`, or `other`
-- `title` — short label, shown in bold or as a link anchor
-- `description` — one or two sentences. Markdown allowed (`*italics*`, links).
-- `url` — optional. Makes the title a hyperlink.
-
-Then run:
-
-```bash
-python generate_news.py
-```
-
-This rewrites `updates.md` (full archive) and refreshes the `<!-- NEWS_START/END -->` block in `index.md`. The homepage shows the 6 most recent items.
-
----
-
-## 2. Adding a publication
-
-Add a BibTeX entry to `../rendercv/sources/pubs.bib`. Use the right entry type:
-
-- `@article` — journal paper
-- `@inproceedings` — conference paper *(also appears on Presentations page automatically)*
-- `@incollection` — book chapter
-- `@phdthesis` / `@mastersthesis` — thesis
-
-Bold your name: `author = {**Eric Araújo** and Someone Else}`.
-
-Then run:
-
-```bash
-python generate_publications.py   # rebuilds publications/*.md
-python generate_presentations.py  # picks up @inproceedings automatically
-```
-
-To add a new time period (e.g. 2030–2034): add a row to `PERIODS` in `generate_publications.py`, add the new file to `toc` in `myst.yml`, then run the script.
-
----
-
-## 3. Adding a talk, panel, or poster
-
-Open `presentations.csv` and add a row:
-
-```csv
-date,type,title,event,location,url,slides_url,notes
-2026-09-15,talk,Title of Talk,Conference Name,"City, Country",https://conf.example.com,/presentations/2026/slides.pdf,Optional note
-```
-
-**Type options:** `talk`, `poster`, `panel`, `invited`, `keynote`. Anything other than `talk` appears as a parenthetical label.
-
-Then run:
-
-```bash
-python generate_presentations.py
-```
-
----
-
-## 4. Updating students
-
-Open `students.csv` and add or update a row:
-
-```csv
-names,degree,institution,project,start,end,outcome,doi
-Jane Doe,B.S.,Calvin University,Project Title,Fall 2026,,,
-```
-
-**Column guide:**
-
-- `names` — semicolon-separated for group projects: `Jane Doe; John Smith`
-- `degree` — `B.S.`, `M.S.`, or `Ph.D.`
-- `start` / `end` — term and year, e.g. `Fall 2025` or just `2022`. **Leave `end` blank for current students.**
-- `outcome` — one line describing the result (paper title, conference, etc.)
-- `doi` — if there's a publication, just the DOI (e.g. `10.1093/comnet/cnaf016`). The script links it automatically.
-
-To graduate a student: fill in their `end` column and re-run. They move from `current.md` to `past.md` automatically.
-
-```bash
-python generate_students.py
-```
-
----
-
-## 5. Updating teaching (direct edit)
-
-Edit `teaching.md` directly:
-
-- Move the current semester block to the "Previous Semesters" section (change `:open: true` to remove it).
-- Add a new current semester block at the top.
-
----
-
-## 5. Updating advising
-
-Edit `advising/current.md` and `advising/past.md` directly. When a student finishes, move their entry from `current.md` to `past.md`.
-
----
-
-## 6. Updating the CV PDF
-
-The PDF CV is managed in `../rendercv/`. After rebuilding it there, copy the output to:
-
-```
-cv/Eric_Araujo_CV.pdf
-```
-
----
-
-## 7. Preview locally
-
-```bash
-npm install -g mystmd   # first time only
-myst start              # serves at http://localhost:3000
-```
-
-Build static HTML:
-
-```bash
-myst build --html       # output → _build/html/
-```
-
----
-
-## 8. Deploy
-
-The site deploys via GitHub Actions on push to `main`. Just commit and push:
-
-```bash
-git add .
-git commit -m "update: <what changed>"
-git push
-```
-
----
-
-## File map
+## Structure
 
 ```
 ericaraujophd.github.io/
 │
-├── myst.yml                    Site config and navigation
-├── custom.css                  Calvin colors, fonts, styling
-├── footer.md                   Footer (edit manually)
+├── data/                  ← JSON source of truth (the only files you edit)
+│     publications.json
+│     presentations.json
+│     grants.json
+│     experience.json
+│     teaching.json
+│     projects.json
+│     students.json
+│     service.json
 │
-├── index.md                    Homepage — bio, research, news block
-├── teaching.md                 Teaching history (edit manually)
-├── publications.md             Publications landing page (edit manually)
-├── advising.md                 Advising overview (edit manually)
+├── config/                ← Static personal info (edit directly, never generated)
+│     personal.yaml        ← name, contact, education, social links, research skills
+│     headshot.jpg
 │
-├── updates.md                  ← GENERATED by generate_news.py
-├── presentations.md            ← GENERATED by generate_presentations.py
+├── docs/                  ← Document archive (PDFs, certificates, letters)
+│     publications/        ← One subfolder per paper
+│     presentations/       ← Slide decks and related docs
+│     defense-committee/   ← Committee service records
+│     grants-fellowships/  ← Award letters and grant docs
+│     admin/               ← Institutional admin documents
+│     PhD-supervision/     ← PhD student supervision records
+│     recommendation-letters/
+│     events/
 │
-├── publications/
-│   ├── 2025-2029.md            ← GENERATED by generate_publications.py
-│   ├── 2020-2024.md            ← GENERATED
-│   ├── 2015-2019.md            ← GENERATED
-│   └── 2000-2014.md            ← GENERATED
+├── rendercv/              ← rendercv config and output
+│     Eric_Araújo_CV.yaml  ← GENERATED — do not edit by hand
+│     requirements.txt
+│     rendercv_output/     ← PDF rendered here by rendercv
 │
-├── advising/
-│   ├── current.md              ← GENERATED by generate_students.py
-│   └── past.md                 ← GENERATED by generate_students.py
+├── scripts/               ← Build pipeline
+│     build.py             ← Orchestrator (run this)
+│     to_rendercv.py       ← JSON + config → rendercv YAML
+│     to_website.py        ← JSON → website CSV/MD files
 │
-├── news.csv                    Source data: news items
-├── presentations.csv           Source data: talks / posters / panels
-├── students.csv                Source data: current and past students
+├── cv/                    ← Served CV PDF
+│     Eric_Araujo_CV.pdf   ← Live version (accessible at /cv/Eric_Araujo_CV.pdf)
+│     archive/             ← Previous versions, timestamped
 │
-├── generate_news.py            Rebuilds updates.md + index.md news block
-├── generate_publications.py    Rebuilds publications/*.md from pubs.bib
-├── generate_presentations.py   Rebuilds presentations.md from pubs.bib + presentations.csv
-└── generate_students.py        Rebuilds advising/current.md + advising/past.md
+│   [Website source files — MyST MD]
+├── index.md
+├── publications.md  /  publications/YYYY-YYYY.md   ← GENERATED
+├── presentations.md                                 ← GENERATED
+├── teaching.md
+├── advising.md  /  advising/
+├── updates.md
+├── news.csv                                         ← GENERATED
+├── presentations.csv                                ← GENERATED
+├── students.csv                                     ← GENERATED
+├── myst.yml
+└── CNAME                  ← ericaraujo.com
 ```
 
 ---
 
-## Semester-start checklist
+## How to add a new entry
 
-- [ ] Add new courses to `teaching.md` under "Currently Teaching"; archive last semester
-- [ ] Update `students.csv` — add new students, fill `end` for graduated ones — run `generate_students.py`
-- [ ] Add new publications to `pubs.bib`, run `generate_publications.py` + `generate_presentations.py`
-- [ ] Add new talks/events to `news.csv` and `presentations.csv`, run generators
-- [ ] Update the CV PDF in `cv/`
-- [ ] Commit and push
+**Use the cv-file-intake Cowork skill.** It prompts for the right fields, writes to the correct JSON file in `data/`, stores the document in `docs/`, updates the website, and pushes to GitHub.
+
+To add manually: edit the relevant `data/*.json` file, then run the build.
+
+---
+
+## Running the build
+
+From the repo root (`ericaraujophd.github.io/`):
+
+```bash
+# Full build: YAML + PDF + website files
+python scripts/build.py
+
+# CV only (skip website)
+python scripts/build.py --cv-only
+
+# Website only (skip PDF render — fast)
+python scripts/build.py --web-only
+
+# Generate YAML but skip rendercv render
+python scripts/build.py --no-render
+```
+
+The build automatically archives the previous PDF to `cv/archive/` before overwriting.
+
+---
+
+## Data schema
+
+Every entry in `data/*.json` shares these fields:
+
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | string | Unique slug, e.g. `2026-baylor-symposium` |
+| `visible_cv` | bool | Include in the PDF CV |
+| `visible_web` | bool | Include on the website |
+| `news` | bool | Show in the website news feed (auto-generates description) |
+| `news_blurb` | string? | Optional custom news description (overrides auto-generated) |
+| `document_path` | string? | Relative path to associated file in `docs/` |
+
+### publications.json
+```json
+{
+  "id": "2026-qss-brain-drain",
+  "type": "journal",
+  "title": "From brain drain to brain circulation...",
+  "authors": ["Leonardo Biazoli", "**Eric Araújo**"],
+  "venue": "Quantitative Science Studies",
+  "year": 2026, "month": 2,
+  "doi": "10.1162/QSS.a.411",
+  "url": "https://doi.org/10.1162/QSS.a.411",
+  "visible_cv": true, "visible_web": true, "news": true,
+  "document_path": "docs/publications/2026-QSS-brain-drain/qss.a.411.pdf"
+}
+```
+Types: `journal` | `conference` | `book-chapter` | `proceedings` | `thesis`  
+Use `**Name**` to bold your name in the author list.
+
+### presentations.json
+```json
+{
+  "id": "2026-baylor-symposium",
+  "type": "talk",
+  "title": "A Framework for Modeling Christian Communities...",
+  "event": "Baylor Symposium on Faith & Culture 2026",
+  "location": "Waco, TX",
+  "date": "2026-02-27",
+  "url": "https://...",
+  "slides_url": "/presentations/2026/Baylor/2026-Baylor.pdf",
+  "notes": null,
+  "student_presentation": false,
+  "visible_cv": true, "visible_web": true, "news": true,
+  "document_path": null
+}
+```
+Types: `talk` | `poster` | `panel` | `invited` | `keynote`
+
+### grants.json
+```json
+{
+  "id": "2026-nagel-fellowship",
+  "type": "fellowship",
+  "name": "Nagel Institute Fellowship",
+  "institution": "Nagel Institute — Calvin University",
+  "url": "https://nagelinstitute.org/fellowships/",
+  "start_date": "2026", "end_date": null,
+  "summary": "Supporting research on computational modeling of world Christian communities.",
+  "visible_cv": true, "visible_web": true, "news": true,
+  "document_path": "docs/grants-fellowships/2026-Nagel-Fellowship/"
+}
+```
+Types: `fellowship` | `grant` | `award`
+
+### experience.json
+```json
+{
+  "id": "calvin-associate-professor-2024",
+  "company": "Calvin University",
+  "position": "Associate Professor",
+  "start_date": "2024-07", "end_date": "present",
+  "location": "Grand Rapids, MI",
+  "highlights": ["Computer Science Department"],
+  "visible_cv": true, "visible_web": false, "news": false,
+  "document_path": null
+}
+```
+
+### teaching.json
+```json
+{
+  "id": "cs112",
+  "code": "CS112",
+  "name": "Introduction to Data Structures",
+  "institution": "Calvin University",
+  "url": "https://ericaraujo.com/26sp-cs112/",
+  "location": "Calvin University USA",
+  "start_date": "2024-09", "end_date": "present",
+  "summary": "An introduction to data structures and algorithms.",
+  "visible_cv": true, "visible_web": true, "news": false,
+  "document_path": null
+}
+```
+
+### projects.json
+```json
+{
+  "id": "procores-2022",
+  "name": "Procores",
+  "url": "https://procores-cnpq.github.io/",
+  "start_date": "2022-05", "end_date": "present",
+  "location": "UFMG Brazil",
+  "summary": "Research group funded by CNPq (Brazil).",
+  "highlights": ["..."],
+  "visible_cv": true, "visible_web": false, "news": false,
+  "document_path": null
+}
+```
+
+### students.json
+```json
+{
+  "id": "modeling-introversion-fall-2024",
+  "names": ["Jaden Brookens", "Daniel Kwon"],
+  "degree": "B.S.",
+  "institution": "Calvin University",
+  "project": "Modeling Introversion in the Classroom: An Agent-Based Approach",
+  "start": "Fall 2024", "end": "Spring 2025",
+  "outcomes": ["Conference paper at AASG 2025 (Detroit)"],
+  "doi": null,
+  "visible_cv": true, "visible_web": true, "news": false,
+  "document_path": null
+}
+```
+`outcomes` is a list — add as many as apply.
+
+### service.json
+```json
+{
+  "id": "2025-masters-stephano-daniel-santos",
+  "type": "defense-committee",
+  "role": "External Member",
+  "title": "Masters Exam — Stephano Daniel Santos",
+  "institution": "UFLA Brazil",
+  "date": "2025-08-22",
+  "summary": "Machine learning for prediction of Portland cement compressive strength.",
+  "visible_cv": true, "visible_web": false, "news": false,
+  "document_path": "docs/defense-committee/2025-Stephano-Daniel-Santos/082025-Stephano-Daniel-Santos.pdf"
+}
+```
+Types: `defense-committee` | `reviewer` | `admin` | `editorial`
+
+---
+
+## Generated vs. hand-edited files
+
+| File | Status |
+|---|---|
+| `data/*.json` | ✏️ Hand-edited (source of truth) |
+| `config/personal.yaml` | ✏️ Hand-edited |
+| `config/headshot.jpg` | ✏️ Hand-edited |
+| `docs/**` | ✏️ Hand-edited (PDFs added via skill) |
+| `index.md`, `teaching.md`, `advising.md`, `updates.md` | ✏️ Hand-edited |
+| `rendercv/Eric_Araújo_CV.yaml` | ⚙️ Generated by `to_rendercv.py` |
+| `publications/YYYY-YYYY.md` | ⚙️ Generated by `to_website.py` |
+| `presentations.md` | ⚙️ Generated by `to_website.py` |
+| `news.csv`, `presentations.csv`, `students.csv` | ⚙️ Generated by `to_website.py` |
+| `cv/Eric_Araujo_CV.pdf` | ⚙️ Generated by `build.py` |
+
+---
+
+## Obsolete files (safe to delete)
+
+These were part of the old multi-repo system and are now replaced by `scripts/`:
+
+- `generate_news.py`
+- `generate_presentations.py`
+- `generate_publications.py`
+- `generate_students.py`
+
+---
+
+## Document naming conventions
+
+- Folder slugs: `YYYY-VenueOrKeyword` (kebab-case)
+- Keep original filenames inside subfolders
+- `document_path` in JSON: always relative to repo root, e.g. `docs/publications/2026-QSS-brain-drain/paper.pdf`

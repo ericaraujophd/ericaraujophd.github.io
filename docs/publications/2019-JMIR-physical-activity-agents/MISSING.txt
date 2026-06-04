@@ -1,0 +1,6 @@
+ADD PROOF HERE: PDF of the paper, or a DOI link file.
+Paper: Identifying Influence Agents That Promote Physical Activity (JMIR 2019). DOI: 10.2196/12914
+
+Options:
+  1. Drop the paper PDF here (rename to paper.pdf)
+  2. Create a file named doi.txt with the DOI/URL inside

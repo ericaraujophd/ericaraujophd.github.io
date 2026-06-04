@@ -1,0 +1,105 @@
+[
+  {
+    "id": "procores-2022",
+    "name": "Procores",
+    "url": "https://procores-cnpq.github.io/",
+    "start_date": "2022-05",
+    "end_date": "present",
+    "location": "UFMG Brazil",
+    "summary": "Research group funded by CNPq (Brazil)",
+    "highlights": [
+      "ProCoReS is a research group funded by CNPq, dedicated to the study of social networks, mathematical modeling, contagion processes, and the analysis of complex data. The group brings together researchers from different fields to propose and analyze innovative models that consider multiple aspects of social networks and their dynamics.",
+      "To model networks and contagion, most current approaches use graphs. However, these are not entirely realistic, and new models of contagion processes should allow for: representation of different classes of individuals and connections, linkage between concurrent and co-occurring processes, and connections involving two or more individuals simultaneously. Understanding how connections are formed and how different types of flows permeate such networks is crucial to understanding how our society is organized and evolves. The goal is to propose mathematical, statistical, agent-based, and machine learning models that account for: multiple complex aspects of social contagion processes and parameterization through data sources (e.g., online social networks, mobility, collaborations). Such models should allow for classes of individuals and relationships; model co-occurrence, causality, and links between contagion processes; and represent multi-relationships.",
+      "Funded by: CNPq Universal 2022"
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "socioeconomic-impacts-in-terri-2022",
+    "name": "Socioeconomic Impacts in Territories Affected by Technological Disasters",
+    "url": null,
+    "start_date": "2022-09",
+    "end_date": "2024-02",
+    "location": "UFLA Brazil",
+    "summary": "",
+    "highlights": [
+      "This project investigates the socioeconomic consequences of technological disasters in Brazil, which have increased significantly in recent decades. Between 2000 and 2020, Brazil recorded 96 technological disasters—ranging from dam collapses to oil spills—impacting over 42 million people and causing over USD 17 billion in damages (EM-DAT, 2021). Unlike natural disasters, which occur without human interference, technological disasters result from anthropogenic actions, such as industrial accidents or environmental contamination. These events often lead to material loss, environmental degradation, and serious public health issues, demanding robust mechanisms for community response and risk management.",
+      "By analyzing historical data and specific case studies such as the Mariana (2015) and Brumadinho (2019) dam collapses, the project seeks to understand how these disasters affect the social and economic fabric of impacted territories. The ultimate goal is to identify patterns and develop frameworks that can inform policies for disaster prevention, mitigation, and recovery—contributing to more resilient communities in the face of growing technological risks."
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "analysis-of-user-behavior-on-a-2021",
+    "name": "Analysis of User Behavior on a University Campus Wi-Fi Network",
+    "url": null,
+    "start_date": "2021-03",
+    "end_date": "2023-09",
+    "location": "UFLA Brazil",
+    "summary": "Masters Project by Thiago do Prado Ramos",
+    "highlights": [
+      "This project aims to analyze the behavior of users on a university campus Wi-Fi network, focusing on connection patterns and user mobility. By examining connection logs, the project seeks to understand how users interact with the network, their mobility patterns, and how these factors influence network performance and user experience.",
+      "The findings will help in optimizing network infrastructure, improving user experience, and informing future network design and management strategies."
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "algorithms-for-the-optimizatio-2021",
+    "name": "Algorithms for the Optimization of Supply Chain Management Systems",
+    "url": null,
+    "start_date": "2021-03",
+    "end_date": "2022-03",
+    "location": "UFLA Brazil",
+    "summary": "Project in partnership with Prof. Mayron Moreira (UFLA Brazil)",
+    "highlights": [
+      "This project developed and evaluated algorithms aimed at optimizing key components of supply chain management, including inventory control, logistics, and production scheduling. By modeling supply chains as dynamic systems, the project applied heuristic and metaheuristic approaches—such as genetic algorithms and simulated annealing—to improve efficiency, reduce costs, and enhance decision-making under uncertainty.",
+      "The research focused on real-world constraints such as demand variability, delivery time windows, and resource limitations. The resulting algorithms demonstrated significant improvements in performance when compared to traditional methods, and provided a flexible framework that can be adapted to various industrial sectors seeking to enhance their operational processes."
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "urban-tree-cover-and-crime-2020",
+    "name": "Urban Tree Cover and Crime",
+    "url": null,
+    "start_date": "2020-03",
+    "end_date": "2024-03",
+    "location": "UFLA Brazil",
+    "summary": "Project in partnership with Prof. Michele Valquíria dos Reis (UFLA Brazil)",
+    "highlights": [
+      "Urban tree cover provides vital ecosystem services that promote public health and well-being. However, there is a common perception—found in media reports and informal discussions—that trees may facilitate crime by obstructing visibility or serving as hiding places. While some studies have linked vegetation to fear of crime, often recommending vegetation removal to improve safety, research from the Northern Hemisphere increasingly suggests a negative correlation between urban greenery and crime rates, indicating that vegetation may actually contribute to crime reduction.",
+      "This project aims to investigate the relationship between urban tree cover and crime incidence in Brazilian cities. It integrates data from street tree inventories, georeferenced crime records from the Military Police, socioeconomic indicators from the national census (IBGE), citizen surveys on perceptions of vegetation and safety, and citizen requests for tree removal. The goal is to generate scientific insights into the social dimensions of urban greenery and to inform evidence-based environmental management policies. The findings are intended to support public agencies and civil society in designing safer, greener urban spaces."
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "computational-modeling-and-sim-2018",
+    "name": "Computational Modeling and Simulation of Contagion in Social Networks",
+    "url": null,
+    "start_date": "2018-09",
+    "end_date": "2024-06",
+    "location": "UFLA Brazil",
+    "summary": "",
+    "highlights": [
+      "Social contagion refers to the spread of behaviors, perceptions, and emotions through interactions among individuals. Often occurring unconsciously, this phenomenon plays a role in shaping collective opinion, promoting positive behaviors, and influencing public discourse. This project aims to simulate the diffusion of information originating from social media platforms across various contexts, using agent-based and network modeling approaches.",
+      "The study investigates how network topology, individual agent characteristics, and intervention strategies affect the spread and quality of information. It explores methods for enhancing the visibility and influence of high-quality content while limiting the reach of misinformation or fake news. The results aim to inform the design of healthier and more reliable information ecosystems, with potential applications in communication policy, platform design, and digital education."
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  }
+]

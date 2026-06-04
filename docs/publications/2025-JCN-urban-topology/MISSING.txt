@@ -1,0 +1,6 @@
+ADD PROOF HERE: PDF of the paper, or a DOI link file.
+Paper: Exploring the link between urban topology and street crime (JCN 2025). DOI: 10.1093/comnet/cnaf016
+
+Options:
+  1. Drop the paper PDF here (rename to paper.pdf)
+  2. Create a file named doi.txt with the DOI/URL inside
