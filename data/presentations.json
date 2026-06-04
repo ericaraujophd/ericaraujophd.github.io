@@ -60,7 +60,7 @@
     "student_presentation": false,
     "visible_cv": true,
     "visible_web": true,
-    "news": false,
+    "news": true,
     "document_path": null
   },
   {
@@ -76,7 +76,7 @@
     "student_presentation": false,
     "visible_cv": true,
     "visible_web": true,
-    "news": false,
+    "news": true,
     "document_path": null
   },
   {
@@ -92,7 +92,7 @@
     "student_presentation": false,
     "visible_cv": true,
     "visible_web": true,
-    "news": false,
+    "news": true,
     "document_path": null
   },
   {
@@ -108,7 +108,7 @@
     "student_presentation": true,
     "visible_cv": true,
     "visible_web": true,
-    "news": false,
+    "news": true,
     "document_path": null
   },
   {
@@ -124,7 +124,7 @@
     "student_presentation": false,
     "visible_cv": true,
     "visible_web": true,
-    "news": false,
+    "news": true,
     "document_path": null
   }
 ]

@@ -21,8 +21,34 @@
     "date": "2025-08-22",
     "summary": "Served as external committee member for the Masters Exam of Stephano Daniel Santos, on machine learning for prediction of Portland cement compressive strength (advisors: Profs. Teodorico de Castro Ramalho and Danton Diego Ferreira).",
     "visible_cv": true,
-    "visible_web": false,
-    "news": false,
+    "visible_web": true,
+    "news": true,
     "document_path": "docs/defense-committee/2025-Stephano-Daniel-Santos/082025-Stephano-Daniel-Santos.pdf"
+  },
+  {
+    "id": "2024-quali-jamile-santos",
+    "type": "defense-committee",
+    "role": "External Member",
+    "title": "PhD Qualifying Exam — Jamile Santos dos Santos",
+    "institution": "UFRJ Brazil",
+    "date": "2024-08-28",
+    "summary": "Served as external committee member for the PhD Qualifying Exam of Jamile Santos dos Santos (advisor: Prof. Daniel Gregorio Alfaro Vigo). Topic: epidemic modeling of information propagation in multi-networks.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
+  },
+  {
+    "id": "2025-nagel-newsletter-appointment",
+    "type": "other",
+    "role": "Faculty Fellow",
+    "title": "Nagel Institute Newsletter — Faculty Fellow Appointment",
+    "institution": "Nagel Institute for the Study of World Christianity",
+    "date": "2025-12-19",
+    "summary": "Appointed as a 2026 Faculty Fellow at the Nagel Institute for the Study of World Christianity at Calvin University, as announced in the December 2025 newsletter Voices of the World Church.",
+    "visible_cv": false,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
   }
 ]
