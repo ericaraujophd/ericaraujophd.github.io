@@ -153,6 +153,12 @@ blockquote {
   color: var(--color-accent) !important;
 }
 
+.navbar-logo {
+  height: 36px !important;
+  max-height: 36px !important;
+  width: auto !important;
+}
+
 /* --- Publication list ------------------------------------- */
 .publications-list li {
   margin-bottom: 0.75rem;
@@ -268,7 +274,7 @@ body.home-page .home-hero h1 {
 }
 
 .site-footer-logo {
-  height: 44px;
+  height: 53px;
   width: auto;
   opacity: 0.9;
 }
