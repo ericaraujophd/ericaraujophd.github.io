@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import allPresentations from '@data/presentations.json';
+
+interface Presentation {
+  id: string;
+  type: 'talk' | 'poster' | 'panel' | 'invited' | 'keynote';
+  title: string;
+  event: string;
+  location: string;
+  date: string;
+  url?: string;
+  slides_url?: string;
+  notes?: string;
+  student_presentation?: boolean;
+  visible_web: boolean;
+}
+
+const pres = (allPresentations as Presentation[])
+  .filter(p => p.visible_web)
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const years = [...new Set(pres.map(p => new Date(p.date).getFullYear()))];
+
+const typeLabel: Record<string, string> = {
+  talk: 'TALK',
+  poster: 'POSTER',
+  panel: 'PANEL',
+  invited: 'INVITED',
+  keynote: 'KEYNOTE',
+};
+
+const fmtDate = (d: string) =>
+  new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+---
+
+<BaseLayout title="Presentations">
+  <div class="page-wrapper">
+
+    <div class="page-header">
+      <h1>Presentations</h1>
+      <p>Invited talks, panels, and posters.</p>
+    </div>
+
+    {years.map(year => (
+      <section class="pub-year-section">
+        <p class="pub-year-heading">{year}</p>
+        <ul class="pub-list">
+          {pres.filter(p => new Date(p.date).getFullYear() === year).map(p => (
+            <li class="pub-item">
+              <span class="pub-type-tag">{typeLabel[p.type] ?? p.type}</span>
+              <div class="pub-content">
+                <p class="pub-title">
+                  {p.url
+                    ? <a href={p.url} target="_blank">{p.title}</a>
+                    : p.title
+                  }
+                  {p.slides_url && (
+                    <> · <a href={p.slides_url} style="font-size:11px; font-style:normal;">Slides ↓</a></>
+                  )}
+                </p>
+                <p class="pub-venue">
+                  {p.event}
+                  {p.location && <> · {p.location}</>}
+                  <> · <span style="font-family: var(--mono); font-size: 10px;">{fmtDate(p.date)}</span></>
+                </p>
+                {p.notes && <p class="pub-authors">{p.notes}</p>}
+                {p.student_presentation && (
+                  <p class="pub-authors" style="color: var(--accent);">Student presentation</p>
+                )}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+  </div>
+</BaseLayout>

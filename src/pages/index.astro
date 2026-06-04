@@ -1,0 +1,128 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import news from '@data/publications.json';  // for recent activity; swap with news.json if separate
+
+// Pull the 4 most recent visible items for the news card
+import grants from '@data/grants.json';
+import presentations from '@data/presentations.json';
+
+// Combine recent news-eligible items and take top 4
+type NewsItem = { date: string; title: string; url?: string; label: string };
+
+const recentGrants = (grants as any[])
+  .filter(g => g.news && g.visible_web)
+  .map(g => ({ date: g.start_date, title: g.name, url: g.url, label: 'Fellowship / Award' }));
+
+const recentTalks = (presentations as any[])
+  .filter(p => p.news && p.visible_web)
+  .map(p => ({ date: p.date, title: p.title, url: p.url, label: 'Presentation' }));
+
+const recentPubs = (news as any[])
+  .filter(p => p.news && p.visible_web)
+  .map(p => ({ date: `${p.year}-01-01`, title: p.title, url: p.url, label: 'Publication' }));
+
+const allNews: NewsItem[] = [...recentGrants, ...recentTalks, ...recentPubs]
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 4);
+
+const fmtDate = (d: string) =>
+  new Date(d).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }).toUpperCase();
+---
+
+<BaseLayout title="Home">
+
+  <!-- Hero -->
+  <section class="hero">
+    <p class="hero-meta">Associate Professor — Computer Science — Calvin University</p>
+    <h1 class="hero-name">Eric<br>Araújo</h1>
+    <div class="hero-rule"></div>
+    <p class="hero-desc">
+      Olá! I use computational methods to understand how behaviours, opinions, and sentiments
+      spread through societies — through <strong>multiagent modeling and simulation</strong>
+      applied to political polarization, public health, urban security, and religious communities.
+    </p>
+    <div class="hero-links">
+      <a href="mailto:eric.araujo@calvin.edu">Email</a>
+      <a href="/cv/Eric_Araujo_CV.pdf" class="primary">CV ↓</a>
+      <a href="https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en&authuser=1" target="_blank">Scholar ↗</a>
+      <a href="https://orcid.org/0000-0003-4263-9075" target="_blank">ORCID ↗</a>
+      <a href="http://lattes.cnpq.br/8108200264338612" target="_blank">Lattes ↗</a>
+      <a href="https://www.youtube.com/EricAra%C3%BAjo" target="_blank">YouTube ↗</a>
+    </div>
+  </section>
+
+  <!-- Bento grid -->
+  <div class="bento">
+
+    <!-- Recent News -->
+    <div class="bento-card bento-news fade-up" data-delay="0">
+      <span class="bento-label">Recent News</span>
+      {allNews.map(item => (
+        <div class="news-item">
+          <span class="news-date">{fmtDate(item.date)} — {item.label}</span>
+          <p class="news-title">
+            {item.url
+              ? <a href={item.url} target="_blank">{item.title}</a>
+              : item.title
+            }
+          </p>
+        </div>
+      ))}
+      <a href="/updates" class="news-all">All updates →</a>
+    </div>
+
+    <!-- Formation -->
+    <div class="bento-card bento-formation fade-up" data-delay="1">
+      <span class="bento-label">Formation</span>
+      <div class="degree">
+        <div class="degree-level">Ph.D.</div>
+        <div class="degree-school">
+          <a href="https://vu.nl/nl" target="_blank">Vrije Universiteit Amsterdam</a> · 2018
+        </div>
+        <p class="degree-note">Computational modeling of social contagion</p>
+      </div>
+      <div class="degree">
+        <div class="degree-level">M.S.</div>
+        <div class="degree-school">
+          <a href="https://ufmg.br/" target="_blank">UFMG, Brazil</a> · 2009
+        </div>
+      </div>
+      <div class="degree">
+        <div class="degree-level">B.S.</div>
+        <div class="degree-school">
+          <a href="https://www.ufv.br/" target="_blank">UFV, Brazil</a> · 2007
+        </div>
+      </div>
+    </div>
+
+    <!-- Research -->
+    <div class="bento-card bento-research fade-up" data-delay="2">
+      <span class="bento-label">Research &amp; Scholarship</span>
+      <p style="color: var(--text-muted); font-size: 13px;">
+        My work bridges computer science and the social sciences, applying agent-based modeling
+        and complex network analysis to questions of social dynamics. Active domains include
+        political opinion formation, crime network topology, epidemiological behaviour spread,
+        and computational modeling of religious communities.
+      </p>
+      <p style="color: var(--text-muted); font-size: 13px;">
+        Core methodologies: agent-based modeling and simulation, complex network analysis,
+        social dynamics modeling, cognitive behavioural frameworks, machine learning.
+      </p>
+      <p style="margin-top: 1rem; font-size: 13px;">
+        <a href="https://scholar.google.com/citations?user=QlE8JOoAAAAJ" target="_blank">Google Scholar</a>
+        · <a href="https://orcid.org/0000-0003-4263-9075" target="_blank">ORCID</a>
+        · <a href="/files/Contagious_Eric_Araujo.pdf">PhD thesis</a>
+      </p>
+    </div>
+
+    <!-- Quote -->
+    <div class="bento-card bento-quote fade-up" data-delay="3">
+      <blockquote>
+        <p>There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: &#x2018;Mine!&#x2019;</p>
+        <footer>— Abraham Kuyper</footer>
+      </blockquote>
+    </div>
+
+  </div>
+
+</BaseLayout>
