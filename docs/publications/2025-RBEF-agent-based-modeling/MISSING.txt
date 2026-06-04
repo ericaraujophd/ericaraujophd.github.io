@@ -1,0 +1,6 @@
+ADD PROOF HERE: PDF of the paper, or a DOI link file.
+Paper: The Use of Agent-based Modeling in the Study of Complex Systems (RBEF 2025). DOI: 10.1590/1806-9126-RBEF-2024-0464
+
+Options:
+  1. Drop the paper PDF here (rename to paper.pdf)
+  2. Create a file named doi.txt with the DOI/URL inside

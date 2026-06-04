@@ -1,0 +1,89 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Eric Araújo — Associate Professor of Computer Science at Calvin University",
+} = Astro.props;
+
+const currentPath = Astro.url.pathname;
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title === "Home" ? "Eric Araújo" : `${title} — Eric Araújo`}</title>
+  <link rel="icon" href="/files/Calvin_College.png" />
+  <!-- Theme: apply stored preference before paint to avoid flash -->
+  <script is:inline>
+    const stored = localStorage.getItem('theme');
+    if (stored) document.documentElement.setAttribute('data-theme', stored);
+  </script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">EA / 2026</a>
+    <div class="navbar-links">
+      <a href="/teaching"     data-active={currentPath.startsWith('/teaching')     || undefined}>Teaching</a>
+      <a href="/publications" data-active={currentPath.startsWith('/publications') || undefined}>Publications</a>
+      <a href="/presentations" data-active={currentPath.startsWith('/presentations') || undefined}>Presentations</a>
+      <a href="/advising"     data-active={currentPath.startsWith('/advising')     || undefined}>Advising</a>
+      <a href="/updates"      data-active={currentPath.startsWith('/updates')      || undefined}>Updates</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour theme">○ ◑</button>
+    </div>
+  </nav>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="/files/Calvin_College.png"       alt="Calvin University crest" class="footer-logo footer-logo-light" />
+      <img src="/files/Calvin_College_White.png" alt="Calvin University crest" class="footer-logo footer-logo-dark"  />
+      <div>
+        <div class="footer-name">Eric Araújo</div>
+        <div class="footer-role">Associate Professor, Computer Science · Calvin University</div>
+      </div>
+    </div>
+    <nav class="footer-links" aria-label="Footer links">
+      <a href="mailto:ea47@calvin.edu">Email</a>
+      <a href="https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en&authuser=1">Scholar</a>
+      <a href="https://orcid.org/0000-0003-4263-9075">ORCID</a>
+      <span class="footer-copy">© 2026</span>
+    </nav>
+  </footer>
+
+  <script>
+    const html   = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+
+    toggle?.addEventListener('click', () => {
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+
+    // Scroll-triggered fade-up animations
+    const observer = new IntersectionObserver(
+      (entries) => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+      { threshold: 0.08 }
+    );
+    document.querySelectorAll('.fade-up').forEach((el) => {
+      const delay = Number(el.dataset.delay ?? 0) * 120;
+      el.style.transitionDelay = delay + 'ms';
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>

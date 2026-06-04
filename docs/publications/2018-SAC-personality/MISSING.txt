@@ -1,0 +1,6 @@
+ADD PROOF HERE: PDF of the paper, or a DOI link file.
+Paper: Applying Machine Learning Algorithms for Deriving Personality Traits (SAC 2018). DOI: 10.1145/3167132.3167377
+
+Options:
+  1. Drop the paper PDF here (rename to paper.pdf)
+  2. Create a file named doi.txt with the DOI/URL inside

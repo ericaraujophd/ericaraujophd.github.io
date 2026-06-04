@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-calvin-research-fellowship",
+    "type": "fellowship",
+    "name": "Calvin Research Fellowship",
+    "institution": "Calvin University",
+    "url": "https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships",
+    "start_date": "2026",
+    "end_date": "2027",
+    "summary": "Supporting research on computational modeling of Christian communities.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
+  },
+  {
+    "id": "2026-nagel-institute-fellowship",
+    "type": "fellowship",
+    "name": "Nagel Institute Fellowship",
+    "institution": "Nagel Institute for the Study of World Christianity — Calvin University",
+    "url": "https://nagelinstitute.org/fellowships/",
+    "start_date": "2026",
+    "end_date": null,
+    "summary": "Supporting research on computational modeling of world Christian communities.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
+  },
+  {
+    "id": "2026-mcgregor-summer-research-fellowship",
+    "type": "fellowship",
+    "name": "McGregor Summer Research Fellowship",
+    "institution": "Calvin University",
+    "url": "https://calvin.edu/faculty-development-research/student-research-opportunities/mcgregor-undergraduate-research-program",
+    "start_date": "2026",
+    "end_date": null,
+    "summary": "Supporting collaborative faculty-student research.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
+  }
+]

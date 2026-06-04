@@ -1,0 +1,772 @@
+cv:
+  name: Eric Araújo
+  headline: Associate Professor
+  location: Grand Rapids, MI
+  email: eric.araujo@calvin.edu
+  phone: +1-616-215-8643
+  website: https://ericaraujo.com/
+  photo: config/headshot.jpg
+  social_networks:
+  - network: LinkedIn
+    username: ericaraujophd
+  - network: GitHub
+    username: ericaraujophd
+  - network: ResearchGate
+    username: Eric-Araujo
+  - network: ORCID
+    username: 0000-0003-4263-9075
+  sections:
+    Welcome:
+    - I investigate the spread of opinions, sentiments, and behaviors in complex systems
+      through multiagent modeling and simulations, offering insights into social dynamics
+      in politics, cooperation, health, criminology, and religion.
+    - The work I develop is multidisciplinary, using agent-based models and data science
+      to solve problems in areas such as political polarization in churches, public
+      security, the spread of fake news, and promoting healthier lifestyles.
+    education:
+    - institution: Vrije Universiteit Amsterdam
+      area: Computer Science
+      degree: Ph.D.
+      start_date: 2014-08
+      end_date: 2018-09
+      location: Amsterdam, NL
+      highlights:
+      - 'Thesis: [Contagious: Modeling the Spread of Behaviours, Perceptions and Emotions
+        in Social Networks](https://research.vu.nl/en/publications/632878cc-e2e7-40ab-a34e-91bde40eaf50)'
+    - institution: Universidade Federal de Minas Gerais
+      area: Computer Science
+      degree: M.Sc.
+      start_date: 2007-03
+      end_date: 2009-09
+      location: Belo Horizonte, Brazil
+    - institution: Universidade Federal de Viçosa
+      area: Computer Science
+      degree: B.Sc.
+      start_date: 2003-03
+      end_date: 2006-12
+      location: Viçosa, Brazil
+    experience:
+    - company: Calvin University
+      position: Associate Professor
+      start_date: 2024-07
+      end_date: present
+      location: Grand Rapids MI USA
+      highlights:
+      - Computer Science Department Calvin University
+    - company: FIOCRUZ
+      position: Researcher
+      start_date: '2022'
+      end_date: '2024'
+      location: Rio de Janeiro Brazil
+      highlights:
+      - FIOCRUZ is a leading institution in health research and development in Brazil.
+        My work focused on collecting data and analyzing it to understand medical
+        circulation of health sciences among Brazilian researchers.
+    - company: Vrije Universiteit Amsterdam
+      position: Guest Researcher
+      start_date: 2018-10
+      end_date: 2022-04
+      highlights:
+      - Collaborator in the Department of Computer Science Vrije Universiteit Amsterdam
+      - Worked on criminology models with Prof. Dr. Charlotte Gerritsen.
+    - company: Universidade Federal de Lavras
+      position: Associate Professor
+      start_date: 2011-02
+      end_date: 2024-06
+      location: Minas Gerais Brazil
+      highlights:
+      - Computer Science Department Universidade Federal de Lavras
+    - company: Gammon Presbyterian Faculty
+      position: Professor
+      start_date: 2010-01
+      end_date: 2011-01
+      location: Minas Gerais Brazil
+      highlights:
+      - Professor and Coordinator of the Information Systems course
+    publications:
+    - title: Caracterização Temporal de Roubos de Rua Contrastando Contextos Pré-Pandêmico
+        e Pandêmico
+      authors:
+      - Renato Figueiredo Frade
+      - '**Eric Fernandes de Mello Araújo**'
+      - João Paulo Roquim Romanelli
+      - Carlos Henrique da Silveira
+      date: 2026-06
+      journal: Revista Brasileira de Segurança Pública
+      doi: 10.31060/rbsp.2026.v20.n2.2081
+      url: https://doi.org/10.31060/rbsp.2026.v20.n2.2081
+    - title: 'From brain drain to brain circulation: International researcher mobility
+        in Brazilian health and life sciences (2005–2020)'
+      authors:
+      - Leonardo Biazoli
+      - Priscila Costa Albuquerque
+      - '**Eric Araújo**'
+      - Izabela Regina Cardoso de Oliveira
+      - Bruna de Paula Fonseca
+      date: 2026-02
+      journal: Quantitative Science Studies
+      doi: 10.1162/QSS.a.411
+      url: https://doi.org/10.1162/QSS.a.411
+    - title: 'Exploring the link between urban topology and street crime using complex
+        networks: a case study from Southeast Brazil'
+      authors:
+      - Matheus de Andrade Flausino
+      - '**Eric Araújo**'
+      - Angélica Sousa da Mata
+      date: 2025-07
+      journal: Journal of Complex Networks
+      doi: 10.1093/comnet/cnaf016
+      url: https://doi.org/10.1093/comnet/cnaf016
+    - title: The Use of Agent-based Modeling in the Study of Complex Systems (*In
+        Portuguese*)
+      authors:
+      - Clayton R. da Silva
+      - Olivia Mesquita
+      - '**Eric Araújo**'
+      - Angélica S. Mata
+      date: '2025'
+      journal: Revista Brasileira de Ensino de Física
+      doi: 10.1590/1806-9126-RBEF-2024-0464
+      url: https://doi.org/10.1590/1806-9126-RBEF-2024-0464
+    - title: Understanding the complexities of Bluetooth for representing real-life
+        social networks
+      authors:
+      - Bojan Simoski
+      - Michel C.A. Klein
+      - '**Eric Fernandes de Mello Araújo**'
+      - Aart T. van Halteren
+      - Thabo J. van Woudenberg
+      - Kirsten E. Bevelander
+      - Moniek Buijzen
+      - Henri Bal
+      date: '2024'
+      journal: Personal and Ubiquitous Computing
+      doi: 10.1007/s00779-020-01435-x
+      url: https://doi.org/10.1007/s00779-020-01435-x
+    - title: 'Police Planning Based on the Use of Business Intelligence (BI): The
+        Police Manager’s Perception Regarding the Violent Crime Rate in the 8th Battalion
+        of the Military Police of Minas Gerais (PMMG) (*In Portuguese*)'
+      authors:
+      - Erich da Costa
+      - Denis Renato de Oliveira
+      - '**Eric Araújo**'
+      date: '2023'
+      journal: Revista Brasileira de Estudos de Segurança Pública
+      doi: 10.29377/rebesp.v16i01.614
+      url: https://doi.org/10.29377/rebesp.v16i01.614
+    - title: 'Epidemiological Intelligence in Operation COVID-19: A New Decision Support
+        Tool in Brazil’s Military Logistics (*In Portuguese*)'
+      authors:
+      - José Roberto Pinho de Andrade Lima
+      - Mariza Ferro
+      - '**Eric Araújo**'
+      - Cristiano Barros
+      - Ernesto Rademaker Martins
+      - Beatriz Helena Felício Fuck Telles Ferreira
+      date: '2023'
+      journal: Revista da Escola Superior de Guerra
+      doi: 10.47240/revistadaesg.v38i82.1250
+      url: https://doi.org/10.47240/revistadaesg.v38i82.1250
+    - title: 'Political Polarization on Twitter During the COVID-19 Pandemic: A Case
+        Study in Brazil'
+      authors:
+      - Pedro Brum
+      - Matheus Cândido Teixeira
+      - Renato Vimieiro
+      - '**Eric Araújo**'
+      - Wagner Meira Jr
+      - Gisele Lobo Pappa
+      date: '2022'
+      journal: Social Network Analysis and Mining
+      doi: 10.1007/s13278-022-00949-x
+      url: https://doi.org/10.1007/s13278-022-00949-x
+    - title: 'Urban Afforestation and Public Safety: A Bibliometric Study Using the
+        Consolidated Meta-Analytical Focus Theory (*In Portuguese*)'
+      authors:
+      - Kelly Iapuque Rodrigues de Sousa
+      - Michele Valquíria dos Reis
+      - Rafael Rodrigues de Castro
+      - '**Eric Araújo**'
+      date: '2022'
+      journal: Revista de Gestão Ambiental e Sustentabilidade (GeAS)
+      doi: 10.5585/geas.v11i2.22965
+      url: https://doi.org/10.5585/geas.v11i2.22965
+    - title: Detecção e Classificação de Bots Utilizando Redes Neurais Artificiais
+        e Análise de Sentimentos
+      authors:
+      - Gabrieli Silva
+      - Eliaquim Ramos
+      - '**Eric Araújo**'
+      - Fábio Borges
+      - Mariza Ferro
+      date: '2021'
+      journal: Proceedings of the XIV Encontro Acadêmico de Modelagem Computacional
+      url: https://www.eamc.lncc.br/proceedings.html
+    - title: 'The Virus and Socioeconomic Inequality: An Agent-based Model to Simulate
+        and Assess the Impact of Interventions to Reduce the Spread of COVID-19 in
+        Rio de Janeiro, Brazil'
+      authors:
+      - Vinícius Prata Klôh
+      - Gabrieli Dutra Silva
+      - Mariza Ferro
+      - '**Eric Araújo**'
+      - Cristiano Barros de Melo
+      - José Roberto Pinho de Andrade Lima
+      - Ernesto Rademaker Martins
+      date: '2020'
+      journal: Brazilian Journal of Health Review
+      doi: 10.34119/bjhrv3n2-192
+      url: https://doi.org/10.34119/bjhrv3n2-192
+    - title: 'Disconnecting for the Good: A Network-Oriented Model for Social Contagion
+        of Opinions and Social Network Interventions to Increase Adherence to Social
+        Distancing'
+      authors:
+      - '**Eric Araújo**'
+      - Mariza Ferro
+      - Gabrieli Silva
+      date: '2020'
+      journal: Proceedings of the IX Brazilian Workshop on Social Network Analysis
+        and Mining
+      doi: 10.5753/brasnam.2020.11170
+      url: https://doi.org/10.5753/brasnam.2020.11170
+    - title: Creating a Temporal Pattern for Street Robberies Using ABM and Data from
+        a Small City in Southeast Brazil
+      authors:
+      - '**Eric Araújo**'
+      - Charlotte Gerritsen
+      date: '2020'
+      journal: Agent-Based Modelling for Criminological Theory Testing and Development
+      doi: 10.4324/9780429277177
+      url: https://doi.org/10.4324/9780429277177
+    - title: 'Identifying Influence Agents That Promote Physical Activity Through
+        the Simulation of Social Network Interventions: Agent-Based Modeling Study'
+      authors:
+      - Thabo J. van Woudenberg
+      - Bojan Simoski
+      - '**Eric Araújo**'
+      - Kirsten E. Bevelander
+      - William J. Burk
+      - Crystal R. Smit
+      - Laura Buijs
+      - Michel Klein
+      - Moniek Buijzen
+      date: '2019'
+      journal: Journal of Medical Internet Research
+      doi: 10.2196/12914
+      url: https://doi.org/10.2196/12914
+    - title: A Social Network Model for Integration of Refugees
+      authors:
+      - Fabio Curi
+      - Dimitris Nikolopoulos
+      - '**Eric Araújo**'
+      date: '2019'
+      journal: Proceedings of the 9th International Conference on Simulation and Modeling
+        Methodologies, Technologies and Applications
+      doi: 10.5220/0007930601650175
+      url: https://doi.org/10.5220/0007930601650175
+    - title: Parameter Optimization for Deriving Bluetooth-Based Social Network Graphs
+      authors:
+      - Bojan Simoski
+      - Michel C.A. Klein
+      - '**Eric Araújo**'
+      - Aart T. Van Halteren
+      - Thabo Van Woudenberg
+      - Kirsten E. Bevelander
+      - Moniek Buijzen
+      - Henri Bal
+      date: '2019'
+      journal: 2019 IEEE SmartWorld, Ubiquitous Intelligence & Computing, Advanced
+        & Trusted Computing, Scalable Computing & Communications, Cloud & Big Data
+        Computing, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/CBDCom/IOP/SCI)
+      doi: 10.1109/SmartWorld-UIC-ATC-SCALCOM-IOP-SCI.2019.00318
+      url: https://doi.org/10.1109/SmartWorld-UIC-ATC-SCALCOM-IOP-SCI.2019.00318
+    - title: 'Contagious: Modeling the Spread of Behaviours, Perceptions and Emotions
+        in Social Networks (PhD Thesis)'
+      authors:
+      - '**Eric Araújo**'
+      date: '2018'
+      journal: Vrije Universiteit Amsterdam
+      url: https://research.vu.nl/en/publications/632878cc-e2e7-40ab-a34e-91bde40eaf50
+    - title: Using Simulations for Exploring Interventions in Social Networks - Modeling
+        Physical Activity Behaviour in Dutch School Classes
+      authors:
+      - '**Eric Araújo**'
+      - Bojan Simoski
+      - Thabo van Woudenberg
+      - Kirsten Bevelander
+      - Crystal Smit
+      - Laura Buijs
+      - Michel Klein
+      - Moniek Buijzen
+      date: '2018'
+      journal: Proceedings of 8th International Conference on Simulation and Modeling
+        Methodologies, Technologies and Applications - SIMULTECH
+      doi: 10.5220/0006857704140425
+      url: https://doi.org/10.5220/0006857704140425
+    - title: Applying Machine Learning Algorithms for Deriving Personality Traits
+        in Social Network
+      authors:
+      - '**Eric Araújo**'
+      - Bojan Simoski
+      - Michel Klein
+      date: '2018'
+      journal: Proceedings of the 33rd Annual ACM Symposium on Applied Computing
+      doi: 10.1145/3167132.3167377
+      url: https://doi.org/10.1145/3167132.3167377
+    - title: 'Detecting Dutch Political Tweets: A Classifier based on Voting System
+        using Supervised Learning'
+      authors:
+      - '**Eric Araújo**'
+      - Dave Ebbelaar
+      date: '2018'
+      journal: 'Proceedings of the 10th International Conference on Agents and Artificial
+        Intelligence - Volume 1: ICAART'
+      doi: 10.5220/0006592004620469
+      url: https://doi.org/10.5220/0006592004620469
+    - title: Social Connection Dynamics in a Health Promotion Network
+      authors:
+      - '**Eric Araújo**'
+      - Michel Klein
+      - Aart van Halteren
+      date: '2017'
+      journal: Complex Networks & Their Applications V
+      doi: 10.1007/978-3-319-50901-3_66
+      url: https://doi.org/10.1007/978-3-319-50901-3_66
+    - title: Explaining Changes in Physical Activity Through a Computational Model
+        of Social Contagion
+      authors:
+      - Julia S. Mollee
+      - '**Eric Araújo**'
+      - Adnan Manzoor
+      - Aart T. van Halteren
+      - Michel Klein
+      date: '2017'
+      journal: Complex Networks VIII
+      doi: 10.1007/978-3-319-54241-6_19
+      url: https://doi.org/10.1007/978-3-319-54241-6_19
+    - title: Exploring Parameter Tuning for Analysis and Optimization of a Computational
+        Model
+      authors:
+      - Julia S. Mollee
+      - '**Eric Araújo**'
+      - Michel C. A. Klein
+      date: '2017'
+      journal: 'Advances in Artificial Intelligence: From Theory to Practice'
+      doi: 10.1007/978-3-319-60045-1_36
+      url: https://doi.org/10.1007/978-3-319-60045-1_36
+    - title: A Temporal-Causal Model for Spread of Messages in Disasters
+      authors:
+      - '**Eric Araújo**'
+      - Annelore Franke
+      - Rukshar Wagid Hosain
+      date: '2017'
+      journal: Computational Collective Intelligence
+      doi: 10.1007/978-3-319-67077-5_37
+      url: https://doi.org/10.1007/978-3-319-67077-5_37
+    - title: A Computational Cognitive Model for Political Positioning and Reactions
+        in Web Media
+      authors:
+      - '**Eric Araújo**'
+      - Michel Klein
+      date: '2017'
+      journal: 2017 IEEE 16th International Conference on Cognitive Informatics &
+        Cognitive Computing (ICCI*CC)
+      doi: 10.1109/ICCI-CC.2017.8109782
+      url: https://doi.org/10.1109/ICCI-CC.2017.8109782
+    - title: Analysis and Refinement of a Temporal-Causal Network Model for Absorption
+        of Emotions
+      authors:
+      - '**Eric Araújo**'
+      - Jan Treur
+      date: '2016'
+      journal: Computational Collective Intelligence
+      doi: 10.1007/978-3-319-45243-2_3
+      url: https://doi.org/10.1007/978-3-319-45243-2_3
+    - title: 'Online Sharing of Physical Activity: Does It Accelerate the Impact of
+        a Health Promotion Program?'
+      authors:
+      - Adnan Manzoor
+      - Julia S. Mollee
+      - '**Eric Araújo**'
+      - Aart T. van Halteren
+      - Michel C. A. Klein
+      date: '2016'
+      journal: 2016 IEEE International Conferences on Big Data and Cloud Computing
+        (BDCloud), Social Computing and Networking (SocialCom), Sustainable Computing
+        and Communications (SustainCom) (BDCloud-SocialCom-SustainCom)
+      doi: 10.1109/BDCloud-SocialCom-SustainCom.2016.40
+      url: https://doi.org/10.1109/BDCloud-SocialCom-SustainCom.2016.40
+    - title: Analysis and Evaluation of Social Contagion of Physical Activity in a
+        Group of Young Adults
+      authors:
+      - '**Eric Araújo**'
+      - Anita V. T. T. Tran
+      - Julia S. Mollee
+      - Michel C. A. Klein
+      date: '2015'
+      journal: Proceedings of the ASE BigData & SocialInformatics 2015
+      doi: 10.1145/2818869.2818922
+      url: https://doi.org/10.1145/2818869.2818922
+    - title: An Analysis of TCP Protocol Issues in Asymmetric Networks and Existing
+        Solutions (*In Portuguese*) - M.Sc. Thesis
+      authors:
+      - '**Eric Araújo**'
+      date: '2009'
+      journal: Universidade Federal de Minas Gerais
+      url: http://hdl.handle.net/1843/BUBD-9JWQ36
+    - title: 'AnimEasy: Free Tool for Digital Inclusion Focused on Multimedia Using
+        Inkscape (*In Portuguese*) - B.Sc. Senior Project'
+      authors:
+      - '**Eric Araújo**'
+      - Ricardo dos Santos Ferreira
+      date: '2007'
+      journal: VII Simpósio de Informática do Planalto Médio (SIPM 2007)
+    events:
+    - role: speaker
+      year: '2026'
+      name: NetLogo Conference 2026
+      url: https://conference.netlogo.org/2026/cfp
+      location: Chicago, IL
+      start_date: '2026-07-01'
+      end_date: '2026-07-01'
+      summary: To be presented by students Katelin Jandris, Ryan Klein, and Ovgu Tufan
+        (senior project)
+    - role: speaker
+      year: '2026'
+      name: Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person
+        in the Age of AI
+      url: https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3
+      location: Waco, TX
+      start_date: '2026-02-27'
+      end_date: '2026-02-27'
+    - role: speaker
+      year: '2025'
+      name: Grace Hopper Celebration 2025
+      url: https://ghc.anitab.org/
+      location: Chicago IL USA
+      start_date: '2025-11-04'
+      end_date: '2025-11-04'
+      summary: The Grace Hopper Celebration (GHC) is the worlds largest gathering
+        of women in computing. I am the main advisor of the Girls Who Code group at
+        Calvin University.
+    - role: speaker
+      year: '2025'
+      name: American Scientific Affiliation (ASA) Annual Meeting 2025
+      url: https://network.asa3.org/mpage/ASA2025
+      location: Virtual/Hybrid
+      start_date: '2025-07-19'
+      end_date: '2025-07-19'
+    - role: speaker
+      year: '2025'
+      name: INSNA Sunbelt 2025
+      location: Paris, France
+      start_date: '2025-06-01'
+      end_date: '2025-06-01'
+      summary: With Juliana Freitas Lopes et al. (Fiocruz)
+    - role: speaker
+      year: '2025'
+      name: Algoritmos e Sociedade — UFG
+      location: Brazil (online)
+      start_date: '2025-05-28'
+      end_date: '2025-05-28'
+      summary: In Portuguese
+    - role: speaker
+      year: '2025'
+      name: Autonomous Agents for Social Good (AASG) 2025
+      url: https://panosd.eu/aasg2025/call/
+      location: Detroit, MI
+      start_date: '2025-05-19'
+      end_date: '2025-05-19'
+      summary: Presented by students Daniel Kwon and Jaden Brookens (senior project)
+    - role: speaker
+      year: '2024'
+      name: 19º Congresso Brasileiro de Sistemas (CBS)
+      url: /files/conference-archives/19cbs-ufg-2024.pdf
+      location: Goiânia, Brazil
+      start_date: '2024-11-29'
+      end_date: '2024-11-29'
+      summary: In Portuguese
+    grants_and_fellowships:
+    - name: Calvin Research Fellowship
+      url: https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships
+      institution: Calvin University
+      start_date: '2026'
+      end_date: '2027'
+      summary: Supporting research on computational modeling of Christian communities.
+    - name: Nagel Institute Fellowship
+      url: https://nagelinstitute.org/fellowships/
+      institution: Nagel Institute for the Study of World Christianity — Calvin University
+      start_date: '2026'
+      summary: Supporting research on computational modeling of world Christian communities.
+    - name: McGregor Summer Research Fellowship
+      url: https://calvin.edu/faculty-development-research/student-research-opportunities/mcgregor-undergraduate-research-program
+      institution: Calvin University
+      start_date: '2026'
+      summary: Supporting collaborative faculty-student research.
+    teaching:
+    - code: CS112
+      name: Introduction to Data Structures
+      url: https://ericaraujo.com/26sp-cs112/
+      location: Calvin University USA
+      start_date: 2024-09
+      end_date: present
+      summary: An introduction to data structures and algorithms, focusing on the
+        design and analysis of algorithms, data structures, and their applications.
+    - code: CS354A
+      name: Databases Management Systems
+      url: https://ericaraujo.com/dbms/
+      location: Calvin University USA
+      start_date: 2025-01
+      end_date: present
+      summary: An introduction to database management systems, covering data modeling,
+        query languages, and database design.
+    - code: CS300b
+      name: Agent-based Modeling
+      location: Calvin University USA
+      start_date: 2024-09
+      end_date: present
+      summary: An introduction to agent-based modeling, focusing on the design and
+        implementation of agent-based models for complex systems.
+    - code: CS214
+      name: Concepts of Programming Languages
+      url: https://ericaraujo.com/26sp-cs214/
+      location: Calvin University USA
+      start_date: 2026-01
+      end_date: present
+      summary: Concepts and paradigms of programming languages.
+    research_projects:
+    - name: Procores
+      url: https://procores-cnpq.github.io/
+      start_date: 2022-05
+      end_date: present
+      location: UFMG Brazil
+      summary: Research group funded by CNPq (Brazil)
+      highlights:
+      - ProCoReS is a research group funded by CNPq, dedicated to the study of social
+        networks, mathematical modeling, contagion processes, and the analysis of
+        complex data. The group brings together researchers from different fields
+        to propose and analyze innovative models that consider multiple aspects of
+        social networks and their dynamics.
+      - 'To model networks and contagion, most current approaches use graphs. However,
+        these are not entirely realistic, and new models of contagion processes should
+        allow for: representation of different classes of individuals and connections,
+        linkage between concurrent and co-occurring processes, and connections involving
+        two or more individuals simultaneously. Understanding how connections are
+        formed and how different types of flows permeate such networks is crucial
+        to understanding how our society is organized and evolves. The goal is to
+        propose mathematical, statistical, agent-based, and machine learning models
+        that account for: multiple complex aspects of social contagion processes and
+        parameterization through data sources (e.g., online social networks, mobility,
+        collaborations). Such models should allow for classes of individuals and relationships;
+        model co-occurrence, causality, and links between contagion processes; and
+        represent multi-relationships.'
+      - 'Funded by: CNPq Universal 2022'
+    - name: Socioeconomic Impacts in Territories Affected by Technological Disasters
+      start_date: 2022-09
+      end_date: 2024-02
+      location: UFLA Brazil
+      highlights:
+      - This project investigates the socioeconomic consequences of technological
+        disasters in Brazil, which have increased significantly in recent decades.
+        Between 2000 and 2020, Brazil recorded 96 technological disasters—ranging
+        from dam collapses to oil spills—impacting over 42 million people and causing
+        over USD 17 billion in damages (EM-DAT, 2021). Unlike natural disasters, which
+        occur without human interference, technological disasters result from anthropogenic
+        actions, such as industrial accidents or environmental contamination. These
+        events often lead to material loss, environmental degradation, and serious
+        public health issues, demanding robust mechanisms for community response and
+        risk management.
+      - By analyzing historical data and specific case studies such as the Mariana
+        (2015) and Brumadinho (2019) dam collapses, the project seeks to understand
+        how these disasters affect the social and economic fabric of impacted territories.
+        The ultimate goal is to identify patterns and develop frameworks that can
+        inform policies for disaster prevention, mitigation, and recovery—contributing
+        to more resilient communities in the face of growing technological risks.
+    - name: Analysis of User Behavior on a University Campus Wi-Fi Network
+      start_date: 2021-03
+      end_date: 2023-09
+      location: UFLA Brazil
+      summary: Masters Project by Thiago do Prado Ramos
+      highlights:
+      - This project aims to analyze the behavior of users on a university campus
+        Wi-Fi network, focusing on connection patterns and user mobility. By examining
+        connection logs, the project seeks to understand how users interact with the
+        network, their mobility patterns, and how these factors influence network
+        performance and user experience.
+      - The findings will help in optimizing network infrastructure, improving user
+        experience, and informing future network design and management strategies.
+    - name: Algorithms for the Optimization of Supply Chain Management Systems
+      start_date: 2021-03
+      end_date: 2022-03
+      location: UFLA Brazil
+      summary: Project in partnership with Prof. Mayron Moreira (UFLA Brazil)
+      highlights:
+      - This project developed and evaluated algorithms aimed at optimizing key components
+        of supply chain management, including inventory control, logistics, and production
+        scheduling. By modeling supply chains as dynamic systems, the project applied
+        heuristic and metaheuristic approaches—such as genetic algorithms and simulated
+        annealing—to improve efficiency, reduce costs, and enhance decision-making
+        under uncertainty.
+      - The research focused on real-world constraints such as demand variability,
+        delivery time windows, and resource limitations. The resulting algorithms
+        demonstrated significant improvements in performance when compared to traditional
+        methods, and provided a flexible framework that can be adapted to various
+        industrial sectors seeking to enhance their operational processes.
+    - name: Urban Tree Cover and Crime
+      start_date: 2020-03
+      end_date: 2024-03
+      location: UFLA Brazil
+      summary: Project in partnership with Prof. Michele Valquíria dos Reis (UFLA
+        Brazil)
+      highlights:
+      - Urban tree cover provides vital ecosystem services that promote public health
+        and well-being. However, there is a common perception—found in media reports
+        and informal discussions—that trees may facilitate crime by obstructing visibility
+        or serving as hiding places. While some studies have linked vegetation to
+        fear of crime, often recommending vegetation removal to improve safety, research
+        from the Northern Hemisphere increasingly suggests a negative correlation
+        between urban greenery and crime rates, indicating that vegetation may actually
+        contribute to crime reduction.
+      - This project aims to investigate the relationship between urban tree cover
+        and crime incidence in Brazilian cities. It integrates data from street tree
+        inventories, georeferenced crime records from the Military Police, socioeconomic
+        indicators from the national census (IBGE), citizen surveys on perceptions
+        of vegetation and safety, and citizen requests for tree removal. The goal
+        is to generate scientific insights into the social dimensions of urban greenery
+        and to inform evidence-based environmental management policies. The findings
+        are intended to support public agencies and civil society in designing safer,
+        greener urban spaces.
+    - name: Computational Modeling and Simulation of Contagion in Social Networks
+      start_date: 2018-09
+      end_date: 2024-06
+      location: UFLA Brazil
+      highlights:
+      - Social contagion refers to the spread of behaviors, perceptions, and emotions
+        through interactions among individuals. Often occurring unconsciously, this
+        phenomenon plays a role in shaping collective opinion, promoting positive
+        behaviors, and influencing public discourse. This project aims to simulate
+        the diffusion of information originating from social media platforms across
+        various contexts, using agent-based and network modeling approaches.
+      - The study investigates how network topology, individual agent characteristics,
+        and intervention strategies affect the spread and quality of information.
+        It explores methods for enhancing the visibility and influence of high-quality
+        content while limiting the reach of misinformation or fake news. The results
+        aim to inform the design of healthier and more reliable information ecosystems,
+        with potential applications in communication policy, platform design, and
+        digital education.
+    supervised_students:
+    - names: Brady Swiech; Tim David; Zach Redder
+      degree: B.S.
+      institution: Calvin University
+      project: Scale66 — AI Platform for Marketing Content Generation
+      start: Fall 2025
+      end: Spring 2026
+    - names: Esther Asuquo; David Barry
+      degree: B.S.
+      institution: Calvin University
+      project: 'Modeling Gram-Negative Bacterial Infections: An Agent-Based Approach'
+      start: Spring 2025
+      end: Fall 2025
+    - names: Katelin Jandris; Ryan Klein; Ovgu Tufan
+      degree: B.S.
+      institution: Calvin University
+      project: Cognitive Modeling of Church Polarization
+      start: Fall 2025
+      end: Spring 2026
+      outcomes:
+      - Accepted presentation at NetLogo Conference 2026 (Chicago — July 2026)
+    - names: Jaden Brookens; Daniel Kwon
+      degree: B.S.
+      institution: Calvin University
+      project: 'Modeling Introversion in the Classroom: An Agent-Based Approach'
+      start: Fall 2024
+      end: Spring 2025
+      outcomes:
+      - Conference paper at AASG 2025 (Detroit)
+    - names: Leonardo Biazoli
+      degree: Ph.D.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Large-Scale Bibliometric Analysis of International Researcher Mobility
+        in Brazilian Health and Life Sciences
+      start: '2022'
+      end: '2025'
+      outcomes:
+      - Published in Quantitative Science Studies (2026)
+      doi: 10.1162/QSS.a.411
+    - names: Clayton Ramos da Silva
+      degree: M.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Leishmaniasis Transmission Modeling Using Agent-Based Models and Complex
+        Networks
+      start: '2022'
+      end: '2024'
+      outcomes:
+      - Published in Revista Brasileira de Ensino de Física (2025)
+      doi: 10.1590/1806-9126-RBEF-2024-0464
+    - names: Matheus de Andrade Flausino
+      degree: M.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Urban Topology and Street Crime Patterns Using Complex Networks
+      start: '2022'
+      end: '2024'
+      outcomes:
+      - Published in Journal of Complex Networks (2025)
+      doi: 10.1093/comnet/cnaf016
+    - names: Thiago Guedes de Jesus
+      degree: M.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Epidemiological Modeling with Evolutionary Game Theory in Spatial Networks
+      start: '2022'
+      end: '2024'
+    - names: Rolf Pagotto Veiga
+      degree: M.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Machine Learning for Christian Music Classification
+      start: '2022'
+      end: '2024'
+    - names: Alessandra Louzada Terra
+      degree: M.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Graph Analysis of Medical Student Mobility in Brazil
+      start: '2023'
+      end: '2024'
+    - names: Kelly Iapuque Rodrigues de Sousa
+      degree: M.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: 'Urban Afforestation and Public Safety: A Bibliometric Study'
+      start: '2021'
+      end: '2023'
+      outcomes:
+      - Published in Revista de Gestão Ambiental e Sustentabilidade (GeAS) (2022)
+      doi: 10.5585/geas.v11i2.22965
+    - names: Thiago do Prado Ramos
+      degree: M.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Wireless Network Capacity Planning from Campus Connection Logs
+      start: '2021'
+      end: '2023'
+    service:
+    - type: defense-committee
+      role: External Member
+      title: Qualifying Exam — Rolf Pagotto Veiga
+      institution: UFLA Brazil
+      date: 2024-08
+      summary: Served as external committee member for the qualifying exam of Rolf
+        Pagotto Veiga.
+    - type: defense-committee
+      role: External Member
+      title: Masters Exam — Stephano Daniel Santos
+      institution: UFLA Brazil
+      date: '2025-08-22'
+      summary: 'Served as external committee member for the Masters Exam of Stephano
+        Daniel Santos, on machine learning for prediction of Portland cement compressive
+        strength (advisors: Profs. Teodorico de Castro Ramalho and Danton Diego Ferreira).'
+    research_skills:
+    - '**Agent-based modeling:** Netlogo and Python tools for ABMs.'
+    - '**Data Science and Machine Learning:** Python, R, Statistics.'
+    - '**Social Network Analysis:** Gephi, NetworkX.'
+    - '**Network-oriented modeling:** Techniques for modeling complex systems using
+      network-oriented methods.'
+    - '**Programming:** Proficient with Python, C++, Netlogo, and Git; good understanding
+      of Web development.'
+    - '**Languages:** English (fluent), Portuguese (native), Dutch (basic).'
