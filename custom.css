@@ -7,7 +7,7 @@
 /* --- Google Fonts ------------------------------------------ */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
-/* --- CSS variables (override MyST defaults) ---------------- */
+/* --- CSS variables ----------------------------------------- */
 :root {
   --color-maroon:        #6E1C2E;
   --color-maroon-light:  #9a2e47;
@@ -85,63 +85,70 @@ blockquote {
   margin-bottom: 2rem;
 }
 
-/* --- Admonitions / callout boxes --------------------------- */
+/* --- Quarto callout boxes ---------------------------------- */
 
-/* note → subtle maroon */
-.admonition.note,
-div[class*="admonition-note"] {
-  border-left: 4px solid var(--color-maroon);
+/* note → subtle maroon (used for teaching semester dropdowns) */
+.callout-note {
+  border-left-color: var(--color-maroon) !important;
   background: rgba(110, 28, 46, 0.04);
 }
-.admonition.note .admonition-title,
-div[class*="admonition-note"] .admonition-title {
+.callout-note .callout-title-container {
   color: var(--color-maroon);
 }
 
 /* tip → gold */
-.admonition.tip,
-div[class*="admonition-tip"] {
-  border-left: 4px solid var(--color-gold);
+.callout-tip {
+  border-left-color: var(--color-gold) !important;
   background: rgba(196, 154, 44, 0.06);
 }
-.admonition.tip .admonition-title,
-div[class*="admonition-tip"] .admonition-title {
+.callout-tip .callout-title-container {
   color: #7a600a;
 }
 
-/* seealso → navy */
-.admonition.seealso,
-div[class*="admonition-seealso"] {
-  border-left: 4px solid var(--color-navy-mid);
+/* caution → navy */
+.callout-caution {
+  border-left-color: var(--color-navy-mid) !important;
   background: rgba(11, 27, 50, 0.04);
 }
-.admonition.seealso .admonition-title,
-div[class*="admonition-seealso"] .admonition-title {
+.callout-caution .callout-title-container {
   color: var(--color-navy-mid);
 }
 
 /* important / warning */
-.admonition.important,
-div[class*="admonition-important"] {
-  border-left: 4px solid var(--color-maroon-light);
+.callout-important,
+.callout-warning {
+  border-left-color: var(--color-maroon-light) !important;
   background: rgba(154, 46, 71, 0.05);
 }
 
-/* --- Navbar actions (top-right buttons) ------------------- */
-.navbar .actions a,
-header .actions a {
-  border: 1.5px solid var(--color-gold);
-  border-radius: 4px;
-  padding: 0.25rem 0.75rem;
-  font-size: 0.875rem;
-  color: var(--color-maroon);
-  text-decoration: none;
-  transition: background 0.15s ease, color 0.15s ease;
+/* Collapsible callout header style (teaching semester dropdowns) */
+.callout.callout-style-default .callout-header {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-navy-mid);
 }
-.navbar .actions a:hover,
-header .actions a:hover {
-  background: var(--color-gold);
-  color: #fff;
+.callout.callout-style-default .callout-header:hover {
+  color: var(--color-maroon);
+}
+
+/* --- Navbar actions (top-right links) ---------------------- */
+.navbar-nav .nav-link {
+  color: var(--color-maroon) !important;
+  font-size: 0.875rem;
+  border: 1.5px solid transparent;
+  border-radius: 4px;
+  padding: 0.25rem 0.75rem !important;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.navbar-nav .nav-link:hover {
+  border-color: var(--color-gold);
+  background: rgba(196, 154, 44, 0.08);
+}
+
+/* Navbar logo text */
+.navbar-brand {
+  font-weight: 600;
+  color: var(--color-navy) !important;
 }
 
 /* --- Footer ------------------------------------------------ */
@@ -151,17 +158,6 @@ footer img[alt="Calvin University crest"] {
   width: auto !important;
   max-width: 200px !important;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
-}
-
-/* --- Teaching semester cards ------------------------------ */
-details summary {
-  font-family: var(--font-body);
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--color-navy-mid);
-}
-details summary:hover {
-  color: var(--color-maroon);
 }
 
 /* --- Publication list ------------------------------------- */
@@ -176,10 +172,8 @@ details summary:hover {
 }
 
 /* --- Hide page title on the home page --------------------- */
-/* MyST adds 'class' frontmatter value to the <article> element itself,    */
-/* so the selector must be article.hide-page-title h1, not .hide-page-title h1 */
-article.hide-page-title h1,
-article.hide-page-title h1.heading {
+/* Quarto renders the title in #title-block-header           */
+body.home-page #title-block-header {
   display: none !important;
 }
 

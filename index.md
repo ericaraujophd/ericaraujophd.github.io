@@ -1,6 +1,8 @@
 ---
 title: "Eric Araújo"
-class: hide-page-title
+format:
+  html:
+    body-classes: home-page
 ---
 
 <div style="display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: start; margin-bottom: 1.5rem;">
