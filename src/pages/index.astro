@@ -1,10 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import news from '@data/publications.json';  // for recent activity; swap with news.json if separate
+import news from '../../data/publications.json';  // for recent activity; swap with news.json if separate
 
 // Pull the 4 most recent visible items for the news card
-import grants from '@data/grants.json';
-import presentations from '@data/presentations.json';
+import grants from '../../data/grants.json';
+import presentations from '../../data/presentations.json';
 
 // Combine recent news-eligible items and take top 4
 type NewsItem = { date: string; title: string; url?: string; label: string };

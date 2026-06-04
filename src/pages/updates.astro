@@ -1,9 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import publications from '@data/publications.json';
-import grants from '@data/grants.json';
-import presentations from '@data/presentations.json';
-import service from '@data/service.json';
+import publications from '../../data/publications.json';
+import grants from '../../data/grants.json';
+import presentations from '../../data/presentations.json';
+import service from '../../data/service.json';
 
 // Aggregate all news-visible items into a unified timeline
 type Entry = { date: string; label: string; title: string; url?: string; body?: string };
