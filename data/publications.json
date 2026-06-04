@@ -62,7 +62,7 @@
     "issn": "2051-1329",
     "visible_cv": true,
     "visible_web": true,
-    "news": false,
+    "news": true,
     "document_path": "docs/publications/2025-JCN-urban-topology/cnaf016.pdf"
   },
   {
@@ -84,7 +84,7 @@
     "issn": null,
     "visible_cv": true,
     "visible_web": true,
-    "news": false,
+    "news": true,
     "document_path": null
   },
   {
