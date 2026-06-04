@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """
-build.py — Full CV build orchestrator.
+build.py — CV build orchestrator.
 
 Steps:
   1. Compile JSON → rendercv YAML  (to_rendercv.py)
-  2. Compile JSON → website files  (to_website.py)
-  3. Run rendercv to render the PDF
-  4. Archive the previous PDF to cv/archive/ with a timestamp
-  5. Copy the new PDF to cv/ so it's accessible at /cv/Eric_Araujo_CV.pdf
+  2. Run rendercv to render the PDF
+  3. Archive the previous PDF to public/cv/archive/ with a timestamp
+  4. Copy the new PDF to public/cv/ so it's accessible at /cv/Eric_Araujo_CV.pdf
+
+Note: website generation (to_website.py) has been retired. The Astro site
+imports data/*.json directly — no intermediate CSV or Markdown files needed.
 
 Usage (run from repo root):
-    python scripts/build.py [--cv-only] [--web-only] [--no-render]
+    python scripts/build.py [--no-render]
 
 Flags:
-  --cv-only    Skip website generation
-  --web-only   Skip rendercv YAML + PDF rendering
   --no-render  Generate YAML but skip the rendercv render step
 """
 
@@ -70,20 +70,14 @@ def render_cv():
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Build CV and website from JSON sources.")
-    parser.add_argument("--cv-only",   action="store_true", help="Skip website generation")
-    parser.add_argument("--web-only",  action="store_true", help="Skip rendercv YAML + PDF")
+    parser = argparse.ArgumentParser(description="Build CV PDF from JSON sources.")
     parser.add_argument("--no-render", action="store_true", help="Generate YAML but skip PDF render")
     args = parser.parse_args()
 
-    if not args.web_only:
-        run("to_rendercv.py", "Compiling JSON → rendercv YAML")
-        if not args.no_render:
-            archive_pdf()
-            render_cv()
-
-    if not args.cv_only:
-        run("to_website.py", "Compiling JSON → website files")
+    run("to_rendercv.py", "Compiling JSON → rendercv YAML")
+    if not args.no_render:
+        archive_pdf()
+        render_cv()
 
     print("\n✓ Build complete.")
 
