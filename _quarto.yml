@@ -4,6 +4,10 @@ project:
   render:
     - "**/*.md"
     - "!footer.md"
+    - "!_build/**"
+    - "!_site/**"
+    - "!.venv/**"
+    - "!.quarto/**"
   resources:
     - cfr.html
     - "files/**"

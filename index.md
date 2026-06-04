@@ -5,16 +5,15 @@ format:
     body-classes: home-page
 ---
 
-<div style="display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: start; margin-bottom: 1.5rem;">
-  <div>
-    <img src="files/headshot.jpg" alt="Portrait from September 2024" style="width: 100%; height: auto; border-radius: 6px;">
-  </div>
-  <div>
-    <p>Olá! I am an Associate Professor in the <a href="https://calvin.edu/academics/school-stem/computer-science">Computer Science Department</a> at <a href="https://calvin.edu/">Calvin University</a>.</p>
-    <p>My research uses computational methods to understand human behavior and social dynamics — particularly the spread of opinions, sentiments, and behaviors through complex systems. I work with <strong>multiagent modeling and simulation</strong> across domains including political polarization, public health, urban security, and religious communities.</p>
-    <p>At Calvin, I teach courses in computer science, data science, and agent-based modeling. I enjoy mentoring students in research that takes both technical rigor and ethical reflection seriously.</p>
-  </div>
-</div>
+::: {.home-hero}
+![Portrait from September 2024](files/headshot.jpg){.home-hero-photo}
+
+Olá! I am an Associate Professor in the [Computer Science Department](https://calvin.edu/academics/school-stem/computer-science) at [Calvin University](https://calvin.edu/).
+
+My research uses computational methods to understand human behavior and social dynamics — particularly the spread of opinions, sentiments, and behaviors through complex systems. I work with **multiagent modeling and simulation** across domains including political polarization, public health, urban security, and religious communities.
+
+At Calvin, I teach courses in computer science, data science, and agent-based modeling. I enjoy mentoring students in research that takes both technical rigor and ethical reflection seriously.
+:::
 
 ---
 
