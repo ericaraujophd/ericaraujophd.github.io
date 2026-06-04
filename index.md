@@ -8,11 +8,17 @@ format:
 ::: {.home-hero}
 ![Portrait from September 2024](files/headshot.jpg){.home-hero-photo}
 
+# Eric Araújo
+
 Olá! I am an Associate Professor in the [Computer Science Department](https://calvin.edu/academics/school-stem/computer-science) at [Calvin University](https://calvin.edu/).
 
 My research uses computational methods to understand human behavior and social dynamics — particularly the spread of opinions, sentiments, and behaviors through complex systems. I work with **multiagent modeling and simulation** across domains including political polarization, public health, urban security, and religious communities.
 
 At Calvin, I teach courses in computer science, data science, and agent-based modeling. I enjoy mentoring students in research that takes both technical rigor and ethical reflection seriously.
+
+::: {.hero-links}
+[Email](mailto:eric.araujo@calvin.edu) [CV](cv/Eric_Araujo_CV.pdf) [Google Scholar](https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en&authuser=1) [ORCID](https://orcid.org/0000-0003-4263-9075) [Lattes](http://lattes.cnpq.br/8108200264338612) [YouTube](https://www.youtube.com/EricAra%C3%BAjo)
+:::
 :::
 
 ---
@@ -34,11 +40,7 @@ My work bridges computer science and the social sciences, applying agent-based m
 
 Core methodologies: agent-based modeling and simulation, complex network analysis, social dynamics modeling, cognitive behavioral frameworks, and machine learning applications.
 
-You can find the full publication list on this site or on my [Google Scholar profile](https://scholar.google.com/citations?user=QlE8JOoAAAAJ&hl=en&authuser=1). My CV in English is [available here](cv/Eric_Araujo_CV.pdf), and my [ORCID](https://orcid.org/0000-0003-4263-9075) and [Lattes CV](http://lattes.cnpq.br/8108200264338612) (Portuguese) are also linked. I also have a [YouTube channel](https://www.youtube.com/EricAra%C3%BAjo) with teaching resources on agent-based modeling with NetLogo.
-
-My PhD thesis: [*Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks*](./files/Contagious_Eric_Araujo.pdf)
-
-If any links are broken or you need a paper you cannot access, please [email me](mailto:eric.araujo@calvin.edu).
+PhD thesis: [*Contagious: Modeling the spread of behaviours, perceptions and emotions in social networks*](./files/Contagious_Eric_Araujo.pdf)
 
 ---
 

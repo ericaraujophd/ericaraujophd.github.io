@@ -24,6 +24,7 @@
 /* --- Base typography --------------------------------------- */
 body {
   font-family: var(--font-body);
+  font-weight: 300;
   color: var(--color-text);
   background-color: var(--color-bg);
   font-size: 1rem;
@@ -170,26 +171,75 @@ body.home-page #title-block-header {
 
 /* --- Home hero -------------------------------------------- */
 body.home-page .home-hero {
-  display: flow-root;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.25rem;
   margin-bottom: 2rem;
 }
 
 body.home-page .home-hero .quarto-figure {
-  float: left;
-  margin: 0.25rem 2rem 1rem 0;
-  padding: 0;
+  flex-shrink: 0;
   width: 160px;
+  margin: 0;
+  padding: 0;
+  /* nudge down so the photo center visually aligns with the name */
+  padding-top: 0.35rem;
+}
+
+body.home-page .home-hero .home-hero-text {
+  min-width: 0;  /* prevents flex children from overflowing */
 }
 
 body.home-page .home-hero .home-hero-photo {
   width: 160px;
-  height: auto;
-  border-radius: 8px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
   display: block;
 }
 
 body.home-page .home-hero figcaption {
   display: none;
+}
+
+/* hero name — no top margin so it sits flush with the photo */
+body.home-page .home-hero h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.15;
+}
+
+/* link chip row */
+.hero-links {
+  margin-top: 1rem;
+}
+
+.hero-links p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0;
+}
+
+.hero-links a {
+  display: inline-block;
+  padding: 0.25rem 0.85rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: var(--color-accent) !important;
+  transition: background 0.15s, color 0.15s;
+}
+
+.hero-links a:hover {
+  background: var(--color-accent);
+  color: #fff !important;
+  text-decoration: none !important;
 }
 
 /* --- Footer ----------------------------------------------- */
@@ -295,9 +345,20 @@ body.quarto-dark .navbar-logo {
   content: url('/files/Calvin_College_White.png');
 }
 
+/* darker navbar in dark mode */
+body.quarto-dark .navbar {
+  background-color: #111111 !important;
+  border-bottom: 1px solid #2a2a2a;
+}
+
 .site-footer-logo-dark { display: none; }
 body.quarto-dark .site-footer-logo-light { display: none; }
 body.quarto-dark .site-footer-logo-dark  { display: block; }
+
+/* chip hover on dark bg — dark text on gold fill */
+body.quarto-dark .hero-links a:hover {
+  color: #1a1a1a !important;
+}
 
 /* photo shadow on dark bg */
 body.quarto-dark .home-hero-photo {
@@ -309,15 +370,21 @@ body.quarto-dark .home-hero-photo {
   h1 { font-size: 1.6rem; }
   h2 { font-size: 1.2rem; }
 
+  body.home-page .home-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   body.home-page .home-hero .quarto-figure {
-    float: none;
     width: 130px;
-    margin: 0 auto 1.25rem auto;
   }
 
   body.home-page .home-hero .home-hero-photo {
     width: 130px;
-    margin: 0 auto;
+    height: 130px;
+        object-position: top center;
+    justify-content: center;
   }
 
   .site-footer-inner {
