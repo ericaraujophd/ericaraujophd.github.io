@@ -1,0 +1,57 @@
+# Personal information — edit this file directly (not generated)
+name: Eric Araújo
+headline: Associate Professor
+location: Grand Rapids, MI
+email: eric.araujo@calvin.edu
+phone: +1-616-215-8643
+website: https://ericaraujo.com/
+photo: config/headshot.jpg
+
+social_networks:
+  - network: LinkedIn
+    username: ericaraujophd
+  - network: GitHub
+    username: ericaraujophd
+  - network: ResearchGate
+    username: Eric-Araujo
+  - network: ORCID
+    username: 0000-0003-4263-9075
+
+welcome:
+  - I investigate the spread of opinions, sentiments, and behaviors in complex systems
+    through multiagent modeling and simulations, offering insights into social dynamics
+    in politics, cooperation, health, criminology, and religion.
+  - The work I develop is multidisciplinary, using agent-based models and data science
+    to solve problems in areas such as political polarization in churches, public security,
+    the spread of fake news, and promoting healthier lifestyles.
+
+education:
+  - institution: Vrije Universiteit Amsterdam
+    area: Computer Science
+    degree: Ph.D.
+    start_date: 2014-08
+    end_date: 2018-09
+    location: Amsterdam, NL
+    highlights:
+      - 'Thesis: [Contagious: Modeling the Spread of Behaviours, Perceptions and Emotions
+        in Social Networks](https://research.vu.nl/en/publications/632878cc-e2e7-40ab-a34e-91bde40eaf50)'
+  - institution: Universidade Federal de Minas Gerais
+    area: Computer Science
+    degree: M.Sc.
+    start_date: 2007-03
+    end_date: 2009-09
+    location: Belo Horizonte, Brazil
+  - institution: Universidade Federal de Viçosa
+    area: Computer Science
+    degree: B.Sc.
+    start_date: 2003-03
+    end_date: 2006-12
+    location: Viçosa, Brazil
+
+research_skills:
+  - '**Agent-based modeling:** Netlogo and Python tools for ABMs.'
+  - '**Data Science and Machine Learning:** Python, R, Statistics.'
+  - '**Social Network Analysis:** Gephi, NetworkX.'
+  - '**Network-oriented modeling:** Techniques for modeling complex systems using network-oriented methods.'
+  - '**Programming:** Proficient with Python, C++, Netlogo, and Git; good understanding of Web development.'
+  - '**Languages:** English (fluent), Portuguese (native), Dutch (basic).'

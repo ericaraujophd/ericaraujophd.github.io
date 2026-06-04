@@ -1,0 +1,78 @@
+[
+  {
+    "id": "calvin-university-2024",
+    "company": "Calvin University",
+    "position": "Associate Professor",
+    "start_date": "2024-07",
+    "end_date": "present",
+    "location": "Grand Rapids MI USA",
+    "highlights": [
+      "Computer Science Department Calvin University"
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "fiocruz-2022",
+    "company": "FIOCRUZ",
+    "position": "Researcher",
+    "start_date": "2022",
+    "end_date": "2024",
+    "location": "Rio de Janeiro Brazil",
+    "highlights": [
+      "FIOCRUZ is a leading institution in health research and development in Brazil. My work focused on collecting data and analyzing it to understand medical circulation of health sciences among Brazilian researchers."
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "vrije-universiteit-amsterdam-2018",
+    "company": "Vrije Universiteit Amsterdam",
+    "position": "Guest Researcher",
+    "start_date": "2018-10",
+    "end_date": "2022-04",
+    "location": null,
+    "highlights": [
+      "Collaborator in the Department of Computer Science Vrije Universiteit Amsterdam",
+      "Worked on criminology models with Prof. Dr. Charlotte Gerritsen."
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "universidade-federal-de-lavras-2011",
+    "company": "Universidade Federal de Lavras",
+    "position": "Associate Professor",
+    "start_date": "2011-02",
+    "end_date": "2024-06",
+    "location": "Minas Gerais Brazil",
+    "highlights": [
+      "Computer Science Department Universidade Federal de Lavras"
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "gammon-presbyterian-faculty-2010",
+    "company": "Gammon Presbyterian Faculty",
+    "position": "Professor",
+    "start_date": "2010-01",
+    "end_date": "2011-01",
+    "location": "Minas Gerais Brazil",
+    "highlights": [
+      "Professor and Coordinator of the Information Systems course"
+    ],
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  }
+]

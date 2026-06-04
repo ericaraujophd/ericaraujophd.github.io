@@ -1,0 +1,6 @@
+ADD PROOF HERE: PDF of the paper, or a DOI link file.
+Paper: Understanding the complexities of Bluetooth for social networks (PUC 2024). DOI: 10.1007/s00779-020-01435-x
+
+Options:
+  1. Drop the paper PDF here (rename to paper.pdf)
+  2. Create a file named doi.txt with the DOI/URL inside

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cs112",
+    "code": "CS112",
+    "name": "Introduction to Data Structures",
+    "institution": "Calvin University",
+    "url": "https://ericaraujo.com/26sp-cs112/",
+    "location": "Calvin University USA",
+    "start_date": "2024-09",
+    "end_date": "present",
+    "summary": "An introduction to data structures and algorithms, focusing on the design and analysis of algorithms, data structures, and their applications.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "cs354a",
+    "code": "CS354A",
+    "name": "Databases Management Systems",
+    "institution": "Calvin University",
+    "url": "https://ericaraujo.com/dbms/",
+    "location": "Calvin University USA",
+    "start_date": "2025-01",
+    "end_date": "present",
+    "summary": "An introduction to database management systems, covering data modeling, query languages, and database design.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "cs300b",
+    "code": "CS300b",
+    "name": "Agent-based Modeling",
+    "institution": "Calvin University",
+    "url": null,
+    "location": "Calvin University USA",
+    "start_date": "2024-09",
+    "end_date": "present",
+    "summary": "An introduction to agent-based modeling, focusing on the design and implementation of agent-based models for complex systems.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "cs214",
+    "code": "CS214",
+    "name": "Concepts of Programming Languages",
+    "institution": "Calvin University",
+    "url": "https://ericaraujo.com/26sp-cs214/",
+    "location": "Calvin University USA",
+    "start_date": "2026-01",
+    "end_date": "present",
+    "summary": "Concepts and paradigms of programming languages.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  }
+]

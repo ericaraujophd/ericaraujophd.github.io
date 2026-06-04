@@ -1,0 +1,224 @@
+[
+  {
+    "id": "scale66-ai-platform-for-marketing-c-fall-2025",
+    "names": [
+      "Brady Swiech",
+      "Tim David",
+      "Zach Redder"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Scale66 — AI Platform for Marketing Content Generation",
+    "start": "Fall 2025",
+    "end": "Spring 2026",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "modeling-gram-negative-bacterial-in-spring-202",
+    "names": [
+      "Esther Asuquo",
+      "David Barry"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Modeling Gram-Negative Bacterial Infections: An Agent-Based Approach",
+    "start": "Spring 2025",
+    "end": "Fall 2025",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "cognitive-modeling-of-church-polari-fall-2025",
+    "names": [
+      "Katelin Jandris",
+      "Ryan Klein",
+      "Ovgu Tufan"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Cognitive Modeling of Church Polarization",
+    "start": "Fall 2025",
+    "end": "Spring 2026",
+    "outcomes": [
+      "Accepted presentation at NetLogo Conference 2026 (Chicago — July 2026)"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "modeling-introversion-in-the-classr-fall-2024",
+    "names": [
+      "Jaden Brookens",
+      "Daniel Kwon"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Modeling Introversion in the Classroom: An Agent-Based Approach",
+    "start": "Fall 2024",
+    "end": "Spring 2025",
+    "outcomes": [
+      "Conference paper at AASG 2025 (Detroit)"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "large-scale-bibliometric-analysis-o-2022",
+    "names": [
+      "Leonardo Biazoli"
+    ],
+    "degree": "Ph.D.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Large-Scale Bibliometric Analysis of International Researcher Mobility in Brazilian Health and Life Sciences",
+    "start": "2022",
+    "end": "2025",
+    "outcomes": [
+      "Published in Quantitative Science Studies (2026)"
+    ],
+    "doi": "10.1162/QSS.a.411",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "leishmaniasis-transmission-modeling-2022",
+    "names": [
+      "Clayton Ramos da Silva"
+    ],
+    "degree": "M.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Leishmaniasis Transmission Modeling Using Agent-Based Models and Complex Networks",
+    "start": "2022",
+    "end": "2024",
+    "outcomes": [
+      "Published in Revista Brasileira de Ensino de Física (2025)"
+    ],
+    "doi": "10.1590/1806-9126-RBEF-2024-0464",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "urban-topology-and-street-crime-pat-2022",
+    "names": [
+      "Matheus de Andrade Flausino"
+    ],
+    "degree": "M.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Urban Topology and Street Crime Patterns Using Complex Networks",
+    "start": "2022",
+    "end": "2024",
+    "outcomes": [
+      "Published in Journal of Complex Networks (2025)"
+    ],
+    "doi": "10.1093/comnet/cnaf016",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "epidemiological-modeling-with-evolu-2022",
+    "names": [
+      "Thiago Guedes de Jesus"
+    ],
+    "degree": "M.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Epidemiological Modeling with Evolutionary Game Theory in Spatial Networks",
+    "start": "2022",
+    "end": "2024",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "machine-learning-for-christian-musi-2022",
+    "names": [
+      "Rolf Pagotto Veiga"
+    ],
+    "degree": "M.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Machine Learning for Christian Music Classification",
+    "start": "2022",
+    "end": "2024",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "graph-analysis-of-medical-student-m-2023",
+    "names": [
+      "Alessandra Louzada Terra"
+    ],
+    "degree": "M.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Graph Analysis of Medical Student Mobility in Brazil",
+    "start": "2023",
+    "end": "2024",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "urban-afforestation-and-public-safe-2021",
+    "names": [
+      "Kelly Iapuque Rodrigues de Sousa"
+    ],
+    "degree": "M.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Urban Afforestation and Public Safety: A Bibliometric Study",
+    "start": "2021",
+    "end": "2023",
+    "outcomes": [
+      "Published in Revista de Gestão Ambiental e Sustentabilidade (GeAS) (2022)"
+    ],
+    "doi": "10.5585/geas.v11i2.22965",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "wireless-network-capacity-planning-2021",
+    "names": [
+      "Thiago do Prado Ramos"
+    ],
+    "degree": "M.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Wireless Network Capacity Planning from Campus Connection Logs",
+    "start": "2021",
+    "end": "2023",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  }
+]

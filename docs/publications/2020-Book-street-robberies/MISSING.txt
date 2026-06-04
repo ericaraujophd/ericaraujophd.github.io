@@ -1,0 +1,6 @@
+ADD PROOF HERE: PDF of the paper, or a DOI link file.
+Paper: Creating a Temporal Pattern for Street Robberies Using ABM (Book 2020). DOI: 10.4324/9780429277177
+
+Options:
+  1. Drop the paper PDF here (rename to paper.pdf)
+  2. Create a file named doi.txt with the DOI/URL inside
