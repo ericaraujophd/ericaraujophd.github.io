@@ -65,3 +65,6 @@ Thumbs.db
 *.tmp
 *.temp
 
+# Data backups (local only)
+data/backups/
+

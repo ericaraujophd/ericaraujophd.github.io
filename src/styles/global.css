@@ -21,8 +21,8 @@ button { cursor: pointer; font-family: inherit; }
   --text:         #e2dcd4;
   --text-muted:   #8a8a8a;
   --text-dim:     #555555;
-  --accent:       #6E1C2E;
-  --accent-hover: #8a2438;
+  --accent:       #e0607a;
+  --accent-hover: #ea7a90;
   --mono:         'IBM Plex Mono', 'Courier New', monospace;
   --sans:         'Inter', system-ui, sans-serif;
 }
@@ -312,7 +312,6 @@ hr {
 /* --- Page header ------------------------------------------- */
 .page-header {
   padding: 48px 0 32px;
-  border-bottom: 1px solid var(--border);
   margin-bottom: 40px;
 }
 
@@ -326,7 +325,34 @@ hr {
 .page-header p {
   font-size: 16px;
   color: var(--text-muted);
+}
+
+/* --- Standalone page quote (matches bento-quote style) ----- */
+blockquote.page-quote {
   max-width: 580px;
+  text-align: center;
+  border: none;
+  padding: 0;
+  margin: 16px auto 0;
+}
+blockquote.page-quote p {
+  font-size: clamp(13px, 1.8vw, 17px);
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+blockquote.page-quote p::before { content: '\201C'; }
+blockquote.page-quote p::after  { content: '\201D'; }
+blockquote.page-quote footer {
+  font-family: var(--mono);
+  font-size: 15px;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  text-transform: uppercase;
+  font-style: normal;
 }
 
 /* --- Publications page ------------------------------------- */
@@ -421,11 +447,13 @@ details[open].semester summary { color: var(--accent); border-bottom-color: var(
 }
 
 .course-item { display: flex; flex-direction: column; gap: 2px; }
+.course-meta { display: flex; align-items: center; gap: 10px; }
 .course-code { font-family: var(--mono); font-size: 15px; color: var(--accent); letter-spacing: 0.1em; }
+.course-soon { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; color: var(--text-dim); border: 1px solid var(--border-mid); padding: 1px 6px; text-transform: uppercase; }
 .course-title { font-size: 16px; }
 .course-title a { color: var(--text); }
 .course-title a:hover { color: var(--accent); opacity: 1; }
-.course-desc { font-size: 16px; color: var(--text-muted); }
+.course-desc { font-size: 14px; color: var(--text-muted); }
 
 /* --- Footer ------------------------------------------------ */
 .site-footer {
