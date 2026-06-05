@@ -13,7 +13,8 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Roundtable: Computing and COVID-19"
   },
   {
     "id": "2020-12-10-ufla-relacoes-sociais-distanciamento",
@@ -29,7 +30,8 @@
     "visible_cv": false,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": null,
+    "title_en": "The Influence of Social Relationships on Social Distancing Adherence"
   },
   {
     "id": "2020-12-17-cristaos-na-ciencia-relacionamentos",
@@ -45,7 +47,8 @@
     "visible_cv": false,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": null,
+    "title_en": "How Relationships Affect Decisions"
   },
   {
     "id": "2020-12-22-tv-cultura-bom-dia-cidade-publicidade",
@@ -61,7 +64,8 @@
     "visible_cv": false,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": null,
+    "title_en": "The Importance of Public Communication During the Pandemic"
   },
   {
     "id": "2020-12-28-cbn-madrugada-relacoes-sociais",
@@ -77,7 +81,8 @@
     "visible_cv": false,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Social Relationships and Adherence to Social Distancing"
   },
   {
     "id": "2020-12-28-brasnam2020-disconnecting-for-good",
@@ -109,7 +114,8 @@
     "visible_cv": false,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Covid-19: How Personal Relationships Help Prevention"
   },
   {
     "id": "2021-01-02-tv-cultura-distanciamento-social",
@@ -125,7 +131,8 @@
     "visible_cv": false,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Family and Friends: The Main Influence on Social Distancing"
   },
   {
     "id": "2021-01-14-bandnews-minas-covid-abm",
@@ -157,7 +164,8 @@
     "visible_cv": false,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Introduction to Agent-Based Modeling"
   },
   {
     "id": "2021-02-27-saude-unica-contagio-opinoes",
@@ -173,7 +181,8 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Opinion Contagion in Social Networks and the Impact on Epidemics"
   },
   {
     "id": "2021-05-17-novas-tecnologias-pandemia",
@@ -189,7 +198,8 @@
     "visible_cv": false,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "title_en": "New Technologies for Humanity in Times of Pandemic"
   },
   {
     "id": "2021-07-24-abc2-tec-contagio-social",
@@ -205,7 +215,8 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Social Contagion in Networks: Models and Applications"
   },
   {
     "id": "2021-10-08-kdmile-2021",
@@ -237,7 +248,8 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Spreading Models in Social Networks"
   },
   {
     "id": "2024-03-06-ufla-prograd-oficina-ia",
@@ -253,7 +265,8 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "title_en": "AI Tools and Possibilities for Use in Undergraduate Education"
   },
   {
     "id": "2024-04-26-elitte-podcast-ep12",
@@ -285,7 +298,8 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "title_en": "Data-Driven Agent-Based Modeling: Challenges and Opportunities"
   },
   {
     "id": "2024-11-29-agent-based-modeling-applications-i",
