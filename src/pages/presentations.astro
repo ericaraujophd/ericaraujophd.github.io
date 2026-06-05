@@ -38,14 +38,14 @@ const fmtDate = (d: string) =>
 <BaseLayout title="Presentations">
   <div class="page-wrapper">
 
-    <div class="page-header">
+    <div class="page-header fade-up" data-delay="0">
       <h1>Presentations</h1>
       <div style="width: 36px; height: 2px; background: var(--accent); margin: 10px 0 16px;"></div>
       <p>Invited talks, panels, and posters.</p>
     </div>
 
-    {years.map(year => (
-      <section class="pub-year-section">
+    {years.map((year, i) => (
+      <section class="pub-year-section fade-up" data-delay={i === 0 ? 1 : 0}>
         <p class="pub-year-heading">{year}</p>
         <ul class="pub-list">
           {pres.filter(p => new Date(p.date).getFullYear() === year).map(p => (

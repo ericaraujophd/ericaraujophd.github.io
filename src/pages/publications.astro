@@ -39,7 +39,7 @@ const typeLabel: Record<string, string> = {
 <BaseLayout title="Publications" description="Eric Araújo's full publication list.">
   <div class="page-wrapper">
 
-    <div class="page-header">
+    <div class="page-header fade-up" data-delay="0">
       <h1>Publications</h1>
       <div style="width: 36px; height: 2px; background: var(--accent); margin: 10px 0 16px;"></div>
       <p>
@@ -51,8 +51,8 @@ const typeLabel: Record<string, string> = {
       </p>
     </div>
 
-    {years.map(year => (
-      <section class="pub-year-section">
+    {years.map((year, i) => (
+      <section class="pub-year-section fade-up" data-delay={i === 0 ? 1 : 0}>
         <p class="pub-year-heading">{year}</p>
         <ul class="pub-list">
           {pubs.filter(p => p.year === year).map(pub => (
@@ -79,7 +79,7 @@ const typeLabel: Record<string, string> = {
       </section>
     ))}
 
-    <div class="bento-quote" style="padding: 64px 0 32px;">
+    <div class="bento-quote fade-up" style="padding: 64px 0 32px;">
       <blockquote>
         <p>Go into the world and create some imperfect models of the good world to come.</p>
         <footer>— Lewis Smedes, My God and I: A Spiritual Memoir</footer>
