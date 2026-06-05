@@ -404,6 +404,7 @@ blockquote.page-quote footer {
 
 .pub-title a { color: var(--text); }
 .pub-title a:hover { color: var(--accent); opacity: 1; }
+.has-translation { text-decoration-line: underline; text-decoration-style: dotted; text-decoration-color: var(--text-dim); text-underline-offset: 3px; cursor: help; }
 
 .pub-authors {
   font-size: 16px;

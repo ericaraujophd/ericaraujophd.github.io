@@ -158,15 +158,18 @@
     ],
     "degree": "M.S.",
     "institution": "Federal University of Lavras (UFLA) — Brazil",
-    "project": "Machine Learning for Christian Music Classification",
-    "start": "2022",
+    "project": "Diretrizes para Classificação Automática de Músicas Cristãs: Aplicação do BERT na Identificação de Adoração",
+    "start": "2021",
     "end": "2024",
-    "outcomes": [],
+    "outcomes": [
+      "M.S. defended August 30, 2024 — PPGCC/UFLA"
+    ],
     "doi": null,
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": "docs/PhD-supervision/Veiga-Rolf/2024-defense-approval.pdf",
+    "project_en": "Guidelines for Automatic Classification of Christian Music: Applying BERT to Worship Identification"
   },
   {
     "id": "graph-analysis-of-medical-student-m-2023",
@@ -175,15 +178,18 @@
     ],
     "degree": "M.S.",
     "institution": "Federal University of Lavras (UFLA) — Brazil",
-    "project": "Graph Analysis of Medical Student Mobility in Brazil",
-    "start": "2023",
-    "end": "2024",
-    "outcomes": [],
+    "project": "Aprendizagem de Máquina para Estudo de Dados em Grafos: Um Estudo do Movimento dos Estudantes de Medicina no Brasil",
+    "start": "2024",
+    "end": "2025",
+    "outcomes": [
+      "M.S. defended January 30, 2025 — PPGCC/UFLA"
+    ],
     "doi": null,
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": "docs/PhD-supervision/Terra-Alessandra/2025-defense-declaration.pdf",
+    "project_en": "Machine Learning for Graph Data Analysis: A Study of Medical Students' Mobility in Brazil"
   },
   {
     "id": "urban-afforestation-and-public-safe-2021",
@@ -215,6 +221,424 @@
     "start": "2021",
     "end": "2023",
     "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-betim-2024",
+    "names": [
+      "Eduardo Vinicius Betim"
+    ],
+    "degree": "B.S.",
+    "institution": "Universidade Federal de Santa Catarina (UFSC) — Brazil",
+    "project": "Análise do Comportamento de Comunidade sobre Dados da Guerra da Ucrânia no Reddit",
+    "project_en": "Community Behavior Analysis on Ukraine War Data from Reddit",
+    "start": "2024",
+    "end": "2024",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-adilson-2022",
+    "names": [
+      "Adilson Henrique de Oliveira Lima"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Modelagem baseada em agentes para estudos sobre transmissão de HIV e comportamento voltado para a prevenção da disseminação do vírus",
+    "project_en": "Agent-Based Modeling for Studies on HIV Transmission and Prevention Behavior",
+    "start": "2022",
+    "end": "2023",
+    "outcomes": [
+      "Project interrupted (2023)"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-debora-2022",
+    "names": [
+      "Débora Rossini Martins Cardoso"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Impactos do Ensino Remoto durante a Pandemia no Ensino Superior Brasileiro",
+    "project_en": "Impacts of Remote Learning during the Pandemic on Brazilian Higher Education",
+    "start": "2022",
+    "end": "2022",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-eduardo-pedrosa-2021",
+    "names": [
+      "Eduardo Miranda Pedrosa Filho"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Estudo e Implementação de Melhorias em um Sistema de Streaming para Vídeos de Educação Cristã",
+    "project_en": "Study and Implementation of Improvements in a Streaming System for Christian Education Videos",
+    "start": "2021",
+    "end": "2021",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-erich-2020",
+    "names": [
+      "Erich Fernando da Costa"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Planejamento Policial a partir do Uso de Ferramentas de Business Intelligence: Análise do Índice de Criminalidade Violenta nos Municípios do 8º BPM",
+    "project_en": "Police Planning Using Business Intelligence Tools: Analysis of Violent Crime in the 8th Military Police Battalion Region",
+    "start": "2020",
+    "end": "2020",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-heuller-2020",
+    "names": [
+      "Héuller Soares Vilela Silva"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Previsão do Resultado Final de Partidas de Futebol a partir do Primeiro Tempo usando Técnicas de Aprendizagem de Máquina",
+    "project_en": "Predicting Final Football Match Results from First Half Data Using Machine Learning",
+    "start": "2020",
+    "end": "2020",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-ana-carolina-2013",
+    "names": [
+      "Ana Carolina Le Senechal"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Análise e Pré-processamento de Dados Utilizando Técnicas de Mineração de Dados para o Moodle",
+    "project_en": "Data Analysis and Preprocessing Using Data Mining Techniques for Moodle",
+    "start": "2013",
+    "end": "2013",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-giulia-2012",
+    "names": [
+      "Giulia Luan Santos de Sousa"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Tweetmining: Análise de Opinião Contida em Textos Extraídos do Twitter",
+    "project_en": "Tweetmining: Opinion Analysis in Texts Extracted from Twitter",
+    "start": "2012",
+    "end": "2012",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-larissa-2012",
+    "names": [
+      "Larissa Avelino Zuppo"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Webometria e Análise de Impacto da Informação em Redes Sociais",
+    "project_en": "Webometrics and Information Impact Analysis in Social Networks",
+    "start": "2012",
+    "end": "2012",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-paulo-almeida-2011",
+    "names": [
+      "Paulo Roberto de Almeida"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Validação do Modelo Matemático para a Análise do Comportamento do Protocolo TCP em Redes Assimétricas",
+    "project_en": "Validation of a Mathematical Model for Analyzing TCP Protocol Behavior in Asymmetric Networks",
+    "start": "2011",
+    "end": "2011",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "tcc-karen-2011",
+    "names": [
+      "Karen Aline Alves Bezerra"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "BDD: Avaliação e Proposta de Aplicação no Pós Desenvolvimento",
+    "project_en": "BDD: Evaluation and Application Proposal in Post-Development",
+    "start": "2011",
+    "end": "2011",
+    "outcomes": [],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "ic-arthur-maia-2020",
+    "names": [
+      "Arthur Moreira Maia"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Modelagem da Estrutura e Dinâmicas de Redes Sociais: Um Modelo Formal para Estudos de Fenômenos Sociodinâmicos",
+    "project_en": "Modeling the Structure and Dynamics of Social Networks: A Formal Model for Sociodynamic Phenomena",
+    "start": "2020",
+    "end": "2020",
+    "outcomes": [
+      "Undergraduate research (Iniciação Científica) — CNPq"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "ic-aline-2019",
+    "names": [
+      "Aline Rodrigues Guimarães de Oliveira"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Modelagem e Simulação de Difusão de Informação em Redes Sociais",
+    "project_en": "Modeling and Simulation of Information Diffusion in Social Networks",
+    "start": "2019",
+    "end": "2019",
+    "outcomes": [
+      "Undergraduate research (Iniciação Científica) — CNPq"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "ic-alvaro-2019",
+    "names": [
+      "Álvaro Martins Espíndola"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Uso de Modelagem Baseada em Agentes para Redução de Oportunidade para Agentes Criminosos na Cidade de Lavras",
+    "project_en": "Using Agent-Based Modeling to Reduce Criminal Opportunity in the City of Lavras",
+    "start": "2019",
+    "end": "2019",
+    "outcomes": [
+      "Undergraduate research (Iniciação Científica)"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "ic-leonardo-sena-2019",
+    "names": [
+      "Leonardo Amorim de Sena"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Desenvolvimento e Análise de Plataforma para Estudos sobre Contágio em Redes Sociais",
+    "project_en": "Development and Analysis of a Platform for Studying Contagion in Social Networks",
+    "start": "2019",
+    "end": "2019",
+    "outcomes": [
+      "Undergraduate research (Iniciação Científica)"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "ic-arthur-maia-2019",
+    "names": [
+      "Arthur Moreira Maia"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Modelagem e Simulação de Difusão de Informação em Redes Sociais",
+    "project_en": "Modeling and Simulation of Information Diffusion in Social Networks",
+    "start": "2019",
+    "end": "2019",
+    "outcomes": [
+      "Undergraduate research (Iniciação Científica) — CNPq"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "ic-danielle-2013",
+    "names": [
+      "Danielle Aparecida Alcântara"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Webometria e Análise de Valor na Web",
+    "project_en": "Webometrics and Value Analysis on the Web",
+    "start": "2013",
+    "end": "2013",
+    "outcomes": [
+      "Undergraduate research (Iniciação Científica)"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "ic-ana-carolina-2011",
+    "names": [
+      "Ana Carolina Le Senechal"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Validação do Modelo Matemático para a Análise do Comportamento do Protocolo TCP em Redes Assimétricas",
+    "project_en": "Validation of a Mathematical Model for Analyzing TCP Protocol Behavior in Asymmetric Networks",
+    "start": "2011",
+    "end": "2011",
+    "outcomes": [
+      "Undergraduate research (Iniciação Científica)"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "ic-yasmin-2011",
+    "names": [
+      "Yasmin Ribeiro Penha"
+    ],
+    "degree": "B.S.",
+    "institution": "Federal University of Lavras (UFLA) — Brazil",
+    "project": "Estudo de Algoritmos para Mineração de Opinião para Detecção das Percepções sobre a Cidade de Lavras",
+    "project_en": "Study of Opinion Mining Algorithms for Detecting Perceptions about the City of Lavras",
+    "start": "2011",
+    "end": "2011",
+    "outcomes": [
+      "Undergraduate research (Iniciação Científica)"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "mcgregor-hawthorne-holtrop-2026",
+    "names": [
+      "Ian Hawthorne",
+      "Nathan Holtrop"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Teaching Ancient Wisdom with Modern AI: Evaluating LLMs in Early Christian Studies",
+    "start": "Summer 2026",
+    "end": null,
+    "outcomes": [
+      "McGregor Undergraduate Research Fellowship"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "senior-ausema-2026",
+    "names": [
+      "Caleb Ausema"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Cognitive Modeling of Churchgoers",
+    "start": "Spring 2026",
+    "end": null,
+    "outcomes": [
+      "Senior Project"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "senior-liu-2026",
+    "names": [
+      "Martin Liu"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "VerseNet: A Visual Neo4j-Based Bible Knowledge Network",
+    "start": "Spring 2026",
+    "end": null,
+    "outcomes": [
+      "Senior Project"
+    ],
     "doi": null,
     "visible_cv": true,
     "visible_web": true,
