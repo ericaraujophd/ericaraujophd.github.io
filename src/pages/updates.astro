@@ -59,14 +59,14 @@ const fmtDate = (d: string) =>
 <BaseLayout title="Updates" description="Recent news and updates from Eric Araújo.">
   <div class="page-wrapper">
 
-    <div class="page-header">
+    <div class="page-header fade-up" data-delay="0">
       <h1>News &amp; Updates</h1>
       <div style="width: 36px; height: 2px; background: var(--accent); margin: 10px 0 16px;"></div>
       <p>Recent activity — publications, fellowships, presentations, and service.</p>
     </div>
 
-    {years.map(year => (
-      <section class="pub-year-section">
+    {years.map((year, i) => (
+      <section class="pub-year-section fade-up" data-delay={i === 0 ? 1 : 0}>
         <p class="pub-year-heading">{year}</p>
         <ul class="pub-list">
           {all.filter(e => new Date(e.date).getFullYear() === year).map(entry => (

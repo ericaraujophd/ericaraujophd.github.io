@@ -44,7 +44,7 @@ const semesters = [
 <BaseLayout title="Teaching">
   <div class="page-wrapper">
 
-    <div class="page-header">
+    <div class="page-header fade-up" data-delay="0">
       <h1>Teaching</h1>
       <div style="width: 36px; height: 2px; background: var(--accent); margin: 10px 0 16px;"></div>
       <p>
@@ -54,7 +54,7 @@ const semesters = [
       </p>
     </div>
 
-    <ul class="semester-list">
+    <ul class="semester-list fade-up" data-delay="1">
       {semesters.map((sem, i) => (
         <li>
           <details class="semester" open={i === 0 || undefined}>
@@ -81,7 +81,7 @@ const semesters = [
       ))}
     </ul>
 
-    <div class="bento-quote" style="padding: 64px 0 32px;">
+    <div class="bento-quote fade-up" style="padding: 64px 0 32px;">
       <blockquote>
         <p>Tell me and I forget. Teach me and I remember. Involve me and I learn.</p>
         <footer>— Benjamin Franklin</footer>

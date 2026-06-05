@@ -29,7 +29,7 @@ const degrees = ['Ph.D.', 'M.S.', 'B.S.'];
 <BaseLayout title="Advising">
   <div class="page-wrapper">
 
-    <div class="page-header">
+    <div class="page-header fade-up" data-delay="0">
       <h1>Advising</h1>
       <div style="width: 36px; height: 2px; background: var(--accent); margin: 10px 0 16px;"></div>
       <p>
@@ -41,7 +41,7 @@ const degrees = ['Ph.D.', 'M.S.', 'B.S.'];
     </div>
 
     {current.length > 0 && (
-      <section style="margin-bottom: 3rem;">
+      <section class="fade-up" data-delay="1" style="margin-bottom: 3rem;">
         <h2>Current Students</h2>
         <ul class="pub-list">
           {current.map(s => (
@@ -63,7 +63,7 @@ const degrees = ['Ph.D.', 'M.S.', 'B.S.'];
       </section>
     )}
 
-    <section>
+    <section class="fade-up" data-delay="2">
       <h2>Past Students</h2>
       {degrees.map(deg => {
         const group = byDegree(past, deg);
