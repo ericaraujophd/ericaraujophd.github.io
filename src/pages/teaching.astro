@@ -3,11 +3,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const semesters = [
   {
+    label: 'Fall 2026',
+    courses: [
+      { code: 'CS112',  title: 'Introduction to Data Structures', url: null, desc: 'Fundamental data structures and algorithms.' },
+      { code: 'CS354',  title: 'Database Management Systems',     url: null, desc: 'Introduction to database design and management.' },
+    ],
+  },
+  {
     label: 'Spring 2026',
     courses: [
-      { code: 'CS112', title: 'Introduction to Data Structures', url: 'https://ericaraujo.com/26sp-cs112/', desc: 'Fundamental data structures and algorithms.' },
-      { code: 'CS214', title: 'Concepts of Programming Languages', url: 'https://ericaraujo.com/26sp-cs214/', desc: 'Comparative study of programming language paradigms.' },
-      { code: 'CS354A', title: 'Database Management Systems', url: 'https://ericaraujo.com/26sp-cs354a/', desc: 'Introduction to database design and management.' },
+      { code: 'CS112',  title: 'Introduction to Data Structures',    url: 'https://ericaraujo.com/26sp-cs112/',  desc: 'Fundamental data structures and algorithms.' },
+      { code: 'CS214',  title: 'Concepts of Programming Languages',  url: 'https://ericaraujo.com/26sp-cs214/',  desc: 'Comparative study of programming language paradigms.' },
+      { code: 'CS354A', title: 'Database Management Systems',        url: 'https://ericaraujo.com/26sp-cs354a/', desc: 'Introduction to database design and management.' },
     ],
   },
   {
@@ -39,17 +46,12 @@ const semesters = [
 
     <div class="page-header">
       <h1>Teaching</h1>
-      <p>
-        "Tell me and I forget. Teach me and I remember. Involve me and I learn." — Benjamin Franklin
-      </p>
     </div>
 
-    <p style="margin-bottom: 2rem; color: var(--text-muted); font-size: 14px; max-width: 640px;">
+    <p style="margin-bottom: 2rem; color: var(--text-muted); font-size: 15px;">
       I believe in hands-on learning and real-world applications. My courses emphasise practical
       problem-solving, collaborative work, and connecting theory to current challenges.
       Prerequisites, office hours, and course materials are posted on individual course sites.
-      For educators interested in adapting my materials,
-      <a href="mailto:eric.araujo@calvin.edu">email me</a>.
     </p>
 
     <ul class="semester-list">
@@ -60,8 +62,16 @@ const semesters = [
             <div class="semester-content">
               {sem.courses.map(c => (
                 <div class="course-item">
-                  <span class="course-code">{c.code}</span>
-                  <p class="course-title"><a href={c.url} target="_blank">{c.title}</a></p>
+                  <div class="course-meta">
+                    <span class="course-code">{c.code}</span>
+                    {!c.url && <span class="course-soon">coming soon</span>}
+                  </div>
+                  <p class="course-title">
+                    {c.url
+                      ? <a href={c.url} target="_blank">{c.title}</a>
+                      : c.title
+                    }
+                  </p>
                   <p class="course-desc">{c.desc}</p>
                 </div>
               ))}
@@ -70,6 +80,13 @@ const semesters = [
         </li>
       ))}
     </ul>
+
+    <div class="bento-quote" style="padding: 64px 0 32px;">
+      <blockquote>
+        <p>Tell me and I forget. Teach me and I remember. Involve me and I learn.</p>
+        <footer>— Benjamin Franklin</footer>
+      </blockquote>
+    </div>
 
   </div>
 </BaseLayout>
