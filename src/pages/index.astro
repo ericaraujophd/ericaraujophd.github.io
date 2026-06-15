@@ -11,7 +11,7 @@ type NewsItem = { date: string; title: string; url?: string; label: string };
 
 const recentGrants = (grants as any[])
   .filter(g => g.news && g.visible_web)
-  .map(g => ({ date: `${g.start_date}-01-01`, title: g.name, url: g.url, label: 'Fellowship / Award' }));
+  .map(g => ({ date: g.start_date.includes('-') ? `${g.start_date}-01` : `${g.start_date}-01-01`, title: g.name, url: g.url, label: 'Fellowship / Award' }));
 
 const recentTalks = (presentations as any[])
   .filter(p => p.news && p.visible_web)

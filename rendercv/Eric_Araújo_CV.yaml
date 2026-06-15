@@ -453,7 +453,7 @@ cv:
       year: '2025'
       name: American Scientific Affiliation (ASA) Annual Meeting 2025
       url: https://network.asa3.org/mpage/ASA2025
-      location: Virtual/Hybrid
+      location: In Person
       start_date: '2025-07-19'
       end_date: '2025-07-19'
     - role: speaker
@@ -466,7 +466,7 @@ cv:
     - role: speaker
       year: '2025'
       name: Algoritmos e Sociedade — UFG
-      location: Brazil (online)
+      location: Goiânia, Brazil
       start_date: '2025-05-28'
       end_date: '2025-05-28'
       summary: In Portuguese
