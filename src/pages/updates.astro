@@ -21,7 +21,7 @@ const pubEntries: Entry[] = (publications as any[])
 const grantEntries: Entry[] = (grants as any[])
   .filter(g => g.news && g.visible_web)
   .map(g => ({
-    date: `${g.start_date}-01-01`,
+    date: g.start_date.includes('-') ? `${g.start_date}-01` : `${g.start_date}-01-01`,
     label: 'Fellowship / Award',
     title: g.name,
     url: g.url,
