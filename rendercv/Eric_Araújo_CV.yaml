@@ -423,22 +423,108 @@ cv:
       journal: VII Simpósio de Informática do Planalto Médio (SIPM 2007)
     events:
     - role: speaker
-      year: '2026'
-      name: NetLogo Conference 2026
-      url: https://conference.netlogo.org/2026/cfp
-      location: Chicago, IL
-      start_date: '2026-07-01'
-      end_date: '2026-07-01'
-      summary: To be presented by students Katelin Jandris, Ryan Klein, and Ovgu Tufan
-        (senior project)
+      year: '2020'
+      name: CompCOVID 2020
+      url: https://www.youtube.com/watch?v=R6bpMjJi2Kw
+      location: Brazil (online)
+      start_date: '2020-06-05'
+      end_date: '2020-06-05'
+      summary: Panel on computing applications during the COVID-19 pandemic. In Portuguese.
     - role: speaker
-      year: '2026'
-      name: Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person
-        in the Age of AI
-      url: https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3
-      location: Waco, TX
-      start_date: '2026-02-27'
-      end_date: '2026-02-27'
+      year: '2020'
+      name: IX Brazilian Workshop on Social Network Analysis and Mining (BraSNAM 2020)
+      url: https://www.youtube.com/watch?v=o22XzF-eHmM
+      location: Brazil (online)
+      start_date: '2020-12-28'
+      end_date: '2020-12-28'
+      summary: Conference presentation of BraSNAM 2020 paper (doi:10.5753/brasnam.2020.11170).
+    - role: speaker
+      year: '2021'
+      name: Saúde Única — UFLA
+      url: https://www.youtube.com/watch?v=LYUsSKnQedU
+      location: Lavras, Brazil (online)
+      start_date: '2021-02-27'
+      end_date: '2021-02-27'
+      summary: Talk on opinion contagion in social networks and its epidemiological
+        impact. In Portuguese.
+    - role: speaker
+      year: '2021'
+      name: ABC²-Tec 5ª Reunião — Associação Brasileira de Cristãos na Ciência
+      url: https://www.youtube.com/watch?v=4J4o_lNVHpk
+      location: Brazil (online)
+      start_date: '2021-07-24'
+      end_date: '2021-07-24'
+      summary: Talk on social contagion models at the Brazilian Association of Christians
+        in Science. In Portuguese.
+    - role: speaker
+      year: '2021'
+      name: KDMiLe 2021 — Symposium on Knowledge Discovery, Mining and Learning
+      url: https://www.youtube.com/watch?v=2_fPbdaWndI
+      location: Brazil (online)
+      start_date: '2021-10-08'
+      end_date: '2021-10-08'
+      summary: Keynote session (KSN2) at KDMiLe 2021. In Portuguese.
+    - role: speaker
+      year: '2022'
+      name: PROCORES Research Group
+      url: https://www.youtube.com/watch?v=H5dhreBPcDU
+      location: Brazil (online)
+      start_date: '2022-12-05'
+      end_date: '2022-12-05'
+      summary: Research group talk on social network spreading models. In Portuguese.
+    - role: speaker
+      year: '2024'
+      name: Oficina Prograd — UFLA
+      url: https://www.youtube.com/watch?v=AMr7b87Umpw
+      location: Lavras, Brazil
+      start_date: '2024-03-06'
+      end_date: '2024-03-06'
+      summary: Workshop on AI tools for undergraduate education. In Portuguese.
+    - role: speaker
+      year: '2024'
+      name: Departamento de Estatística — UFLA
+      url: https://www.youtube.com/watch?v=q-QuLChyJ48
+      location: Lavras, Brazil
+      start_date: '2024-10-22'
+      end_date: '2024-10-22'
+      summary: Invited talk on data-driven agent-based modeling. In Portuguese.
+    - role: speaker
+      year: '2024'
+      name: 19º Congresso Brasileiro de Sistemas (CBS)
+      url: /files/conference-archives/19cbs-ufg-2024.pdf
+      location: Goiânia, Brazil
+      start_date: '2024-11-29'
+      end_date: '2024-11-29'
+      summary: In Portuguese
+    - role: speaker
+      year: '2025'
+      name: Autonomous Agents for Social Good (AASG) 2025
+      url: https://panosd.eu/aasg2025/call/
+      location: Detroit, MI
+      start_date: '2025-05-19'
+      end_date: '2025-05-19'
+      summary: Presented by students Daniel Kwon and Jaden Brookens (senior project)
+    - role: speaker
+      year: '2025'
+      name: Algoritmos e Sociedade — UFG
+      location: Goiânia, Brazil
+      start_date: '2025-05-28'
+      end_date: '2025-05-28'
+      summary: In Portuguese
+    - role: speaker
+      year: '2025'
+      name: INSNA Sunbelt 2025
+      location: Paris, France
+      start_date: '2025-06-01'
+      end_date: '2025-06-01'
+      summary: With Juliana Freitas Lopes et al. (Fiocruz)
+    - role: speaker
+      year: '2025'
+      name: American Scientific Affiliation (ASA) Annual Meeting 2025
+      url: https://network.asa3.org/mpage/ASA2025
+      location: In Person
+      start_date: '2025-07-19'
+      end_date: '2025-07-19'
     - role: speaker
       year: '2025'
       name: Grace Hopper Celebration 2025
@@ -450,47 +536,27 @@ cv:
         of women in computing. I am the main advisor of the Girls Who Code group at
         Calvin University.
     - role: speaker
-      year: '2025'
-      name: American Scientific Affiliation (ASA) Annual Meeting 2025
-      url: https://network.asa3.org/mpage/ASA2025
-      location: In Person
-      start_date: '2025-07-19'
-      end_date: '2025-07-19'
+      year: '2026'
+      name: Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person
+        in the Age of AI
+      url: https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3
+      location: Waco, TX
+      start_date: '2026-02-27'
+      end_date: '2026-02-27'
     - role: speaker
-      year: '2025'
-      name: INSNA Sunbelt 2025
-      location: Paris, France
-      start_date: '2025-06-01'
-      end_date: '2025-06-01'
-      summary: With Juliana Freitas Lopes et al. (Fiocruz)
-    - role: speaker
-      year: '2025'
-      name: Algoritmos e Sociedade — UFG
-      location: Goiânia, Brazil
-      start_date: '2025-05-28'
-      end_date: '2025-05-28'
-      summary: In Portuguese
-    - role: speaker
-      year: '2025'
-      name: Autonomous Agents for Social Good (AASG) 2025
-      url: https://panosd.eu/aasg2025/call/
-      location: Detroit, MI
-      start_date: '2025-05-19'
-      end_date: '2025-05-19'
-      summary: Presented by students Daniel Kwon and Jaden Brookens (senior project)
-    - role: speaker
-      year: '2024'
-      name: 19º Congresso Brasileiro de Sistemas (CBS)
-      url: /files/conference-archives/19cbs-ufg-2024.pdf
-      location: Goiânia, Brazil
-      start_date: '2024-11-29'
-      end_date: '2024-11-29'
-      summary: In Portuguese
+      year: '2026'
+      name: NetLogo Conference 2026
+      url: https://conference.netlogo.org/2026/cfp
+      location: Chicago, IL
+      start_date: '2026-07-01'
+      end_date: '2026-07-01'
+      summary: To be presented by students Katelin Jandris, Ryan Klein, and Ovgu Tufan
+        (senior project)
     grants_and_fellowships:
     - name: Calvin Research Fellowship
       url: https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships
       institution: Calvin University
-      start_date: '2026'
+      start_date: 2026-09
       end_date: '2027'
       summary: Supporting research on computational modeling of Christian communities.
     - name: Nagel Institute Fellowship
@@ -501,7 +567,8 @@ cv:
     - name: McGregor Summer Research Fellowship
       url: https://calvin.edu/faculty-development-research/student-research-opportunities/mcgregor-undergraduate-research-program
       institution: Calvin University
-      start_date: '2026'
+      start_date: 2026-05
+      end_date: 2026-08
       summary: Supporting collaborative faculty-student research.
     teaching:
     - code: CS112
@@ -721,15 +788,21 @@ cv:
     - names: Rolf Pagotto Veiga
       degree: M.S.
       institution: Federal University of Lavras (UFLA) — Brazil
-      project: Machine Learning for Christian Music Classification
-      start: '2022'
+      project: 'Diretrizes para Classificação Automática de Músicas Cristãs: Aplicação
+        do BERT na Identificação de Adoração'
+      start: '2021'
       end: '2024'
+      outcomes:
+      - M.S. defended August 30, 2024 — PPGCC/UFLA
     - names: Alessandra Louzada Terra
       degree: M.S.
       institution: Federal University of Lavras (UFLA) — Brazil
-      project: Graph Analysis of Medical Student Mobility in Brazil
-      start: '2023'
-      end: '2024'
+      project: 'Aprendizagem de Máquina para Estudo de Dados em Grafos: Um Estudo
+        do Movimento dos Estudantes de Medicina no Brasil'
+      start: '2024'
+      end: '2025'
+      outcomes:
+      - M.S. defended January 30, 2025 — PPGCC/UFLA
     - names: Kelly Iapuque Rodrigues de Sousa
       degree: M.S.
       institution: Federal University of Lavras (UFLA) — Brazil
@@ -745,6 +818,172 @@ cv:
       project: Wireless Network Capacity Planning from Campus Connection Logs
       start: '2021'
       end: '2023'
+    - names: Eduardo Vinicius Betim
+      degree: B.S.
+      institution: Universidade Federal de Santa Catarina (UFSC) — Brazil
+      project: Análise do Comportamento de Comunidade sobre Dados da Guerra da Ucrânia
+        no Reddit
+      start: '2024'
+      end: '2024'
+    - names: Adilson Henrique de Oliveira Lima
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Modelagem baseada em agentes para estudos sobre transmissão de HIV
+        e comportamento voltado para a prevenção da disseminação do vírus
+      start: '2022'
+      end: '2023'
+      outcomes:
+      - Project interrupted (2023)
+    - names: Débora Rossini Martins Cardoso
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Impactos do Ensino Remoto durante a Pandemia no Ensino Superior Brasileiro
+      start: '2022'
+      end: '2022'
+    - names: Eduardo Miranda Pedrosa Filho
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Estudo e Implementação de Melhorias em um Sistema de Streaming para
+        Vídeos de Educação Cristã
+      start: '2021'
+      end: '2021'
+    - names: Erich Fernando da Costa
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: 'Planejamento Policial a partir do Uso de Ferramentas de Business Intelligence:
+        Análise do Índice de Criminalidade Violenta nos Municípios do 8º BPM'
+      start: '2020'
+      end: '2020'
+    - names: Héuller Soares Vilela Silva
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Previsão do Resultado Final de Partidas de Futebol a partir do Primeiro
+        Tempo usando Técnicas de Aprendizagem de Máquina
+      start: '2020'
+      end: '2020'
+    - names: Ana Carolina Le Senechal
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Análise e Pré-processamento de Dados Utilizando Técnicas de Mineração
+        de Dados para o Moodle
+      start: '2013'
+      end: '2013'
+    - names: Giulia Luan Santos de Sousa
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: 'Tweetmining: Análise de Opinião Contida em Textos Extraídos do Twitter'
+      start: '2012'
+      end: '2012'
+    - names: Larissa Avelino Zuppo
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Webometria e Análise de Impacto da Informação em Redes Sociais
+      start: '2012'
+      end: '2012'
+    - names: Paulo Roberto de Almeida
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Validação do Modelo Matemático para a Análise do Comportamento do Protocolo
+        TCP em Redes Assimétricas
+      start: '2011'
+      end: '2011'
+    - names: Karen Aline Alves Bezerra
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: 'BDD: Avaliação e Proposta de Aplicação no Pós Desenvolvimento'
+      start: '2011'
+      end: '2011'
+    - names: Arthur Moreira Maia
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: 'Modelagem da Estrutura e Dinâmicas de Redes Sociais: Um Modelo Formal
+        para Estudos de Fenômenos Sociodinâmicos'
+      start: '2020'
+      end: '2020'
+      outcomes:
+      - Undergraduate research (Iniciação Científica) — CNPq
+    - names: Aline Rodrigues Guimarães de Oliveira
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Modelagem e Simulação de Difusão de Informação em Redes Sociais
+      start: '2019'
+      end: '2019'
+      outcomes:
+      - Undergraduate research (Iniciação Científica) — CNPq
+    - names: Álvaro Martins Espíndola
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Uso de Modelagem Baseada em Agentes para Redução de Oportunidade para
+        Agentes Criminosos na Cidade de Lavras
+      start: '2019'
+      end: '2019'
+      outcomes:
+      - Undergraduate research (Iniciação Científica)
+    - names: Leonardo Amorim de Sena
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Desenvolvimento e Análise de Plataforma para Estudos sobre Contágio
+        em Redes Sociais
+      start: '2019'
+      end: '2019'
+      outcomes:
+      - Undergraduate research (Iniciação Científica)
+    - names: Arthur Moreira Maia
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Modelagem e Simulação de Difusão de Informação em Redes Sociais
+      start: '2019'
+      end: '2019'
+      outcomes:
+      - Undergraduate research (Iniciação Científica) — CNPq
+    - names: Danielle Aparecida Alcântara
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Webometria e Análise de Valor na Web
+      start: '2013'
+      end: '2013'
+      outcomes:
+      - Undergraduate research (Iniciação Científica)
+    - names: Ana Carolina Le Senechal
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Validação do Modelo Matemático para a Análise do Comportamento do Protocolo
+        TCP em Redes Assimétricas
+      start: '2011'
+      end: '2011'
+      outcomes:
+      - Undergraduate research (Iniciação Científica)
+    - names: Yasmin Ribeiro Penha
+      degree: B.S.
+      institution: Federal University of Lavras (UFLA) — Brazil
+      project: Estudo de Algoritmos para Mineração de Opinião para Detecção das Percepções
+        sobre a Cidade de Lavras
+      start: '2011'
+      end: '2011'
+      outcomes:
+      - Undergraduate research (Iniciação Científica)
+    - names: Ian Hawthorne; Nathan Holtrop
+      degree: B.S.
+      institution: Calvin University
+      project: 'Teaching Ancient Wisdom with Modern AI: Evaluating LLMs in Early Christian
+        Studies'
+      start: Summer 2026
+      outcomes:
+      - McGregor Undergraduate Research Fellowship
+    - names: Caleb Ausema
+      degree: B.S.
+      institution: Calvin University
+      project: Cognitive Modeling of Churchgoers
+      start: Spring 2026
+      outcomes:
+      - Senior Project
+    - names: Martin Liu
+      degree: B.S.
+      institution: Calvin University
+      project: 'VerseNet: A Visual Neo4j-Based Bible Knowledge Network'
+      start: Spring 2026
+      outcomes:
+      - Senior Project
     service:
     - type: defense-committee
       role: External Member
@@ -761,6 +1000,23 @@ cv:
       summary: 'Served as external committee member for the Masters Exam of Stephano
         Daniel Santos, on machine learning for prediction of Portland cement compressive
         strength (advisors: Profs. Teodorico de Castro Ramalho and Danton Diego Ferreira).'
+    - type: defense-committee
+      role: External Member
+      title: PhD Qualifying Exam — Jamile Santos dos Santos
+      institution: UFRJ Brazil
+      date: '2024-08-28'
+      summary: 'Served as external committee member for the PhD Qualifying Exam of
+        Jamile Santos dos Santos (advisor: Prof. Daniel Gregorio Alfaro Vigo). Topic:
+        epidemic modeling of information propagation in multi-networks.'
+    - type: other
+      role: Participant
+      title: G&M Young Leaders Training Conference
+      institution: The Grace & Mercy Foundation — New York, NY
+      date: '2026-07-07'
+      summary: Participated in the Grace & Mercy Foundation Young Leaders Training
+        Conference in New York (July 7–12, 2026), on implementing the Public Reading
+        of Scripture and the Just Show Up book club at Calvin University. Trip funded
+        by the Grace & Mercy Foundation and Calvin Theological Seminary.
     research_skills:
     - '**Agent-based modeling:** Netlogo and Python tools for ABMs.'
     - '**Data Science and Machine Learning:** Python, R, Statistics.'
