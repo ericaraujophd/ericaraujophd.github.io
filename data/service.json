@@ -51,5 +51,19 @@
     "news": true,
     "document_path": null,
     "url": "/files/newsletters/Dec19.2025.Nagel.PDF"
+  },
+  {
+    "id": "2026-gm-young-leaders-training",
+    "type": "other",
+    "role": "Participant",
+    "title": "G&M Young Leaders Training Conference",
+    "institution": "The Grace & Mercy Foundation — New York, NY",
+    "date": "2026-07-07",
+    "end_date": "2026-07-12",
+    "summary": "Participated in the Grace & Mercy Foundation Young Leaders Training Conference in New York (July 7–12, 2026), on implementing the Public Reading of Scripture and the Just Show Up book club at Calvin University. Trip funded by the Grace & Mercy Foundation and Calvin Theological Seminary.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
   }
 ]
