@@ -428,5 +428,21 @@
     "visible_web": true,
     "news": true,
     "document_path": null
+  },
+  {
+    "id": "2026-11-23-aar-llm-reliability-early-christian",
+    "type": "talk",
+    "title": "The Future of the Past: Evaluating Large Language Model Reliability in Early Christian Historical Studies",
+    "event": "American Academy of Religion (AAR) Annual Meeting 2026 — History of Christianity Unit",
+    "location": "Denver, CO",
+    "date": "2026-11-23",
+    "url": "https://papers.aarweb.org/papers-session/112792-history-present-futures-christianitys-past",
+    "slides_url": null,
+    "notes": "Papers session \"History of the Present, the Futures of Christianity's Past\" (A23-217), Monday Nov 23, 12:30–2:30 PM. Empirical evaluation of LLM accuracy on Macrina the Younger and Olympias of Constantinople.",
+    "student_presentation": false,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
   }
 ]
