@@ -552,6 +552,17 @@ cv:
       end_date: '2026-07-01'
       summary: To be presented by students Katelin Jandris, Ryan Klein, and Ovgu Tufan
         (senior project)
+    - role: speaker
+      year: '2026'
+      name: American Academy of Religion (AAR) Annual Meeting 2026 — History of Christianity
+        Unit
+      url: https://papers.aarweb.org/papers-session/112792-history-present-futures-christianitys-past
+      location: Denver, CO
+      start_date: '2026-11-23'
+      end_date: '2026-11-23'
+      summary: Papers session "History of the Present, the Futures of Christianity's
+        Past" (A23-217), Monday Nov 23, 12:30–2:30 PM. Empirical evaluation of LLM
+        accuracy on Macrina the Younger and Olympias of Constantinople.
     grants_and_fellowships:
     - name: Calvin Research Fellowship
       url: https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships
