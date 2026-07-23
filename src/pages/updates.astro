@@ -44,6 +44,7 @@ const serviceEntries: Entry[] = (service as any[])
     date: s.date ?? `${s.start_date}-01-01`,
     label: 'Service',
     title: s.title,
+    url: s.url ?? undefined,
     body: s.summary,
   }));
 
