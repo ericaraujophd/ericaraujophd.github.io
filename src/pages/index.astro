@@ -60,8 +60,38 @@ const fmtDate = (d: string) =>
   <!-- Bento grid -->
   <div class="bento">
 
+    <!-- Projects -->
+    <div class="bento-card bento-projects fade-up" data-delay="0">
+      <span class="bento-label">Projects</span>
+      <div class="project-grid">
+
+        <a href="/matristics" class="project-card">
+          <span class="project-tag">LLM Evaluation · Early Church</span>
+          <h3 class="project-name">Matristics</h3>
+          <p class="project-desc">
+            How well do frontier language models know the women who shaped Christianity's
+            first five centuries? A benchmark of six models across accuracy, framing, and
+            the silences they inherit.
+          </p>
+          <span class="project-go">Visit project →</span>
+        </a>
+
+        <a href="https://csprayers.com" target="_blank" rel="noopener" class="project-card">
+          <span class="project-tag">Faith &amp; Computing</span>
+          <h3 class="project-name">CS Prayers</h3>
+          <p class="project-desc">
+            A Book of Hours for Computing — prayers for those who study, teach, and
+            practice computer science. For first days and finals week, for debugging
+            and deploying.
+          </p>
+          <span class="project-go">csprayers.com ↗</span>
+        </a>
+
+      </div>
+    </div>
+
     <!-- Recent News -->
-    <div class="bento-card bento-news fade-up" data-delay="0">
+    <div class="bento-card bento-news fade-up" data-delay="1">
       <span class="bento-label">Recent News</span>
       {allNews.map(item => (
         <div class="news-item">
@@ -78,7 +108,7 @@ const fmtDate = (d: string) =>
     </div>
 
     <!-- Formation -->
-    <div class="bento-card bento-formation fade-up" data-delay="1">
+    <div class="bento-card bento-formation fade-up" data-delay="2">
       <span class="bento-label">Formation</span>
       <div class="degree">
         <div class="degree-level">Ph.D.</div>
@@ -102,7 +132,7 @@ const fmtDate = (d: string) =>
     </div>
 
     <!-- Research -->
-    <div class="bento-card bento-research fade-up" data-delay="2">
+    <div class="bento-card bento-research fade-up" data-delay="3">
       <span class="bento-label">Research &amp; Scholarship</span>
       <p style="color: var(--text-muted); font-size: 15px;">
         My work bridges computer science and the social sciences, applying agent-based modeling
@@ -127,7 +157,7 @@ const fmtDate = (d: string) =>
     </div>
 
     <!-- Quote -->
-    <div class="bento-card bento-quote fade-up" data-delay="3">
+    <div class="bento-card bento-quote fade-up" data-delay="4">
       <blockquote>
         <p>There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: &#x2018;Mine!&#x2019;</p>
         <footer>— Abraham Kuyper</footer>
