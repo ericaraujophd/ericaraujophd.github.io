@@ -30,7 +30,7 @@ const allNews: NewsItem[] = [...recentGrants, ...recentTalks, ...recentPubs, ...
   .slice(0, 6);
 
 const fmtDate = (d: string) =>
-  new Date(d).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }).toUpperCase();
+  new Date(d).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }).toUpperCase();
 ---
 
 <BaseLayout title="Home">
