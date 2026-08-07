@@ -9,6 +9,7 @@ Output: rendercv/Eric_Araújo_CV.yaml
 """
 
 import json
+import os
 import yaml
 from pathlib import Path
 
@@ -122,33 +123,64 @@ def build_projects(items):
     return out
 
 def build_students(items):
+    """Supervised students -> rendercv NormalEntry.
+
+    rendercv has no 'supervision' entry type. NormalEntry is the flexible one:
+    name / location / date / summary / highlights. Anything else (names,
+    project, start, end) is silently dropped by rendercv AND fails validation,
+    because rendercv then guesses EducationEntry and demands an 'area' field.
+    """
     out = []
     for x in visible_cv(items):
-        outcomes = x.get("outcomes", [])
+        highlights = list(x.get("outcomes") or [])
+        doi = x.get("doi")
+        if doi:
+            highlights.append(f"DOI: [{doi}](https://doi.org/{doi})")
+
+        start, end = x.get("start"), x.get("end")
+        date = f"{start} - {end}" if start and end else (start or end or None)
+
         out.append({
-            "names":       "; ".join(x["names"]),
-            "degree":      x["degree"],
-            "institution": x["institution"],
-            "project":     x["project"],
-            "start":       x["start"],
-            "end":         x["end"],
-            "outcomes":    outcomes if outcomes else None,
-            "doi":         x.get("doi") or None,
+            "name":       ", ".join(x["names"]),
+            "location":   x.get("institution") or None,
+            "date":       date,
+            "summary":    f'{x["degree"]} - {x["project"]}',
+            "highlights": highlights or None,
         })
     return out
 
 def build_service(items):
+    """Service -> rendercv NormalEntry, rendered as a single line each.
+
+    Role, title and institution are folded into 'name' so each entry occupies
+    one line with the date in the right-hand column. No summary: the CV lists
+    these compactly; the website carries the full description.
+    """
     out = []
     for x in visible_cv(items):
+        parts = [p for p in (x.get("role"), x["title"]) if p]
+        label = " - ".join(parts)
+        if x.get("institution"):
+            label = f'{label}, {x["institution"]}'
         out.append({
-            "type":        x["type"],
-            "role":        x.get("role"),
-            "title":       x["title"],
-            "institution": x["institution"],
-            "date":        x["date"],
-            "summary":     x.get("summary") or None,
+            "name": label,
+            "date": x["date"],
         })
     return out
+
+def photo_path(rel):
+    """Make the headshot path relative to the YAML file, not the repo root.
+
+    rendercv resolves `cv.photo` relative to the input YAML's directory, but
+    config/personal.yaml stores it relative to the repo root.
+    """
+    if not rel:
+        return None
+    p = (ROOT / rel).resolve()
+    if not p.exists():
+        return None
+    return os.path.relpath(p, OUT.parent).replace(os.sep, "/")
+
 
 # ---------------------------------------------------------------------------
 # Main assembler
@@ -165,7 +197,7 @@ def main():
             "email":       personal["email"],
             "phone":       personal.get("phone"),
             "website":     personal.get("website"),
-            "photo":       personal.get("photo"),
+            "photo":       photo_path(personal.get("photo")),
             "social_networks": personal.get("social_networks"),
             "sections": {
                 "Welcome":              personal.get("welcome", []),

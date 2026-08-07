@@ -5,7 +5,7 @@ cv:
   email: eric.araujo@calvin.edu
   phone: +1-616-215-8643
   website: https://ericaraujo.com/
-  photo: config/headshot.jpg
+  photo: ../config/headshot.jpg
   social_networks:
   - network: LinkedIn
     username: ericaraujophd
@@ -522,7 +522,7 @@ cv:
       year: '2025'
       name: American Scientific Affiliation (ASA) Annual Meeting 2025
       url: https://network.asa3.org/mpage/ASA2025
-      location: In Person
+      location: Colorado Christian University, Lakewood, CO
       start_date: '2025-07-19'
       end_date: '2025-07-19'
     - role: speaker
@@ -733,301 +733,219 @@ cv:
         with potential applications in communication policy, platform design, and
         digital education.
     supervised_students:
-    - names: Brady Swiech; Tim David; Zach Redder
-      degree: B.S.
-      institution: Calvin University
-      project: Scale66 — AI Platform for Marketing Content Generation
-      start: Fall 2025
-      end: Spring 2026
-    - names: Esther Asuquo; David Barry
-      degree: B.S.
-      institution: Calvin University
-      project: 'Modeling Gram-Negative Bacterial Infections: An Agent-Based Approach'
-      start: Spring 2025
-      end: Fall 2025
-    - names: Katelin Jandris; Ryan Klein; Ovgu Tufan
-      degree: B.S.
-      institution: Calvin University
-      project: Cognitive Modeling of Church Polarization
-      start: Fall 2025
-      end: Spring 2026
-      outcomes:
+    - name: Brady Swiech, Tim David, Zach Redder
+      location: Calvin University
+      date: Fall 2025 - Spring 2026
+      summary: B.S. - Scale66 — AI Platform for Marketing Content Generation
+    - name: Esther Asuquo, David Barry
+      location: Calvin University
+      date: Spring 2025 - Fall 2025
+      summary: 'B.S. - Modeling Gram-Negative Bacterial Infections: An Agent-Based
+        Approach'
+    - name: Katelin Jandris, Ryan Klein, Ovgu Tufan
+      location: Calvin University
+      date: Fall 2025 - Spring 2026
+      summary: B.S. - Cognitive Modeling of Church Polarization
+      highlights:
       - Presented at NetLogo Conference 2026 (Chicago — July 2026)
-    - names: Jaden Brookens; Daniel Kwon
-      degree: B.S.
-      institution: Calvin University
-      project: 'Modeling Introversion in the Classroom: An Agent-Based Approach'
-      start: Fall 2024
-      end: Spring 2025
-      outcomes:
+    - name: Jaden Brookens, Daniel Kwon
+      location: Calvin University
+      date: Fall 2024 - Spring 2025
+      summary: 'B.S. - Modeling Introversion in the Classroom: An Agent-Based Approach'
+      highlights:
       - Conference paper at AASG 2025 (Detroit)
-    - names: Leonardo Biazoli
-      degree: Ph.D.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Large-Scale Bibliometric Analysis of International Researcher Mobility
-        in Brazilian Health and Life Sciences
-      start: '2022'
-      end: '2025'
-      outcomes:
+    - name: Leonardo Biazoli
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2022 - 2025
+      summary: Ph.D. - Large-Scale Bibliometric Analysis of International Researcher
+        Mobility in Brazilian Health and Life Sciences
+      highlights:
       - Published in Quantitative Science Studies (2026)
-      doi: 10.1162/QSS.a.411
-    - names: Clayton Ramos da Silva
-      degree: M.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Leishmaniasis Transmission Modeling Using Agent-Based Models and Complex
-        Networks
-      start: '2022'
-      end: '2024'
-      outcomes:
+      - 'DOI: [10.1162/QSS.a.411](https://doi.org/10.1162/QSS.a.411)'
+    - name: Clayton Ramos da Silva
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2022 - 2024
+      summary: M.S. - Leishmaniasis Transmission Modeling Using Agent-Based Models
+        and Complex Networks
+      highlights:
       - Published in Revista Brasileira de Ensino de Física (2025)
-      doi: 10.1590/1806-9126-RBEF-2024-0464
-    - names: Matheus de Andrade Flausino
-      degree: M.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Urban Topology and Street Crime Patterns Using Complex Networks
-      start: '2022'
-      end: '2024'
-      outcomes:
+      - 'DOI: [10.1590/1806-9126-RBEF-2024-0464](https://doi.org/10.1590/1806-9126-RBEF-2024-0464)'
+    - name: Matheus de Andrade Flausino
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2022 - 2024
+      summary: M.S. - Urban Topology and Street Crime Patterns Using Complex Networks
+      highlights:
       - Published in Journal of Complex Networks (2025)
-      doi: 10.1093/comnet/cnaf016
-    - names: Thiago Guedes de Jesus
-      degree: M.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Epidemiological Modeling with Evolutionary Game Theory in Spatial Networks
-      start: '2022'
-      end: '2024'
-    - names: Rolf Pagotto Veiga
-      degree: M.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: 'Diretrizes para Classificação Automática de Músicas Cristãs: Aplicação
-        do BERT na Identificação de Adoração'
-      start: '2021'
-      end: '2024'
-      outcomes:
+      - 'DOI: [10.1093/comnet/cnaf016](https://doi.org/10.1093/comnet/cnaf016)'
+    - name: Thiago Guedes de Jesus
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2022 - 2024
+      summary: M.S. - Epidemiological Modeling with Evolutionary Game Theory in Spatial
+        Networks
+    - name: Rolf Pagotto Veiga
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2021 - 2024
+      summary: 'M.S. - Diretrizes para Classificação Automática de Músicas Cristãs:
+        Aplicação do BERT na Identificação de Adoração'
+      highlights:
       - M.S. defended August 30, 2024 — PPGCC/UFLA
-    - names: Alessandra Louzada Terra
-      degree: M.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: 'Aprendizagem de Máquina para Estudo de Dados em Grafos: Um Estudo
-        do Movimento dos Estudantes de Medicina no Brasil'
-      start: '2024'
-      end: '2025'
-      outcomes:
+    - name: Alessandra Louzada Terra
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2024 - 2025
+      summary: 'M.S. - Aprendizagem de Máquina para Estudo de Dados em Grafos: Um
+        Estudo do Movimento dos Estudantes de Medicina no Brasil'
+      highlights:
       - M.S. defended January 30, 2025 — PPGCC/UFLA
-    - names: Kelly Iapuque Rodrigues de Sousa
-      degree: M.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: 'Urban Afforestation and Public Safety: A Bibliometric Study'
-      start: '2021'
-      end: '2023'
-      outcomes:
+    - name: Kelly Iapuque Rodrigues de Sousa
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2021 - 2023
+      summary: 'M.S. - Urban Afforestation and Public Safety: A Bibliometric Study'
+      highlights:
       - Published in Revista de Gestão Ambiental e Sustentabilidade (GeAS) (2022)
-      doi: 10.5585/geas.v11i2.22965
-    - names: Thiago do Prado Ramos
-      degree: M.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Wireless Network Capacity Planning from Campus Connection Logs
-      start: '2021'
-      end: '2023'
-    - names: Eduardo Vinicius Betim
-      degree: B.S.
-      institution: Universidade Federal de Santa Catarina (UFSC) — Brazil
-      project: Análise do Comportamento de Comunidade sobre Dados da Guerra da Ucrânia
-        no Reddit
-      start: '2024'
-      end: '2024'
-    - names: Adilson Henrique de Oliveira Lima
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Modelagem baseada em agentes para estudos sobre transmissão de HIV
-        e comportamento voltado para a prevenção da disseminação do vírus
-      start: '2022'
-      end: '2023'
-      outcomes:
+      - 'DOI: [10.5585/geas.v11i2.22965](https://doi.org/10.5585/geas.v11i2.22965)'
+    - name: Thiago do Prado Ramos
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2021 - 2023
+      summary: M.S. - Wireless Network Capacity Planning from Campus Connection Logs
+    - name: Eduardo Vinicius Betim
+      location: Universidade Federal de Santa Catarina (UFSC) — Brazil
+      date: 2024 - 2024
+      summary: B.S. - Análise do Comportamento de Comunidade sobre Dados da Guerra
+        da Ucrânia no Reddit
+    - name: Adilson Henrique de Oliveira Lima
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2022 - 2023
+      summary: B.S. - Modelagem baseada em agentes para estudos sobre transmissão
+        de HIV e comportamento voltado para a prevenção da disseminação do vírus
+      highlights:
       - Project interrupted (2023)
-    - names: Débora Rossini Martins Cardoso
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Impactos do Ensino Remoto durante a Pandemia no Ensino Superior Brasileiro
-      start: '2022'
-      end: '2022'
-    - names: Eduardo Miranda Pedrosa Filho
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Estudo e Implementação de Melhorias em um Sistema de Streaming para
-        Vídeos de Educação Cristã
-      start: '2021'
-      end: '2021'
-    - names: Erich Fernando da Costa
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: 'Planejamento Policial a partir do Uso de Ferramentas de Business Intelligence:
-        Análise do Índice de Criminalidade Violenta nos Municípios do 8º BPM'
-      start: '2020'
-      end: '2020'
-    - names: Héuller Soares Vilela Silva
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Previsão do Resultado Final de Partidas de Futebol a partir do Primeiro
-        Tempo usando Técnicas de Aprendizagem de Máquina
-      start: '2020'
-      end: '2020'
-    - names: Ana Carolina Le Senechal
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Análise e Pré-processamento de Dados Utilizando Técnicas de Mineração
-        de Dados para o Moodle
-      start: '2013'
-      end: '2013'
-    - names: Giulia Luan Santos de Sousa
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: 'Tweetmining: Análise de Opinião Contida em Textos Extraídos do Twitter'
-      start: '2012'
-      end: '2012'
-    - names: Larissa Avelino Zuppo
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Webometria e Análise de Impacto da Informação em Redes Sociais
-      start: '2012'
-      end: '2012'
-    - names: Paulo Roberto de Almeida
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Validação do Modelo Matemático para a Análise do Comportamento do Protocolo
-        TCP em Redes Assimétricas
-      start: '2011'
-      end: '2011'
-    - names: Karen Aline Alves Bezerra
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: 'BDD: Avaliação e Proposta de Aplicação no Pós Desenvolvimento'
-      start: '2011'
-      end: '2011'
-    - names: Arthur Moreira Maia
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: 'Modelagem da Estrutura e Dinâmicas de Redes Sociais: Um Modelo Formal
-        para Estudos de Fenômenos Sociodinâmicos'
-      start: '2020'
-      end: '2020'
-      outcomes:
+    - name: Débora Rossini Martins Cardoso
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2022 - 2022
+      summary: B.S. - Impactos do Ensino Remoto durante a Pandemia no Ensino Superior
+        Brasileiro
+    - name: Eduardo Miranda Pedrosa Filho
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2021 - 2021
+      summary: B.S. - Estudo e Implementação de Melhorias em um Sistema de Streaming
+        para Vídeos de Educação Cristã
+    - name: Erich Fernando da Costa
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2020 - 2020
+      summary: 'B.S. - Planejamento Policial a partir do Uso de Ferramentas de Business
+        Intelligence: Análise do Índice de Criminalidade Violenta nos Municípios do
+        8º BPM'
+    - name: Héuller Soares Vilela Silva
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2020 - 2020
+      summary: B.S. - Previsão do Resultado Final de Partidas de Futebol a partir
+        do Primeiro Tempo usando Técnicas de Aprendizagem de Máquina
+    - name: Ana Carolina Le Senechal
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2013 - 2013
+      summary: B.S. - Análise e Pré-processamento de Dados Utilizando Técnicas de
+        Mineração de Dados para o Moodle
+    - name: Giulia Luan Santos de Sousa
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2012 - 2012
+      summary: 'B.S. - Tweetmining: Análise de Opinião Contida em Textos Extraídos
+        do Twitter'
+    - name: Larissa Avelino Zuppo
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2012 - 2012
+      summary: B.S. - Webometria e Análise de Impacto da Informação em Redes Sociais
+    - name: Paulo Roberto de Almeida
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2011 - 2011
+      summary: B.S. - Validação do Modelo Matemático para a Análise do Comportamento
+        do Protocolo TCP em Redes Assimétricas
+    - name: Karen Aline Alves Bezerra
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2011 - 2011
+      summary: 'B.S. - BDD: Avaliação e Proposta de Aplicação no Pós Desenvolvimento'
+    - name: Arthur Moreira Maia
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2020 - 2020
+      summary: 'B.S. - Modelagem da Estrutura e Dinâmicas de Redes Sociais: Um Modelo
+        Formal para Estudos de Fenômenos Sociodinâmicos'
+      highlights:
       - Undergraduate research (Iniciação Científica) — CNPq
-    - names: Aline Rodrigues Guimarães de Oliveira
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Modelagem e Simulação de Difusão de Informação em Redes Sociais
-      start: '2019'
-      end: '2019'
-      outcomes:
+    - name: Aline Rodrigues Guimarães de Oliveira
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2019 - 2019
+      summary: B.S. - Modelagem e Simulação de Difusão de Informação em Redes Sociais
+      highlights:
       - Undergraduate research (Iniciação Científica) — CNPq
-    - names: Álvaro Martins Espíndola
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Uso de Modelagem Baseada em Agentes para Redução de Oportunidade para
-        Agentes Criminosos na Cidade de Lavras
-      start: '2019'
-      end: '2019'
-      outcomes:
+    - name: Álvaro Martins Espíndola
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2019 - 2019
+      summary: B.S. - Uso de Modelagem Baseada em Agentes para Redução de Oportunidade
+        para Agentes Criminosos na Cidade de Lavras
+      highlights:
       - Undergraduate research (Iniciação Científica)
-    - names: Leonardo Amorim de Sena
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Desenvolvimento e Análise de Plataforma para Estudos sobre Contágio
+    - name: Leonardo Amorim de Sena
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2019 - 2019
+      summary: B.S. - Desenvolvimento e Análise de Plataforma para Estudos sobre Contágio
         em Redes Sociais
-      start: '2019'
-      end: '2019'
-      outcomes:
+      highlights:
       - Undergraduate research (Iniciação Científica)
-    - names: Arthur Moreira Maia
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Modelagem e Simulação de Difusão de Informação em Redes Sociais
-      start: '2019'
-      end: '2019'
-      outcomes:
+    - name: Arthur Moreira Maia
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2019 - 2019
+      summary: B.S. - Modelagem e Simulação de Difusão de Informação em Redes Sociais
+      highlights:
       - Undergraduate research (Iniciação Científica) — CNPq
-    - names: Danielle Aparecida Alcântara
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Webometria e Análise de Valor na Web
-      start: '2013'
-      end: '2013'
-      outcomes:
+    - name: Danielle Aparecida Alcântara
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2013 - 2013
+      summary: B.S. - Webometria e Análise de Valor na Web
+      highlights:
       - Undergraduate research (Iniciação Científica)
-    - names: Ana Carolina Le Senechal
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Validação do Modelo Matemático para a Análise do Comportamento do Protocolo
-        TCP em Redes Assimétricas
-      start: '2011'
-      end: '2011'
-      outcomes:
+    - name: Ana Carolina Le Senechal
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2011 - 2011
+      summary: B.S. - Validação do Modelo Matemático para a Análise do Comportamento
+        do Protocolo TCP em Redes Assimétricas
+      highlights:
       - Undergraduate research (Iniciação Científica)
-    - names: Yasmin Ribeiro Penha
-      degree: B.S.
-      institution: Federal University of Lavras (UFLA) — Brazil
-      project: Estudo de Algoritmos para Mineração de Opinião para Detecção das Percepções
-        sobre a Cidade de Lavras
-      start: '2011'
-      end: '2011'
-      outcomes:
+    - name: Yasmin Ribeiro Penha
+      location: Federal University of Lavras (UFLA) — Brazil
+      date: 2011 - 2011
+      summary: B.S. - Estudo de Algoritmos para Mineração de Opinião para Detecção
+        das Percepções sobre a Cidade de Lavras
+      highlights:
       - Undergraduate research (Iniciação Científica)
-    - names: Ian Hawthorne; Nathan Holtrop
-      degree: B.S.
-      institution: Calvin University
-      project: 'Teaching Ancient Wisdom with Modern AI: Evaluating LLMs in Early Christian
-        Studies'
-      start: Summer 2026
-      outcomes:
+    - name: Ian Hawthorne, Nathan Holtrop
+      location: Calvin University
+      date: Summer 2026
+      summary: 'B.S. - Teaching Ancient Wisdom with Modern AI: Evaluating LLMs in
+        Early Christian Studies'
+      highlights:
       - McGregor Undergraduate Research Fellowship
-    - names: Caleb Ausema
-      degree: B.S.
-      institution: Calvin University
-      project: Cognitive Modeling of Churchgoers
-      start: Spring 2026
-      outcomes:
+    - name: Caleb Ausema
+      location: Calvin University
+      date: Spring 2026
+      summary: B.S. - Cognitive Modeling of Churchgoers
+      highlights:
       - Senior Project
-    - names: Martin Liu
-      degree: B.S.
-      institution: Calvin University
-      project: 'VerseNet: A Visual Neo4j-Based Bible Knowledge Network'
-      start: Spring 2026
-      outcomes:
+    - name: Martin Liu
+      location: Calvin University
+      date: Spring 2026
+      summary: 'B.S. - VerseNet: A Visual Neo4j-Based Bible Knowledge Network'
+      highlights:
       - Senior Project
     service:
-    - type: defense-committee
-      role: External Member
-      title: Qualifying Exam — Rolf Pagotto Veiga
-      institution: UFLA Brazil
+    - name: External Member - Qualifying Exam — Rolf Pagotto Veiga, UFLA Brazil
       date: 2024-08
-      summary: Served as external committee member for the qualifying exam of Rolf
-        Pagotto Veiga.
-    - type: defense-committee
-      role: External Member
-      title: Masters Exam — Stephano Daniel Santos
-      institution: UFLA Brazil
+    - name: External Member - Masters Exam — Stephano Daniel Santos, UFLA Brazil
       date: '2025-08-22'
-      summary: 'Served as external committee member for the Masters Exam of Stephano
-        Daniel Santos, on machine learning for prediction of Portland cement compressive
-        strength (advisors: Profs. Teodorico de Castro Ramalho and Danton Diego Ferreira).'
-    - type: defense-committee
-      role: External Member
-      title: PhD Qualifying Exam — Jamile Santos dos Santos
-      institution: UFRJ Brazil
+    - name: External Member - PhD Qualifying Exam — Jamile Santos dos Santos, UFRJ
+        Brazil
       date: '2024-08-28'
-      summary: 'Served as external committee member for the PhD Qualifying Exam of
-        Jamile Santos dos Santos (advisor: Prof. Daniel Gregorio Alfaro Vigo). Topic:
-        epidemic modeling of information propagation in multi-networks.'
-    - type: other
-      role: Participant
-      title: G&M Young Leaders Training Conference
-      institution: The Grace & Mercy Foundation — New York, NY
+    - name: Participant - G&M Young Leaders Training Conference, The Grace & Mercy
+        Foundation — New York, NY
       date: '2026-07-07'
-      summary: Participated in the Grace & Mercy Foundation Young Leaders Training
-        Conference in New York (July 7–12, 2026), on implementing the Public Reading
-        of Scripture and the Just Show Up book club at Calvin University. Trip funded
-        by the Grace & Mercy Foundation and Calvin Theological Seminary.
     research_skills:
     - '**Agent-based modeling:** Netlogo and Python tools for ABMs.'
     - '**Data Science and Machine Learning:** Python, R, Statistics.'

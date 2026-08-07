@@ -30,8 +30,8 @@ SCRIPTS   = ROOT / "scripts"
 RENDERCV  = ROOT / "rendercv"
 CV_YAML   = RENDERCV / "Eric_Araújo_CV.yaml"
 CV_PDF    = RENDERCV / "rendercv_output" / "Eric_Araújo_CV.pdf"
-WEB_PDF   = ROOT / "cv" / "Eric_Araujo_CV.pdf"
-BACKUPS   = ROOT / "cv" / "archive"
+WEB_PDF   = ROOT / "public" / "cv" / "Eric_Araujo_CV.pdf"
+BACKUPS   = ROOT / "public" / "cv" / "archive"
 
 
 def run(script: str, label: str):
@@ -48,25 +48,39 @@ def archive_pdf():
         stamp = datetime.now().strftime("%Y-%m-%d")
         dest  = BACKUPS / f"Eric_Araujo_CV_{stamp}.pdf"
         shutil.copy2(WEB_PDF, dest)
-        print(f"  Archived → cv/archive/Eric_Araujo_CV_{stamp}.pdf")
+        print(f"  Archived → public/cv/archive/Eric_Araujo_CV_{stamp}.pdf")
     else:
         print("  No existing CV PDF to archive.")
 
 
 def render_cv():
     print("\n── Rendering PDF with rendercv ──")
+
+    before = CV_PDF.stat().st_mtime if CV_PDF.exists() else 0
+
     result = subprocess.run(
         ["rendercv", "render", CV_YAML.name],
         cwd=RENDERCV,
     )
     if result.returncode != 0:
-        sys.exit("  rendercv render FAILED")
-    # Copy rendered PDF to website root as cv.pdf
-    if CV_PDF.exists():
-        shutil.copy2(CV_PDF, WEB_PDF)
-        print(f"  Copied → {WEB_PDF.relative_to(ROOT.parent)}")
-    else:
-        print(f"  Warning: expected PDF at {CV_PDF} not found.")
+        sys.exit(
+            "\n  BUILD FAILED: rendercv exited non-zero.\n"
+            "  The published PDF was NOT updated. Scroll up for the validation\n"
+            "  table — every section must use a real rendercv entry type\n"
+            "  (NormalEntry, EducationEntry, PublicationEntry, ...). Custom keys\n"
+            "  are silently dropped and trip 'This field is required!' errors.\n"
+            "  Needs rendercv 2.7 on Python >= 3.12 (see rendercv/requirements.txt)."
+        )
+
+    # A zero exit code is not enough: confirm a PDF was actually (re)written.
+    if not CV_PDF.exists():
+        sys.exit(f"\n  BUILD FAILED: rendercv reported success but {CV_PDF} does not exist.")
+    if CV_PDF.stat().st_mtime <= before:
+        sys.exit(f"\n  BUILD FAILED: {CV_PDF} was not rewritten — stale output, refusing to publish.")
+
+    WEB_PDF.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(CV_PDF, WEB_PDF)
+    print(f"  Published → {WEB_PDF.relative_to(ROOT)}")
 
 
 def main():
