@@ -83,6 +83,16 @@ cv:
       location: Minas Gerais Brazil
       highlights:
       - Professor and Coordinator of the Information Systems course
+    books:
+    - title: 'Revisiting AI Ethics: A Practice-Grounded Approach for Development,
+        Implementation and Policy Making'
+      authors:
+      - '**Eric Araújo**'
+      - Maarten Verkerk
+      - Christine Boshuijzen-van Burken
+      date: Forthcoming 2026
+      journal: Springer. Under contract; manuscript due August 2026. Provisional title.
+        Applies Dooyeweerd's modal framework to the ethics of artificial intelligence.
     publications:
     - title: Caracterização Temporal de Roubos de Rua Contrastando Contextos Pré-Pandêmico
         e Pandêmico
@@ -532,9 +542,8 @@ cv:
       location: Chicago IL USA
       start_date: '2025-11-04'
       end_date: '2025-11-04'
-      summary: The Grace Hopper Celebration (GHC) is the worlds largest gathering
-        of women in computing. I am the main advisor of the Girls Who Code group at
-        Calvin University.
+      summary: The Grace Hopper Celebration is the world's largest gathering of women
+        in computing. Attended with the Calvin Girls Who Code student delegation.
     - role: speaker
       year: '2026'
       name: Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person
@@ -564,23 +573,32 @@ cv:
         Past" (A23-217), Monday Nov 23, 12:30–2:30 PM. Empirical evaluation of LLM
         accuracy on Macrina the Younger and Olympias of Constantinople.
     grants_and_fellowships:
+    - name: Templeton World Charity Foundation — Planning Grant
+      url: https://www.templetonworldcharity.org/
+      institution: Templeton World Charity Foundation, in partnership with the Nagel
+        Institute for the Study of World Christianity
+      summary: Planning grant for a research program on polarization and listening
+        across communities, co-led with Dr. Damaris Parsitau. Extends the Bridging
+        Beliefs and Behaviours modeling work to congregations in Brazil and Kenya,
+        with ethnographic fieldwork preceding the computational modeling.
+      date: June 2026 – Jan 2027
     - name: Calvin Research Fellowship
       url: https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships
       institution: Calvin University
-      start_date: 2026-09
-      end_date: '2027'
-      summary: Supporting research on computational modeling of Christian communities.
+      summary: Awarded 4 faculty load hours for the 2026–2027 academic year for the
+        project "Modeling Political and Religious Polarization in Christian Communities."
+        Named a Diekema Fellow, with support paid through the Diekema Endowment.
+      date: 2026 – 2027
     - name: Nagel Institute Fellowship
       url: https://nagelinstitute.org/fellowships/
       institution: Nagel Institute for the Study of World Christianity — Calvin University
-      start_date: '2026'
       summary: Supporting research on computational modeling of world Christian communities.
+      date: '2026'
     - name: McGregor Summer Research Fellowship
       url: https://calvin.edu/faculty-development-research/student-research-opportunities/mcgregor-undergraduate-research-program
       institution: Calvin University
-      start_date: 2026-05
-      end_date: 2026-08
       summary: Supporting collaborative faculty-student research.
+      date: May 2026 – Aug 2026
     teaching:
     - code: CS112
       name: Introduction to Data Structures
@@ -613,10 +631,29 @@ cv:
       end_date: present
       summary: Concepts and paradigms of programming languages.
     research_projects:
+    - name: 'Matristics: Evaluating Large Language Models on the Women of the Early
+        Church'
+      url: https://ericaraujo.com/matristics
+      location: Calvin University
+      summary: With D. Rylaarsdam. Supported by a McGregor Undergraduate Research
+        Fellowship.
+      highlights:
+      - A public benchmark testing whether leading large language models (Claude,
+        ChatGPT, Gemini, Grok) reproduce the androcentric silences of the historical
+        record about women in early Christianity.
+      - First paper accepted to the American Academy of Religion Annual Meeting 2026.
+      date: 2026 – present
+    - name: CS Prayers — A Book of Hours for Computing
+      url: https://csprayers.com
+      location: Calvin University
+      summary: Founder and curator.
+      highlights:
+      - A public collection of liturgies for the rhythms of studying, teaching, and
+        practicing computer science, open to contributions from students and faculty
+        at any institution.
+      date: 2026 – present
     - name: Procores
       url: https://procores-cnpq.github.io/
-      start_date: 2022-05
-      end_date: present
       location: UFMG Brazil
       summary: Research group funded by CNPq (Brazil)
       highlights:
@@ -639,9 +676,8 @@ cv:
         model co-occurrence, causality, and links between contagion processes; and
         represent multi-relationships.'
       - 'Funded by: CNPq Universal 2022'
+      date: May 2022 – present
     - name: Socioeconomic Impacts in Territories Affected by Technological Disasters
-      start_date: 2022-09
-      end_date: 2024-02
       location: UFLA Brazil
       highlights:
       - This project investigates the socioeconomic consequences of technological
@@ -660,9 +696,8 @@ cv:
         The ultimate goal is to identify patterns and develop frameworks that can
         inform policies for disaster prevention, mitigation, and recovery—contributing
         to more resilient communities in the face of growing technological risks.
+      date: Sept 2022 – Feb 2024
     - name: Analysis of User Behavior on a University Campus Wi-Fi Network
-      start_date: 2021-03
-      end_date: 2023-09
       location: UFLA Brazil
       summary: Masters Project by Thiago do Prado Ramos
       highlights:
@@ -673,9 +708,8 @@ cv:
         performance and user experience.
       - The findings will help in optimizing network infrastructure, improving user
         experience, and informing future network design and management strategies.
+      date: Mar 2021 – Sept 2023
     - name: Algorithms for the Optimization of Supply Chain Management Systems
-      start_date: 2021-03
-      end_date: 2022-03
       location: UFLA Brazil
       summary: Project in partnership with Prof. Mayron Moreira (UFLA Brazil)
       highlights:
@@ -690,9 +724,8 @@ cv:
         demonstrated significant improvements in performance when compared to traditional
         methods, and provided a flexible framework that can be adapted to various
         industrial sectors seeking to enhance their operational processes.
+      date: Mar 2021 – Mar 2022
     - name: Urban Tree Cover and Crime
-      start_date: 2020-03
-      end_date: 2024-03
       location: UFLA Brazil
       summary: Project in partnership with Prof. Michele Valquíria dos Reis (UFLA
         Brazil)
@@ -714,9 +747,8 @@ cv:
         and to inform evidence-based environmental management policies. The findings
         are intended to support public agencies and civil society in designing safer,
         greener urban spaces.
+      date: Mar 2020 – Mar 2024
     - name: Computational Modeling and Simulation of Contagion in Social Networks
-      start_date: 2018-09
-      end_date: 2024-06
       location: UFLA Brazil
       highlights:
       - Social contagion refers to the spread of behaviors, perceptions, and emotions
@@ -732,6 +764,7 @@ cv:
         aim to inform the design of healthier and more reliable information ecosystems,
         with potential applications in communication policy, platform design, and
         digital education.
+      date: Sept 2018 – June 2024
     supervised_students:
     - name: Brady Swiech, Tim David, Zach Redder
       location: Calvin University
@@ -935,17 +968,74 @@ cv:
       summary: 'B.S. - VerseNet: A Visual Neo4j-Based Bible Knowledge Network'
       highlights:
       - Senior Project
-    service:
-    - name: External Member - Qualifying Exam — Rolf Pagotto Veiga, UFLA Brazil
-      date: 2024-08
+    university_service:
+    - name: Promotions Committee, Computer Science, Calvin University
+      date: 2026 – present
+      summary: 'Responsible for the department''s Promotions Committee: publicizing
+        the Computer Science program and shaping recruitment strategy.'
+    - name: Planning team, School of Engineering and Computer Science, Calvin University
+      date: 2026 – present
+      summary: Member of the team shaping Calvin's new School of Engineering and Computer
+        Science.
+    - name: Faculty planning group, CCCS grant on political polarization, Calvin University
+      date: 2025 – present
+      summary: Member of a faculty group planning a Calvin Center for Christian Scholarship
+        (CCCS) grant on political polarization.
+    - name: Interviewer, prospective Honors students, Calvin University
+      date: 2025 – present
+      summary: Interviews prospective students for the Calvin Honors Program.
+    - name: Faculty Advisor, Girls Who Code, Calvin University
+      date: 2025 – present
+      summary: Faculty advisor to the Girls Who Code chapter at Calvin University,
+        including leading the annual student delegation to the Grace Hopper Celebration.
+    professional_service:
+    - name: Faculty Fellow, Nagel Institute for the Study of World Christianity
+      date: Dec 2025
     - name: External Member - Masters Exam — Stephano Daniel Santos, UFLA Brazil
-      date: '2025-08-22'
+      date: Aug 2025
     - name: External Member - PhD Qualifying Exam — Jamile Santos dos Santos, UFRJ
         Brazil
-      date: '2024-08-28'
-    - name: Participant - G&M Young Leaders Training Conference, The Grace & Mercy
-        Foundation — New York, NY
-      date: '2026-07-07'
+      date: Aug 2024
+    - name: External Member - Qualifying Exam — Rolf Pagotto Veiga, UFLA Brazil
+      date: Aug 2024
+    church_and_community_service:
+    - name: Elder - Plymouth Heights Christian Reformed Church, Grand Rapids, MI
+      date: May 2025 – present
+      summary: Assists with liturgy; hospitality ministry to college students.
+    professional_development:
+    - name: CCCS Writing Co-Op
+      location: Calvin University
+      summary: 'Week-long writing residency: "Temperance and the Digital Life" (article
+        for The Banner).'
+      date: July 2026
+    - name: G&M Young Leaders Training Conference
+      location: The Grace & Mercy Foundation — New York, NY
+      summary: Participated in the Grace & Mercy Foundation Young Leaders Training
+        Conference in New York (July 7–12, 2026), on implementing the Public Reading
+        of Scripture and the Just Show Up book club at Calvin University. Trip funded
+        by the Grace & Mercy Foundation and Calvin Theological Seminary.
+      date: July 2026
+    - name: Faith & Learning Fellowship
+      location: Calvin University
+      date: Sept 2025 – Dec 2025
+    - name: Healthy Dialogue Series — Jennifer Powell McNutt
+      location: Calvin University
+      summary: Faculty session with Jennifer Powell McNutt (February 18, 2025).
+      date: Feb 2025
+    - name: CCCS Writing Co-Op
+      location: Calvin University
+      summary: 'Week-long writing residency: "Prudence and the Digital Life."'
+      date: Jan 2025
+    - name: Healthy Dialogue Series — Fellipe do Vale
+      location: Calvin University
+      summary: Faculty/staff book discussion with author Fellipe do Vale (November
+        6, 2024).
+      date: Nov 2024
+    - name: Kuiper Seminar
+      location: Calvin University
+      summary: Year-long seminar on faith and learning integration, pedagogy, and
+        the Reformed tradition.
+      date: Sept 2024 – May 2025
     research_skills:
     - '**Agent-based modeling:** Netlogo and Python tools for ABMs.'
     - '**Data Science and Machine Learning:** Python, R, Statistics.'

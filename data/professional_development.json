@@ -1,0 +1,86 @@
+[
+  {
+    "id": "kuiper-seminar-2024-2025",
+    "title": "Kuiper Seminar",
+    "institution": "Calvin University",
+    "start_date": "2024-09",
+    "end_date": "2025-05",
+    "summary": "Year-long seminar on faith and learning integration, pedagogy, and the Reformed tradition.",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "faith-and-learning-fellowship-2025",
+    "title": "Faith & Learning Fellowship",
+    "institution": "Calvin University",
+    "start_date": "2025-09",
+    "end_date": "2025-12",
+    "summary": null,
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "cccs-writing-coop-2025-01",
+    "title": "CCCS Writing Co-Op",
+    "institution": "Calvin University",
+    "start_date": "2025-01",
+    "end_date": "2025-01",
+    "summary": "Week-long writing residency: \"Prudence and the Digital Life.\"",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "cccs-writing-coop-2026-07",
+    "title": "CCCS Writing Co-Op",
+    "institution": "Calvin University",
+    "start_date": "2026-07",
+    "end_date": "2026-07",
+    "summary": "Week-long writing residency: \"Temperance and the Digital Life\" (article for The Banner).",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "gm-young-leaders-training-2026",
+    "title": "G&M Young Leaders Training Conference",
+    "institution": "The Grace & Mercy Foundation — New York, NY",
+    "start_date": "2026-07",
+    "end_date": "2026-07",
+    "summary": "Participated in the Grace & Mercy Foundation Young Leaders Training Conference in New York (July 7–12, 2026), on implementing the Public Reading of Scripture and the Just Show Up book club at Calvin University. Trip funded by the Grace & Mercy Foundation and Calvin Theological Seminary.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": "docs/events/2026-GM-Young-Leaders-Training/July 2026 PRSJSU Young Leaders Training Packet Schedule.pdf"
+  },
+  {
+    "id": "healthy-dialogue-mcnutt-2025",
+    "title": "Healthy Dialogue Series — Jennifer Powell McNutt",
+    "institution": "Calvin University",
+    "start_date": "2025-02",
+    "end_date": null,
+    "summary": "Faculty session with Jennifer Powell McNutt (February 18, 2025).",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "healthy-dialogue-do-vale-2024",
+    "title": "Healthy Dialogue Series — Fellipe do Vale",
+    "institution": "Calvin University",
+    "start_date": "2024-11",
+    "end_date": null,
+    "summary": "Faculty/staff book discussion with author Fellipe do Vale (November 6, 2024).",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  }
+]

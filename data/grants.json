@@ -1,17 +1,31 @@
 [
   {
+    "id": "2026-templeton-world-charity-planning-grant",
+    "type": "grant",
+    "name": "Templeton World Charity Foundation — Planning Grant",
+    "institution": "Templeton World Charity Foundation, in partnership with the Nagel Institute for the Study of World Christianity",
+    "url": "https://www.templetonworldcharity.org/",
+    "start_date": "2026-06",
+    "end_date": "2027-01",
+    "summary": "Planning grant for a research program on polarization and listening across communities, co-led with Dr. Damaris Parsitau. Extends the Bridging Beliefs and Behaviours modeling work to congregations in Brazil and Kenya, with ethnographic fieldwork preceding the computational modeling.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
+  },
+  {
     "id": "2026-calvin-research-fellowship",
     "type": "fellowship",
     "name": "Calvin Research Fellowship",
     "institution": "Calvin University",
     "url": "https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships",
-    "start_date": "2026-09",
+    "start_date": "2026",
     "end_date": "2027",
-    "summary": "Supporting research on computational modeling of Christian communities.",
+    "summary": "Awarded 4 faculty load hours for the 2026–2027 academic year for the project \"Modeling Political and Religious Polarization in Christian Communities.\" Named a Diekema Fellow, with support paid through the Diekema Endowment.",
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": "docs/grants-fellowships/2026-2027-CRF-Calvin/Araujo CRF 2026-2027.pdf"
   },
   {
     "id": "2026-nagel-institute-fellowship",
@@ -25,7 +39,7 @@
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": "docs/grants-fellowships/2026-Nagel-Fellowship/Dec19.2025.Nagel.PDF"
   },
   {
     "id": "2026-mcgregor-summer-research-fellowship",

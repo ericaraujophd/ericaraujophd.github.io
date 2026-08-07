@@ -10,7 +10,8 @@
     "visible_cv": true,
     "visible_web": false,
     "news": false,
-    "document_path": "docs/defense-committee/2024-Rolf-Pagotto-Veiga-Quali/202408-Quali-Rolf-Pagotto-Veiga.pdf"
+    "document_path": "docs/defense-committee/2024-Rolf-Pagotto-Veiga-Quali/202408-Quali-Rolf-Pagotto-Veiga.pdf",
+    "scope": "professional"
   },
   {
     "id": "2025-masters-stephano-daniel-santos",
@@ -23,7 +24,8 @@
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": "docs/defense-committee/2025-Stephano-Daniel-Santos/082025-Stephano-Daniel-Santos.pdf"
+    "document_path": "docs/defense-committee/2025-Stephano-Daniel-Santos/082025-Stephano-Daniel-Santos.pdf",
+    "scope": "professional"
   },
   {
     "id": "2024-quali-jamile-santos",
@@ -36,34 +38,113 @@
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": null,
+    "scope": "professional"
   },
   {
     "id": "2025-nagel-newsletter-appointment",
     "type": "other",
-    "role": "Faculty Fellow",
+    "role": null,
     "title": "Nagel Institute Newsletter — Faculty Fellow Appointment",
     "institution": "Nagel Institute for the Study of World Christianity",
     "date": "2025-12-19",
     "summary": "Appointed as a 2026 Faculty Fellow at the Nagel Institute for the Study of World Christianity at Calvin University, as announced in the December 2025 newsletter Voices of the World Church.",
-    "visible_cv": false,
-    "visible_web": true,
-    "news": true,
-    "document_path": null,
-    "url": "/files/newsletters/Dec19.2025.Nagel.pdf"
-  },
-  {
-    "id": "2026-gm-young-leaders-training",
-    "type": "other",
-    "role": "Participant",
-    "title": "G&M Young Leaders Training Conference",
-    "institution": "The Grace & Mercy Foundation — New York, NY",
-    "date": "2026-07-07",
-    "end_date": "2026-07-12",
-    "summary": "Participated in the Grace & Mercy Foundation Young Leaders Training Conference in New York (July 7–12, 2026), on implementing the Public Reading of Scripture and the Just Show Up book club at Calvin University. Trip funded by the Grace & Mercy Foundation and Calvin Theological Seminary.",
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": "docs/events/2026-GM-Young-Leaders-Training/July 2026 PRSJSU Young Leaders Training Packet Schedule.pdf"
+    "document_path": null,
+    "url": "/files/newsletters/Dec19.2025.Nagel.pdf",
+    "scope": "professional",
+    "cv_title": "Faculty Fellow, Nagel Institute for the Study of World Christianity"
+  },
+  {
+    "id": "calvin-cs-promotions-committee",
+    "type": "university",
+    "role": null,
+    "title": "Promotions Committee, Computer Science",
+    "institution": "Calvin University",
+    "date": "2026",
+    "end_date": "present",
+    "summary": "Responsible for the department's Promotions Committee: publicizing the Computer Science program and shaping recruitment strategy.",
+    "scope": "university",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "calvin-school-engineering-cs-team",
+    "type": "university",
+    "role": null,
+    "title": "Planning team, School of Engineering and Computer Science",
+    "institution": "Calvin University",
+    "date": "2026",
+    "end_date": "present",
+    "summary": "Member of the team shaping Calvin's new School of Engineering and Computer Science.",
+    "scope": "university",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "calvin-cccs-polarization-grant-group",
+    "type": "university",
+    "role": null,
+    "title": "Faculty planning group, CCCS grant on political polarization",
+    "institution": "Calvin University",
+    "date": "2025",
+    "end_date": "present",
+    "summary": "Member of a faculty group planning a Calvin Center for Christian Scholarship (CCCS) grant on political polarization.",
+    "scope": "university",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "calvin-honors-interviewer",
+    "type": "university",
+    "role": null,
+    "title": "Interviewer, prospective Honors students",
+    "institution": "Calvin University",
+    "date": "2025",
+    "end_date": "present",
+    "summary": "Interviews prospective students for the Calvin Honors Program.",
+    "scope": "university",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "calvin-girls-who-code-advisor",
+    "type": "university",
+    "role": null,
+    "title": "Faculty Advisor, Girls Who Code",
+    "institution": "Calvin University",
+    "date": "2025",
+    "end_date": "present",
+    "summary": "Faculty advisor to the Girls Who Code chapter at Calvin University, including leading the annual student delegation to the Grace Hopper Celebration.",
+    "scope": "university",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "plymouth-heights-crc-elder",
+    "type": "church",
+    "role": "Elder",
+    "title": "Plymouth Heights Christian Reformed Church",
+    "institution": "Grand Rapids, MI",
+    "date": "2025-05",
+    "end_date": "present",
+    "summary": "Assists with liturgy; hospitality ministry to college students.",
+    "scope": "church",
+    "visible_cv": true,
+    "visible_web": false,
+    "news": false,
+    "document_path": null
   }
 ]
