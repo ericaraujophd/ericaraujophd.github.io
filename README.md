@@ -87,6 +87,16 @@ To add manually: edit the relevant `data/*.json` file. The Astro pages import JS
 
 The CV pipeline converts `data/*.json` → rendercv YAML → PDF.
 
+**Requirements: rendercv 2.7 on Python 3.12 or newer.** rendercv 2.7 is not
+installable on Python 3.11 or below, and older rendercv versions reject this
+repo's YAML. The repo `.venv` does *not* have rendercv in it — use a separate
+environment:
+
+```bash
+uv venv --python 3.13 .venv-cv
+uv pip install --python .venv-cv/bin/python -r rendercv/requirements.txt
+```
+
 ```bash
 # Full build: YAML + PDF (run from repo root)
 python scripts/build.py
@@ -95,7 +105,15 @@ python scripts/build.py
 python scripts/build.py --no-render
 ```
 
-The build automatically archives the previous PDF to `public/cv/archive/` before overwriting.
+The build archives the previous PDF to `public/cv/archive/` before overwriting,
+then publishes to `public/cv/Eric_Araujo_CV.pdf` — the path the website serves.
+
+If `build.py` exits with `BUILD FAILED`, the published PDF was left untouched
+on purpose. The usual cause is a section in `to_rendercv.py` emitting keys that
+aren't part of a real rendercv entry type: rendercv guesses the entry type from
+the keys present, then rejects every entry for a missing required field. Fix the
+`build_*` function to emit a valid entry type (`NormalEntry` is the flexible
+one: `name` / `location` / `date` / `summary` / `highlights`).
 
 ---
 
