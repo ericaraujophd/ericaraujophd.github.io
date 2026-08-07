@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-revisiting-ai-ethics-springer",
+    "type": "book",
+    "title": "Revisiting AI Ethics: A Practice-Grounded Approach for Development, Implementation and Policy Making",
+    "authors": [
+      "**Eric Araújo**",
+      "Maarten Verkerk",
+      "Christine Boshuijzen-van Burken"
+    ],
+    "venue": "Springer",
+    "year": 2026,
+    "month": null,
+    "status": "Under contract; manuscript due August 2026",
+    "note": "Provisional title. Applies Dooyeweerd's modal framework to the ethics of artificial intelligence.",
+    "doi": null,
+    "url": null,
+    "isbn": null,
+    "issn": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null,
+    "date_display": "Forthcoming 2026"
+  },
+  {
     "id": "2026-caracteriza-o-temporal-de-roubos-de-rua",
     "type": "journal",
     "title": "Caracterização Temporal de Roubos de Rua Contrastando Contextos Pré-Pandêmico e Pandêmico",
