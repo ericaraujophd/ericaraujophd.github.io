@@ -41,8 +41,12 @@ ericaraujophd.github.io/
 │     rendercv_output/     ← PDF rendered here by rendercv
 │
 ├── scripts/               ← Build pipeline
-│     build.py             ← Orchestrator: JSON → rendercv YAML → PDF
+│     refresh.sh           ← Entry point: CV + site + checks
+│     build.py             ← CV only: JSON → rendercv YAML → PDF
 │     to_rendercv.py       ← JSON + config → rendercv YAML
+│
+├── presentations/         ← Slide SOURCES (.qmd + images), not served
+│     <year>/<venue>/      ← Rendered PDFs must be copied to public/ to ship
 │
 │   [Website source — Astro]
 ├── src/
@@ -83,37 +87,71 @@ To add manually: edit the relevant `data/*.json` file. The Astro pages import JS
 
 ---
 
-## Running the CV build
+## Rebuilding everything
 
-The CV pipeline converts `data/*.json` → rendercv YAML → PDF.
-
-**Requirements: rendercv 2.7 on Python 3.12 or newer.** rendercv 2.7 is not
-installable on Python 3.11 or below, and older rendercv versions reject this
-repo's YAML. The repo `.venv` does *not* have rendercv in it — use a separate
-environment:
+`scripts/refresh.sh` is the entry point. It rebuilds the CV, rebuilds the site,
+and verifies both. It finds the repo root itself, so it runs from any directory,
+and exits non-zero if anything fails — safe to run before a push.
 
 ```bash
-uv venv --python 3.13 .venv-cv
-uv pip install --python .venv-cv/bin/python -r rendercv/requirements.txt
+scripts/refresh.sh           # CV + site + checks
+scripts/refresh.sh --cv      # CV only
+scripts/refresh.sh --site    # site only
+scripts/refresh.sh --check   # checks only, rebuilds nothing
 ```
+
+### Checks
+
+| Check | Catches |
+|---|---|
+| Every `slides_url` resolves under `public/` | A talk linked to a PDF that Astro never ships |
+| No truncated year badges on `/advising/` | Term strings (`"Fall 2025"`) sliced to 4 chars |
+| Exactly one email address on the homepage | Hero and footer drifting apart |
+| CV PDF newer than `data/*.json` + `config/personal.yaml` | A published CV silently falling behind its sources |
+
+The staleness check compares mtimes, so touching a data file marks the CV stale
+even if nothing changed. That's deliberate — it nags rather than letting real
+drift through.
+
+### Python environment
+
+The CV pipeline is the repo's only Python dependency; the site is pure npm.
 
 ```bash
-# Full build: YAML + PDF (run from repo root)
-python scripts/build.py
-
-# Generate YAML only, skip PDF render
-python scripts/build.py --no-render
+python3 -m venv .venv-cv
+.venv-cv/bin/pip install -r rendercv/requirements.txt
+.venv-cv/bin/rendercv --version        # expect: RenderCV v2.7
 ```
 
-The build archives the previous PDF to `public/cv/archive/` before overwriting,
-then publishes to `public/cv/Eric_Araujo_CV.pdf` — the path the website serves.
+rendercv 2.7 needs Python 3.12 or newer — it will not install on 3.11 or below.
+Homebrew's 3.14 works. Note that bare `python3` is Homebrew's system Python and
+will refuse to install into itself (PEP 668 `externally-managed-environment`);
+always go through `.venv-cv/bin/` or activate the venv first.
 
-If `build.py` exits with `BUILD FAILED`, the published PDF was left untouched
-on purpose. The usual cause is a section in `to_rendercv.py` emitting keys that
+The older `.venv` (jupyter-book, ipython) is legacy Quarto/MyST tooling and has
+no rendercv in it. Its interpreter was removed by a Homebrew upgrade, so it will
+not start until `brew install python@3.13`. Nothing in the current build uses it.
+
+### CV build details
+
+`refresh.sh --cv` calls `scripts/build.py`, which archives the previous PDF to
+`public/cv/archive/` before overwriting, then publishes to
+`public/cv/Eric_Araujo_CV.pdf` — the path the website actually serves. To
+regenerate the YAML without rendering: `python scripts/build.py --no-render`.
+
+If the build exits with `BUILD FAILED`, the published PDF was left untouched on
+purpose. The usual cause is a section in `to_rendercv.py` emitting keys that
 aren't part of a real rendercv entry type: rendercv guesses the entry type from
 the keys present, then rejects every entry for a missing required field. Fix the
 `build_*` function to emit a valid entry type (`NormalEntry` is the flexible
 one: `name` / `location` / `date` / `summary` / `highlights`).
+
+### Adding a talk with slides
+
+Astro serves **only** `public/`. A PDF in `presentations/<year>/<venue>/` is
+invisible to the site. Copy it to `public/presentations/<year>/<venue>/` so it
+matches the `slides_url` in `data/presentations.json`. `refresh.sh --check`
+verifies this for every entry.
 
 ---
 

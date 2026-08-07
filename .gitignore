@@ -68,3 +68,7 @@ Thumbs.db
 # Data backups (local only)
 data/backups/
 
+
+# CV render output
+rendercv/rendercv_output/
+.venv-cv/
