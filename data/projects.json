@@ -1,5 +1,38 @@
 [
   {
+    "id": "matristics-2026",
+    "name": "Matristics: Evaluating Large Language Models on the Women of the Early Church",
+    "url": "https://ericaraujo.com/matristics",
+    "start_date": "2026",
+    "end_date": "present",
+    "location": "Calvin University",
+    "summary": "With D. Rylaarsdam. Supported by a McGregor Undergraduate Research Fellowship.",
+    "highlights": [
+      "A public benchmark testing whether leading large language models (Claude, ChatGPT, Gemini, Grok) reproduce the androcentric silences of the historical record about women in early Christianity.",
+      "First paper accepted to the American Academy of Religion Annual Meeting 2026."
+    ],
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "cs-prayers-2026",
+    "name": "CS Prayers — A Book of Hours for Computing",
+    "url": "https://csprayers.com",
+    "start_date": "2026",
+    "end_date": "present",
+    "location": "Calvin University",
+    "summary": "Founder and curator.",
+    "highlights": [
+      "A public collection of liturgies for the rhythms of studying, teaching, and practicing computer science, open to contributions from students and faculty at any institution."
+    ],
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
     "id": "procores-2022",
     "name": "Procores",
     "url": "https://procores-cnpq.github.io/",

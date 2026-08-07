@@ -10,6 +10,7 @@ Output: rendercv/Eric_Araújo_CV.yaml
 
 import json
 import os
+import re
 import yaml
 from pathlib import Path
 
@@ -32,6 +33,51 @@ def visible_cv(items):
 # Section builders
 # ---------------------------------------------------------------------------
 
+# rendercv's own month abbreviations, matched so hand-built date strings sit
+# flush with the ones rendercv formats itself.
+_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "June",
+           "July", "Aug", "Sept", "Oct", "Nov", "Dec"]
+
+
+def _sort_key(v):
+    """Newest-first sort key for mixed 'YYYY' / 'YYYY-MM' / 'YYYY-MM-DD' values."""
+    if not v:
+        return "0000-00-00"
+    v = str(v).strip()
+    if v == "present":
+        return "9999-99-99"
+    parts = v.split("-")
+    parts += ["00"] * (3 - len(parts))
+    return "-".join(p.zfill(2) if i else p.zfill(4) for i, p in enumerate(parts[:3]))
+
+
+def _fmt_date(v):
+    if not v:
+        return None
+    v = str(v).strip()
+    if v == "present" or (len(v) == 4 and v.isdigit()):
+        return v
+    m = re.match(r"^(\d{4})-(\d{1,2})", v)
+    if m:
+        return f"{_MONTHS[int(m.group(2)) - 1]} {m.group(1)}"
+    return v
+
+
+def _date_fields(start, end):
+    """Build the date string ourselves and hand rendercv free text.
+
+    Letting rendercv parse start_date/end_date renders a bare year as
+    "Jan <year>", which misstates an academic-year award or an ongoing role.
+    Formatting here keeps years as years and months as month names.
+    """
+    s, e = _fmt_date(start), _fmt_date(end)
+    if not s:
+        return {}
+    if not e or s == e:
+        return {"date": s}
+    return {"date": f"{s} \u2013 {e}"}
+
+
 def build_experience(items):
     out = []
     for x in visible_cv(items):
@@ -46,23 +92,37 @@ def build_experience(items):
         })
     return out
 
+def _publication_entry(x):
+    """One rendercv PublicationEntry.
+
+    'status' and 'note' are appended to the venue because PublicationEntry has
+    no summary field — anything else would be silently dropped.
+    """
+    venue = x["venue"]
+    if x.get("status"):
+        venue = f'{venue}. {x["status"]}'
+    if x.get("note"):
+        venue = f'{venue}. {x["note"]}'
+    pub = {
+        "title":   x["title"],
+        "authors": x["authors"],
+        "date":    x.get("date_display") or (f"{x['year']}-{x['month']:02d}" if x.get("month") else str(x["year"])),
+        "journal": venue,
+    }
+    if x.get("doi"):
+        pub["doi"] = x["doi"]
+    if x.get("url"):
+        pub["url"] = x["url"]
+    return pub
+
+
+def build_books(items):
+    """Books and monographs — rendered above the article list."""
+    return [_publication_entry(x) for x in visible_cv(items) if x.get("type") == "book"]
+
+
 def build_publications(items):
-    out = []
-    for x in visible_cv(items):
-        doi = x.get("doi")
-        url = x.get("url")
-        pub = {
-            "title":   x["title"],
-            "authors": x["authors"],
-            "date":    f"{x['year']}-{x['month']:02d}" if x.get("month") else str(x["year"]),
-            "journal": x["venue"],
-        }
-        if doi:
-            pub["doi"] = doi
-        if url:
-            pub["url"] = url
-        out.append(pub)
-    return out
+    return [_publication_entry(x) for x in visible_cv(items) if x.get("type") != "book"]
 
 def build_events(items):
     out = []
@@ -83,14 +143,14 @@ def build_events(items):
 def build_grants(items):
     out = []
     for x in visible_cv(items):
-        out.append({
+        entry = {
             "name":        x["name"],
             "url":         x.get("url") or None,
             "institution": x["institution"],
-            "start_date":  x["start_date"],
-            "end_date":    x.get("end_date") or None,
             "summary":     x.get("summary") or None,
-        })
+        }
+        entry.update(_date_fields(x["start_date"], x.get("end_date")))
+        out.append(entry)
     return out
 
 def build_teaching(items):
@@ -114,11 +174,10 @@ def build_projects(items):
         out.append({
             "name":       x["name"],
             "url":        x.get("url") or None,
-            "start_date": x["start_date"],
-            "end_date":   x.get("end_date") or None,
             "location":   x.get("location") or None,
             "summary":    x.get("summary") or None,
             "highlights": h if h else None,
+            **_date_fields(x["start_date"], x.get("end_date")),
         })
     return out
 
@@ -149,24 +208,42 @@ def build_students(items):
         })
     return out
 
-def build_service(items):
-    """Service -> rendercv NormalEntry, rendered as a single line each.
+def build_service(items, scope):
+    """Service -> rendercv NormalEntry, one line each, filtered by scope.
 
-    Role, title and institution are folded into 'name' so each entry occupies
-    one line with the date in the right-hand column. No summary: the CV lists
-    these compactly; the website carries the full description.
+    rendercv has no sub-heading mechanism inside a section, so the Calvin /
+    professional / church split is expressed as three separate sections.
+    Entries with no explicit scope default to 'professional'.
     """
     out = []
     for x in visible_cv(items):
-        parts = [p for p in (x.get("role"), x["title"]) if p]
+        if (x.get("scope") or "professional") != scope:
+            continue
+        title = x.get("cv_title") or x["title"]
+        parts = [p for p in (x.get("role"), title) if p]
         label = " - ".join(parts)
-        if x.get("institution"):
+        if x.get("institution") and x["institution"] not in label:
             label = f'{label}, {x["institution"]}'
-        out.append({
-            "name": label,
-            "date": x["date"],
-        })
-    return out
+        entry = {"name": label}
+        entry.update(_date_fields(x.get("date"), x.get("end_date")))
+        if scope != "professional" and x.get("summary"):
+            entry["summary"] = x["summary"]
+        out.append((_sort_key(x.get("date")), entry))
+    return [e for _, e in sorted(out, key=lambda p: p[0], reverse=True)]
+
+
+def build_professional_development(items):
+    out = []
+    for x in visible_cv(items):
+        entry = {
+            "name":       x["title"],
+            "location":   x.get("institution") or None,
+            "summary":    x.get("summary") or None,
+        }
+        entry.update(_date_fields(x.get("start_date"), x.get("end_date")))
+        out.append((_sort_key(x.get("start_date")), entry))
+    return [e for _, e in sorted(out, key=lambda p: p[0], reverse=True)]
+
 
 def photo_path(rel):
     """Make the headshot path relative to the YAML file, not the repo root.
@@ -203,13 +280,17 @@ def main():
                 "Welcome":              personal.get("welcome", []),
                 "education":            personal.get("education", []),
                 "experience":           build_experience(load("experience.json")),
+                "books":                build_books(load("publications.json")),
                 "publications":         build_publications(load("publications.json")),
                 "events":               build_events(load("presentations.json")),
                 "grants_and_fellowships": build_grants(load("grants.json")),
                 "teaching":             build_teaching(load("teaching.json")),
                 "research_projects":    build_projects(load("projects.json")),
                 "supervised_students":  build_students(load("students.json")),
-                "service":              build_service(load("service.json")),
+                "university_service":   build_service(load("service.json"), "university"),
+                "professional_service": build_service(load("service.json"), "professional"),
+                "church_and_community_service": build_service(load("service.json"), "church"),
+                "professional_development": build_professional_development(load("professional_development.json")),
                 "research_skills":      personal.get("research_skills", []),
             },
         }
