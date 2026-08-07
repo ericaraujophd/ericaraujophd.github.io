@@ -21,7 +21,7 @@ const pres = (allPresentations as Presentation[])
   .filter(p => p.visible_web)
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-const years = [...new Set(pres.map(p => new Date(p.date).getFullYear()))];
+const years = [...new Set(pres.map(p => new Date(p.date).getUTCFullYear()))];
 
 const typeLabel: Record<string, string> = {
   talk: 'TALK',
@@ -32,7 +32,7 @@ const typeLabel: Record<string, string> = {
 };
 
 const fmtDate = (d: string) =>
-  new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 ---
 
 <BaseLayout title="Presentations">
@@ -48,7 +48,7 @@ const fmtDate = (d: string) =>
       <section class="pub-year-section fade-up" data-delay={i === 0 ? 1 : 0}>
         <p class="pub-year-heading">{year}</p>
         <ul class="pub-list">
-          {pres.filter(p => new Date(p.date).getFullYear() === year).map(p => (
+          {pres.filter(p => new Date(p.date).getUTCFullYear() === year).map(p => (
             <li class="pub-item">
               <span class="pub-type-tag">{typeLabel[p.type] ?? p.type}</span>
               <div class="pub-content">
