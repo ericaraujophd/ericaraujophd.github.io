@@ -1,5 +1,43 @@
 [
   {
+    "id": "hoogeboom-quinn-2026",
+    "names": [
+      "David Quinn"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Empirical Validation and Data Pipelines for an Agent-Based Model of Church Polarization",
+    "start": "Summer 2026",
+    "end": null,
+    "outcomes": [
+      "Marjorie G. Hoogeboom Student Faculty Research Fellowship"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "twcf-crisman-2026",
+    "names": [
+      "Miriam Crisman"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "NetLogo Agent-Based Model of Church Community Polarization",
+    "start": "Summer 2026",
+    "end": null,
+    "outcomes": [
+      "Funded by the Templeton World Charity Foundation planning grant"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
     "id": "scale66-ai-platform-for-marketing-c-fall-2025",
     "names": [
       "Brady Swiech",

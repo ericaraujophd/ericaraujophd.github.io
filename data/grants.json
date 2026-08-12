@@ -7,11 +7,25 @@
     "url": "https://www.templetonworldcharity.org/",
     "start_date": "2026-06",
     "end_date": "2027-01",
-    "summary": "Planning grant for a research program on polarization and listening across communities, co-led with Dr. Damaris Parsitau. Extends the BBB (Belief, Behavior, Belonging) agent-based modeling work to congregations in Brazil and Kenya, with ethnographic fieldwork preceding the computational modeling.",
+    "summary": "$100,000 planning grant for a research program on polarization and listening across communities, awarded under the Templeton World Charity Foundation's Listening and Learning in a Polarized World (LLPW) program and co-led with Dr. Damaris Parsitau. Extends the BBB (Belief, Behavior, Belonging) agent-based modeling work to congregations in Brazil and Kenya, with ethnographic fieldwork preceding the computational modeling. Full implementation proposal due January 15, 2027.",
     "visible_cv": true,
     "visible_web": true,
     "news": true,
     "document_path": null
+  },
+  {
+    "id": "2026-hoogeboom-student-faculty-research-fellowship",
+    "type": "fellowship",
+    "name": "Marjorie G. Hoogeboom Student Faculty Research Fellowship",
+    "institution": "Calvin University — Computer Science",
+    "url": null,
+    "start_date": "Summer 2026",
+    "end_date": null,
+    "summary": "Inaugural award of the Hoogeboom fellowship, supporting a 10-week summer research placement for student David Quinn on the empirical validation track of the TWCF church-polarization project: survey-data pipelines for initializing agent belief distributions, calibration targets drawn from the social science literature, and support for the international pilot survey instruments.",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": "docs/grants-fellowships/2026-Hoogeboom-Calvin/Hoogeboom_Student_Fellowship_FINAL.pdf"
   },
   {
     "id": "2026-calvin-research-fellowship",

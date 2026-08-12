@@ -577,11 +577,22 @@ cv:
       url: https://www.templetonworldcharity.org/
       institution: Templeton World Charity Foundation, in partnership with the Nagel
         Institute for the Study of World Christianity
-      summary: Planning grant for a research program on polarization and listening
-        across communities, co-led with Dr. Damaris Parsitau. Extends the BBB (Belief,
-        Behavior, Belonging) agent-based modeling work to congregations in Brazil
-        and Kenya, with ethnographic fieldwork preceding the computational modeling.
+      summary: $100,000 planning grant for a research program on polarization and
+        listening across communities, awarded under the Templeton World Charity Foundation's
+        Listening and Learning in a Polarized World (LLPW) program and co-led with
+        Dr. Damaris Parsitau. Extends the BBB (Belief, Behavior, Belonging) agent-based
+        modeling work to congregations in Brazil and Kenya, with ethnographic fieldwork
+        preceding the computational modeling. Full implementation proposal due January
+        15, 2027.
       date: June 2026 – Jan 2027
+    - name: Marjorie G. Hoogeboom Student Faculty Research Fellowship
+      institution: Calvin University — Computer Science
+      summary: 'Inaugural award of the Hoogeboom fellowship, supporting a 10-week
+        summer research placement for student David Quinn on the empirical validation
+        track of the TWCF church-polarization project: survey-data pipelines for initializing
+        agent belief distributions, calibration targets drawn from the social science
+        literature, and support for the international pilot survey instruments.'
+      date: Summer 2026
     - name: Calvin Research Fellowship
       url: https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships
       institution: Calvin University
@@ -766,6 +777,19 @@ cv:
         digital education.
       date: Sept 2018 – June 2024
     supervised_students:
+    - name: David Quinn
+      location: Calvin University
+      date: Summer 2026
+      summary: B.S. - Empirical Validation and Data Pipelines for an Agent-Based Model
+        of Church Polarization
+      highlights:
+      - Marjorie G. Hoogeboom Student Faculty Research Fellowship
+    - name: Miriam Crisman
+      location: Calvin University
+      date: Summer 2026
+      summary: B.S. - NetLogo Agent-Based Model of Church Community Polarization
+      highlights:
+      - Funded by the Templeton World Charity Foundation planning grant
     - name: Brady Swiech, Tim David, Zach Redder
       location: Calvin University
       date: Fall 2025 - Spring 2026
