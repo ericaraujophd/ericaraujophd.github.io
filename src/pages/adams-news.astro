@@ -16,6 +16,8 @@ interface NewsItem {
   summary: string;
   tags: string[];
   archived?: string[];
+  /** 'excerpt' = opening paragraphs only (copyrighted source); 'full' = whole text. */
+  archive_type?: 'excerpt' | 'full';
 }
 
 const all = (items as NewsItem[])
@@ -41,6 +43,7 @@ const haystack = (i: NewsItem) =>
 <BaseLayout
   title="Adams' News"
   description="A personal archive of articles shared by Prof. Joel Adams."
+  noindex
 >
   <div class="page-wrapper">
 
@@ -50,8 +53,8 @@ const haystack = (i: NewsItem) =>
       <p>
         Prof. Joel Adams has a long habit of forwarding articles worth reading — on AI risk,
         the computing job market, and where the discipline is heading. This is my archive of
-        them, kept so I can find one again months later. Each entry keeps his own note,
-        a short summary, and the text as it was published.
+        them, kept so I can find one again months later. Each entry keeps his own note, a short
+        summary, and an opening excerpt; the full article stays with its publisher, one click away.
       </p>
     </div>
 
@@ -127,8 +130,14 @@ const haystack = (i: NewsItem) =>
               {item.archived && item.archived.length > 0 && (
                 <details class="an-archive">
                   <summary>
-                    <span class="an-archive-label">Archived text</span>
-                    <span class="an-archive-hint">{item.archived.filter(p => !p.startsWith('## ')).length} paragraphs</span>
+                    <span class="an-archive-label">
+                      {item.archive_type === 'full' ? 'Full text' : 'Excerpt'}
+                    </span>
+                    <span class="an-archive-hint">
+                      {item.archive_type === 'full'
+                        ? `${item.archived.filter(p => !p.startsWith('## ')).length} paragraphs`
+                        : 'opening paragraphs'}
+                    </span>
                   </summary>
                   <div class="an-archive-body">
                     {item.archived.map(p =>
@@ -136,10 +145,22 @@ const haystack = (i: NewsItem) =>
                         ? <h3 class="an-archive-h">{p.slice(3)}</h3>
                         : <p>{p}</p>
                     )}
-                    <p class="an-archive-src">
-                      Archived from <a href={item.url} target="_blank" rel="noopener noreferrer">{item.source}</a>
-                      {item.byline && ` · ${item.byline}`}. Stored here for personal reference.
-                    </p>
+
+                    {item.archive_type === 'full' ? (
+                      <p class="an-archive-src">
+                        Published by <a href={item.url} target="_blank" rel="noopener noreferrer">{item.source}</a>
+                        {item.byline && ` · ${item.byline}`}.
+                      </p>
+                    ) : (
+                      <p class="an-archive-src">
+                        <a class="an-continue" href={item.url} target="_blank" rel="noopener noreferrer">
+                          Continue reading at {item.source} ↗
+                        </a>
+                        <span class="an-archive-note">
+                          Excerpt only{item.byline && ` · ${item.byline}`} — the article belongs to its publisher.
+                        </span>
+                      </p>
+                    )}
                   </div>
                 </details>
               )}
@@ -392,7 +413,21 @@ const haystack = (i: NewsItem) =>
     border-top: 1px solid var(--border);
     padding-top: 10px;
     margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 12px;
   }
+
+  .an-continue {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+
+  .an-archive-note { color: var(--text-dim); }
 
   /* ---------- Empty state ---------- */
   .an-empty {

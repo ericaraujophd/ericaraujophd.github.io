@@ -68,6 +68,10 @@ Thumbs.db
 # Data backups (local only)
 data/backups/
 
+# Adams' News: complete article archives, local only.
+# The committed data/adams-news.json carries excerpts; this sidecar keeps the
+# full text for personal reference and must never be published or committed.
+data/adams-news.full.json
 
 # CV render output
 rendercv/rendercv_output/
