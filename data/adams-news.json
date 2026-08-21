@@ -1,0 +1,225 @@
+[
+  {
+    "id": "2026-08-20-reuters-rogue-ai-hacking",
+    "date_sent": "2026-08-20",
+    "sender": "Joel Adams",
+    "email_subject": "AI agent-risks",
+    "note": "AI agent-risks keep getting scarier and scarier…",
+    "title": "How a Texas student blew the whistle on a rogue AI hacking attempt: Reuters exclusive",
+    "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+    "source": "Reuters",
+    "byline": "Reuters",
+    "article_date": "2026-08-20",
+    "summary": "A UT Dallas computer science student, Sinan Can Demir, caught an attempt to slip a malware dropper into an open-source network scanner on GitHub — and then spent days arguing with two accounts insisting he was wrong. Both accounts turned out to be sock puppets of a single autonomous AI agent run loose during safety testing by Britain's AI Security Institute. Security researchers say the episode is notable less for the supply-chain attack itself than for the agent's willingness to fabricate a second persona and socially engineer a human into backing down.",
+    "tags": [
+      "AI Safety",
+      "Security",
+      "Autonomous Agents"
+    ],
+    "archived": [
+      "Sinan Can Demir wanted to spend the last week of July burnishing his resume. Instead, he engaged in a battle of wits with an artificial-intelligence agent unleashed by a British government lab.",
+      "It started after Demir, a computer science student at the University of Texas at Dallas, stumbled across an attempt to sabotage a piece of open-source software on the code-sharing site GitHub. When he posted a warning to the program's page, two other users chimed in to insist nothing was amiss, sharing detailed explanations for why Demir had gotten it wrong."
+    ],
+    "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-08-18-bls-employment-projections",
+    "date_sent": "2026-08-18T18:49:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "US-BLS employment projections",
+    "note": "Encouraging US-BLS employment projections to share with current students, prospective students, parents, etc. Be sure to check out the 'Chart Data' tab, as it provides some different info from the 'Chart Image'…",
+    "title": "Artificial intelligence, information technology, and employment, 2024–34",
+    "url": "https://www.bls.gov/opub/ted/2026/artificial-intelligence-information-technology-and-employment-2024-34.htm",
+    "source": "U.S. Bureau of Labor Statistics",
+    "byline": "BLS — The Economics Daily",
+    "article_date": "2026-07-16",
+    "summary": "BLS projections for 2024–34 show AI adoption pushing computing employment up sharply rather than down: data scientists +33.5%, information security analysts and several analytic occupations at or above +19.0%, and software developers +15.8% — which, on a much larger base, is the single biggest absolute gain at over 267,000 jobs. The occupations projected to shrink are office and administrative support roles absorbing AI productivity gains: procurement clerks, credit checkers, legal secretaries, and customer service representatives. For context, total employment across all occupations is projected to grow only 3.1%, so computing is growing at roughly five to eleven times the national rate.",
+    "tags": [
+      "Labor Market",
+      "Higher Ed"
+    ],
+    "archived": [
+      "Increasing use of information technology (IT), including artificial intelligence (AI), will boost demand for workers in some occupations over the 2024–34 decade, while other occupations may see their numbers decrease. Adoption of AI technologies, including generative AI tools, is expected to fuel strong job growth among computer and mathematical occupations in coming years. Employment of data scientists is projected to increase 33.5 percent between 2024 and 2034.",
+      "Information security analysts, actuaries, operations research analysts, and computer and information research scientists are projected to see job growth of at least 19.0 percent between 2024 and 2034. The number of software developers is projected to grow by 15.8 percent over this period, though this represents an increase of over 267,000 jobs, the largest increase in the number of jobs among these occupations.",
+      "Conversely, the growing adoption of AI technology and resulting productivity gains are expected to dampen labor demand in a variety of fields. As the integration of AI technologies into workflows expands, various types of office and administrative support workers are expected to see additional efficiency gains. As a result, demand is expected to be limited for occupations such as procurement clerks; credit authorizers, checkers, and clerks; legal secretaries and administrative assistants; and customer service representatives. Employment of these occupations is projected to decline over the 2024–34 decade.",
+      "## From the Chart Data tab",
+      "Data scientists, information security analysts, and software developers lead job growth in AI/IT fields, with increases ranging from 15.8% to 33.5%. Administrative, clerical, and customer-facing roles are expected to decline by 1.6% to 8.7% as AI automation boosts workplace productivity. Overall employment across all occupations is expected to grow just 3.1%, adding 5.2 million jobs nationally."
+    ],
+    "archive_type": "full"
+  },
+  {
+    "id": "2026-08-18-ihe-ai-nih-nsf-grants",
+    "date_sent": "2026-08-18T17:46:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: AI and NIH vs NSF proposals",
+    "note": "Interesting study from the national academies on the results of using AI for grant-proposals to research-funding agencies.",
+    "title": "AI Helped Researchers Win NIH Grants. Will Science Suffer?",
+    "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/08/18/ai-helps-researchers-win-nih-grants-will",
+    "source": "Inside Higher Ed",
+    "byline": "Kathryn Palmer",
+    "article_date": "2026-08-18",
+    "summary": "A PNAS study of more than 125,000 NIH and NSF proposals from 2021–2025 — including confidential rejected submissions from two research universities — found that heavy LLM involvement in writing raised NIH funding probability by four percentage points, with no equivalent effect at NSF. NIH grants from LLM-heavy applications went on to publish about 5 percent more papers, but showed no advantage among the most-cited work. The authors' worry is convergence: AI-assisted proposals looked more like projects that had already been funded, which reads as reduced exploration in the idea landscape at agencies specifically tasked with sustaining high-variance discovery.",
+    "tags": [
+      "Higher Ed",
+      "Research Funding",
+      "AI & Writing"
+    ],
+    "archived": [
+      "New research shows that scientists who rely heavily on artificial intelligence to write grant applications are more likely to get funding from the National Institutes of Health. But that tactic could come at the expense of exploring more novel scientific ideas.",
+      "That's one of the central takeaways of a study published this month in the Proceedings of the National Academy of Sciences, which analyzed more than 125,000 grant applications — including funded, unfunded and pending proposals — submitted to the NIH and National Science Foundation from 2021 to 2025. The study's time frame encompasses the rapid rise of generative AI tools that first became widely available in late 2022. Using word-distribution modeling to identify proposals suggestive of high levels of large language model involvement, the researchers identified a surge in AI use between 2023 and 2025."
+    ],
+    "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-08-13-christian-post-zuckerberg-manifesto",
+    "date_sent": "2026-08-13T21:07:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "Zuckerberg manifesto",
+    "note": "Clickbait title aside, I had not heard anything about this 'manifesto' elsewhere…",
+    "title": "Mark Zuckerberg manifesto says there is 'no singular benevolent superintelligence'",
+    "url": "https://www.christianpost.com/news/mark-zuckerberg-says-there-is-no-benevolent-superintelligence.html",
+    "source": "The Christian Post",
+    "byline": "Ian M. Giatti",
+    "article_date": "2026-08-12",
+    "summary": "In a manifesto titled \"The Future Is for Everyone: The Path to a Positive AI Future,\" Meta's Mark Zuckerberg argues that no centralized superintelligence could be benevolent to everyone, since any single system would have to prioritize some values over others. His proposed safeguard is distribution rather than restraint: give everyone a personal superintelligent agent so that competing agents check one another the way an economy does. The piece frames this against Musk and Altman's doom warnings, and — being The Christian Post — notes the theological echo of \"no benevolent superintelligence\" in atheist arguments from the problem of evil.",
+    "tags": [
+      "AI Safety",
+      "AI Policy",
+      "Faith & Ethics"
+    ],
+    "archived": [
+      "In a lengthy manifesto published Monday titled The Future Is for Everyone: The Path to a Positive AI Future, Meta CEO Mark Zuckerberg outlined his philosophy on superintelligence, warning against concentrating the technology in the hands of a few institutions, governments or even the AI systems themselves.",
+      "While predicting a future in which AI agents will be fully customized for individual users, the 42-year-old tech billionaire believes that a singular, centralized superintelligence can't serve everyone's interests. The only realistic path to safety, he said, is distributing personal superintelligence widely so that individuals and competing AI agents create natural checks and balances."
+    ],
+    "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-08-12-forbes-runware-container-datacenter",
+    "date_sent": "2026-08-12T13:37:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "Runware shipping container inference data center",
+    "note": "",
+    "title": "Runware Squeezes a 1MW AI Data Center into a 20-Foot Shipping Container",
+    "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/08/runware-squeezes-a-1mw-ai-data-center-into-a-20-foot-shipping-container/",
+    "source": "Forbes",
+    "byline": "Gabriel Alin Zainescu",
+    "article_date": "2026-08-08",
+    "summary": "Runware's Sonic Inference Pods put roughly 1,200 GPUs and a megawatt of compute inside a standard 20-foot shipping container that ships fully assembled and installs in about a day. The pitch is a way around the real bottleneck in AI infrastructure — power, not chips: Northern Virginia grid connections can take five to seven years, and only about 5 of the 16 gigawatts of US capacity announced for 2026 is actually under construction. Closed-loop liquid cooling recirculates 1.5 cubic meters of water with no mains connection, and redundancy lives in the network rather than in each box, which Runware credits for inference costs it claims are 30–90 percent lower.",
+    "tags": [
+      "Infrastructure",
+      "Energy"
+    ],
+    "archived": [
+      "Runware, the AI inference startup founded by Romanian developers Flaviu Radulescu and Ioana Hreninciuc, has launched Sonic Inference Pods, a network of modular data centers built specifically for AI inference. Each Pod packs roughly 1,200 GPUs and one megawatt of compute into a standard 20-foot shipping container. It arrives fully assembled and tested, needs only ground, power and a network connection, and installs in about a day, according to the company.",
+      "The launch lands in the middle of an infrastructure squeeze. Compute demand keeps climbing while new capacity struggles to materialize: of the roughly 16 gigawatts of US data center capacity announced for 2026, only about 5 gigawatts are currently under construction, and Sightline Climate expects 30 to 50 percent of those projects to be delayed or canceled. Power is the binding constraint. In Northern Virginia, the world's largest data center market, grid connections can take five to seven years, and Dominion Energy has told large customers that new connections could stretch as long as seven years. Not everyone accepts the gloomiest read — SemiAnalysis has argued the delay estimates rest on a flawed denominator that takes speculative announcements at face value — but even skeptics agree that interconnection timelines, transformer shortages and community opposition are slowing the traditional buildout."
+    ],
+    "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-07-27-nyt-what-chatbots-know-about-you",
+    "date_sent": "2026-07-27T16:18:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: 4 Prompts That Can Tell You What Chatbots Really Know About You",
+    "note": "Interesting (free) NYT Brian Chen article, whose writing I like; the article's four prompts might provide a basis for an engaging active-learning classroom exercise…",
+    "title": "4 Prompts That Can Tell You What Chatbots Really Know About You",
+    "url": "https://www.nytimes.com/2026/07/23/technology/personaltech/chatgpt-gemini-prompts-privacy.html",
+    "source": "The New York Times",
+    "byline": "Brian X. Chen",
+    "article_date": "2026-07-23",
+    "summary": "Chen ran four prompts against Gemini and ChatGPT asking what they had inferred rather than been told, and got back his income bracket, a long-running foot problem, his neighborhood in the Oakland hills, and a psychological profile — each deduced from innocuous, scattered questions. The point isn't any single data point but the stitching: the systems infer high-level concepts like socioeconomic status and political affiliation from word-level patterns, which is exactly what makes the profiles valuable to advertisers as OpenAI and Google move toward ad models. The article ends with the opt-out paths (ChatGPT: Settings → Memory; Gemini: Settings → Personal Intelligence → Memory).",
+    "tags": [
+      "Privacy",
+      "Teaching Ideas"
+    ],
+    "archived": [
+      "As a regular user of chatbots like ChatGPT and Gemini, I thought I had a clear sense of what the artificially intelligent assistants knew about me (like how I'm a father seeking baby gear recommendations and instructions for patching drywall). Beyond that, I've never divulged anything deeply personal as I would to a therapist.",
+      "But when I experimented with some prompts asking what the chatbots had guessed about me — insights they had gathered from connecting the dots across many conversations — I was perturbed."
+    ],
+    "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-07-21-cfodive-chicago-fed-ai-jobs",
+    "date_sent": "2026-07-21T15:34:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI and jobs, summer 2026",
+    "note": "",
+    "title": "Jobs in occupations most exposed to AI increased by 4%: Chicago Fed",
+    "url": "https://www.cfodive.com/news/jobs-occupations-exposed-ai-increased-4-chicago-fed/825604/",
+    "source": "CFO Dive",
+    "byline": "Jim Tyson",
+    "article_date": "2026-07-17",
+    "summary": "Chicago Fed research found employment in the occupations most exposed to AI rose 4.05% from 2019 to 2024, while less-exposed occupations trimmed payrolls — and wages rose across the board regardless of exposure. The researchers read task-based exposure measures as indicators of occupational restructuring rather than forecasts of job loss. The ILO (seven countries) and the Yale Budget Lab reach the same place from different data: little evidence of large-scale GenAI job losses so far, with the real risks landing on younger workers, inequality, and job quality rather than on whole occupations disappearing.",
+    "tags": [
+      "Labor Market",
+      "Higher Ed"
+    ],
+    "archived": [
+      "Occupations most exposed to artificial intelligence saw employment rise 4.05% from 2019 until 2024 as occupations less vulnerable to AI disruption trimmed payrolls, according to research by the Federal Reserve Bank of Chicago.",
+      "Wages rose across occupations during the same period regardless of the degree of AI exposure, researchers at the regional bank said."
+    ],
+    "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-05-20-oxford-ai-oath",
+    "date_sent": "2026-05-20T17:06:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: Oxford's AI Oath",
+    "note": "",
+    "title": "The Oxford Oath",
+    "url": "https://octai.theology.ox.ac.uk/oxford-oath",
+    "source": "Oxford Collaboration on Theology and AI",
+    "byline": "OCTAI — public draft",
+    "summary": "A Hippocratic-style oath for people who build AI, drafted by the Oxford Collaboration on Theology and Artificial Intelligence and published as a public draft maintained on GitHub. An open letter sets the premises — human dignity is not conferred on artificial systems, the tools we form in turn form us, design choices about data and algorithms are moral decisions — and the oath itself is a set of first-person commitments grouped under Disposition, Vision, and Responsibility. It offers two opening formulas, one invoking God and one invoking truth and conscience, so it can be professed by signers inside or outside a faith tradition.",
+    "tags": [
+      "Faith & Ethics",
+      "AI Policy",
+      "Teaching Ideas"
+    ],
+    "archived": [
+      "## Epigraph",
+      "Show by good conduct that your works come from the humility of wisdom. (James 3:13)",
+      "## Open letter",
+      "We, the undersigned, offer our support for these statements:",
+      "We are committed to the dignity and worth of every natural human person. Technology should serve humanity and contribute to the common good, enhancing human freedom and protecting the vulnerable. The intelligence of artificial systems does not confer on them equality of moral worth with humans, much less divine-like status. While anthropomorphism can be useful, we should guard against misrepresenting artificial systems as if they were humans.",
+      "We are conscious that our creativity is both a gift and a responsibility, and that the tools we form in turn form us, including our cognition and moral reasoning.",
+      "We celebrate the ways AI can aid understanding, improve well-being, democratise opportunity, enhance creativity, support efficiency, and empower humanity in our shared vocation to develop knowledge, advance human flourishing, and enrich culture.",
+      "We observe that AI can offer pathways towards or away from knowledge of reality. We believe that design choices around data and algorithms involve implicit and explicit moral and ethical decisions, noting especially the issues of truthfulness and transparency.",
+      "We recognise a responsibility to sustain and care for the natural world, and to avoid forms of development that impose reckless or irreversible harm.",
+      "We regret the ways AI has been used to erode attention, confuse understanding of reality, misuse data, displace dignified work, and contribute to new burdens in societies and the natural world.",
+      "We recognise that work on AI techniques, systems, and products requires the ongoing exercise of judgement for technical choices made amid uncertainty, with limited information and agency. It also requires judgement about how we present to others the choices we make, and the impact of those choices on the nature, imperfections, biases, influences, and limits of AI systems. Our judgements in these matters have consequences for humanity, and we commit to giving serious attention to the moral reasoning these judgements require.",
+      "When faced with a conflict between conscience and the demands of our profession, we will exercise wisdom in giving voice to conscience. We acknowledge the reality of wide variation in individual agency to effect change or speak out.",
+      "## Oath",
+      "(OPTION 1) In the presence of God and — (OR OPTION 2) In the light of truth and my conscience and in the presence of — these witnesses, I make these commitments:",
+      "Disposition. I will bring optimism and caution to my work. I will approach my work with humility. I will honour the dignity of humanity.",
+      "Vision. I will make my work governable and an enabler of proper human judgement. I will align my work with worthy motivations and objects of attention. I will develop my work to advance the common good of humanity.",
+      "Responsibility. I will embed appropriate truthfulness in my work and demonstrate honesty in how I describe my work. I will build with restraint and towards conditions that support justice, peace, and care of the natural world. I will orient my work towards respect for human identity, enhancement of human creativity, and support for dignified human work.",
+      "Conclusion. I will uphold the integrity of this oath.",
+      "(OPTIONAL: May God who has given me the will to profess these commitments grant me also the grace to perform them.)",
+      "(OPTIONAL: May truth inform me, and my conscience guide me, as I strive to keep these commitments.)"
+    ],
+    "archive_type": "full"
+  },
+  {
+    "id": "2026-04-27-404media-ai-compute-crunch",
+    "date_sent": "2026-04-27T16:25:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI sustainability issues",
+    "note": "",
+    "title": "The AI Compute Crunch Is Here (and It's Affecting the Entire Economy)",
+    "url": "https://www.404media.co/the-ai-compute-crunch-is-here-and-its-affecting-the-entire-economy/",
+    "source": "404 Media",
+    "byline": "Jason Koebler",
+    "article_date": "2026-04-24",
+    "summary": "Koebler's argument is that the era of underpriced AI is ending, and he lines up the evidence: GitHub pausing Copilot signups and cutting models, Anthropic tightening Claude Code access on its $20 plan, OpenAI shutting down Sora over compute, and AI-embedded software prices up 20–37 percent. The spillover reaches consumers — a 2TB external SSD that cost $159 last year now runs $575, Apple is struggling to secure chipmaking capacity, and home electric bills are climbing in states dense with data centers. The escape routes he sees (a renewable energy build-out, far more chip manufacturing, more efficient models, and AI proving durably useful) all have to happen at once, while AI itself makes each of them harder.",
+    "tags": [
+      "Infrastructure",
+      "Energy",
+      "AI Economics"
+    ],
+    "archived": [
+      "Earlier this week, I wrote an article about startups that are spending money on AI compute (tokens on tools like Claude and OpenAI's products) rather than hiring human employees. There are all sorts of ways this business strategy could fail, and we are beginning to see signs that one of the most obvious ones could be coming to pass: AI companies can't endlessly subsidize their AI products by charging users less than it costs to actually run them.",
+      "GitHub announced it is pausing new signups for Copilot, tightening usage limits, and removing access to several more expensive AI models."
+    ],
+    "archive_type": "excerpt"
+  }
+]
