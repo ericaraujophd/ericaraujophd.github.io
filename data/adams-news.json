@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-08-23-gr-press-tech-classifieds",
+    "date_sent": "2026-08-23T20:20:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "2026-08-23 GR Press tech employment classified ads",
+    "note": "More than usual this week…",
+    "title": "Grand Rapids Press tech employment classifieds, 23 August 2026",
+    "source": "The Grand Rapids Press",
+    "byline": "Classified advertising",
+    "article_date": "2026-08-23",
+    "summary": "Five display ads covering seven local computing roles, all in Grand Rapids. Meijer Great Lakes ran four of them — Sr. Domain Architect, Sr. Principal Data Scientist, Sr. Platform Architect, and Sr. Principal Engineer — each listing multiple openings, with the two architect roles permitting remote work. Makcats Inc ran one ad covering three roles with salaries attached: Software Developer at $127,504, Business Systems Analyst at $109,138, and Quality Analyst at $84,573. The phrasing throughout ('foreign equivalent is accepted', 'various unanticipated sites throughout the US', posted salaries, apply-by-mail) marks these as PERM labor-certification advertising, which employers must run in print — so they are real openings, but the ad exists to satisfy a filing requirement rather than to recruit newspaper readers. The salary figures are the useful part for advising.",
+    "tags": [
+      "Labor Market",
+      "Higher Ed"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "## Meijer Great Lakes Limited Partnership — Grand Rapids, MI",
+      "Sr. Domain Architect, multiple openings. Architecture principles and standards across systems; strategic business capability roadmaps; architecture runways; SAFe Agile and ITIL. Remote work permitted. Requires a bachelor's in CS, Computer Information Systems, Business Information Systems or engineering (foreign equivalent accepted) plus 5 years in data engineering, software development or cloud data structures. Databricks, Azure Data Lake Storage, Azure Data Factory, IBM DataStage, SQL, Scaled Agile.",
+      "Sr. Principal Data Scientist, multiple openings. Leads enterprise data science strategy across Digital Services, Merchandising, Marketing, Pharmacy, Supply Chain and Operations; owns ML/AI development practice and non-functional requirements. Requires a master's in Data Science, CS, Mathematics, Statistics or Economics plus 5 years in data science. Python, Databricks, Azure, R, SQL, Teradata, PySpark, NumPy, Pandas, scikit-learn, TensorFlow, PyTorch.",
+      "Sr. Platform Architect, multiple positions. Platform design and maintenance of the architecture runway; end-to-end technological solutions across domains. Remote work permitted. Requires a bachelor's in CS, CIS, BIS or engineering plus 10 years in platform design, or a master's plus 5 years. Customer-facing technologies, diverse ecommerce configurations, high-availability processing environments.",
+      "Sr. Principal Engineer, multiple openings. Architects, designs and reviews platforms across Digital Services, Commerce and Mobile; sets engineering strategy for code modernization; builds proofs of concept with other principal engineers. Remote work permitted. Requires a bachelor's in CS, business or engineering plus 10 years in platform design, or a master's plus 5 years, and 1 year of leadership experience. Agile methodologies, enterprise-wide digital services.",
+      "All four Meijer ads apply to Rayanna DeMello, 2929 Walker Ave NW, Grand Rapids, MI 49544 — Rayanna.DeMello@meijer.com.",
+      "## Makcats Inc — Grand Rapids, MI, and unanticipated sites throughout the US",
+      "Software Developer — $127,504. Design, develop, test and support software using Java, Python or .NET with Spring or ASP.NET, web technologies including HTML, JavaScript and Angular, and SQL / PL-SQL. Requires a master's in science, engineering, information systems or business administration, or a bachelor's plus 5 years of progressive experience.",
+      "Business Systems Analyst — $109,138. Analyze system requirements, prepare documentation, support configuration and implementation of business solutions; SQL or Oracle databases, SharePoint or Excel; Agile and Waterfall process improvement. Requires a master's in science, engineering, information systems/technology or business administration.",
+      "Quality Analyst — $84,573. Develop and execute test plans and test cases, manual and basic automated testing with Selenium or Cucumber, document results and maintain quality standards. Requires a bachelor's in science, engineering, information systems/technology or business administration plus 2 years.",
+      "All three Makcats roles may require travel and relocation to unanticipated US locations, including client site visits. Resumes to HR, Makcats Inc, 4595 Broadmoor Ave SE, Suite #237, Grand Rapids, MI."
+    ]
+  },
+  {
     "id": "2026-08-20-reuters-rogue-ai-hacking",
     "date_sent": "2026-08-20",
     "sender": "Joel Adams",

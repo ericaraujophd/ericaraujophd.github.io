@@ -9,15 +9,20 @@ interface NewsItem {
   email_subject?: string;
   note?: string;
   title: string;
-  url: string;
+  /** Absent when there is no online original — e.g. newspaper classifieds. */
+  url?: string;
   source: string;
   byline?: string;
   article_date?: string;
   summary: string;
   tags: string[];
   archived?: string[];
-  /** 'excerpt' = opening paragraphs only (copyrighted source); 'full' = whole text. */
-  archive_type?: 'excerpt' | 'full';
+  /**
+   * 'excerpt' — opening paragraphs only (copyrighted source)
+   * 'full'    — whole text (source permits reproduction)
+   * 'notes'   — my own summary of an offline source; nothing is reproduced
+   */
+  archive_type?: 'excerpt' | 'full' | 'notes';
 }
 
 const all = (items as NewsItem[])
@@ -106,9 +111,14 @@ const haystack = (i: NewsItem) =>
               </div>
 
               <h2 class="an-title">
-                <a href={item.url} target="_blank" rel="noopener noreferrer">
-                  <span class="an-title-text">{item.title}</span><span class="an-ext"> ↗</span>
-                </a>
+                {item.url
+                  ? (
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">
+                      <span class="an-title-text">{item.title}</span><span class="an-ext"> ↗</span>
+                    </a>
+                  )
+                  : <span class="an-title-text">{item.title}</span>
+                }
               </h2>
 
               {item.note
@@ -131,12 +141,15 @@ const haystack = (i: NewsItem) =>
                 <details class="an-archive">
                   <summary>
                     <span class="an-archive-label">
-                      {item.archive_type === 'full' ? 'Full text' : 'Excerpt'}
+                      {item.archive_type === 'full'
+                        ? 'Full text'
+                        : item.archive_type === 'notes' ? 'Listings' : 'Excerpt'}
                     </span>
                     <span class="an-archive-hint">
-                      {item.archive_type === 'full'
-                        ? `${item.archived.filter(p => !p.startsWith('## ')).length} paragraphs`
-                        : 'opening paragraphs'}
+                      {item.archive_type === 'excerpt'
+                        ? 'opening paragraphs'
+                        : `${item.archived.filter(p => !p.startsWith('## ')).length} ${
+                            item.archive_type === 'notes' ? 'listings' : 'paragraphs'}`}
                     </span>
                   </summary>
                   <div class="an-archive-body">
@@ -146,7 +159,15 @@ const haystack = (i: NewsItem) =>
                         : <p>{p}</p>
                     )}
 
-                    {item.archive_type === 'full' ? (
+                    {!item.url ? (
+                      <p class="an-archive-src">
+                        <span class="an-archive-note">
+                          Summarised from {item.source}
+                          {item.article_date && `, ${fmtDate(item.article_date)}`} — print only,
+                          no online edition. Nothing from the original is reproduced here.
+                        </span>
+                      </p>
+                    ) : item.archive_type === 'full' ? (
                       <p class="an-archive-src">
                         Published by <a href={item.url} target="_blank" rel="noopener noreferrer">{item.source}</a>
                         {item.byline && ` · ${item.byline}`}.
