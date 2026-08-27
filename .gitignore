@@ -73,6 +73,10 @@ data/backups/
 # full text for personal reference and must never be published or committed.
 data/adams-news.full.json
 
+# Adams' News: scanned/attached source images for entries that have no online
+# original (e.g. newspaper classifieds). Kept for personal reference, not published.
+docs/adams-news/
+
 # CV render output
 rendercv/rendercv_output/
 .venv-cv/
