@@ -24,6 +24,29 @@
     "date_display": "Forthcoming 2026"
   },
   {
+    "id": "2026-scientometrics-brazil-collaboration-models",
+    "type": "journal",
+    "title": "Context-dependent leadership in global health science: Brazil's role across North–South, South–South, and triangular collaboration models (2010–2019)",
+    "authors": [
+      "Juliana Freitas Lopes",
+      "Priscila Costa Albuquerque",
+      "**Eric Araújo**",
+      "Fabio Zicker",
+      "Bruna de Paula Fonseca"
+    ],
+    "venue": "Scientometrics",
+    "year": 2026,
+    "month": 8,
+    "doi": "10.1007/s11192-026-05781-0",
+    "url": "https://doi.org/10.1007/s11192-026-05781-0",
+    "isbn": null,
+    "issn": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": "docs/publications/2026-Scientometrics-brazil-collaboration/Lopes_et_al2026Scientometrics.pdf"
+  },
+  {
     "id": "2026-caracteriza-o-temporal-de-roubos-de-rua",
     "type": "journal",
     "title": "Caracterização Temporal de Roubos de Rua Contrastando Contextos Pré-Pandêmico e Pandêmico",
