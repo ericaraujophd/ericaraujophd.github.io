@@ -1,5 +1,53 @@
 [
   {
+    "id": "2026-08-28-latimes-usc-ucla-ai-degrees",
+    "date_sent": "2026-08-28T15:26:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "More new AI programs",
+    "note": "Two California schools taking two different approaches to undergrad AI programs…",
+    "title": "USC and UCLA bet big on AI to meet soaring student, job market demands",
+    "url": "https://viterbischool.usc.edu/mediacoverage/usc-and-ucla-bet-big-on-ai-to-meet-soaring-student-job-market-demands/",
+    "source": "Los Angeles Times",
+    "byline": "Kaleem",
+    "article_date": "2026-08-27",
+    "summary": "Two Los Angeles universities launched undergraduate AI programs from opposite ends of the curriculum. USC's Viterbi School built a four-year engineering degree in constructing the technology itself, aimed at applications from drug discovery to robotics to agriculture. UCLA went the other way, opening what it calls the country's first freestanding Department of Digital Humanities with a bachelor's degree that folds AI into history, sociology and related fields. The contrast is the interesting part for a department deciding where its own AI teaching should sit — build-it versus apply-it-to-the-humanities — and both schools are moving fast for students who first met the technology in chatbots during high school. Joel forwarded it as an ASEE First Bell digest rather than the paper itself.",
+    "tags": [
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "## USC — Viterbi School of Engineering",
+      "A new undergraduate degree in artificial intelligence, oriented toward building the technology rather than applying it. Four years of coursework on constructing AI systems and putting them to work in domains as far apart as drug discovery, robotics and agriculture.",
+      "## UCLA — Department of Digital Humanities",
+      "A freestanding department, which UCLA describes as the first of its kind in the country, offering a new bachelor's degree that integrates AI into humanities and social science fields such as history and sociology. The framing is culture and ethics meeting the technology rather than engineering it.",
+      "## Context",
+      "The Times places both moves within a wider and fast-moving cohort of universities in California and nationally building degrees around a technology that most incoming undergraduates first encountered as chatbots and social feeds in middle and high school."
+    ]
+  },
+  {
+    "id": "2026-08-25-analytics-insight-accelerated-understanding",
+    "date_sent": "2026-08-25T16:24:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: Accelerated Understanding Inc (physics AI company)",
+    "note": "Not many technical details, but here's a new company taking an alternative (non-LLM/Transformer) approach to AI. Key quote: \"The language-centric view of intelligence is humans at the center. Putting physics at the center is a nature-centric view,\" said Anandkumar, a Caltech professor of computing and mathematical sciences.",
+    "title": "AI Researchers Walk Away From Bezos-Backed Prometheus to Build Physical-World AI",
+    "url": "https://www.analyticsinsight.net/news/ai-researchers-walk-away-from-bezos-backed-prometheus-to-build-physical-world-ai",
+    "source": "Analytics Insight",
+    "byline": "Soham Halder",
+    "article_date": "2026-08-25",
+    "summary": "Anima Anandkumar (Caltech, previously five years directing research at Nvidia) and Benedikt Jenik turned down a combined 35% stake in Bezos-backed Project Prometheus to found Accelerated Understanding Inc, which models physical phenomena across space and time rather than language. The architecture is neural operators rather than Transformers, and the company claims a single prompt can take in up to 5 trillion data points — on its own telling, some five million times what flagship models from Anthropic or Google handle. Target applications are enterprise rather than consumer: chip design, robotics, extreme-weather forecasting, energy exploration. Worth noting the claims are the company's own and the piece carries no technical detail to check them against.",
+    "tags": [
+      "AI Research",
+      "AI Economics"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "Two artificial intelligence researchers who were once approached to lead Jeff Bezos-backed Project Prometheus have chosen a different path, launching their own company to develop technology focused on understanding the physical world rather than language.",
+      "Anima Anandkumar and Benedikt Jenik, the co-founders of Accelerated Understanding Inc, unveiled their new venture on Tuesday. The company said its system can process as many as 5 trillion pieces of data in a single prompt, which is roughly five million times the typical capacity of flagship models from companies such as Anthropic and Google."
+    ]
+  },
+  {
     "id": "2026-08-23-gr-press-tech-classifieds",
     "date_sent": "2026-08-23T20:20:00Z",
     "sender": "Joel Adams",
@@ -27,7 +75,8 @@
       "Business Systems Analyst — $109,138. Analyze system requirements, prepare documentation, support configuration and implementation of business solutions; SQL or Oracle databases, SharePoint or Excel; Agile and Waterfall process improvement. Requires a master's in science, engineering, information systems/technology or business administration.",
       "Quality Analyst — $84,573. Develop and execute test plans and test cases, manual and basic automated testing with Selenium or Cucumber, document results and maintain quality standards. Requires a bachelor's in science, engineering, information systems/technology or business administration plus 2 years.",
       "All three Makcats roles may require travel and relocation to unanticipated US locations, including client site visits. Resumes to HR, Makcats Inc, 4595 Broadmoor Ave SE, Suite #237, Grand Rapids, MI."
-    ]
+    ],
+    "archive_label": "Listings"
   },
   {
     "id": "2026-08-20-reuters-rogue-ai-hacking",
@@ -188,6 +237,84 @@
       "Wages rose across occupations during the same period regardless of the degree of AI exposure, researchers at the regional bank said."
     ],
     "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-07-14-lacs-2026-teaching-resources",
+    "date_sent": "2026-07-14T19:24:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "LACS 2026 report",
+    "note": "I was at LACS last week, which Swarthmore hosted this year. AI consumed the bulk of the discussion time, but here are a few random notes / things that caught my attention as we worked through the meeting agenda…",
+    "title": "Teaching resources from the LACS 2026 meeting",
+    "url": "https://www.cs.swarthmore.edu/~meeden/lacs26/schedule.php",
+    "source": "Liberal Arts Computer Science Consortium",
+    "byline": "Notes from Joel Adams",
+    "article_date": "2026-07-12",
+    "summary": "Joel attended the Liberal Arts Computer Science Consortium's annual meeting at Swarthmore, 9–12 July 2026, where AI took up most of the discussion. This entry collects only the publicly available teaching resources he flagged — a national map of AI programs, two liberal-arts AI course designs, a matrix-free way into neural networks for non-majors, an AI teaching toolkit, a free gen-ed CS textbook, and the liberal-arts response to CS2023. The most transferable idea is Lisa Meeden's: teaching forward- and back-propagation to students who have never taken linear algebra, by building Node, Edge and Network classes in Python instead of matrices. His full report also covered the meeting's internal discussion, which stays out of this archive.",
+    "tags": [
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archive_label": "Resources",
+    "links": [
+      {
+        "label": "CIC AI Program Map",
+        "url": "https://cicmap.ai/",
+        "note": "Interactive map of AI programs across US and Canadian universities, from Northeastern."
+      },
+      {
+        "label": "Colby CS — CS 251, Data Analysis and Visualization (Fall 2025)",
+        "url": "https://cs.colby.edu/courses/F25/cs251/",
+        "note": "Colby has one of the more developed AI programs among liberal arts colleges; CS 251/252 are the flagship courses."
+      },
+      {
+        "label": "Colby CS — CS 25x (Spring 2026)",
+        "url": "https://cs.colby.edu/courses/S26/cs25x/",
+        "note": "The spring half of the same sequence."
+      },
+      {
+        "label": "Swarthmore CS 33 — Foundations of AI and Machine Learning (Fall 2026)",
+        "url": "https://www.cs.swarthmore.edu/~meeden/cs33/f26/",
+        "note": "Lisa Meeden's non-majors course on how AI actually works. CS1 is the only prerequisite. Syllabus still being polished."
+      },
+      {
+        "label": "Meeden's neural network lab",
+        "url": "https://www.cs.swarthmore.edu/~meeden/cs63/s26/labs/neural_net.html",
+        "note": "Forward- and back-propagation taught through Node, Edge and Network classes in Python — no matrices, so no linear algebra prerequisite."
+      },
+      {
+        "label": "AItk — the AI Toolkit",
+        "url": "https://github.com/ArtificialIntelligenceToolkit/aitk",
+        "note": "Meeden and colleagues' tools for teaching AI."
+      },
+      {
+        "label": "AItk notebooks",
+        "url": "https://github.com/ArtificialIntelligenceToolkit/aitk/tree/master/notebooks",
+        "note": "Self-contained Jupyter notebooks, each focused on one topic."
+      },
+      {
+        "label": "Computer Science: Concepts & Explorations (3rd ed.)",
+        "url": "https://freecsc.com/",
+        "note": "David Reed's free online textbook for Creighton's general-education CS course. Breadth-first, with hands-on HTML and JavaScript exercises."
+      },
+      {
+        "label": "Essential Computing Concepts (draft)",
+        "url": "https://www.cs.kzoo.edu/presentations/ECC/EssentialComputingConcepts.html",
+        "note": "The SIGCSE liberal-arts committee's alternative to CS2023 — core learning outcomes with room for institution-specific interpretation. Open for community feedback."
+      }
+    ],
+    "archived": [
+      "## Two liberal-arts AI curricula",
+      "Colby's CS department has built out one of the more developed AI programs among liberal arts colleges, anchored on CS 251/252, Data Analysis and Visualization. Swarthmore comes at it from a different angle with CS 33, Foundations of AI and Machine Learning — a course for non-majors that asks what AI is actually doing under the hood, and requires nothing beyond CS1.",
+      "## Neural networks without linear algebra",
+      "The single most portable idea from the meeting. Because CS 33 students are non-majors, Lisa Meeden cannot assume they have seen linear algebra — so her neural network lab drops matrices entirely and builds Node, Edge and Network classes in Python instead. Students work through forward- and back-propagation on the objects themselves. Worth a look for any intro or gen-ed course that wants to get past the black-box framing without a math prerequisite.",
+      "## Teaching toolkits and texts",
+      "AItk, the AI Toolkit from Meeden and colleagues, packages tools for teaching AI, including self-contained Jupyter notebooks that each take on a single topic. Separately, David Reed at Creighton has published Computer Science: Concepts & Explorations free online — a breadth-first introduction written for a general-education course, with HTML and JavaScript exercises that give non-majors some hands-on programming and web development.",
+      "## Curricular direction",
+      "The SIGCSE Committee on Computing Education in Liberal Arts Colleges is drafting a response to the CS2023 curriculum recommendations, in the form of Essential Computing Concepts: the core learning outcomes a liberal arts CS program should be able to embrace, deliberately looser than CS2023 to leave room for institutional interpretation. It is a public draft and is taking community feedback."
+    ],
+    "link_label": "LACS 2026 meeting schedule",
+    "archive_footer": "Compiled from Joel Adams’s notes on the LACS 2026 meeting at Swarthmore College, 9–12 July 2026. His report to the department is not reproduced here."
   },
   {
     "id": "2026-05-20-oxford-ai-oath",

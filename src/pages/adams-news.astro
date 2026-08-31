@@ -23,6 +23,13 @@ interface NewsItem {
    * 'notes'   — my own summary of an offline source; nothing is reproduced
    */
   archive_type?: 'excerpt' | 'full' | 'notes';
+  /** Overrides the disclosure label for 'notes' bodies, e.g. "Listings". */
+  archive_label?: string;
+  /** Resource roundups: links render above the notes, as a list. */
+  links?: { label: string; url: string; note?: string }[];
+  /** Overrides for the 'notes' footer, when "my summary of {source}" doesn't fit. */
+  link_label?: string;
+  archive_footer?: string;
 }
 
 const all = (items as NewsItem[])
@@ -40,7 +47,11 @@ const years = [...new Set(all.map(i => new Date(i.date_sent).getUTCFullYear()))]
 
 // Everything a search query should be able to match against.
 const haystack = (i: NewsItem) =>
-  [i.title, i.summary, i.note ?? '', i.source, i.byline ?? '', i.tags.join(' '), (i.archived ?? []).join(' ')]
+  [
+    i.title, i.summary, i.note ?? '', i.source, i.byline ?? '', i.tags.join(' '),
+    (i.archived ?? []).join(' '),
+    (i.links ?? []).map(l => `${l.label} ${l.note ?? ''}`).join(' '),
+  ]
     .join(' ')
     .toLowerCase();
 ---
@@ -141,30 +152,50 @@ const haystack = (i: NewsItem) =>
                 <details class="an-archive">
                   <summary>
                     <span class="an-archive-label">
-                      {item.archive_type === 'full'
-                        ? 'Full text'
-                        : item.archive_type === 'notes' ? 'Listings' : 'Excerpt'}
+                      {item.archive_label ??
+                        (item.archive_type === 'full'
+                          ? 'Full text'
+                          : item.archive_type === 'notes' ? 'Summary' : 'Excerpt')}
                     </span>
-                    <span class="an-archive-hint">
-                      {item.archive_type === 'excerpt'
-                        ? 'opening paragraphs'
-                        : `${item.archived.filter(p => !p.startsWith('## ')).length} ${
-                            item.archive_type === 'notes' ? 'listings' : 'paragraphs'}`}
-                    </span>
+                    {item.archive_type !== 'notes' && (
+                      <span class="an-archive-hint">
+                        {item.archive_type === 'full'
+                          ? `${item.archived.filter(p => !p.startsWith('## ')).length} paragraphs`
+                          : 'opening paragraphs'}
+                      </span>
+                    )}
                   </summary>
                   <div class="an-archive-body">
+                    {item.links && item.links.length > 0 && (
+                      <ul class="an-links">
+                        {item.links.map(l => (
+                          <li>
+                            <a href={l.url} target="_blank" rel="noopener noreferrer">{l.label} ↗</a>
+                            {l.note && <span class="an-link-note">{l.note}</span>}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+
                     {item.archived.map(p =>
                       p.startsWith('## ')
                         ? <h3 class="an-archive-h">{p.slice(3)}</h3>
                         : <p>{p}</p>
                     )}
 
-                    {!item.url ? (
+                    {item.archive_type === 'notes' ? (
                       <p class="an-archive-src">
+                        {item.url && (
+                          <a class="an-continue" href={item.url} target="_blank" rel="noopener noreferrer">
+                            {item.link_label ?? `Read the original at ${item.source}`} ↗
+                          </a>
+                        )}
                         <span class="an-archive-note">
-                          Summarised from {item.source}
-                          {item.article_date && `, ${fmtDate(item.article_date)}`} — print only,
-                          no online edition. Nothing from the original is reproduced here.
+                          {item.archive_footer ??
+                            (`My summary of ${item.source}` +
+                              (item.article_date ? `, ${fmtDate(item.article_date)}` : '') +
+                              (item.url ? '' : ' — print only, no online edition') +
+                              '. Nothing from the original is reproduced here.')}
                         </span>
                       </p>
                     ) : item.archive_type === 'full' ? (
@@ -420,6 +451,29 @@ const haystack = (i: NewsItem) =>
     color: var(--text-muted);
     margin-bottom: 0.9rem;
   }
+  .an-links {
+    list-style: none;
+    margin: 0 0 1.4rem;
+    padding: 0;
+  }
+  .an-links li {
+    padding: 7px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .an-links li:last-child { border-bottom: none; }
+  .an-links a {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--accent);
+  }
+  .an-link-note {
+    display: block;
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: var(--text-dim);
+    margin-top: 2px;
+  }
+
   .an-archive-h {
     font-family: var(--mono);
     font-size: 11px;
