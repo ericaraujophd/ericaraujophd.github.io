@@ -430,6 +430,22 @@
     "document_path": null
   },
   {
+    "id": "2026-08-prompted-s2e6-wisdom-in-the-age-of-ai",
+    "type": "invited",
+    "title": "Wisdom in the Age of AI: A Conference Preview",
+    "event": "Prompted: Liberal Arts in the Age of AI — Season 2, Episode 6",
+    "location": "Calvin University (podcast)",
+    "date": "2026-08",
+    "url": "https://podcasts.apple.com/us/podcast/prompted-liberal-arts-in-the-age-of-ai/id1881593530",
+    "slides_url": null,
+    "notes": "Podcast guest, discussing the Matristics summer research on what leading large language models know about two fourth-century Christian women, and previewing the October 8–10 \"Wisdom in the Age of AI\" conference. Hosted by Craig Mattson; production funded by the Calvin Center for Christian Scholarship.",
+    "student_presentation": false,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
+  },
+  {
     "id": "2026-11-23-aar-llm-reliability-early-christian",
     "type": "talk",
     "title": "The Future of the Past: Evaluating Large Language Model Reliability in Early Christian Historical Studies",
