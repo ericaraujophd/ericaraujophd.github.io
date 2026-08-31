@@ -449,141 +449,134 @@ cv:
       name: CompCOVID 2020
       url: https://www.youtube.com/watch?v=R6bpMjJi2Kw
       location: Brazil (online)
-      start_date: '2020-06-05'
-      end_date: '2020-06-05'
       summary: Panel on computing applications during the COVID-19 pandemic. In Portuguese.
+      date: June 2020
     - role: speaker
       year: '2020'
       name: IX Brazilian Workshop on Social Network Analysis and Mining (BraSNAM 2020)
       url: https://www.youtube.com/watch?v=o22XzF-eHmM
       location: Brazil (online)
-      start_date: '2020-12-28'
-      end_date: '2020-12-28'
       summary: Conference presentation of BraSNAM 2020 paper (doi:10.5753/brasnam.2020.11170).
+      date: Dec 2020
     - role: speaker
       year: '2021'
       name: Saúde Única — UFLA
       url: https://www.youtube.com/watch?v=LYUsSKnQedU
       location: Lavras, Brazil (online)
-      start_date: '2021-02-27'
-      end_date: '2021-02-27'
       summary: Talk on opinion contagion in social networks and its epidemiological
         impact. In Portuguese.
+      date: Feb 2021
     - role: speaker
       year: '2021'
       name: ABC²-Tec 5ª Reunião — Associação Brasileira de Cristãos na Ciência
       url: https://www.youtube.com/watch?v=4J4o_lNVHpk
       location: Brazil (online)
-      start_date: '2021-07-24'
-      end_date: '2021-07-24'
       summary: Talk on social contagion models at the Brazilian Association of Christians
         in Science. In Portuguese.
+      date: July 2021
     - role: speaker
       year: '2021'
       name: KDMiLe 2021 — Symposium on Knowledge Discovery, Mining and Learning
       url: https://www.youtube.com/watch?v=2_fPbdaWndI
       location: Brazil (online)
-      start_date: '2021-10-08'
-      end_date: '2021-10-08'
       summary: Keynote session (KSN2) at KDMiLe 2021. In Portuguese.
+      date: Oct 2021
     - role: speaker
       year: '2022'
       name: PROCORES Research Group
       url: https://www.youtube.com/watch?v=H5dhreBPcDU
       location: Brazil (online)
-      start_date: '2022-12-05'
-      end_date: '2022-12-05'
       summary: Research group talk on social network spreading models. In Portuguese.
+      date: Dec 2022
     - role: speaker
       year: '2024'
       name: Oficina Prograd — UFLA
       url: https://www.youtube.com/watch?v=AMr7b87Umpw
       location: Lavras, Brazil
-      start_date: '2024-03-06'
-      end_date: '2024-03-06'
       summary: Workshop on AI tools for undergraduate education. In Portuguese.
+      date: Mar 2024
     - role: speaker
       year: '2024'
       name: Departamento de Estatística — UFLA
       url: https://www.youtube.com/watch?v=q-QuLChyJ48
       location: Lavras, Brazil
-      start_date: '2024-10-22'
-      end_date: '2024-10-22'
       summary: Invited talk on data-driven agent-based modeling. In Portuguese.
+      date: Oct 2024
     - role: speaker
       year: '2024'
       name: 19º Congresso Brasileiro de Sistemas (CBS)
       url: /files/conference-archives/19cbs-ufg-2024.pdf
       location: Goiânia, Brazil
-      start_date: '2024-11-29'
-      end_date: '2024-11-29'
       summary: In Portuguese
+      date: Nov 2024
     - role: speaker
       year: '2025'
       name: Autonomous Agents for Social Good (AASG) 2025
       url: https://panosd.eu/aasg2025/call/
       location: Detroit, MI
-      start_date: '2025-05-19'
-      end_date: '2025-05-19'
       summary: Presented by students Daniel Kwon and Jaden Brookens (senior project)
+      date: May 2025
     - role: speaker
       year: '2025'
       name: Algoritmos e Sociedade — UFG
       location: Goiânia, Brazil
-      start_date: '2025-05-28'
-      end_date: '2025-05-28'
       summary: In Portuguese
+      date: May 2025
     - role: speaker
       year: '2025'
       name: INSNA Sunbelt 2025
       location: Paris, France
-      start_date: '2025-06-01'
-      end_date: '2025-06-01'
       summary: With Juliana Freitas Lopes et al. (Fiocruz)
+      date: June 2025
     - role: speaker
       year: '2025'
       name: American Scientific Affiliation (ASA) Annual Meeting 2025
       url: https://network.asa3.org/mpage/ASA2025
       location: Colorado Christian University, Lakewood, CO
-      start_date: '2025-07-19'
-      end_date: '2025-07-19'
+      date: July 2025
     - role: speaker
       year: '2025'
       name: Grace Hopper Celebration 2025
       url: https://ghc.anitab.org/
       location: Chicago IL USA
-      start_date: '2025-11-04'
-      end_date: '2025-11-04'
       summary: The Grace Hopper Celebration is the world's largest gathering of women
         in computing. Attended with the Calvin Girls Who Code student delegation.
+      date: Nov 2025
     - role: speaker
       year: '2026'
       name: Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person
         in the Age of AI
       url: https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3
       location: Waco, TX
-      start_date: '2026-02-27'
-      end_date: '2026-02-27'
+      date: Feb 2026
     - role: speaker
       year: '2026'
       name: NetLogo Conference 2026
       url: https://conference.netlogo.org/2026/cfp
       location: Chicago, IL
-      start_date: '2026-07-01'
-      end_date: '2026-07-01'
       summary: Presented by students Katelin Jandris, Ryan Klein, and Ovgu Tufan (senior
         project)
+      date: July 2026
+    - role: speaker
+      year: '2026'
+      name: 'Prompted: Liberal Arts in the Age of AI — Season 2, Episode 6'
+      url: https://podcasts.apple.com/us/podcast/prompted-liberal-arts-in-the-age-of-ai/id1881593530
+      location: Calvin University (podcast)
+      summary: Podcast guest, discussing the Matristics summer research on what leading
+        large language models know about two fourth-century Christian women, and previewing
+        the October 8–10 "Wisdom in the Age of AI" conference. Hosted by Craig Mattson;
+        production funded by the Calvin Center for Christian Scholarship.
+      date: Aug 2026
     - role: speaker
       year: '2026'
       name: American Academy of Religion (AAR) Annual Meeting 2026 — History of Christianity
         Unit
       url: https://papers.aarweb.org/papers-session/112792-history-present-futures-christianitys-past
       location: Denver, CO
-      start_date: '2026-11-23'
-      end_date: '2026-11-23'
       summary: Papers session "History of the Present, the Futures of Christianity's
         Past" (A23-217), Monday Nov 23, 12:30–2:30 PM. Empirical evaluation of LLM
         accuracy on Macrina the Younger and Olympias of Constantinople.
+      date: Nov 2026
     grants_and_fellowships:
     - name: Templeton World Charity Foundation — Planning Grant
       url: https://www.templetonworldcharity.org/

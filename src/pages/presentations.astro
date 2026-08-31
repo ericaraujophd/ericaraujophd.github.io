@@ -2,6 +2,17 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import allPresentations from '../../data/presentations.json';
 
+// Dates in data/*.json are either ISO-ish ("2026", "2026-08", "2026-08-19") or a
+// term string ("Summer 2026"). V8 silently coerces "Summer 2026" to Jan 1, so both
+// parsing and formatting have to be explicit about which kind they are handling.
+const TERM_MONTH: Record<string, string> = { Spring: '03', Summer: '06', Fall: '09', Winter: '12' };
+const isIso = (d: string) => /^\d{4}(-\d{2}){0,2}$/.test(d);
+const toDate = (d: string) => {
+  if (isIso(d)) return new Date(d);
+  const m = d.match(/^(Spring|Summer|Fall|Winter)\s+(\d{4})$/);
+  return m ? new Date(`${m[2]}-${TERM_MONTH[m[1]]}`) : new Date(d);
+};
+
 interface Presentation {
   id: string;
   type: 'talk' | 'poster' | 'panel' | 'invited' | 'keynote';
@@ -19,9 +30,9 @@ interface Presentation {
 
 const pres = (allPresentations as Presentation[])
   .filter(p => p.visible_web)
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  .sort((a, b) => toDate(b.date).getTime() - toDate(a.date).getTime());
 
-const years = [...new Set(pres.map(p => new Date(p.date).getUTCFullYear()))];
+const years = [...new Set(pres.map(p => toDate(p.date).getUTCFullYear()))];
 
 const typeLabel: Record<string, string> = {
   talk: 'TALK',
@@ -31,8 +42,14 @@ const typeLabel: Record<string, string> = {
   keynote: 'KEYNOTE',
 };
 
-const fmtDate = (d: string) =>
-  new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+
+const fmtDate = (d: string) => {
+  if (!isIso(d)) return d;          // print "Summer 2026" verbatim
+  const opts: Intl.DateTimeFormatOptions = { timeZone: 'UTC', year: 'numeric' };
+  if (d.length >= 7) opts.month = 'short';
+  if (d.length >= 10) opts.day = 'numeric';
+  return new Date(d).toLocaleDateString('en-US', opts);
+};
 ---
 
 <BaseLayout title="Presentations">
@@ -48,7 +65,7 @@ const fmtDate = (d: string) =>
       <section class="pub-year-section fade-up" data-delay={i === 0 ? 1 : 0}>
         <p class="pub-year-heading">{year}</p>
         <ul class="pub-list">
-          {pres.filter(p => new Date(p.date).getUTCFullYear() === year).map(p => (
+          {pres.filter(p => toDate(p.date).getUTCFullYear() === year).map(p => (
             <li class="pub-item">
               <span class="pub-type-tag">{typeLabel[p.type] ?? p.type}</span>
               <div class="pub-content">
