@@ -133,9 +133,10 @@ def build_events(items):
             "name":       x["event"],
             "url":        x.get("url") or None,
             "location":   x.get("location") or None,
-            "start_date": x.get("date") or None,
-            "end_date":   x.get("date") or None,
             "summary":    x.get("notes") or None,
+            # a one-day event has start == end; _date_fields collapses that to a
+            # single date instead of rendering "Aug 2026 - Aug 2026"
+            **_date_fields(x.get("date"), x.get("date")),
         }
         out.append(e)
     return out
