@@ -6,12 +6,22 @@ import grants from '../../data/grants.json';
 import presentations from '../../data/presentations.json';
 import service from '../../data/service.json';
 
+// Dates in data/*.json are either ISO-ish ("2026", "2026-08") or a term string
+// ("Summer 2026"). V8 coerces "Summer 2026" to Jan 1, so parse explicitly.
+const TERM_MONTH: Record<string, string> = { Spring: '03', Summer: '06', Fall: '09', Winter: '12' };
+const isIso = (d: string) => /^\d{4}(-\d{2}){0,2}$/.test(d);
+const toDate = (d: string) => {
+  if (isIso(d)) return new Date(d);
+  const m = d.match(/^(Spring|Summer|Fall|Winter)\s+(\d{4})$/);
+  return m ? new Date(`${m[2]}-${TERM_MONTH[m[1]]}`) : new Date(d);
+};
+
 // Combine recent news-eligible items and take top 6
 type NewsItem = { date: string; title: string; url?: string; label: string };
 
 const recentGrants = (grants as any[])
   .filter(g => g.news && g.visible_web)
-  .map(g => ({ date: g.start_date.includes('-') ? `${g.start_date}-01` : `${g.start_date}-01-01`, title: g.name, url: g.url, label: 'Fellowship / Award' }));
+  .map(g => ({ date: g.start_date, title: g.name, url: g.url, label: 'Fellowship / Award' }));
 
 const recentTalks = (presentations as any[])
   .filter(p => p.news && p.visible_web)
@@ -19,18 +29,22 @@ const recentTalks = (presentations as any[])
 
 const recentPubs = (news as any[])
   .filter(p => p.news && p.visible_web)
-  .map(p => ({ date: `${p.year}-01-01`, title: p.title, url: p.url, label: 'Publication' }));
+  .map(p => ({ date: p.month ? `${p.year}-${String(p.month).padStart(2,'0')}` : `${p.year}`, title: p.title, url: p.url, label: 'Publication' }));
 
 const recentService = (service as any[])
   .filter(s => s.news && s.visible_web)
-  .map(s => ({ date: s.date, title: s.title, url: s.url ?? undefined, label: 'Service' }));
+  .map(s => ({ date: s.date ?? s.start_date, title: s.title, url: s.url ?? undefined, label: 'Service' }));
 
 const allNews: NewsItem[] = [...recentGrants, ...recentTalks, ...recentPubs, ...recentService]
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .sort((a, b) => toDate(b.date).getTime() - toDate(a.date).getTime())
   .slice(0, 6);
 
 const fmtDate = (d: string) =>
-  new Date(d).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }).toUpperCase();
+  isIso(d)
+    ? new Date(d).toLocaleDateString('en-US', d.length >= 7
+        ? { month: 'short', year: 'numeric', timeZone: 'UTC' }
+        : { year: 'numeric', timeZone: 'UTC' }).toUpperCase()
+    : d.toUpperCase();
 ---
 
 <BaseLayout title="Home">
