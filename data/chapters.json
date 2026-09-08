@@ -1,0 +1,42 @@
+[
+  {
+    "id": "formacao",
+    "label": "Formation",
+    "place": "Viçosa & Belo Horizonte, Brazil",
+    "start": 2003,
+    "end": 2010,
+    "blurb": "DRAFT — replace. Computer science at UFV, a master's at UFMG, and the first years of teaching."
+  },
+  {
+    "id": "lavras",
+    "label": "Lavras",
+    "place": "Minas Gerais, Brazil",
+    "start": 2011,
+    "end": 2013,
+    "blurb": "DRAFT — replace. Joining the Federal University of Lavras and starting to advise undergraduate researchers."
+  },
+  {
+    "id": "amsterdam",
+    "label": "Amsterdam",
+    "place": "Vrije Universiteit, Netherlands",
+    "start": 2014,
+    "end": 2018,
+    "blurb": "DRAFT — replace. Doctoral work on how behaviors, perceptions and emotions spread through social networks."
+  },
+  {
+    "id": "brasil-again",
+    "label": "Back to Brazil",
+    "place": "Lavras & Rio de Janeiro",
+    "start": 2019,
+    "end": 2024,
+    "blurb": "DRAFT — replace. Returning to UFLA, then Fiocruz — modeling contagion, crime, and collaboration networks."
+  },
+  {
+    "id": "grand-rapids",
+    "label": "Grand Rapids",
+    "place": "Calvin University, Michigan",
+    "start": 2024,
+    "end": null,
+    "blurb": "DRAFT — replace. Teaching computer science and modeling the life of Christian communities."
+  }
+]

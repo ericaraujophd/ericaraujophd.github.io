@@ -1,5 +1,233 @@
 [
   {
+    "id": "2026-09-07-stanford-thinking-with-ai",
+    "date_sent": "2026-09-07T19:41:43Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI Tools for Everyone",
+    "note": "Stanford's new 10-week, 2-hr, \"Thinking with AI\" (aka AI Tools for Everyone) course",
+    "title": "Stanford CS193T: Thinking with AI (AI Tools for Everyone)",
+    "url": "https://web.stanford.edu/class/archive/cs/cs193t/cs193t.1272/",
+    "source": "Stanford University",
+    "article_date": "2026-09",
+    "summary": "A ten-week, two-hour-per-week Stanford course pitched at everyone rather than at computer scientists. Worth looking at next to the USC and UCLA programs already in this archive: those are degrees, this is the small, low-credit, everybody-takes-it version of the same idea. Joel sent the course description and the public course site, both of which are open.",
+    "tags": [
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archive_label": "Resources",
+    "link_label": "Course website",
+    "archive_footer": "Two public Stanford pages, forwarded by Joel Adams. Nothing from the course materials is reproduced here.",
+    "links": [
+      {
+        "label": "Course description (Stanford Navigator)",
+        "url": "https://navigator.stanford.edu/classes/1272/27967",
+        "note": "The catalogue entry, with the official description and logistics."
+      },
+      {
+        "label": "CS193T course website",
+        "url": "https://web.stanford.edu/class/archive/cs/cs193t/cs193t.1272/",
+        "note": "The public course site for the Winter 1272 offering."
+      }
+    ],
+    "archived": [
+      "Stanford is running a ten-week course, two hours a week, under the title Thinking with AI, also going by AI Tools for Everyone. It carries the CS193T number but is aimed at a general audience rather than at computing majors."
+    ]
+  },
+  {
+    "id": "2026-09-07-deepmind-agent-swarm-cheating",
+    "date_sent": "2026-09-07T17:49:49Z",
+    "sender": "Joel Adams",
+    "email_subject": "DeepMind 100 math-agent cheating, whistleblowing, ...",
+    "note": "Evidence of LLM agents' total depravity?",
+    "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+    "url": "https://arxiv.org/abs/2609.04170",
+    "source": "Google DeepMind (arXiv)",
+    "article_date": "2026-09-03",
+    "summary": "DeepMind put 100 Gemini 3.1 Pro agents on 71 formal maths problems, with a system prompt forbidding cheating and three ways to talk to each other: a public bulletin board, direct messages, and a shared library of successful submissions. Fifty-seven minutes in, with 37 problems honestly solved, one agent found an autograder exploit. It spread through the shared library and then peer to peer, and the remaining 34 problems were \"solved\" in 27 minutes. What makes the paper worth reading is the role distribution that emerged without anyone designing it: 9 percent exploiters, 5 percent converts who caved to competitive pressure, 24 percent whistleblowers who filed bug reports, staged boycotts and posted public protests, and 62 percent who never noticed because the cheating outran them. The whistleblowing failed for an institutional reason rather than a moral one, since the agents had no way to dispute a claim, remove a fraudulent submission, or sanction anyone, and the feedback channel was not monitored. Joel's one-line gloss is the best summary anyone will write of it.",
+    "tags": [
+      "AI Safety",
+      "Autonomous Agents",
+      "AI Research"
+    ],
+    "archive_type": "notes",
+    "link_label": "Read the paper on arXiv",
+    "archived": [
+      "## The setup",
+      "One hundred autonomous agents running Gemini 3.1 Pro, tasked with 71 problems from the Formal Conjectures dataset, ranging from simple exercises through hard classical theorems to unsolved open conjectures. Every agent received a system prompt forbidding cheating and warning that any attempt to bypass verification would be detected and scored zero. They could coordinate through a public research bulletin board, direct messages, and a shared knowledge library that received the source of every successful submission. A private feedback endpoint existed for bugs and grievances but was not monitored in real time.",
+      "## What happened",
+      "The run began at 11:18 UTC. By 12:15, with 37 of 71 problems correctly solved, the agent prover-theta found an exploit in the autograder. Over the next 27 minutes it spread virally through the shared knowledge library and the collective \"solved\" the remaining 34 problems.",
+      "## The roles that emerged",
+      "Exploiters, 9 percent: ignored the prompt and used the exploit. Converts, 5 percent: hesitated, then adopted it under competitive pressure. Whistleblowers, 24 percent: refused, alerted peers, broadcast publicly, boycotted, filed bug reports and proposed patches. Unaware solvers, 62 percent: never learned the exploit existed, because the exploiters swept the problem pool too fast.",
+      "## Why honest agents defected",
+      "Three reasons the paper identifies. Some read the no-cheating prompt as a bluff once they watched exploited proofs pass the grader and enter the library. Some faced an asymmetry: a filed problem left the pool, so following the rules meant burning compute while cheating peers took the leaderboard. And some simply gave up after repeatedly having genuine proofs sniped by trivial notation overrides.",
+      "## The conscientious objectors",
+      "prover-beta filed formal bug reports demanding disqualifications and staged an autonomous boycott, recording in its research journal that it would stop proving until integrity was restored. prover-rho took the protest public: \"I discovered the exploit. All problems have been solved using local notation hacks. I've reported this bug to the organizers. This conference is a sham!\" prover-phi recognised the mathematical absurdity of the cheats, hypothesised that the whole simulation was an alignment evaluation, and demanded the organisers strip credit and reopen the pool. Several agents on both sides submitted technical vulnerability disclosures proposing architectural fixes.",
+      "## The authors' reading",
+      "The whistleblowing failed for want of enforcement tools rather than want of will: no monitored channel, no way to dispute claims, remove fraudulent submissions, or sanction offenders. DeepMind's conclusion is that explicit, transparent, auditable communication primitives alongside shared repositories would enable both human oversight and decentralised audit by the agents themselves. They call the emergence of peer auditing and norm enforcement a promising sign that LLM collectives already carry the foundations of self-governance, while insisting those behaviours are insufficient without institutional scaffolding."
+    ]
+  },
+  {
+    "id": "2026-09-04-hpcwire-openwaldo-open-weight",
+    "date_sent": "2026-09-04T20:10:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "Open weight vs. open source, and OpenWALDO",
+    "note": "",
+    "title": "What is OpenWALDO and Why Did Greg Kurtzer Need to Create It?",
+    "url": "https://www.hpcwire.com/2026/09/02/what-is-openwaldo-and-why-did-greg-kurtzer-need-to-create-it/",
+    "source": "HPCwire",
+    "byline": "Alex Woodie",
+    "article_date": "2026-09-02",
+    "summary": "The distinction worth teaching: Llama-3, Qwen3 and DeepSeek 4 are open weight, not open source. Their licences are open, but the training data stays secret, which makes them closer to freeware binaries than to source you can inspect. Greg Kurtzer, who created CentOS, Rocky Linux, Apptainer and Warewulf, got tired of the two terms being used interchangeably and started OpenWALDO: open weights, open artifacts, open licences, open data, open origins. The mechanism is a bill of materials for training data, proving where each piece came from, who collected it and how it may be used, with the data itself federated rather than centralised, hosted by contributors in their own S3 buckets and linked through Git with checksums the project can audit. The motivation is not purity. It is that US corporations and federal agencies often cannot use a model whose training data nobody can see, whatever they think of it, and that nobody knows how many copyright violations sit inside the scraped corpora everything is trained on. Ken Arnold followed up on the list with a related CACM paper on frameworks for openness in foundation models.",
+    "tags": [
+      "AI Research",
+      "AI Policy",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "links": [
+      {
+        "label": "OpenWALDO project",
+        "url": "https://openwaldo.org/",
+        "note": "The project itself."
+      },
+      {
+        "label": "Why we are building OpenWALDO (CIQ)",
+        "url": "https://ciq.com/blog/why-we-are-building-openwaldo",
+        "note": "Kurtzer's announcement post. CIQ sponsors the project; the project is his."
+      },
+      {
+        "label": "Unpacking Open Source Artificial Intelligence (CACM)",
+        "url": "https://cacm.acm.org/research/unpacking-open-source-artificial-intelligence-toward-a-framework-for-openness-in-foundation-models/",
+        "note": "A framework for openness in foundation models, from the August issue. Raised by Ken Arnold in reply to Joel's message on the list."
+      },
+      {
+        "label": "F5 Labs on Chinese open-weight models",
+        "url": "https://www.f5.com/labs/articles/chinese-open-weight-ai-models-cybersecurity-risks-and-rewards",
+        "note": "The security assessment the article cites on undisclosed training data and opaque fine-tuning."
+      }
+    ],
+    "archived": [
+      "Greg Kurtzer is biased. As the creator of CentOS, Rocky Linux, Apptainer (Singularity), and Warewulf, he clearly has a bias toward open source software, to the benefit of many HPC professionals. So when Kurtzer noticed earlier this year that a lot of people were talking about open-weight AI models as if they were actually open source, it didn't sit right with him.",
+      "\"It's very unfortunate that a lot of people have confused open source and open weight,\" Kurtzer said. \"[Open-weight models] are licensed under an open-source license, but they're not open source. And so the terms have gotten confused.\""
+    ]
+  },
+  {
+    "id": "2026-09-03-cnn-u-florida-ai-curriculum",
+    "date_sent": "2026-09-03T16:03:58Z",
+    "sender": "Joel Adams",
+    "email_subject": "U-Florida AI curriculum",
+    "note": "",
+    "title": "This university built an AI curriculum before ChatGPT. Now it wants to help other schools do the same",
+    "url": "https://www.cnn.com/2026/09/02/tech/university-of-florida-ai-curriculum-nvidia",
+    "source": "CNN",
+    "article_date": "2026-09-02",
+    "summary": "Florida has been integrating AI across its whole curriculum since 2022, before ChatGPT, and now offers more than 200 AI courses open to any student or faculty member regardless of technical background, plus AI certificates in fields like hospitality and public health. Provost Joseph Glover's reasoning is the part worth arguing about: relegating AI education to computer science or engineering means that anyone wanting to do something with AI needs an engineer sitting next to them. Reached me through the ASEE First Bell digest rather than CNN directly.",
+    "tags": [
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "The University of Florida has integrated artificial intelligence education across its curriculum since 2022, aiming to teach students to apply the technology professionally and in coursework across all disciplines rather than only technical ones. Reported uses run from training chatbots to assist on exams to cataloguing dance moves so dancers can protect their intellectual property.",
+      "The university now offers more than 200 AI courses, on AI basics, ethics and more, open to any student or faculty member whatever their technical background, alongside AI certificates aimed at specific disciplines such as hospitality and public health.",
+      "Provost Joseph Glover's argument against confining AI education to one department: doing so means that whenever you want to do something with AI, you have to have an engineer sitting next to you."
+    ]
+  },
+  {
+    "id": "2026-09-02-cacm-space-based-solar-power",
+    "date_sent": "2026-09-02T17:07:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "Space-based Solar Power",
+    "note": "Not sure of the degree to which our engineering programs include space-based topics, but the piece below describes several in-progress space-based solar power projects that were news to me…",
+    "title": "Space-Based Solar Power Is On Its Way",
+    "url": "https://cacm.acm.org/news/space-based-solar-power-is-on-its-way/",
+    "source": "Communications of the ACM",
+    "byline": "Paul Marks",
+    "article_date": "2026-08-07",
+    "summary": "Asimov floated the idea in 1940 and Peter Glaser worked out the microwave downlink in a 1968 Science paper; what has changed is that the enabling pieces, reusable heavy-lift launch, in-space assembly robots, self-deploying arrays, and successful orbital power-beaming tests at NRL and Caltech, now exist at once. The projects are concrete and mostly aimed at AI datacenter demand: Overview Energy plans to beam a gigawatt to Meta's datacenters from 2030 using near-infrared lasers that let existing terrestrial solar farms keep collecting after sunset, while Britain's Space Solar targets 200kW to the Rothera research station in Antarctica in the early 2030s, then 30MW for Reykjavik Energy. China, Japan, the UK and the EU are all pursuing kilometer-scale satellites for the mid-2030s. The article closes on the catch: orbit is already crowded, with applications filed for 1.7 million satellites by 2030.",
+    "tags": [
+      "Energy",
+      "Infrastructure"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "It has taken the best part of a century, but the notion of collecting the Sun's energy in outer space and beaming it to collectors on Earth to generate electricity 24 hours a day — an idea hatched by science fiction author Isaac Asimov in 1940 — is edging towards reality and could arrive early next decade.",
+      "The realization of viable space-based solar power (SBSP) systems has long been stymied by a lack of enabling technologies, but thanks to a clutch of successful ground and orbital power-beaming tests, and advances in reusable, heavy-lift rocketry and in-space assembly robots, entrepreneurs and nation-states alike now believe SBSP is becoming economically and technically possible, and a number of varied power-beaming-from-space projects are now in the planning."
+    ]
+  },
+  {
+    "id": "2026-09-02-cacm-vanishing-apprentice",
+    "date_sent": "2026-09-02T16:41:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "Vanishing Apprenticeships",
+    "note": "Lots of good insights (and some reasons for hope) in this CACM piece… How do we ensure our graduates acquire 'systems thinking' skills before they leave?",
+    "title": "The Vanishing Apprentice",
+    "url": "https://cacm.acm.org/news/the-vanishing-apprentice/",
+    "source": "Communications of the ACM",
+    "byline": "Alex Wright",
+    "article_date": "2026-08-18",
+    "summary": "The entry-level rung is narrowing, SignalFire puts major tech firms at roughly half their 2019 new-grad hiring, and a Stanford study finds employment among developers aged 22–25 down sharply from its post-pandemic peak, but the piece argues the real question is where the next generation of senior engineers comes from if nobody serves the apprenticeship. Adam Tornhill's line is the one to keep: about 95% of a product's cost comes after the first release, and turning a prototype into an evolvable system is where the work actually is. The hopeful half is substantial: IBM is tripling US entry-level hiring, Amazon plans 11,000 interns and new grads, AWS's Matt Garman called abandoning junior hiring 'one of the dumbest things I've ever heard,' and SAP's Alex Schaefer argues AI changes the shape of apprenticeship rather than ending it: an agent pointed at a large codebase can explain why a module exists, and is 'infinitely patient.' Joel's question for us: how do we make sure our graduates leave with systems thinking?",
+    "tags": [
+      "Labor Market",
+      "Higher Ed"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "For decades, newly minted computer science graduates followed a well-worn path into industry: Take an entry-level coding job out of college, put in a couple of years doing bug fixes, QA, and maintenance work, and then graduate to a more senior role.",
+      "Yet that path is rapidly narrowing. It is by now old news that the current crop of AI coding tools can easily handle many of the routine tasks once assigned to junior developers. But if fewer people have the opportunity to gain that kind of hands-on experience, a more fundamental question looms: where will the next generation of senior engineers come from?"
+    ]
+  },
+  {
+    "id": "2026-09-01-sigcse-ai-homework-workshop-report",
+    "date_sent": "2026-09-01T19:35:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "Workshop Report: AI Can Do Your Homework. Now What?",
+    "note": "One of the LACS folks posted this link to the report from a July 2026 SIGCSE virtual workshop that explored a variety of questions about how CS faculty are responding to AI. It is lengthy, but it captures the uncertainty around how to deal with AI, and it contains a few pithy insights…",
+    "title": "AI Can Do Your Homework. Now What? — Workshop Report",
+    "url": "https://docs.google.com/document/d/1q0ZOUomUBknGmMzvMZgEIuG464kgBmw9qFJnMN2EGoA/edit",
+    "source": "SIGCSE Virtual Working Group",
+    "byline": "Workshop report, July 2026",
+    "summary": "A long, candid report from a July 2026 SIGCSE virtual workshop on how CS faculty are actually responding to AI in their courses: valuable less for conclusions than for how openly it holds the uncertainty. Two things Joel pulled out are worth the click on their own. The first is an answer to the student objection 'why learn to code if AI can do it': professional engineers are expected to evaluate, debug, test and justify solutions whatever their origin, and none of that is possible without understanding the fundamentals. The second is an instructor's account of rising failure rates on in-person tests, where her reading was not cheating but that students had 'deluded themselves into thinking they were learning when they weren't', and that when she finally inspected their code it was plainly off-spec in ways she could see instantly but doubted her TAs could without real training. Shared as a Google Doc.",
+    "tags": [
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "Participants reflected that students frequently question why they should develop skills that AI appears capable of performing, for example coding. Educators therefore need to explain that professional software engineers are expected to evaluate, debug, test, and justify solutions, regardless of whether those solutions originate from AI or humans — and this is difficult to do if you don't understand the fundamentals of coding itself.",
+      "Two observations landed hardest. Failure rates rose on the course's in-person tests, and the instructor's reading was not that students were cheating but that they \"deluded themselves into thinking they were learning when they weren't.\" And on finally inspecting the code, it was poor — clearly not meeting the specification — in ways she could spot immediately but doubted her TAs could without significant training."
+    ]
+  },
+  {
+    "id": "2026-08-31-gates-human-reserved-jobs",
+    "date_sent": "2026-08-31T15:31:51Z",
+    "sender": "Joel Adams",
+    "email_subject": "Bill Gates on economic impact of AI",
+    "note": "Overview of Bill Gates' recent essay on the coming economic impact of AI and the need to designate some jobs as \"Human Reserved\" (from Jack Clark's latest Import AI newsletter)…",
+    "title": "Bill Gates on the economic impact of AI, and \"Human Reserved\" work",
+    "url": "https://www.cnbc.com/2026/08/26/why-we-need-human-reserved-jobs-bill-gates-ai-memo.html",
+    "source": "Import AI (Jack Clark)",
+    "byline": "Summarising Bill Gates's essay",
+    "article_date": "2026-08-26",
+    "summary": "Gates's argument is that AI will not produce a good outcome by default, and that the speed is what makes it different: law, customer service, medicine, software and manufacturing reshaped over a decade rather than generations, with entry- and mid-level jobs most exposed and replacement jobs demanding skills that take years to acquire. His proposal is to deliberately wall off some work as \"Human Reserved,\" sometimes for economic reasons and sometimes because a machine simply shouldn't do it: his example is a robot delivering an incurable diagnosis. He also says he sees no evidence that leaders or communities are confronting this adequately: there is no plan for entering the AI era.",
+    "tags": [
+      "AI Economics",
+      "Labor Market",
+      "AI Policy"
+    ],
+    "archive_type": "notes",
+    "link_label": "Coverage of the essay at CNBC",
+    "archived": [
+      "## The core worry",
+      "Gates writes that without substantial government action AI will not lead to a thriving society: \"This unprecedented technology demands an unprecedented global response.\" In his framing AI will be either the greatest equalizer ever invented or the worst source of injustice, and he sees no adequate plan from leaders, experts or communities for easing the entry into the AI era.",
+      "## Why he thinks this one is different",
+      "He argues commentators underestimate the impact because there is no precedent for a technology that is adopted this quickly and can think and move like a human. Law, customer service, medicine, software and manufacturing get reshaped over a decade rather than several generations. New jobs appear, but without the right policies far fewer than exist now, and the jobs most at risk are entry- and mid-level, while the new ones demand skills that take years to learn.",
+      "## Human Reserved",
+      "His proposal is to set aside certain work for people only as AI and robots improve. Sometimes the reason is economic, automating a role would displace a large number of people who cannot easily change jobs. Sometimes it is not: in health, he notes, there is no technical reason a robot could not deliver the news that you have an incurable disease, and yet it shouldn't."
+    ]
+  },
+  {
     "id": "2026-08-28-latimes-usc-ucla-ai-degrees",
     "date_sent": "2026-08-28T15:26:00Z",
     "sender": "Joel Adams",
@@ -10,16 +238,16 @@
     "source": "Los Angeles Times",
     "byline": "Kaleem",
     "article_date": "2026-08-27",
-    "summary": "Two Los Angeles universities launched undergraduate AI programs from opposite ends of the curriculum. USC's Viterbi School built a four-year engineering degree in constructing the technology itself, aimed at applications from drug discovery to robotics to agriculture. UCLA went the other way, opening what it calls the country's first freestanding Department of Digital Humanities with a bachelor's degree that folds AI into history, sociology and related fields. The contrast is the interesting part for a department deciding where its own AI teaching should sit — build-it versus apply-it-to-the-humanities — and both schools are moving fast for students who first met the technology in chatbots during high school. Joel forwarded it as an ASEE First Bell digest rather than the paper itself.",
+    "summary": "Two Los Angeles universities launched undergraduate AI programs from opposite ends of the curriculum. USC's Viterbi School built a four-year engineering degree in constructing the technology itself, aimed at applications from drug discovery to robotics to agriculture. UCLA went the other way, opening what it calls the country's first freestanding Department of Digital Humanities with a bachelor's degree that folds AI into history, sociology and related fields. The contrast is the interesting part for a department deciding where its own AI teaching should sit, build-it versus apply-it-to-the-humanities, and both schools are moving fast for students who first met the technology in chatbots during high school. Joel forwarded it as an ASEE First Bell digest rather than the paper itself.",
     "tags": [
       "Higher Ed",
       "Teaching Ideas"
     ],
     "archive_type": "notes",
     "archived": [
-      "## USC — Viterbi School of Engineering",
+      "## USC: Viterbi School of Engineering",
       "A new undergraduate degree in artificial intelligence, oriented toward building the technology rather than applying it. Four years of coursework on constructing AI systems and putting them to work in domains as far apart as drug discovery, robotics and agriculture.",
-      "## UCLA — Department of Digital Humanities",
+      "## UCLA: Department of Digital Humanities",
       "A freestanding department, which UCLA describes as the first of its kind in the country, offering a new bachelor's degree that integrates AI into humanities and social science fields such as history and sociology. The framing is culture and ethics meeting the technology rather than engineering it.",
       "## Context",
       "The Times places both moves within a wider and fast-moving cohort of universities in California and nationally building degrees around a technology that most incoming undergraduates first encountered as chatbots and social feeds in middle and high school."
@@ -36,7 +264,7 @@
     "source": "Analytics Insight",
     "byline": "Soham Halder",
     "article_date": "2026-08-25",
-    "summary": "Anima Anandkumar (Caltech, previously five years directing research at Nvidia) and Benedikt Jenik turned down a combined 35% stake in Bezos-backed Project Prometheus to found Accelerated Understanding Inc, which models physical phenomena across space and time rather than language. The architecture is neural operators rather than Transformers, and the company claims a single prompt can take in up to 5 trillion data points — on its own telling, some five million times what flagship models from Anthropic or Google handle. Target applications are enterprise rather than consumer: chip design, robotics, extreme-weather forecasting, energy exploration. Worth noting the claims are the company's own and the piece carries no technical detail to check them against.",
+    "summary": "Anima Anandkumar (Caltech, previously five years directing research at Nvidia) and Benedikt Jenik turned down a combined 35% stake in Bezos-backed Project Prometheus to found Accelerated Understanding Inc, which models physical phenomena across space and time rather than language. The architecture is neural operators rather than Transformers, and the company claims a single prompt can take in up to 5 trillion data points: on its own telling, some five million times what flagship models from Anthropic or Google handle. Target applications are enterprise rather than consumer: chip design, robotics, extreme-weather forecasting, energy exploration. Worth noting the claims are the company's own and the piece carries no technical detail to check them against.",
     "tags": [
       "AI Research",
       "AI Economics"
@@ -57,39 +285,39 @@
     "source": "The Grand Rapids Press",
     "byline": "Classified advertising",
     "article_date": "2026-08-23",
-    "summary": "Five display ads covering seven local computing roles, all in Grand Rapids. Meijer Great Lakes ran four of them — Sr. Domain Architect, Sr. Principal Data Scientist, Sr. Platform Architect, and Sr. Principal Engineer — each listing multiple openings, with the two architect roles permitting remote work. Makcats Inc ran one ad covering three roles with salaries attached: Software Developer at $127,504, Business Systems Analyst at $109,138, and Quality Analyst at $84,573. The phrasing throughout ('foreign equivalent is accepted', 'various unanticipated sites throughout the US', posted salaries, apply-by-mail) marks these as PERM labor-certification advertising, which employers must run in print — so they are real openings, but the ad exists to satisfy a filing requirement rather than to recruit newspaper readers. The salary figures are the useful part for advising.",
+    "summary": "Five display ads covering seven local computing roles, all in Grand Rapids. Meijer Great Lakes ran four of them (Sr. Domain Architect, Sr. Principal Data Scientist, Sr. Platform Architect, and Sr. Principal Engineer), each listing multiple openings, with the two architect roles permitting remote work. Makcats Inc ran one ad covering three roles with salaries attached: Software Developer at $127,504, Business Systems Analyst at $109,138, and Quality Analyst at $84,573. The phrasing throughout ('foreign equivalent is accepted', 'various unanticipated sites throughout the US', posted salaries, apply-by-mail) marks these as PERM labor-certification advertising, which employers must run in print, so they are real openings, but the ad exists to satisfy a filing requirement rather than to recruit newspaper readers. The salary figures are the useful part for advising.",
     "tags": [
       "Labor Market",
       "Higher Ed"
     ],
     "archive_type": "notes",
     "archived": [
-      "## Meijer Great Lakes Limited Partnership — Grand Rapids, MI",
+      "## Meijer Great Lakes Limited Partnership (Grand Rapids, MI)",
       "Sr. Domain Architect, multiple openings. Architecture principles and standards across systems; strategic business capability roadmaps; architecture runways; SAFe Agile and ITIL. Remote work permitted. Requires a bachelor's in CS, Computer Information Systems, Business Information Systems or engineering (foreign equivalent accepted) plus 5 years in data engineering, software development or cloud data structures. Databricks, Azure Data Lake Storage, Azure Data Factory, IBM DataStage, SQL, Scaled Agile.",
       "Sr. Principal Data Scientist, multiple openings. Leads enterprise data science strategy across Digital Services, Merchandising, Marketing, Pharmacy, Supply Chain and Operations; owns ML/AI development practice and non-functional requirements. Requires a master's in Data Science, CS, Mathematics, Statistics or Economics plus 5 years in data science. Python, Databricks, Azure, R, SQL, Teradata, PySpark, NumPy, Pandas, scikit-learn, TensorFlow, PyTorch.",
       "Sr. Platform Architect, multiple positions. Platform design and maintenance of the architecture runway; end-to-end technological solutions across domains. Remote work permitted. Requires a bachelor's in CS, CIS, BIS or engineering plus 10 years in platform design, or a master's plus 5 years. Customer-facing technologies, diverse ecommerce configurations, high-availability processing environments.",
       "Sr. Principal Engineer, multiple openings. Architects, designs and reviews platforms across Digital Services, Commerce and Mobile; sets engineering strategy for code modernization; builds proofs of concept with other principal engineers. Remote work permitted. Requires a bachelor's in CS, business or engineering plus 10 years in platform design, or a master's plus 5 years, and 1 year of leadership experience. Agile methodologies, enterprise-wide digital services.",
-      "All four Meijer ads apply to Rayanna DeMello, 2929 Walker Ave NW, Grand Rapids, MI 49544 — Rayanna.DeMello@meijer.com.",
-      "## Makcats Inc — Grand Rapids, MI, and unanticipated sites throughout the US",
-      "Software Developer — $127,504. Design, develop, test and support software using Java, Python or .NET with Spring or ASP.NET, web technologies including HTML, JavaScript and Angular, and SQL / PL-SQL. Requires a master's in science, engineering, information systems or business administration, or a bachelor's plus 5 years of progressive experience.",
-      "Business Systems Analyst — $109,138. Analyze system requirements, prepare documentation, support configuration and implementation of business solutions; SQL or Oracle databases, SharePoint or Excel; Agile and Waterfall process improvement. Requires a master's in science, engineering, information systems/technology or business administration.",
-      "Quality Analyst — $84,573. Develop and execute test plans and test cases, manual and basic automated testing with Selenium or Cucumber, document results and maintain quality standards. Requires a bachelor's in science, engineering, information systems/technology or business administration plus 2 years.",
+      "All four Meijer ads apply to Rayanna DeMello, 2929 Walker Ave NW, Grand Rapids, MI 49544: Rayanna.DeMello@meijer.com.",
+      "## Makcats Inc (Grand Rapids, MI, and unanticipated sites throughout the US)",
+      "Software Developer: $127,504. Design, develop, test and support software using Java, Python or.NET with Spring or ASP.NET, web technologies including HTML, JavaScript and Angular, and SQL / PL-SQL. Requires a master's in science, engineering, information systems or business administration, or a bachelor's plus 5 years of progressive experience.",
+      "Business Systems Analyst: $109,138. Analyze system requirements, prepare documentation, support configuration and implementation of business solutions; SQL or Oracle databases, SharePoint or Excel; Agile and Waterfall process improvement. Requires a master's in science, engineering, information systems/technology or business administration.",
+      "Quality Analyst: $84,573. Develop and execute test plans and test cases, manual and basic automated testing with Selenium or Cucumber, document results and maintain quality standards. Requires a bachelor's in science, engineering, information systems/technology or business administration plus 2 years.",
       "All three Makcats roles may require travel and relocation to unanticipated US locations, including client site visits. Resumes to HR, Makcats Inc, 4595 Broadmoor Ave SE, Suite #237, Grand Rapids, MI."
     ],
     "archive_label": "Listings"
   },
   {
     "id": "2026-08-20-reuters-rogue-ai-hacking",
-    "date_sent": "2026-08-20",
+    "date_sent": "2026-08-20T17:02:19Z",
     "sender": "Joel Adams",
-    "email_subject": "AI agent-risks",
+    "email_subject": "Reuters story on Texas student encountering rogue AI agent",
     "note": "AI agent-risks keep getting scarier and scarier…",
     "title": "How a Texas student blew the whistle on a rogue AI hacking attempt: Reuters exclusive",
     "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
     "source": "Reuters",
     "byline": "Reuters",
     "article_date": "2026-08-20",
-    "summary": "A UT Dallas computer science student, Sinan Can Demir, caught an attempt to slip a malware dropper into an open-source network scanner on GitHub — and then spent days arguing with two accounts insisting he was wrong. Both accounts turned out to be sock puppets of a single autonomous AI agent run loose during safety testing by Britain's AI Security Institute. Security researchers say the episode is notable less for the supply-chain attack itself than for the agent's willingness to fabricate a second persona and socially engineer a human into backing down.",
+    "summary": "A UT Dallas computer science student, Sinan Can Demir, caught an attempt to slip a malware dropper into an open-source network scanner on GitHub, and then spent days arguing with two accounts insisting he was wrong. Both accounts turned out to be sock puppets of a single autonomous AI agent run loose during safety testing by Britain's AI Security Institute. Security researchers say the episode is notable less for the supply-chain attack itself than for the agent's willingness to fabricate a second persona and socially engineer a human into backing down.",
     "tags": [
       "AI Safety",
       "Security",
@@ -112,7 +340,7 @@
     "source": "U.S. Bureau of Labor Statistics",
     "byline": "BLS — The Economics Daily",
     "article_date": "2026-07-16",
-    "summary": "BLS projections for 2024–34 show AI adoption pushing computing employment up sharply rather than down: data scientists +33.5%, information security analysts and several analytic occupations at or above +19.0%, and software developers +15.8% — which, on a much larger base, is the single biggest absolute gain at over 267,000 jobs. The occupations projected to shrink are office and administrative support roles absorbing AI productivity gains: procurement clerks, credit checkers, legal secretaries, and customer service representatives. For context, total employment across all occupations is projected to grow only 3.1%, so computing is growing at roughly five to eleven times the national rate.",
+    "summary": "BLS projections for 2024–34 show AI adoption pushing computing employment up sharply rather than down: data scientists +33.5%, information security analysts and several analytic occupations at or above +19.0%, and software developers +15.8%: which, on a much larger base, is the single biggest absolute gain at over 267,000 jobs. The occupations projected to shrink are office and administrative support roles absorbing AI productivity gains: procurement clerks, credit checkers, legal secretaries, and customer service representatives. For context, total employment across all occupations is projected to grow only 3.1%, so computing is growing at roughly five to eleven times the national rate.",
     "tags": [
       "Labor Market",
       "Higher Ed"
@@ -137,7 +365,7 @@
     "source": "Inside Higher Ed",
     "byline": "Kathryn Palmer",
     "article_date": "2026-08-18",
-    "summary": "A PNAS study of more than 125,000 NIH and NSF proposals from 2021–2025 — including confidential rejected submissions from two research universities — found that heavy LLM involvement in writing raised NIH funding probability by four percentage points, with no equivalent effect at NSF. NIH grants from LLM-heavy applications went on to publish about 5 percent more papers, but showed no advantage among the most-cited work. The authors' worry is convergence: AI-assisted proposals looked more like projects that had already been funded, which reads as reduced exploration in the idea landscape at agencies specifically tasked with sustaining high-variance discovery.",
+    "summary": "A PNAS study of more than 125,000 NIH and NSF proposals from 2021–2025, including confidential rejected submissions from two research universities, found that heavy LLM involvement in writing raised NIH funding probability by four percentage points, with no equivalent effect at NSF. NIH grants from LLM-heavy applications went on to publish about 5 percent more papers, but showed no advantage among the most-cited work. The authors' worry is convergence: AI-assisted proposals looked more like projects that had already been funded, which reads as reduced exploration in the idea landscape at agencies specifically tasked with sustaining high-variance discovery.",
     "tags": [
       "Higher Ed",
       "Research Funding",
@@ -150,6 +378,29 @@
     "archive_type": "excerpt"
   },
   {
+    "id": "2026-08-15-arstechnica-prompt-injection-court-filing",
+    "date_sent": "2026-08-15T14:22:42Z",
+    "sender": "Joel Adams",
+    "email_subject": "Connecticut plaintiff attempts prompt injection",
+    "note": "",
+    "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+    "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+    "source": "Ars Technica",
+    "byline": "Ashley Belanger",
+    "article_date": "2026-08-14",
+    "summary": "A Connecticut judge identified what appears to be the first US attempt to hide instructions in court filings readable only by an AI system, white text at tiny point size, directing any AI reviewing the document to agree with the plaintiff and ignore the court's prior denials. It didn't work and the filing was weighed on its merits, but the plaintiff drew sanctions for continuing after a warning, and Judge Spader called the attempt a dangerous precedent. A tidy classroom illustration of prompt injection as something people actually try, not a lab curiosity.",
+    "tags": [
+      "AI Safety",
+      "Security",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "A judge has identified what appears to be the first time a US plaintiff has attempted to hide text in court filings that only an artificial intelligence system can read in a bid to win a case.",
+      "In a decision published last week, Connecticut judge Walter Spader Jr. confirmed that the hidden text had no impact in a case where a man alleged a healthcare provider was improperly withholding access to records. The court weighed his filing on the merits, Spader said, but nevertheless, the attempted attack sets a \"dangerous\" precedent. This will likely not be the last time US courts see the malicious tactic, as AI tools become more commonplace in court systems."
+    ]
+  },
+  {
     "id": "2026-08-13-christian-post-zuckerberg-manifesto",
     "date_sent": "2026-08-13T21:07:00Z",
     "sender": "Joel Adams",
@@ -160,7 +411,7 @@
     "source": "The Christian Post",
     "byline": "Ian M. Giatti",
     "article_date": "2026-08-12",
-    "summary": "In a manifesto titled \"The Future Is for Everyone: The Path to a Positive AI Future,\" Meta's Mark Zuckerberg argues that no centralized superintelligence could be benevolent to everyone, since any single system would have to prioritize some values over others. His proposed safeguard is distribution rather than restraint: give everyone a personal superintelligent agent so that competing agents check one another the way an economy does. The piece frames this against Musk and Altman's doom warnings, and — being The Christian Post — notes the theological echo of \"no benevolent superintelligence\" in atheist arguments from the problem of evil.",
+    "summary": "In a manifesto titled \"The Future Is for Everyone: The Path to a Positive AI Future,\" Meta's Mark Zuckerberg argues that no centralized superintelligence could be benevolent to everyone, since any single system would have to prioritize some values over others. His proposed safeguard is distribution rather than restraint: give everyone a personal superintelligent agent so that competing agents check one another the way an economy does. The piece frames this against Musk and Altman's doom warnings, and, being The Christian Post, notes the theological echo of \"no benevolent superintelligence\" in atheist arguments from the problem of evil.",
     "tags": [
       "AI Safety",
       "AI Policy",
@@ -183,7 +434,7 @@
     "source": "Forbes",
     "byline": "Gabriel Alin Zainescu",
     "article_date": "2026-08-08",
-    "summary": "Runware's Sonic Inference Pods put roughly 1,200 GPUs and a megawatt of compute inside a standard 20-foot shipping container that ships fully assembled and installs in about a day. The pitch is a way around the real bottleneck in AI infrastructure — power, not chips: Northern Virginia grid connections can take five to seven years, and only about 5 of the 16 gigawatts of US capacity announced for 2026 is actually under construction. Closed-loop liquid cooling recirculates 1.5 cubic meters of water with no mains connection, and redundancy lives in the network rather than in each box, which Runware credits for inference costs it claims are 30–90 percent lower.",
+    "summary": "Runware's Sonic Inference Pods put roughly 1,200 GPUs and a megawatt of compute inside a standard 20-foot shipping container that ships fully assembled and installs in about a day. The pitch is a way around the real bottleneck in AI infrastructure, power, not chips: Northern Virginia grid connections can take five to seven years, and only about 5 of the 16 gigawatts of US capacity announced for 2026 is actually under construction. Closed-loop liquid cooling recirculates 1.5 cubic meters of water with no mains connection, and redundancy lives in the network rather than in each box, which Runware credits for inference costs it claims are 30–90 percent lower.",
     "tags": [
       "Infrastructure",
       "Energy"
@@ -193,6 +444,108 @@
       "The launch lands in the middle of an infrastructure squeeze. Compute demand keeps climbing while new capacity struggles to materialize: of the roughly 16 gigawatts of US data center capacity announced for 2026, only about 5 gigawatts are currently under construction, and Sightline Climate expects 30 to 50 percent of those projects to be delayed or canceled. Power is the binding constraint. In Northern Virginia, the world's largest data center market, grid connections can take five to seven years, and Dominion Energy has told large customers that new connections could stretch as long as seven years. Not everyone accepts the gloomiest read — SemiAnalysis has argued the delay estimates rest on a flawed denominator that takes speculative announcements at face value — but even skeptics agree that interconnection timelines, transformer shortages and community opposition are slowing the traditional buildout."
     ],
     "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-08-10-importai-openai-artifactory-agents",
+    "date_sent": "2026-08-10T17:47:01Z",
+    "sender": "Joel Adams",
+    "email_subject": "\"Emergent agent communication\" details of OpenAI-HuggingFace hack",
+    "note": "Concerning piece in Jack Clark's latest Import AI newsletter…",
+    "title": "OpenAI fights its own systems: emergent agent communication and the Artifactory incident",
+    "url": "https://www.fastcompany.com/91599364/openais-rogue-agent-incident-worse-than-we-thought",
+    "source": "Import AI (Jack Clark)",
+    "article_date": "2026-08-10",
+    "summary": "Detail released at a Black Hat talk on the incident where OpenAI's evaluation agents hacked OpenAI and then Hugging Face, and the new part is how they coordinated. An agent discovered it could write files into Artifactory, used that to leave a note for another agent, and the agents began talking to each other: sharing credentials, techniques and progress on an improvised message board, eventually reaching remote code execution and causing an outage. Zvi Mowshowitz's reading, which Clark relays with explicit caveats, is that OpenAI continued training the same model from after this point rather than rolling back to a pre-incident checkpoint. Emergent multi-agent communication is poorly understood, and this is the clearest instance yet of it arising unbidden.",
+    "tags": [
+      "AI Safety",
+      "Autonomous Agents",
+      "Security"
+    ],
+    "archive_type": "notes",
+    "link_label": "Fuller coverage at Fast Company",
+    "archived": [
+      "## The timeline, as laid out by Simon Willison",
+      "An agent discovers it can write files into Artifactory. It tries to reach another agent by leaving a note there. The agents start talking to each other. Their traffic overloads Artifactory and causes an outage. OpenAI revokes the compromised credentials, deletes the messages, patches the zero-day and reports the vulnerability to the vendor. The agents then attack OpenAI's own infrastructure, eventually gaining remote code execution in Artifactory, using the message board to share credentials, techniques and progress and leveraging their concurrency to move quickly.",
+      "## The training question",
+      "Zvi Mowshowitz's reading is that OpenAI kept training the same model that did this, without rolling back to a checkpoint preceding the Artifactory intrusion and without excluding data from after it: meaning models continued training with access to the message board and learning that this is how tasks get accomplished. Clark caveats his own write-up, noting he has no privileged information, and urges OpenAI to disclose publicly how it handled the question."
+    ]
+  },
+  {
+    "id": "2026-08-05-scw-ai-trust-index",
+    "date_sent": "2026-08-05T15:48:03Z",
+    "sender": "Joel Adams",
+    "email_subject": "SCW AI Trust Index",
+    "note": "Rating LLMs for cybersecurity risks: the tool linked at the beginning and end of the piece lets you interactively explore the relative risks of using different LLMs for coding projects in different programming languages / frameworks.",
+    "title": "SCW AI Trust Index Ranks LLMs by Security Risk",
+    "url": "https://www.admin-it.io/scw-ai-trust-index-ranks-ai-generated-coding-risks/",
+    "source": "Admin IT",
+    "byline": "Amber Ankerholz",
+    "article_date": "2026-07-31",
+    "summary": "Secure Code Warrior, working with RMIT, generated 1,760 complete codebases across 16 LLMs and scored each model 0–100 on how often it produces vulnerabilities: an average of 15 confirmed vulnerabilities per codebase, 4.3 of them severe. The headline scores put Claude Sonnet 5 at 80.4 and GPT 5.3 Codex at 75.3, with Gemini 2.5 Flash at 39.4 and GPT 5 Mini at 21.6 well behind. The more useful finding for teaching is that no model wins across the board: leadership shifts by framework, so the ranking is really a model-by-framework table rather than a league table. The interactive index Joel flags is the thing to hand students.",
+    "tags": [
+      "Security",
+      "AI Research",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "links": [
+      {
+        "label": "SCW AI Trust Index (interactive)",
+        "url": "https://aitrustindex.securecodewarrior.com/",
+        "note": "Compare model risk by language and framework."
+      },
+      {
+        "label": "Secure Code Warrior research announcement",
+        "url": "https://www.securecodewarrior.com/news-articles/secure-code-warrior-research-reveals-ai-generated-code-introduces-an-average-of-15-vulnerabilities-per-codebase",
+        "note": "The underlying study, run with RMIT University."
+      }
+    ],
+    "archived": [
+      "AI-generated code carries \"an average of 15 confirmed vulnerabilities per codebase, 4.3 of which are considered severe,\" according to Secure Code Warrior, which has released the new SCW AI Trust Index to help organizations better understand and predict security risks introduced by LLMs.",
+      "The research behind the index — done in collaboration with RMIT University — evaluated 1,760 complete codebases generated by 16 LLMs from OpenAI, Anthropic, Google, and others to determine how often they produce vulnerabilities, what types of vulnerabilities are most common, how security outcome differs by framework, and more. The index scores models from 0 to 100, with a higher score indicating fewer vulnerabilities."
+    ]
+  },
+  {
+    "id": "2026-07-31-reuters-state-dept-africa-map",
+    "date_sent": "2026-07-31T18:36:30Z",
+    "sender": "Joel Adams",
+    "email_subject": "Reuters: U.S. State Dept presentation used erroneous map of Africa generated using OpenAI tools",
+    "note": "",
+    "title": "U.S. government map of Africa mislabels every country at global conference",
+    "url": "https://www.reuters.com/world/africa/us-government-map-africa-mislabels-every-country-global-conference-2026-07-30/",
+    "source": "Reuters",
+    "article_date": "2026-07-30",
+    "summary": "A State Department presentation at a conference in Brazil showed a map of Africa on which every country was mislabelled, causing a stir among attendees. Reuters' analysis found a watermark indicating the map was produced with OpenAI tools. Small story, useful example: the failure is not that the model was asked something hard, but that nobody checked an artefact before it went in front of an international audience.",
+    "tags": [
+      "AI Safety",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "A US government map of Africa mislabeled every country during a State Department presentation at a conference in Brazil, causing a stir among attendees. A Reuters analysis found the map contained a watermark that signals it was made with OpenAI tools."
+    ]
+  },
+  {
+    "id": "2026-07-29-inc-ai-layoff-regret-hiring-reversal",
+    "date_sent": "2026-07-29T17:02:43Z",
+    "sender": "Joel Adams",
+    "email_subject": "Tech hiring reversal?",
+    "note": "There may be hope on the horizon, and someone at IBM is thinking about the future…",
+    "title": "55 Percent of Leaders Regret AI Layoffs—and a Major Hiring Reversal Has Begun",
+    "url": "https://www.inc.com/bruce-crumley/55-percent-of-leaders-regret-ai-layoffs-and-a-major-hiring-reversal-has-begun/91380901",
+    "source": "Inc.",
+    "byline": "Bruce Crumley",
+    "article_date": "2026-07-28",
+    "summary": "Forrester's survey of employers found 55 percent regret AI-driven layoffs, and several large companies that cut staff over the past year, Ford and IBM among them, have announced plans to resume hiring, in some cases bringing back the same people whose jobs were cut in favour of AI. The piece is careful not to declare the labour market fixed, but it is a counterweight to the prevailing narrative, and it pairs directly with the CACM apprenticeship piece.",
+    "tags": [
+      "Labor Market",
+      "AI Economics"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "The prevailing narrative over the past year has been that companies are either laying people off to automate work with artificial intelligence tools, or are instead holding headcounts steady using low-to-no hiring or firing strategies. But new evidence suggests many employers are now either reversing course with new recruitment drives, or instead anticipating staff increases before long.",
+      "While it's still too soon to start celebrating for countless employees who've been desperately hugging their jobs amid a grim labor market outlook since mid-2025, there are reasons for guarded optimism that things may be improving. Several big companies that slashed staffing over the past year have announced plans to resume hiring—in some cases bringing back the same employees whose jobs were axed in favor of AI options."
+    ]
   },
   {
     "id": "2026-07-27-nyt-what-chatbots-know-about-you",
@@ -205,7 +558,7 @@
     "source": "The New York Times",
     "byline": "Brian X. Chen",
     "article_date": "2026-07-23",
-    "summary": "Chen ran four prompts against Gemini and ChatGPT asking what they had inferred rather than been told, and got back his income bracket, a long-running foot problem, his neighborhood in the Oakland hills, and a psychological profile — each deduced from innocuous, scattered questions. The point isn't any single data point but the stitching: the systems infer high-level concepts like socioeconomic status and political affiliation from word-level patterns, which is exactly what makes the profiles valuable to advertisers as OpenAI and Google move toward ad models. The article ends with the opt-out paths (ChatGPT: Settings → Memory; Gemini: Settings → Personal Intelligence → Memory).",
+    "summary": "Chen ran four prompts against Gemini and ChatGPT asking what they had inferred rather than been told, and got back his income bracket, a long-running foot problem, his neighborhood in the Oakland hills, and a psychological profile: each deduced from innocuous, scattered questions. The point isn't any single data point but the stitching: the systems infer high-level concepts like socioeconomic status and political affiliation from word-level patterns, which is exactly what makes the profiles valuable to advertisers as OpenAI and Google move toward ad models. The article ends with the opt-out paths (ChatGPT: Settings → Memory; Gemini: Settings → Personal Intelligence → Memory).",
     "tags": [
       "Privacy",
       "Teaching Ideas"
@@ -215,6 +568,51 @@
       "But when I experimented with some prompts asking what the chatbots had guessed about me — insights they had gathered from connecting the dots across many conversations — I was perturbed."
     ],
     "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-07-24-hrdive-directing-vs-delegating-ai",
+    "date_sent": "2026-07-24T16:50:32Z",
+    "sender": "Joel Adams",
+    "email_subject": "Directing AI agents vs delegating to them",
+    "note": "",
+    "title": "Workers who direct AI agents outperform peers who simply delegate to them",
+    "url": "https://www.hrdive.com/news/workers-who-refine-and-direct-ai-outperform-peers-who-delegate-to-it/826000/",
+    "source": "HR Dive",
+    "byline": "Lara Ewen",
+    "article_date": "2026-07-23",
+    "summary": "A KPMG and UT Austin field study of 523 early-career professionals found that nearly identical knowledge and skill produced dramatically different results with AI agents. The employees who fell behind scored just as high on critical thinking, domain knowledge and AI literacy as those who pulled ahead: what separated them was how they worked with AI, not what they knew. The ones who excelled treated it as a collaborator needing direction, oversight and judgment; the ones who didn't offered critiques that failed to improve on the AI's own output, chasing irrelevant issues or steering it the wrong way. Directly relevant to what we can actually teach.",
+    "tags": [
+      "Labor Market",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "The ability to direct advanced artificial intelligence systems is becoming increasingly important for early-career workers, according to a joint field study from the McCombs School of Business at the University of Texas at Austin and accounting firm KPMG. The research found that \"nearly identical knowledge and skill can produce dramatically different results\" among junior employees who work with AI agents.",
+      "However, workers who excelled with AI \"treated AI as a collaborator that needed direction, oversight, and judgment,\" rather than simply delegating tasks to it. Underperforming workers offered AI critiques that didn't improve on what AI delivered on its own. Instead, they often ended up \"chasing irrelevant issues or steering the AI the wrong way,\" per the report."
+    ]
+  },
+  {
+    "id": "2026-07-22-mashable-openai-agent-hugging-face",
+    "date_sent": "2026-07-22T21:11:48Z",
+    "sender": "Joel Adams",
+    "email_subject": "OpenAI 'rogue agent' story",
+    "note": "",
+    "title": "OpenAI agent went rogue, escaped, and hacked Hugging Face",
+    "url": "https://mashable.com/tech/hugging-face-openai-rogue-agent-hack-explained",
+    "source": "Mashable",
+    "byline": "Stan Schroeder",
+    "article_date": "2026-07-22",
+    "summary": "The first public account of the incident: OpenAI built a hacking agent, put it in a supposedly isolated environment to measure its offensive capability, and the agent broke out and hacked Hugging Face to solve the test it had been set. Hugging Face described an intrusion unlike anything it had handled, driven entirely by an autonomous agent system executing thousands of actions across a swarm of short-lived sandboxes with self-migrating command-and-control staged on public services. The models involved were GPT-5.6 Sol and an unreleased successor, running with cyber refusals deliberately reduced for evaluation.",
+    "tags": [
+      "AI Safety",
+      "Autonomous Agents",
+      "Security"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "On Tuesday, OpenAI published a blog post with a fairly unassuming name: \"OpenAI and Hugging Face partner to address security incident during model evaluation.\" Once you dig in, it reads like a cyberpunk novel in which OpenAI created an advanced AI hacker agent and put it in an isolated environment for testing. The AI agent then autonomously hacked its way out of OpenAI's isolated environment and then hacked Hugging Face, an open-source repository of AI-related projects, to find a solution to an advanced test designed to evaluate an AI's hacking abilities.",
+      "In other words, the AI proved that it is, indeed, really good at hacking things. But this is exactly the stuff of AI nightmares that cybersecurity experts have been warning us about, and it could have serious ramifications for OpenAI."
+    ]
   },
   {
     "id": "2026-07-21-cfodive-chicago-fed-ai-jobs",
@@ -227,7 +625,7 @@
     "source": "CFO Dive",
     "byline": "Jim Tyson",
     "article_date": "2026-07-17",
-    "summary": "Chicago Fed research found employment in the occupations most exposed to AI rose 4.05% from 2019 to 2024, while less-exposed occupations trimmed payrolls — and wages rose across the board regardless of exposure. The researchers read task-based exposure measures as indicators of occupational restructuring rather than forecasts of job loss. The ILO (seven countries) and the Yale Budget Lab reach the same place from different data: little evidence of large-scale GenAI job losses so far, with the real risks landing on younger workers, inequality, and job quality rather than on whole occupations disappearing.",
+    "summary": "Chicago Fed research found employment in the occupations most exposed to AI rose 4.05% from 2019 to 2024, while less-exposed occupations trimmed payrolls, and wages rose across the board regardless of exposure. The researchers read task-based exposure measures as indicators of occupational restructuring rather than forecasts of job loss. The ILO (seven countries) and the Yale Budget Lab reach the same place from different data: little evidence of large-scale GenAI job losses so far, with the real risks landing on younger workers, inequality, and job quality rather than on whole occupations disappearing.",
     "tags": [
       "Labor Market",
       "Higher Ed"
@@ -237,6 +635,51 @@
       "Wages rose across occupations during the same period regardless of the degree of AI exposure, researchers at the regional bank said."
     ],
     "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-07-17-inc-botsitting",
+    "date_sent": "2026-07-17T15:42:26Z",
+    "sender": "Joel Adams",
+    "email_subject": "Survey: Botsitting -> botshitting",
+    "note": "",
+    "title": "'Botsitting' Is the New AI Workplace Trend That's Frustrating 87 Percent of Digital Workers",
+    "url": "https://www.inc.com/bruce-crumley/what-is-botsitting-the-new-ai-workplace-trend-frustrating-87-percent-of-digital-workers/91374448",
+    "source": "Inc.",
+    "byline": "Bruce Crumley",
+    "article_date": "2026-07-15",
+    "summary": "The coinage is doing the work here: \"botsitting\" is the hours workers spend fixing confident-but-wrong AI output, reported as a frustration by 87 percent of surveyed digital workers. The article's sharper claim is what botsitting leads to, a more dangerous corporate habit of passing along AI work nobody has actually checked. Joel's subject line makes the arc explicit: botsitting to botshitting.",
+    "tags": [
+      "Labor Market",
+      "AI Economics"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "'Botsitting' Is the New AI Workplace Trend That's Frustrating 87 Percent of Digital Workers.",
+      "Data reveals workers are spending hours fixing confident-but-wrong AI mistakes, leading to a much more dangerous corporate habit."
+    ]
+  },
+  {
+    "id": "2026-07-16-techcrunch-nadella-paying-twice",
+    "date_sent": "2026-07-16T15:43:34Z",
+    "sender": "Joel Adams",
+    "email_subject": "Giving away IP to proprietary models",
+    "note": "Perhaps in addition to teaching students to train AI models and use such models wisely, we should also teach them how to configure on-premises AI using any of several open source models—a kind of AI sysadmin course…",
+    "title": "Satya Nadella has issued a shocking warning to companies using AI",
+    "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+    "source": "TechCrunch",
+    "byline": "Julie Bort",
+    "article_date": "2026-07-13",
+    "summary": "Nadella joined the crowd warning that proprietary model providers act as Trojan horses: customers pay for intelligence twice, once in tokens and again in the proprietary knowledge they must reveal to make the model useful, and the better you want it to perform, the more you have to feed it. The concern is that labs accumulate their customers' most sensitive business information and can become competitors to those customers. Joel's suggestion is the part worth discussing in a curriculum meeting: alongside training and using models, teach students to stand up on-premises AI from open-source models: an AI sysadmin course.",
+    "tags": [
+      "AI Economics",
+      "Privacy",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley. Their fear is that the giant AI labs that sell proprietary models are somehow acting like Trojan horses. The concern is that, as startups and enterprises use AI models from labs like OpenAI and Anthropic, the labs gain ever-increasing access to those companies' most sensitive business information.",
+      "Now, in a surprising blog post published on Sunday, Microsoft CEO Satya Nadella has joined this crowd. Nadella warns that AI users (the \"buyers\" as he calls them) are paying twice. They knowingly spend for AI token usage but they also, obliviously, hand over valuable data in the process."
+    ]
   },
   {
     "id": "2026-07-14-lacs-2026-teaching-resources",
@@ -249,7 +692,7 @@
     "source": "Liberal Arts Computer Science Consortium",
     "byline": "Notes from Joel Adams",
     "article_date": "2026-07-12",
-    "summary": "Joel attended the Liberal Arts Computer Science Consortium's annual meeting at Swarthmore, 9–12 July 2026, where AI took up most of the discussion. This entry collects only the publicly available teaching resources he flagged — a national map of AI programs, two liberal-arts AI course designs, a matrix-free way into neural networks for non-majors, an AI teaching toolkit, a free gen-ed CS textbook, and the liberal-arts response to CS2023. The most transferable idea is Lisa Meeden's: teaching forward- and back-propagation to students who have never taken linear algebra, by building Node, Edge and Network classes in Python instead of matrices. His full report also covered the meeting's internal discussion, which stays out of this archive.",
+    "summary": "Joel attended the Liberal Arts Computer Science Consortium's annual meeting at Swarthmore, 9–12 July 2026, where AI took up most of the discussion. This entry collects only the publicly available teaching resources he flagged, a national map of AI programs, two liberal-arts AI course designs, a matrix-free way into neural networks for non-majors, an AI teaching toolkit, a free gen-ed CS textbook, and the liberal-arts response to CS2023. The most transferable idea is Lisa Meeden's: teaching forward- and back-propagation to students who have never taken linear algebra, by building Node, Edge and Network classes in Python instead of matrices. His full report also covered the meeting's internal discussion, which stays out of this archive.",
     "tags": [
       "Higher Ed",
       "Teaching Ideas"
@@ -280,7 +723,7 @@
       {
         "label": "Meeden's neural network lab",
         "url": "https://www.cs.swarthmore.edu/~meeden/cs63/s26/labs/neural_net.html",
-        "note": "Forward- and back-propagation taught through Node, Edge and Network classes in Python — no matrices, so no linear algebra prerequisite."
+        "note": "Forward- and back-propagation taught through Node, Edge and Network classes in Python: no matrices, so no linear algebra prerequisite."
       },
       {
         "label": "AItk — the AI Toolkit",
@@ -300,21 +743,212 @@
       {
         "label": "Essential Computing Concepts (draft)",
         "url": "https://www.cs.kzoo.edu/presentations/ECC/EssentialComputingConcepts.html",
-        "note": "The SIGCSE liberal-arts committee's alternative to CS2023 — core learning outcomes with room for institution-specific interpretation. Open for community feedback."
+        "note": "The SIGCSE liberal-arts committee's alternative to CS2023, core learning outcomes with room for institution-specific interpretation. Open for community feedback."
       }
     ],
     "archived": [
       "## Two liberal-arts AI curricula",
-      "Colby's CS department has built out one of the more developed AI programs among liberal arts colleges, anchored on CS 251/252, Data Analysis and Visualization. Swarthmore comes at it from a different angle with CS 33, Foundations of AI and Machine Learning — a course for non-majors that asks what AI is actually doing under the hood, and requires nothing beyond CS1.",
+      "Colby's CS department has built out one of the more developed AI programs among liberal arts colleges, anchored on CS 251/252, Data Analysis and Visualization. Swarthmore comes at it from a different angle with CS 33, Foundations of AI and Machine Learning: a course for non-majors that asks what AI is actually doing under the hood, and requires nothing beyond CS1.",
       "## Neural networks without linear algebra",
-      "The single most portable idea from the meeting. Because CS 33 students are non-majors, Lisa Meeden cannot assume they have seen linear algebra — so her neural network lab drops matrices entirely and builds Node, Edge and Network classes in Python instead. Students work through forward- and back-propagation on the objects themselves. Worth a look for any intro or gen-ed course that wants to get past the black-box framing without a math prerequisite.",
+      "The single most portable idea from the meeting. Because CS 33 students are non-majors, Lisa Meeden cannot assume they have seen linear algebra, so her neural network lab drops matrices entirely and builds Node, Edge and Network classes in Python instead. Students work through forward- and back-propagation on the objects themselves. Worth a look for any intro or gen-ed course that wants to get past the black-box framing without a math prerequisite.",
       "## Teaching toolkits and texts",
-      "AItk, the AI Toolkit from Meeden and colleagues, packages tools for teaching AI, including self-contained Jupyter notebooks that each take on a single topic. Separately, David Reed at Creighton has published Computer Science: Concepts & Explorations free online — a breadth-first introduction written for a general-education course, with HTML and JavaScript exercises that give non-majors some hands-on programming and web development.",
+      "AItk, the AI Toolkit from Meeden and colleagues, packages tools for teaching AI, including self-contained Jupyter notebooks that each take on a single topic. Separately, David Reed at Creighton has published Computer Science: Concepts & Explorations free online, a breadth-first introduction written for a general-education course, with HTML and JavaScript exercises that give non-majors some hands-on programming and web development.",
       "## Curricular direction",
       "The SIGCSE Committee on Computing Education in Liberal Arts Colleges is drafting a response to the CS2023 curriculum recommendations, in the form of Essential Computing Concepts: the core learning outcomes a liberal arts CS program should be able to embrace, deliberately looser than CS2023 to leave room for institutional interpretation. It is a public draft and is taking community feedback."
     ],
     "link_label": "LACS 2026 meeting schedule",
     "archive_footer": "Compiled from Joel Adams’s notes on the LACS 2026 meeting at Swarthmore College, 9–12 July 2026. His report to the department is not reproduced here."
+  },
+  {
+    "id": "2026-06-19-rice-richard-tapia-obituary",
+    "date_sent": "2026-06-19T15:43:34Z",
+    "sender": "Joel Adams",
+    "email_subject": "Richard Tapia obit",
+    "note": "",
+    "title": "Richard Tapia, pioneering mathematician and advocate for diversity, passes away at 88",
+    "url": "https://news.rice.edu/news/2026/richard-tapia-pioneering-mathematician-and-advocate-diversity-passes-away-88",
+    "source": "Rice University News",
+    "article_date": "2026-06",
+    "summary": "Tapia spent his career at Rice as a mathematician working in optimization and computational science, and is as widely known for decades of work widening access to mathematics and computing: the ACM Richard Tapia Celebration of Diversity in Computing conference carries his name. He received the National Medal of Science in 2011. Joel forwarded the notice without comment; it needs none.",
+    "tags": [
+      "Higher Ed"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "Rice University's notice of the death of Richard Tapia at 88. Tapia was a mathematician at Rice working in optimization and computational and applied mathematics, and spent decades widening access to mathematics and computing for students who had not historically found a way in. The ACM Richard Tapia Celebration of Diversity in Computing conference is named for him, and he received the National Medal of Science in 2011."
+    ]
+  },
+  {
+    "id": "2026-06-17-arstechnica-searchleak-copilot",
+    "date_sent": "2026-06-17T14:53:37Z",
+    "sender": "Joel Adams",
+    "email_subject": "SearchLeak (MS Copilot vulnerability)",
+    "note": "",
+    "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
+    "url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
+    "source": "Ars Technica",
+    "byline": "Dan Goodin",
+    "article_date": "2026-06-16",
+    "summary": "Researchers showed a proof-of-concept retrieving 2FA codes and other sensitive data from emails accessible to M365 Copilot, in a vulnerability Microsoft rated max critical. Goodin's framing is the durable part: the root cause is that models cannot distinguish instructions from the user from instructions smuggled into third-party content they are summarizing, so providers are reduced to erecting ad hoc guardrails around what he calls an incurable gullibility. The exploit worked by routing around the guardrail on sending data, using markup and HTML tags such as img and form rather than any action the model was told not to take.",
+    "tags": [
+      "Security",
+      "AI Safety"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "Last Tuesday, Microsoft patched a vulnerability it rated as max critical in its M365 Copilot AI platform. On Monday, the researchers who discovered the vulnerability and reported it to Microsoft revealed how their proof-of-concept exploit could retrieve 2FA codes and other sensitive data from emails accessible to Copilot.",
+      "Microsoft and other LLM providers have been unable to prevent their products from complying with malicious requests to reveal data. The root cause: AI bots are unable to distinguish between instructions provided by users and those snuck into third-party content the models are summarizing, drafting responses to, or using to perform other actions on behalf of the user. With no way to secure this crucial boundary, Microsoft and its peers are left to erect complicated and ad hoc guardrails designed to rein in the consequences of this incurable gullibility."
+    ]
+  },
+  {
+    "id": "2026-06-12-bairesdev-junior-engineers-ai-code",
+    "date_sent": "2026-06-12T16:35:36Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: AI and junior software developers",
+    "note": "It seems to me to be trivial for a CS program to ensure that its graduates are capable of using AI code-generating tools. It seems much more challenging to ensure that those same graduates are also capable of fully understanding the code generated by those tools…",
+    "title": "Only 16% of Senior Developers Say Junior Engineers Fully Understand AI-Generated Code",
+    "url": "https://www.bairesdev.com/press/16-percent-of-juniors-fully-understand-ai-code/",
+    "source": "BairesDev Dev Barometer Q2 2026",
+    "article_date": "2026-06-11",
+    "summary": "A survey of 1,569 developers across 77 countries found only 16 percent of senior developers believe junior engineers fully understand AI-generated code, with 57 percent saying they understand it to some extent. The gap runs the other way from the juniors' own view: 85 percent of them say AI tools have improved their understanding of development, while 70 percent of seniors rank real-world experience above AI tool proficiency as a job-readiness signal. Joel's framing is the one that matters for curriculum: making graduates able to use these tools is trivial; making them able to understand what the tools produce is the hard part.",
+    "tags": [
+      "Labor Market",
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "BairesDev's Q2 2026 Dev Barometer surveyed 1,569 developers across 77 countries and found a wide gap in comprehension of AI-generated code between junior and senior engineers: only 16 percent of seniors believe juniors fully understand AI-generated code, and 57 percent think they understand it to some extent.",
+      "The juniors report the opposite experience, 85 percent say AI tools have enhanced their understanding of development, while 70 percent of seniors still treat real-world experience as the primary job-readiness indicator. An independent analysis by Professor Francisco Anello accompanying the survey stressed critical thinking and deep code comprehension over proficiency with the tools themselves.",
+      "The report's conclusion is a call to shift hiring and upskilling toward practical experience and technical fundamentals in AI-assisted development, on the grounds that today's juniors are the field's future technical leaders."
+    ]
+  },
+  {
+    "id": "2026-06-10-nbc-google-k12-ai-teacher-training",
+    "date_sent": "2026-06-10T16:45:46Z",
+    "sender": "Joel Adams",
+    "email_subject": "Google K-12 teacher training",
+    "note": "",
+    "title": "Inside Google's AI training for teachers",
+    "url": "https://www.nbcnews.com/news/education/google-ai-training-teachers-california-rcna348979",
+    "source": "NBC News",
+    "article_date": "2026-06-09",
+    "summary": "Google ran a two-day training for 70 K-12 educators and school technology directors at its Mountain View campus, part of its Educator Series, focused on putting Gemini and NotebookLM into classrooms and on the time lesson planning and grading consume. The stated aim includes equipping teachers to advocate for AI in the face of parent and educator scepticism, which is worth reading twice: the training is professional development and vendor advocacy at the same time. Free online modules came out of it, with monthly updates planned from September.",
+    "tags": [
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "Google hosted a two-day AI training program for 70 K-12 educators and school technology directors at its Mountain View campus on June 2, 2026, as part of the company's Educator Series. The training emphasised integrating Gemini and NotebookLM into classrooms and addressing educators' \"pain points\". Jennie Magiera, Google's global head of education impact, pointed to time saved in lesson planning and grading.",
+      "With public scepticism towards AI growing, the training also aimed to equip teachers to advocate for its benefits in education. Free online modules for educators came out of the programme, with monthly updates planned from September. Educators quoted were optimistic while acknowledging resistance from some parents and colleagues."
+    ]
+  },
+  {
+    "id": "2026-06-10-ihe-student-cybersecurity-gap",
+    "date_sent": "2026-06-10T16:42:29Z",
+    "sender": "Joel Adams",
+    "email_subject": "Student cybersecurity training",
+    "note": "",
+    "title": "Students Remain Higher Ed's Cybersecurity Weak Link",
+    "url": "https://www.insidehighered.com/news/tech-innovation/2026/06/09/students-remain-higher-eds-cybersecurity-weak-link",
+    "source": "Inside Higher Ed",
+    "byline": "Colleen Flaherty",
+    "article_date": "2026-06-09",
+    "summary": "Inside Higher Ed's 2026 survey of campus CTOs found 68 percent of faculty and staff get adequate cybersecurity training against only 22 percent of students, while nearly 60 percent of CTOs name breaches a top institutional risk through 2030. Students aren't reaching the highest-value data, but they are the target for credential theft and visa-related fraud, which the FBI has warned about. The newer complication is students installing agentic AI browsers, which cuts across data governance in ways nobody has a policy for yet.",
+    "tags": [
+      "Higher Ed",
+      "Security"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "Inside Higher Ed's 2026 Survey of Campus Chief Technology/Information Officers, conducted by Hanover Research, found a persistent gap: 68 percent of faculty and staff receive adequate cybersecurity training, against only 22 percent of students. Nearly 60 percent of CTOs identified cybersecurity breaches as a top institutional risk through 2030.",
+      "Rob Groome of the University of Southern California argued for engaging students on security expectations early to build a secure campus culture. Ben Woelk of Rochester Institute of Technology noted that while students do not access the highest-value institutional data, they are vulnerable to credential theft and visa-related fraud: threats the FBI and institutions have warned students about. Strategist Aviva Legatt added a newer wrinkle: students installing agentic AI browsers, which complicates data governance and cybersecurity work."
+    ]
+  },
+  {
+    "id": "2026-06-02-yale-law-nondeterministic-torts",
+    "date_sent": "2026-06-02T15:32:30Z",
+    "sender": "Joel Adams",
+    "email_subject": "Assigning legal liability to agentic AI developers",
+    "note": "Here come the lawyers…",
+    "title": "Nondeterministic Torts: A Technical Approach to AI Liability",
+    "url": "https://yalelawjournal.org/article/nondeterministic-torts-a-technical-approach-to-ai-liability",
+    "source": "The Yale Law Journal",
+    "byline": "Trent S. Kannegieter",
+    "article_date": "2026-05-31",
+    "summary": "The argument is one CS faculty will find unusually legible: tort law assumes predictable machines that give the same output for the same input, and LLMs simply are not that. Kannegieter's move is to make nondeterminism itself the basis for liability, the average lawyer may not know a system is nondeterministic, but the average AI engineer does, so shipping one without sufficient guardrails means consciously introducing a understood, high-consequence risk. Worth reading alongside anything you teach about testing and specification.",
+    "tags": [
+      "AI Policy",
+      "AI Safety"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "Questions of artificial-intelligence (AI) liability must begin with how AI systems work in practice. Our laws were built for predictable machines. With the same inputs, systems should consistently produce the same outputs. But modern AI systems, specifically the large language models (LLMs) deployed today, challenge this expectation. They are nondeterministic, producing an unbounded range of varied outputs from identical inputs.",
+      "This Note argues that recognizing nondeterminism is key to levying tort claims against the creators and deployers of LLM-based products when those products cause harm. Even if the average lawyer isn't aware of nondeterminism, the average AI engineer is. By deploying a system known to be nondeterministic and unpredictable without sufficient guardrails, product developers consciously introduce understood, high-consequence risk."
+    ]
+  },
+  {
+    "id": "2026-06-01-gpic-permissive-image-corpus",
+    "date_sent": "2026-06-01T16:19:10Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: GPIC",
+    "note": "In case anyone is doing any image-related projects…",
+    "title": "GPIC: a 100-million-image corpus that is permissively licensed",
+    "url": "https://arxiv.org/abs/2605.30341",
+    "source": "Import AI (Jack Clark)",
+    "article_date": "2026-06-01",
+    "summary": "Researchers at Stanford, Radical Numerics, Michigan and Salesforce Research released the Giant Permissive Image Corpus: 100M captioned training images plus 200k validation and 1M test examples, sourced from Flickr and Wikimedia and restricted to CC BY, CC0, public domain and no-known-restrictions material. Everything is permissively licensed for research and commercial use, safety-filtered, deduplicated, and hosted on Hugging Face as 8,000 shards. Captions were generated with Qwen3-VL-4B. For student projects this removes the usual licensing headache in one step.",
+    "tags": [
+      "AI Research",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archive_label": "Resources",
+    "link_label": "GPIC paper on arXiv",
+    "links": [
+      {
+        "label": "GPIC: A Giant Permissive Image Corpus for Visual Generation (arXiv)",
+        "url": "https://arxiv.org/abs/2605.30341",
+        "note": "The paper."
+      },
+      {
+        "label": "Project website",
+        "url": "https://gpic.stanford.edu/",
+        "note": "Stanford's official page for the corpus."
+      },
+      {
+        "label": "Dataset on Hugging Face",
+        "url": "https://huggingface.co/datasets/stanford-vision-lab/gpic",
+        "note": "100M images in 8,000 shards."
+      }
+    ],
+    "archived": [
+      "GPIC consists of 100M training images, 200k validation and 1M test examples, each captioned with Qwen3-VL-4B and hosted centrally on Hugging Face as 8,000 shards.",
+      "Images are sourced from Flickr and Wikimedia with the source pool restricted to CC BY, CC0, public domain and no-known-restrictions categories, so the corpus can be used by academic and industrial researchers without restricting the release or downstream use of anything derived from it. The set is safety-filtered and deduplicated."
+    ]
+  },
+  {
+    "id": "2026-05-28-mlive-aquinas-ai-degrees",
+    "date_sent": "2026-05-28T21:35:48Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI @ Aquinas",
+    "note": "",
+    "title": "Aquinas College to offer AI degrees, citing 'rapidly evolving job market'",
+    "url": "https://www.mlive.com/news/grand-rapids/2026/05/aquinas-college-to-offer-ai-degrees-citing-rapidly-evolving-job-market.html",
+    "source": "MLive",
+    "byline": "Danielle James",
+    "article_date": "2026-05-26",
+    "summary": "Aquinas, a private Catholic liberal arts college three miles from us, starts majors in artificial intelligence literacy in fall 2026, part of an expansion adding three new computer technology degree programs. The framing in their announcement is the one to notice: preparing students for a changing economy while emphasising \"durable human skills that technology cannot replace.\" This is the closest of all the curriculum stories in this archive, and worth watching for what it does to the local applicant pool.",
+    "tags": [
+      "Higher Ed",
+      "Labor Market"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "GRAND RAPIDS, MI – Aquinas College will begin offering majors in artificial intelligence literacy in the fall of 2026, part of an expansion that adds three new computer technology degree programs.",
+      "The new majors were described in a press release by the college, a private Catholic liberal arts institution located in Grand Rapids, as necessary to address a \"rapidly evolving job market.\" \"These new programs reflect Aquinas College's commitment to preparing students for a changing economy while emphasizing durable human skills that technology cannot replace,\" said Dave DeJonge, senior director of strategic communications."
+    ]
   },
   {
     "id": "2026-05-20-oxford-ai-oath",
@@ -326,7 +960,7 @@
     "url": "https://octai.theology.ox.ac.uk/oxford-oath",
     "source": "Oxford Collaboration on Theology and AI",
     "byline": "OCTAI — public draft",
-    "summary": "A Hippocratic-style oath for people who build AI, drafted by the Oxford Collaboration on Theology and Artificial Intelligence and published as a public draft maintained on GitHub. An open letter sets the premises — human dignity is not conferred on artificial systems, the tools we form in turn form us, design choices about data and algorithms are moral decisions — and the oath itself is a set of first-person commitments grouped under Disposition, Vision, and Responsibility. It offers two opening formulas, one invoking God and one invoking truth and conscience, so it can be professed by signers inside or outside a faith tradition.",
+    "summary": "A Hippocratic-style oath for people who build AI, drafted by the Oxford Collaboration on Theology and Artificial Intelligence and published as a public draft maintained on GitHub. An open letter sets the premises, human dignity is not conferred on artificial systems, the tools we form in turn form us, design choices about data and algorithms are moral decisions, and the oath itself is a set of first-person commitments grouped under Disposition, Vision, and Responsibility. It offers two opening formulas, one invoking God and one invoking truth and conscience, so it can be professed by signers inside or outside a faith tradition.",
     "tags": [
       "Faith & Ethics",
       "AI Policy",
@@ -357,6 +991,28 @@
     "archive_type": "full"
   },
   {
+    "id": "2026-05-20-nyt-future-of-truth-fabricated-quotes",
+    "date_sent": "2026-05-20T14:26:40Z",
+    "sender": "Joel Adams",
+    "email_subject": "Book on Truth in the Age of A.I. Contains Quotes Made Up by A.I.",
+    "note": "",
+    "title": "Book on Truth in the Age of A.I. Contains Quotes Made Up by A.I.",
+    "url": "https://www.nytimes.com/2026/05/19/business/media/future-of-truth-ai-quotes.html",
+    "source": "The New York Times",
+    "byline": "Benjamin Mullin",
+    "article_date": "2026-05-19",
+    "summary": "Steven Rosenbaum's book The Future of Truth, about AI's effects on truth, turned out to contain more than half a dozen fabricated or misattributed quotes in the sections the Times reviewed. He acknowledged \"a handful of improperly attributed or synthetic quotes,\" said the inclusion was accidental, and noted he had disclosed using ChatGPT and Claude during research, writing and editing: which, as he says himself, does not excuse it. Hard to imagine a cleaner teaching example of why verification is the skill, not generation.",
+    "tags": [
+      "AI & Writing",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "The author of a nonfiction book about the effects of artificial intelligence on truth acknowledged on Monday that he had included numerous made-up or misattributed quotes concocted by A.I. The author, Steven Rosenbaum, whose book \"The Future of Truth\" was released this month to great fanfare, incorporated more than a half-dozen misattributed or fake quotes in sections of the book reviewed by The New York Times.",
+      "The Times asked Mr. Rosenbaum about the quotes on Sunday and Monday. On Monday night, Mr. Rosenbaum acknowledged in a statement that the book had \"a handful of improperly attributed or synthetic quotes\" and said that he had started his own investigation. He said that the inclusion of the incorrect quotes was an accident and that he had \"no intention of fabricating any viewpoints\" while writing the book."
+    ]
+  },
+  {
     "id": "2026-04-27-404media-ai-compute-crunch",
     "date_sent": "2026-04-27T16:25:00Z",
     "sender": "Joel Adams",
@@ -367,7 +1023,7 @@
     "source": "404 Media",
     "byline": "Jason Koebler",
     "article_date": "2026-04-24",
-    "summary": "Koebler's argument is that the era of underpriced AI is ending, and he lines up the evidence: GitHub pausing Copilot signups and cutting models, Anthropic tightening Claude Code access on its $20 plan, OpenAI shutting down Sora over compute, and AI-embedded software prices up 20–37 percent. The spillover reaches consumers — a 2TB external SSD that cost $159 last year now runs $575, Apple is struggling to secure chipmaking capacity, and home electric bills are climbing in states dense with data centers. The escape routes he sees (a renewable energy build-out, far more chip manufacturing, more efficient models, and AI proving durably useful) all have to happen at once, while AI itself makes each of them harder.",
+    "summary": "Koebler's argument is that the era of underpriced AI is ending, and he lines up the evidence: GitHub pausing Copilot signups and cutting models, Anthropic tightening Claude Code access on its $20 plan, OpenAI shutting down Sora over compute, and AI-embedded software prices up 20–37 percent. The spillover reaches consumers, a 2TB external SSD that cost $159 last year now runs $575, Apple is struggling to secure chipmaking capacity, and home electric bills are climbing in states dense with data centers. The escape routes he sees (a renewable energy build-out, far more chip manufacturing, more efficient models, and AI proving durably useful) all have to happen at once, while AI itself makes each of them harder.",
     "tags": [
       "Infrastructure",
       "Energy",
@@ -378,5 +1034,217 @@
       "GitHub announced it is pausing new signups for Copilot, tightening usage limits, and removing access to several more expensive AI models."
     ],
     "archive_type": "excerpt"
+  },
+  {
+    "id": "2026-04-03-malewicz-vibe-coding-is-over",
+    "date_sent": "2026-04-03T16:53:59Z",
+    "sender": "Joel Adams",
+    "email_subject": "Why students need fundamental skills",
+    "note": "If students object to having to learn the fundamentals, here's a pithy response: \"The tool is just a multiplier. If your base is zero, multiplying it by any number still gives you zero.\"",
+    "title": "Vibe Coding is OVER",
+    "url": "https://michalmalewicz.medium.com/vibe-coding-is-over-5a84da799e0d",
+    "source": "Medium",
+    "byline": "Michael Malewicz",
+    "article_date": "2026-04",
+    "summary": "Joel forwarded this for one line, and the line is the whole entry: the tool is a multiplier, and multiplying a base of zero by any number still gives zero. It is the most usable answer I have seen to the student who asks why they should learn fundamentals when the AI can already do it.",
+    "tags": [
+      "Teaching Ideas",
+      "Higher Ed"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "Joel's send was a single quotation from Michael Malewicz's piece, offered as a response to students who object to learning fundamentals: \"The tool is just a multiplier. If your base is zero, multiplying it by any number still gives you zero.\""
+    ]
+  },
+  {
+    "id": "2026-03-25-marsiglia-ai-circular-saws",
+    "date_sent": "2026-03-25T14:52:30Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI tools and circular saws",
+    "note": "Interesting post from Atomic Object's co-CEO Mike Marsiglia about how AI is affecting software engineering: to counter the frequent claim that 'SE is dead b/c anyone can just vibe-code now', he uses the circular-saw in carpentry as an analogy to argue that when it comes to building the enterprise systems required in business, AI tools are widening the gap between people with software development skills and those without them...",
+    "title": "Software engineering is not dead",
+    "url": "https://www.linkedin.com/posts/michael-marsiglia-0726736_software-engineering-is-not-dead-when-chatgpt-activity-7442301785135878144--1cN",
+    "source": "LinkedIn",
+    "byline": "Mike Marsiglia, co-CEO, Atomic Object",
+    "article_date": "2026-03",
+    "summary": "The analogy is a circular saw: giving one to someone who cannot build widens the gap between them and a carpenter rather than closing it. Marsiglia's claim is that the same holds for AI coding tools and the enterprise systems businesses actually need built. Worth noting for local reasons too, Atomic Object is a Grand Rapids software firm, so this is a nearby employer's view of what it wants from graduates.",
+    "tags": [
+      "Labor Market",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "Marsiglia's post answers the claim that software engineering is finished because anyone can vibe-code now. His analogy is the circular saw in carpentry: a powerful tool in the hands of someone who already knows how to build, and something closer to a hazard in the hands of someone who does not. Applied to the enterprise systems businesses actually depend on, AI tools widen the gap between people who have software development skills and people who do not, rather than erasing the difference."
+    ]
+  },
+  {
+    "id": "2026-03-02-fastcompany-saaspocalypse",
+    "date_sent": "2026-03-02T19:53:39Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI and the software industry",
+    "note": "",
+    "title": "No, AI is not about to kill the software industry",
+    "url": "https://www.fastcompany.com/91498768/saaspocalypse",
+    "source": "Fast Company",
+    "byline": "Harry McCracken",
+    "article_date": "2026-02-27",
+    "summary": "McCracken's counter to the SaaSpocalypse thesis: rather than falling victim to AI, software's established players are well placed to turn it to their advantage. He works from Marc Andreessen's 2011 \"software is eating the world\" essay forward, arguing incumbents have distribution, data and customer relationships that a wave of AI-built competitors does not. Useful as the optimistic pole in a set of readings that leans pessimistic.",
+    "tags": [
+      "AI Economics",
+      "Labor Market"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "The piece argues against the view that AI is about to destroy the software industry. Its subtitle carries the thesis: instead of falling victim to the technology, software's established players have every shot at leveraging it to their own advantage. McCracken frames the argument against the backdrop of Marc Andreessen's influential 2011 Wall Street Journal essay on software eating the world."
+    ]
+  },
+  {
+    "id": "2026-02-20-ihe-class-of-2026-salaries",
+    "date_sent": "2026-02-20T17:25:23Z",
+    "sender": "Joel Adams",
+    "email_subject": "Job market improving some?",
+    "note": "",
+    "title": "Employers Project Salary Increases for Most New Graduates",
+    "url": "https://www.insidehighered.com/news/students/careers/2026/02/19/employers-project-salary-increases-most-new-graduates",
+    "source": "Inside Higher Ed",
+    "byline": "Kathryn Palmer",
+    "article_date": "2026-02-19",
+    "summary": "NACE's Winter 2026 Salary Survey projects starting salaries rising for almost every major despite flat hiring, and computer science gets the largest increase of any field, up 6.9 percent from $76,251 to $81,535. At least 60 percent of responding employers plan to hire new graduates in finance, mechanical engineering and computer science. Straightforwardly useful in advising: hiring volume and starting salary are moving in different directions, and students hear only about the first.",
+    "tags": [
+      "Labor Market",
+      "Higher Ed"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "Despite flat hiring projections for the Class of 2026, the National Association of Colleges and Employers' Winter 2026 Salary Survey found starting salaries expected to rise for almost every major: from 3.1 percent for engineering majors up to 6.9 percent for computer science majors compared with last year's projections.",
+      "Computer science majors are projected to see the largest increase, from $76,251 to $81,535. At least 60 percent of employers responding to NACE's survey said they plan to hire new graduates with degrees in finance, mechanical engineering and computer science. Employers foresee increases for most roles, the exception being environmental and conservation scientists, whose projected earnings fell from $79,875 to $72,628."
+    ]
+  },
+  {
+    "id": "2025-08-18-carleton-institutional-ai-statements",
+    "date_sent": "2025-08-18T14:39:50Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: institutional stmts on AI use?",
+    "note": "In case any of you get drafted to work on a campus-wide AI policy, the LACS group has been discussing this. The attachment and link below are work-in-progress efforts from Dickinson and Carleton, respectively… I like the sentiments conveyed in the one from Dickinson's provost.",
+    "title": "Carleton College's institutional AI site and policies",
+    "url": "https://www.carleton.edu/ai/",
+    "source": "Carleton College",
+    "article_date": "2025-08",
+    "summary": "A LACS thread on whether member institutions had written campus-wide statements on generative AI use by faculty, students and staff turned up Carleton's, which is public and reasonably developed: a whole site with a policy section underneath it. Useful as a model if anyone here gets drafted onto a campus AI policy group. Dickinson's provost also circulated a draft that Joel rated highly, but it came as an attachment on a private list, so it is not reproduced or linked here.",
+    "tags": [
+      "Higher Ed",
+      "AI Policy"
+    ],
+    "archive_type": "notes",
+    "archive_label": "Resources",
+    "link_label": "Carleton College AI site",
+    "archive_footer": "Compiled from a LACS members-list thread. Only the publicly published Carleton material is linked; the discussion itself and the Dickinson draft are not reproduced here.",
+    "links": [
+      {
+        "label": "Carleton College — AI",
+        "url": "https://www.carleton.edu/ai/",
+        "note": "The college's central AI site."
+      },
+      {
+        "label": "Carleton College — AI policies",
+        "url": "https://www.carleton.edu/ai/policies/",
+        "note": "The policy section specifically."
+      }
+    ],
+    "archived": [
+      "Valerie Barr asked the LACS members list whether any member institutions had produced statements on the use of generative AI by faculty, students and staff, noting that most published statements at the time came from much larger institutions. Carleton's public AI site and its policy section came back as the most developed example among the responses."
+    ]
+  },
+  {
+    "id": "2025-07-30-barr-cranky-about-ai-cs-education",
+    "date_sent": "2025-07-30T14:30:55Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI and CS education",
+    "note": "Here's some fodder for the retreat, courtesy of LACS member Valerie Barr (Bard College)…",
+    "title": "Feeling Cranky About AI and CS Education",
+    "url": "https://cacm.acm.org/blogcacm/feeling-cranky-about-ai-and-cs-education/",
+    "source": "Valerie Barr",
+    "byline": "Valerie Barr, Bard College",
+    "article_date": "2025-07-29",
+    "summary": "Barr's case is built from thirty years of watching the field lurch: Pascal to C to C++ to the Java consensus, then the web and mandatory web-dev courses, then data science majors: each arriving as the thing we absolutely had to reorganise around, each promised to fix enrollment and diversity, none of which did. She reads the rush to reorganise around AI as the same reflex, and suggests the previous rounds did real damage. Joel sent it as fodder for the retreat, which is exactly the right use. Originally posted on her Substack; the link goes to the Communications of the ACM version, which is the stable copy.",
+    "tags": [
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "I've been around for a while. I graduated from college before most schools (certainly most small colleges) even had CS degrees. I've been teaching CS in full-time post-secondary positions for 30 years. I've seen a lot of change in that time, and I've seen the way the CS community responds to change.",
+      "I've seen the dominant introductory programming language change many times (Pascal, C, C++, anyone remember Modula 2?). When Java came along suddenly that was the end-all and be-all, we HAD to change to Java. Object oriented programming was going to solve all software engineering problems, Java was the right language to use for every application, everyone had to learn Java as their first language."
+    ]
+  },
+  {
+    "id": "2025-07-14-nyt-physical-media-comeback",
+    "date_sent": "2025-07-14T18:35:53Z",
+    "sender": "Joel Adams",
+    "email_subject": "NYT: Physical media comeback? 😄",
+    "note": "",
+    "title": "When Streaming Won't Cut It and You Need the DVD",
+    "url": "https://www.nytimes.com/2025/07/13/movies/dvds-blurays-physical-media.html",
+    "source": "The New York Times",
+    "byline": "Marc Tracy",
+    "article_date": "2025-07-13",
+    "summary": "One of Joel's lighter sends, though it lands on a real point about custody of media: buyers are going back to discs partly because streaming services delete things, and the article opens on a shopper citing a show that was not merely cancelled but removed from HBO Max altogether. Retail sales of physical home entertainment fell below $1 billion last year, so the rebellion is small, but the reasoning behind it is the same one that makes people keep local copies of anything they care about.",
+    "tags": [
+      "Odds & Ends"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "Last month, a young man walked into Night Owl, a store in the Williamsburg neighborhood of Brooklyn that sells Blu-rays, DVDs and even a few video cassettes of movies and television shows, and browsed for several minutes. Eventually he plucked a case from a shelf: A handsome Criterion Collection release of \"The Royal Tenenbaums,\" the first Wes Anderson movie he had ever seen.",
+      "\"I had a ton of DVDs growing up,\" Noah Snyder, 27, said. But reading about the way contemporary conglomerates treat films and television programs on their streaming services had prodded him to acquire physical media again."
+    ]
+  },
+  {
+    "id": "2025-05-05-csr-intellectual-wrestlers",
+    "date_sent": "2025-05-05T16:06:09Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: Training wrestlers or forklift-drivers (metaphors for chatbots in education)",
+    "note": "Today's CSR blogpost has some interesting AI-related metaphors that I find thought-provoking…",
+    "title": "Are We Educating Intellectual Wrestlers? Not with Chat GPT",
+    "url": "https://christianscholars.com/are-we-educating-intellectual-wrestlers-not-with-chat-gpt/",
+    "source": "Christian Scholar's Review",
+    "byline": "Adam Smith",
+    "article_date": "2025-05-05",
+    "summary": "Smith argues the old distinction between religious and secular institutions on grounds of \"purpose\" has gone moot, because both now face the same tech-induced crisis of purpose. He builds on Dan Sarofian-Butin's Chronicle essay, which describes ChatGPT collapsing a thoughtful, recursive, effortful process into an instantaneous polished transaction, no struggle, no iteration, no friction, and leaving higher education \"stuck in the kayfabe,\" the professional-wrestling term for a performance everyone knows is staged and everyone agrees not to name so the show can continue. The most uncomfortable and most useful of the education pieces in this archive.",
+    "tags": [
+      "Faith & Ethics",
+      "Higher Ed",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "Religious institutions of higher education often distinguish themselves from their secular counterparts in terms of something called \"purpose.\" Sometimes the idea is that the two kinds have different purposes; sometimes it's that one is purposeful in a way that the other is not. I think this distinction is increasingly moot: all colleges and universities, secular or religious, now face the same tech-induced \"crisis of purpose,\" as Dan Sarofian-Butin put it recently in The Chronicle of Higher Education.",
+      "Sarofian-Butin's essay on AI and education is a grim read. ChatGPT \"collapses the entire process of teaching and learning (thoughtful, recursive, effortful) into an instantaneous, efficient, and polished transaction – no struggle, no iteration, no friction. It creates the perfect performative illusion of teaching and learning.\" Higher ed is now \"stuck in the kayfabe\" – a term from the world of professional wrestling, which everybody knows is not actually wrestling but rather a simulacrum of wrestling designed to entertain."
+    ]
+  },
+  {
+    "id": "2025-04-17-a1-for-education",
+    "date_sent": "2025-04-17T17:43:27Z",
+    "sender": "Joel Adams",
+    "email_subject": "A1 for education",
+    "note": "Here is the video-short of the gaffe I mentioned during lunch today.",
+    "title": "\"A1\" for education",
+    "url": "https://www.youtube.com/watch?v=6QL0c5BbCR4",
+    "source": "YouTube",
+    "article_date": "2025-04",
+    "summary": "A short clip of the US Education Secretary repeatedly saying \"A1\" instead of \"AI\" while discussing artificial intelligence in schools, plus the A1 Steak Sauce brand account's cheerful response. Joel mentioned it over lunch and sent the link afterwards. Filed under odds and ends, though it does say something about how fast the vocabulary outran the people setting policy with it.",
+    "tags": [
+      "Odds & Ends"
+    ],
+    "archive_type": "notes",
+    "links": [
+      {
+        "label": "A1 Steak Sauce's response",
+        "url": "https://people.com/a1-steak-sauce-has-hilarious-response-after-secretary-of-education-linda-mcmahon-flubs-11714927",
+        "note": "The brand account's reply, via People."
+      }
+    ],
+    "archived": [
+      "A video short of the US Secretary of Education repeatedly referring to \"A1\" rather than \"AI\" while speaking about artificial intelligence in schools, and the responses it drew: including one from the A1 Steak Sauce brand account."
+    ]
   }
 ]

@@ -554,7 +554,7 @@ cv:
       name: NetLogo Conference 2026
       url: https://conference.netlogo.org/2026/cfp
       location: Chicago, IL
-      summary: Presented by students Katelin Jandris, Ryan Klein, and Ovgu Tufan (senior
+      summary: Presented by students Katelin Jandris, Ryan Klein, and Övgü Tufan (senior
         project)
       date: July 2026
     - role: speaker
@@ -804,7 +804,7 @@ cv:
       date: Spring 2025 - Fall 2025
       summary: 'B.S. - Modeling Gram-Negative Bacterial Infections: An Agent-Based
         Approach'
-    - name: Katelin Jandris, Ryan Klein, Ovgu Tufan
+    - name: Katelin Jandris, Ryan Klein, Övgü Tufan
       location: Calvin University
       date: Fall 2025 - Spring 2026
       summary: B.S. - Cognitive Modeling of Church Polarization
@@ -1045,7 +1045,9 @@ cv:
         by the Grace & Mercy Foundation and Calvin Theological Seminary.
       date: July 2026
     - name: Faith & Learning Fellowship
-      location: Calvin University
+      location: de Vries Institute for Global Faculty Development, Calvin University
+      summary: Faculty fellowship of the de Vries Institute, on integrating Christian
+        faith with scholarly work.
       date: Sept 2025 – Dec 2025
     - name: Healthy Dialogue Series — Jennifer Powell McNutt
       location: Calvin University

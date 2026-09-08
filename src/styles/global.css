@@ -607,3 +607,68 @@ details[open].semester summary { color: var(--accent); border-bottom-color: var(
   opacity: 1;
   transform: none;
 }
+
+/* --- Story / timeline -------------------------------------- */
+.page-sub { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
+
+.story-bio { max-width: 62ch; margin: 0 0 4rem; }
+.story-bio p { color: var(--text); line-height: 1.75; margin-bottom: 1rem; }
+.story-bio em { color: var(--text-muted); }
+
+.chapter { margin-bottom: 4.5rem; }
+.chapter-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 1.5rem; padding-bottom: .6rem; border-bottom: 1px solid var(--border-mid);
+}
+.chapter-label { font-size: 22px; font-weight: 600; letter-spacing: -.01em; }
+.chapter-place { color: var(--text-muted); font-size: 13px; margin-top: 2px; }
+.chapter-years { color: var(--accent); font-size: 13px; white-space: nowrap; }
+.chapter-dash { opacity: .55; padding: 0 .15em; }
+.chapter-blurb { color: var(--text-muted); font-size: 14px; line-height: 1.7; margin: 1rem 0 0; max-width: 62ch; }
+
+.story-year { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1.5rem; margin-top: 2.25rem; }
+.story-year-num { color: var(--text-dim); font-size: 13px; padding-top: .2rem; }
+.story-year-body { min-width: 0; }
+
+.moment { margin-bottom: 1.75rem; }
+.moment-title { font-size: 16px; font-weight: 600; margin-bottom: .35rem; }
+.moment-body { color: var(--text-muted); font-size: 14px; line-height: 1.7; max-width: 62ch; }
+
+.moment-photos { display: grid; gap: .75rem; margin-top: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.moment-photos[data-count="1"] { grid-template-columns: minmax(0, 520px); }
+/* a lone portrait shot would otherwise run very tall — cap by height, let width follow */
+.moment-photos[data-count="1"] .moment-photo img { aspect-ratio: auto; max-height: 520px; width: auto; max-width: 100%; }
+/* `height: 100%` resolved against the stretched grid cell and pushed the caption
+   out of the figure; a fixed aspect ratio keeps multi-photo rows even instead. */
+.moment-photo { display: block; margin: 0; }
+.moment-photo img {
+  display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 3px;
+  border: 1px solid var(--border); background: var(--bg-card);
+  /* whatever gets cropped, crop from the bottom: faces live in the upper part of
+     the frame. A photo can override this with "focus": "50% 40%" in moments.json. */
+  object-position: 50% 20%;
+}
+/* story.astro reads each JPEG's dimensions at build time; when every photo in a
+   moment is portrait, the tiles are 3:4 so nobody's head is cropped off. */
+.moment-photos[data-shape="portrait"] .moment-photo img { aspect-ratio: 3 / 4; }
+.moment-photo figcaption { color: var(--text-dim); font-size: 12px; margin-top: .4rem; line-height: 1.5; }
+
+.story-auto { list-style: none; border-left: 1px solid var(--border); padding-left: 1rem; }
+.story-auto li { display: flex; gap: .75rem; font-size: 13.5px; line-height: 1.6; margin-bottom: .5rem; color: var(--text-muted); }
+.story-auto a { color: var(--text-muted); text-decoration: none; border-bottom: 1px solid var(--border-mid); }
+.story-auto a:hover { color: var(--accent); }
+.story-kind { color: var(--text-dim); font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; flex: 0 0 5.5rem; padding-top: .25rem; }
+
+@media (max-width: 640px) {
+  .story-year { grid-template-columns: 1fr; gap: .5rem; }
+  .story-year-num { padding-top: 0; }
+  .story-auto li { flex-direction: column; gap: .15rem; }
+  .story-kind { flex: none; }
+}
+
+.moment-link { margin-top: .4rem; }
+.moment-link a {
+  color: var(--accent); font-family: var(--mono); font-size: 12px;
+  text-decoration: none; border-bottom: 1px solid transparent;
+}
+.moment-link a:hover { border-bottom-color: var(--accent); }
