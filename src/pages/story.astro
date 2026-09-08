@@ -1,0 +1,205 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import chapters from '../../data/chapters.json';
+import moments from '../../data/moments.json';
+import publications from '../../data/publications.json';
+import presentations from '../../data/presentations.json';
+import students from '../../data/students.json';
+import grants from '../../data/grants.json';
+import profdev from '../../data/professional_development.json';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+// A "moment" is hand-written and may carry photos. Everything else on this page
+// is derived from the same data/*.json the CV is built from, so the timeline
+// stays current without being maintained twice.
+type AutoItem = { year: number; kind: string; text: string; url?: string };
+
+const yearOf = (v: unknown): number | null => {
+  const m = String(v ?? '').match(/\d{4}/);
+  return m ? Number(m[0]) : null;
+};
+
+const auto: AutoItem[] = [];
+
+for (const p of publications as any[]) {
+  if (!p.visible_web) continue;
+  const y = yearOf(p.year);
+  if (y) auto.push({ year: y, kind: p.type === 'book' ? 'Book' : 'Publication', text: p.title, url: p.url ?? undefined });
+}
+for (const p of presentations as any[]) {
+  if (!p.visible_web) continue;
+  const y = yearOf(p.date);
+  if (y) auto.push({ year: y, kind: 'Presentation', text: `${p.title} — ${p.event}`, url: p.url ?? undefined });
+}
+// Advising appears only when it led somewhere: a paper, a talk, a defended
+// thesis, or funding. `outcomes` in students.json mixes real outcomes with
+// programme labels ("Senior Project", "Iniciação Científica"), so the entry
+// is kept only if one of its outcomes reads like a result. Add a word here
+// if a new kind of outcome should count.
+const OUTCOME = /publish|present|conference|defended|fellowship|grant|funded|award/i;
+for (const s of students as any[]) {
+  if (!s.visible_web) continue;
+  const results = (s.outcomes ?? []).filter((o: string) => OUTCOME.test(o));
+  if (!results.length) continue;
+  const y = yearOf(s.start);
+  if (y) auto.push({ year: y, kind: 'Advising', text: `${s.names.join(', ')} — ${s.project}. ${results.join('; ')}.` });
+}
+for (const g of grants as any[]) {
+  if (!g.visible_web) continue;
+  const y = yearOf(g.start_date);
+  if (y) auto.push({ year: y, kind: 'Award', text: g.name, url: g.url ?? undefined });
+}
+for (const d of profdev as any[]) {
+  if (!d.visible_web) continue;
+  const y = yearOf(d.start_date);
+  if (y) auto.push({ year: y, kind: 'Formation', text: d.title });
+}
+
+const visibleMoments = (moments as any[]).filter(m => m.visible !== false);
+
+// ── Photo orientation ──────────────────────────────────────────────────────
+// Photos in a multi-photo grid are cropped to a common tile shape so the row
+// lines up. Cropping a portrait shot into a landscape tile chops heads, so the
+// tile shape follows the photos: if every photo in a moment is portrait the
+// tiles are 3:4, otherwise 4:3 (see .moment-photos[data-shape] in global.css).
+// The dimensions come from the JPEG header at build time, read here so that
+// moments.json never has to carry width/height by hand.
+const jpegSize = (publicPath: string): { w: number; h: number } | null => {
+  try {
+    // Resolved from the repo root, not import.meta.url: in a production build this
+    // code runs from a bundled chunk under dist/, where a relative path would miss.
+    const buf = readFileSync(join(process.cwd(), 'public', publicPath));
+    // JPEG is a sequence of 0xFF-prefixed segments. The Start-Of-Frame segment
+    // (0xC0–0xCF, minus the DHT/JPG/DAC markers) holds height then width.
+    let i = 2;
+    while (i < buf.length) {
+      if (buf[i] !== 0xff) return null;
+      const marker = buf[i + 1];
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+        return { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+      }
+      i += 2 + buf.readUInt16BE(i + 2); // skip this segment (length includes its own 2 bytes)
+    }
+  } catch { /* missing file: fall through, the img tag will 404 visibly anyway */ }
+  return null;
+};
+
+// 'portrait' | 'landscape' for a whole photo grid: portrait only if all are.
+const gridShape = (photos: any[]) => {
+  const sizes = photos.map(p => jpegSize(p.src)).filter(Boolean) as { w: number; h: number }[];
+  return sizes.length && sizes.every(s => s.h > s.w) ? 'portrait' : 'landscape';
+};
+
+// Chapters own a year range; the last one is open-ended. Ranges may overlap in
+// real life (a job ends in June, the next starts in July) but a year must appear
+// exactly once on the page, so each year goes to the latest chapter that claims it.
+const thisYear = new Date().getUTCFullYear();
+const sortedChapters = [...(chapters as any[])].sort((a, b) => a.start - b.start);
+const chapterOfYear = (y: number) => {
+  let owner = null;
+  for (const c of sortedChapters) {
+    if (c.start <= y && y <= (c.end ?? thisYear)) owner = c;
+  }
+  return owner;
+};
+const chapterYears = (c: any) => {
+  const end = c.end ?? thisYear;
+  return Array.from({ length: end - c.start + 1 }, (_, i) => c.start + i)
+    .filter(y => chapterOfYear(y)?.id === c.id)
+    .reverse();
+};
+
+const momentsFor = (y: number) =>
+  visibleMoments.filter(m => m.year === y).sort((a, b) => String(b.date ?? '').localeCompare(String(a.date ?? '')));
+const autoFor = (y: number) => auto.filter(a => a.year === y);
+const yearHasContent = (y: number) => momentsFor(y).length > 0 || autoFor(y).length > 0;
+
+const orderedChapters = [...(chapters as any[])].sort((a, b) => b.start - a.start);
+---
+
+<BaseLayout title="Story" description="Moments from Eric Araújo's life and career.">
+  <div class="page-wrapper">
+    <header class="page-header">
+      <h1>Story</h1>
+      <p class="page-sub">A life told in places — and the moments along the way.</p>
+    </header>
+
+    <!-- ── Bio ───────────────────────────────────────────────────────────
+         DRAFT. Replace this with your own words; everything below the bio
+         is generated, but this part has to be yours.
+    ───────────────────────────────────────────────────────────────────── -->
+    <section class="story-bio fade-up">
+      <p>
+        <em>Draft placeholder — replace.</em> I grew up in Brazil and studied computer
+        science at the Federal University of Viçosa, then took a master's at UFMG in
+        Belo Horizonte. I taught before I finished studying, and I have been teaching
+        ever since — in Minas Gerais, in Amsterdam, and now in Michigan.
+      </p>
+      <p>
+        <em>Draft placeholder — replace.</em> My work is about how things spread between
+        people: behaviors, opinions, sentiments, belief. I build agent-based models to
+        ask what holds communities together and what pulls them apart.
+      </p>
+    </section>
+
+    {orderedChapters.map(ch => (
+      <section class="chapter fade-up">
+        <div class="chapter-head">
+          <div>
+            <p class="chapter-label">{ch.label}</p>
+            <p class="chapter-place">{ch.place}</p>
+          </div>
+          <p class="chapter-years mono">
+            {ch.start}<span class="chapter-dash">–</span>{ch.end ?? 'present'}
+          </p>
+        </div>
+        {ch.blurb && <p class="chapter-blurb">{ch.blurb}</p>}
+
+        {chapterYears(ch).filter(yearHasContent).map(y => (
+          <div class="story-year">
+            <p class="story-year-num mono">{y}</p>
+            <div class="story-year-body">
+
+              {momentsFor(y).map(m => (
+                <article class="moment">
+                  <h3 class="moment-title">{m.title}</h3>
+                  {m.body && <p class="moment-body">{m.body}</p>}
+                  {m.url && (
+                    <p class="moment-link">
+                      <a href={m.url} target="_blank" rel="noopener">{m.url_label ?? 'More'} ↗</a>
+                    </p>
+                  )}
+                  {m.photos && m.photos.length > 0 && (
+                    <div class="moment-photos" data-count={m.photos.length} data-shape={gridShape(m.photos)}>
+                      {m.photos.map((ph: any) => (
+                        <figure class="moment-photo">
+                          <img src={ph.src} alt={ph.alt} loading="lazy" style={ph.focus ? `object-position: ${ph.focus}` : undefined} />
+                          {ph.caption && <figcaption>{ph.caption}</figcaption>}
+                        </figure>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              ))}
+
+              {autoFor(y).length > 0 && (
+                <ul class="story-auto">
+                  {autoFor(y).map(a => (
+                    <li>
+                      <span class="story-kind mono">{a.kind}</span>
+                      {a.url
+                        ? <a href={a.url} target="_blank" rel="noopener">{a.text}</a>
+                        : <span>{a.text}</span>}
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+            </div>
+          </div>
+        ))}
+      </section>
+    ))}
+  </div>
+</BaseLayout>
