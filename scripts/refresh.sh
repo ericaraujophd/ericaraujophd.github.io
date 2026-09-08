@@ -97,7 +97,9 @@ import pathlib, sys
 pdf = pathlib.Path("public/cv/Eric_Araujo_CV.pdf")
 if not pdf.exists():
     print("\033[31m  FAIL  public/cv/Eric_Araujo_CV.pdf is missing\033[0m"); sys.exit(1)
-srcs = list(pathlib.Path("data").glob("*.json")) + [pathlib.Path("config/personal.yaml")]
+# story-page data (chapters, moments) feeds the site only, never the CV
+SITE_ONLY = {"chapters.json", "moments.json"}
+srcs = [p for p in pathlib.Path("data").glob("*.json") if p.name not in SITE_ONLY] + [pathlib.Path("config/personal.yaml")]
 stale = [s.name for s in srcs if s.stat().st_mtime > pdf.stat().st_mtime]
 if stale:
     print("\033[31m  FAIL  CV PDF is older than: " + ", ".join(stale) + "\033[0m")
