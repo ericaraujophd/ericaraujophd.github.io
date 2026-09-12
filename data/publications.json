@@ -24,6 +24,29 @@
     "date_display": "Forthcoming 2026"
   },
   {
+    "id": "2026-ebbc-brasil-redes-globais-saude",
+    "type": "proceedings",
+    "title": "Brasil nas redes globais de pesquisa em Ciências da Vida e da Saúde: liderança dependente do contexto (2010–2019)",
+    "authors": [
+      "Juliana Freitas Lopes",
+      "Priscila Costa Albuquerque",
+      "**Eric Araújo**",
+      "Fabio Zicker",
+      "Bruna de Paula Fonseca"
+    ],
+    "venue": "Encontro Brasileiro de Bibliometria e Cientometria (EBBC), v. 10, pp. 1–10 (extended abstract)",
+    "year": 2026,
+    "month": 9,
+    "doi": "10.22477/x.ebbc.1032",
+    "url": "https://ebbc.inf.br/ojs/index.php/ebbc/article/view/1032",
+    "isbn": null,
+    "issn": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null
+  },
+  {
     "id": "2026-scientometrics-brazil-collaboration-models",
     "type": "journal",
     "title": "Context-dependent leadership in global health science: Brazil's role across North–South, South–South, and triangular collaboration models (2010–2019)",
