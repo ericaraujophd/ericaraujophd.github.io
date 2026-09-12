@@ -14,6 +14,11 @@ interface Student {
   outcomes: string[];
   doi?: string;
   visible_web: boolean;
+  // Optional per-person profile links, keyed by the exact string used in
+  // `names` (e.g. { "Katelin Jandris": "https://www.linkedin.com/in/..." }).
+  // Names without an entry render as plain text. Website only: the CV
+  // pipeline (scripts/to_rendercv.py) ignores this field.
+  links?: Record<string, string>;
 }
 
 const all = (students as Student[]).filter(s => s.visible_web);
@@ -24,6 +29,11 @@ const byDegree = (list: Student[], degree: string) =>
   list.filter(s => s.degree === degree);
 
 const degrees = ['Ph.D.', 'M.S.', 'B.S.'];
+
+// Each name becomes { name, url } so the template can link the ones that have
+// a URL in `links` and print the rest as plain text. (Astro frontmatter is plain
+// TypeScript, so the markup itself lives in the template below, not here.)
+const nameParts = (s: Student) => s.names.map(n => ({ name: n, url: s.links?.[n] }));
 ---
 
 <BaseLayout title="Advising">
@@ -48,7 +58,11 @@ const degrees = ['Ph.D.', 'M.S.', 'B.S.'];
             <li class="pub-item">
               <span class="pub-type-tag">{s.degree}</span>
               <div class="pub-content">
-                <p class="pub-title">{s.names.join(', ')}</p>
+                <p class="pub-title">{nameParts(s).map((n, i) => (
+                  <Fragment>{i > 0 && ', '}{n.url
+                    ? <a href={n.url} target="_blank" rel="noopener noreferrer">{n.name}</a>
+                    : n.name}</Fragment>
+                ))}</p>
                 <p class="pub-authors">
                   {s.project_en
                     ? <span title={s.project_en} class="has-translation">{s.project}</span>
@@ -76,7 +90,11 @@ const degrees = ['Ph.D.', 'M.S.', 'B.S.'];
                 <li class="pub-item">
                   <span class="pub-type-tag">{(s.start.match(/\d{4}/) || [s.start])[0]}</span>
                   <div class="pub-content">
-                    <p class="pub-title">{s.names.join(', ')}</p>
+                    <p class="pub-title">{nameParts(s).map((n, i) => (
+                  <Fragment>{i > 0 && ', '}{n.url
+                    ? <a href={n.url} target="_blank" rel="noopener noreferrer">{n.name}</a>
+                    : n.name}</Fragment>
+                ))}</p>
                     <p class="pub-authors">
                       {s.project_en
                         ? <span title={s.project_en} class="has-translation">{s.project}</span>

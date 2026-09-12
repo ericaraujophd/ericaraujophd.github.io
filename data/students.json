@@ -152,7 +152,10 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Katelin Jandris": "https://www.linkedin.com/in/katelin-jandris-89509b2a4/"
+    }
   },
   {
     "id": "modeling-introversion-in-the-classr-fall-2024",
