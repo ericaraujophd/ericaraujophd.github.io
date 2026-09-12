@@ -198,7 +198,12 @@ def build_students(items):
             highlights.append(f"DOI: [{doi}](https://doi.org/{doi})")
 
         start, end = x.get("start"), x.get("end")
-        date = f"{start} - {end}" if start and end else (start or end or None)
+        # A one-term project (start == end, e.g. a summer fellowship) prints the
+        # term once rather than "Summer 2026 - Summer 2026".
+        if start and end and start != end:
+            date = f"{start} - {end}"
+        else:
+            date = start or end or None
 
         out.append({
             "name":       ", ".join(x["names"]),
