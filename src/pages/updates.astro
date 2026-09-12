@@ -26,7 +26,9 @@ const pubEntries: Entry[] = (publications as any[])
     label: 'Publication',
     title: p.title,
     url: p.url,
-    body: `${p.venue}, ${p.year}.`,
+    // A work that is not out yet (book under contract, paper in press) says so
+    // instead of printing a year that would read as a publication date.
+    body: p.status ? `${p.venue}. ${p.status}.` : `${p.venue}, ${p.year}.`,
   }));
 
 const grantEntries: Entry[] = (grants as any[])

@@ -12,6 +12,10 @@ interface Pub {
   month?: number;
   doi?: string;
   url?: string;
+  // Work not yet out (a book under contract, a paper in press) carries a
+  // `status` such as "In preparation" or "Under contract"; it is shown after
+  // the venue so the entry is not read as already published.
+  status?: string;
   visible_web: boolean;
 }
 
@@ -69,6 +73,7 @@ const typeLabel: Record<string, string> = {
                 <p class="pub-authors" set:html={renderAuthors(pub.authors)} />
                 <p class="pub-venue">
                   {pub.venue}
+                  {pub.status && <> · <em>{pub.status}</em></>}
                   {pub.doi && (
                     <> · <a href={`https://doi.org/${pub.doi}`} target="_blank" style="font-style:normal; font-size:11px;">DOI ↗</a></>
                   )}
