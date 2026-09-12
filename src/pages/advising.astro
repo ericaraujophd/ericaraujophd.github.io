@@ -22,8 +22,53 @@ interface Student {
 }
 
 const all = (students as Student[]).filter(s => s.visible_web);
-const current = all.filter(s => !s.end || s.end === 'present');
-const past    = all.filter(s => s.end && s.end !== 'present');
+
+// ── Current vs past ─────────────────────────────────────────────────────────
+// A student is "current" until the term in `end` is over, not merely when
+// `end` is empty. Senior projects are entered with their planned end term
+// ("Fall 2026" to "Spring 2027") the day they start, so an empty-`end` rule
+// would file them under Past Students from day one.
+//
+// Terms are strings like "Fall 2026", "Summer 2026" or a bare year "2022".
+// Each maps to the last day of that term, roughly: Spring ends 31 May, Summer
+// 31 Aug, Fall 31 Dec, Interim/Winter 31 Jan; a bare year ends 31 Dec. The
+// comparison uses UTC so the build gives the same answer on any machine.
+//
+// The site is static, so this is evaluated at build time: a project rolls
+// from Current to Past on the first rebuild after its end term, not on the
+// day itself. Pushing anything to master rebuilds the site.
+const TERM_END_MONTH: Record<string, number> = { Interim: 1, Winter: 1, Spring: 5, Summer: 8, Fall: 12 };
+const termEnd = (t: string): Date | null => {
+  const m = t.match(/^(Interim|Winter|Spring|Summer|Fall)?\s*(\d{4})$/);
+  if (!m) return null;
+  const month = m[1] ? TERM_END_MONTH[m[1]] : 12;
+  // Day 0 of the next month is the last day of `month`.
+  return new Date(Date.UTC(Number(m[2]), month, 0));
+};
+const today = new Date();
+const isCurrent = (s: Student) => {
+  if (!s.end || s.end === 'present') return true;
+  const end = termEnd(s.end);
+  return end !== null && end >= today;
+};
+// ── Ordering ────────────────────────────────────────────────────────────────
+// Both lists run newest first by start term, so the order does not depend on
+// where an entry happens to sit in students.json. Terms map to a first day:
+// Interim/Winter Jan, Spring Jan, Summer Jun, Fall Sep; a bare year is Jan.
+// Ties (same start) fall back to the later end term first.
+// A one-term project (start == end) prints its term once in the lists below.
+const TERM_START_MONTH: Record<string, number> = { Interim: 0, Winter: 0, Spring: 0, Summer: 5, Fall: 8 };
+const termStart = (t: string): number => {
+  const m = t.match(/^(Interim|Winter|Spring|Summer|Fall)?\s*(\d{4})$/);
+  if (!m) return 0;
+  return Date.UTC(Number(m[2]), m[1] ? TERM_START_MONTH[m[1]] : 0, 1);
+};
+const endKey = (s: Student) => (!s.end || s.end === 'present') ? Infinity : (termEnd(s.end)?.getTime() ?? 0);
+const newestFirst = (a: Student, b: Student) =>
+  termStart(b.start) - termStart(a.start) || endKey(b) - endKey(a);
+
+const current = all.filter(isCurrent).sort(newestFirst);
+const past    = all.filter(s => !isCurrent(s)).sort(newestFirst);
 
 const byDegree = (list: Student[], degree: string) =>
   list.filter(s => s.degree === degree);
@@ -69,7 +114,7 @@ const nameParts = (s: Student) => s.names.map(n => ({ name: n, url: s.links?.[n]
                     : s.project
                   }
                 </p>
-                <p class="pub-venue">{s.institution} · {s.start}–present</p>
+                <p class="pub-venue">{s.institution} · {s.start}–{s.end && s.end !== 'present' ? s.end : 'present'}</p>
               </div>
             </li>
           ))}
@@ -101,7 +146,7 @@ const nameParts = (s: Student) => s.names.map(n => ({ name: n, url: s.links?.[n]
                         : s.project
                       }
                     </p>
-                    <p class="pub-venue">{s.institution} · {s.start}–{s.end}</p>
+                    <p class="pub-venue">{s.institution} · {s.end === s.start ? s.start : `${s.start}–${s.end}`}</p>
                     {s.outcomes.length > 0 && (
                       <ul style="margin-top: 4px; padding-left: 16px; font-size: 12px; color: var(--accent);">
                         {s.outcomes.map(o => <li>{o}</li>)}
