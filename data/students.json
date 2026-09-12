@@ -16,7 +16,10 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Miriam Crisman": "https://www.linkedin.com/in/miriam-crisman-9a5232397/"
+    }
   },
   {
     "id": "senior-byle-evans-smith-2026",
@@ -37,7 +40,11 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Adam Byle": "https://www.linkedin.com/in/adam-byle-9b2470290/",
+      "Alayna Smith": "https://www.linkedin.com/in/alaynasmith11/"
+    }
   },
   {
     "id": "senior-amonoo-mensah-2026",
@@ -56,7 +63,10 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Sally Amonoo-Mensah": "https://www.linkedin.com/in/sallyamonoo/"
+    }
   },
   {
     "id": "hoogeboom-quinn-2026",
@@ -75,7 +85,10 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "David Quinn": "https://www.linkedin.com/in/david-quinn-77240732a/"
+    }
   },
   {
     "id": "twcf-crisman-2026",
@@ -94,7 +107,10 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Miriam Crisman": "https://www.linkedin.com/in/miriam-crisman-9a5232397/"
+    }
   },
   {
     "id": "scale66-ai-platform-for-marketing-c-fall-2025",
@@ -113,7 +129,12 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Brady Swiech": "https://www.linkedin.com/in/brady-swiech-1a8a59239/",
+      "Tim David": "https://www.linkedin.com/in/tldavid/",
+      "Zach Redder": "https://www.linkedin.com/in/zachredder/"
+    }
   },
   {
     "id": "modeling-gram-negative-bacterial-in-spring-202",
@@ -131,7 +152,11 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Esther Asuquo": "https://www.linkedin.com/in/esther-asuquo/",
+      "David Barry": "https://www.linkedin.com/in/david-barry-a3a9a9258/"
+    }
   },
   {
     "id": "cognitive-modeling-of-church-polari-fall-2025",
@@ -154,7 +179,9 @@
     "news": false,
     "document_path": null,
     "links": {
-      "Katelin Jandris": "https://www.linkedin.com/in/katelin-jandris-89509b2a4/"
+      "Katelin Jandris": "https://www.linkedin.com/in/katelin-jandris-89509b2a4/",
+      "Ryan Klein": "https://www.linkedin.com/in/klein-ryan/",
+      "Övgü Tufan": "https://www.linkedin.com/in/yigit-tufan-52021b341/"
     }
   },
   {
@@ -175,7 +202,10 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Jaden Brookens": "https://www.linkedin.com/in/jaden-brookens-657186294/"
+    }
   },
   {
     "id": "large-scale-bibliometric-analysis-o-2022",
@@ -705,7 +735,10 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Nathan Holtrop": "https://www.linkedin.com/in/nathan-holtrop/"
+    }
   },
   {
     "id": "senior-ausema-2026",
@@ -724,7 +757,10 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Caleb Ausema": "https://www.linkedin.com/in/caleb-ausema-322a41292/"
+    }
   },
   {
     "id": "senior-liu-2026",
@@ -743,6 +779,9 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": null,
+    "links": {
+      "Martin Liu": "https://www.linkedin.com/in/xuchenliu/"
+    }
   }
 ]
