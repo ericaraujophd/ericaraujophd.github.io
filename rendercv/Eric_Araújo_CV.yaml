@@ -94,6 +94,19 @@ cv:
       journal: Springer. Under contract; manuscript due August 2026. Provisional title.
         Applies Dooyeweerd's modal framework to the ethics of artificial intelligence.
     publications:
+    - title: 'Brasil nas redes globais de pesquisa em Ciências da Vida e da Saúde:
+        liderança dependente do contexto (2010–2019)'
+      authors:
+      - Juliana Freitas Lopes
+      - Priscila Costa Albuquerque
+      - '**Eric Araújo**'
+      - Fabio Zicker
+      - Bruna de Paula Fonseca
+      date: 2026-09
+      journal: Encontro Brasileiro de Bibliometria e Cientometria (EBBC), v. 10, pp.
+        1–10 (extended abstract)
+      doi: 10.22477/x.ebbc.1032
+      url: https://ebbc.inf.br/ojs/index.php/ebbc/article/view/1032
     - title: 'Context-dependent leadership in global health science: Brazil''s role
         across North–South, South–South, and triangular collaboration models (2010–2019)'
       authors:
@@ -782,6 +795,24 @@ cv:
         digital education.
       date: Sept 2018 – June 2024
     supervised_students:
+    - name: Miriam Crisman
+      location: Calvin University
+      date: Fall 2026 - Spring 2027
+      summary: B.S. - Political Polarization in the Global South
+      highlights:
+      - Senior Project
+    - name: Adam Byle, E.J. Evans, Alayna Smith
+      location: Calvin University
+      date: Fall 2026 - Spring 2027
+      summary: B.S. - Political Polarization in Christian Communities
+      highlights:
+      - Senior Project
+    - name: Sally Amonoo-Mensah
+      location: Calvin University
+      date: Fall 2026 - Spring 2027
+      summary: B.S. - Matristics
+      highlights:
+      - Senior Project
     - name: David Quinn
       location: Calvin University
       date: Summer 2026
@@ -987,13 +1018,13 @@ cv:
       - McGregor Undergraduate Research Fellowship
     - name: Caleb Ausema
       location: Calvin University
-      date: Spring 2026
+      date: Spring 2026 - Fall 2026
       summary: B.S. - Cognitive Modeling of Churchgoers
       highlights:
       - Senior Project
     - name: Martin Liu
       location: Calvin University
-      date: Spring 2026
+      date: Spring 2026 - Fall 2026
       summary: 'B.S. - VerseNet: A Visual Neo4j-Based Bible Knowledge Network'
       highlights:
       - Senior Project

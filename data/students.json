@@ -1,5 +1,64 @@
 [
   {
+    "id": "senior-crisman-2026",
+    "names": [
+      "Miriam Crisman"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Political Polarization in the Global South",
+    "start": "Fall 2026",
+    "end": "Spring 2027",
+    "outcomes": [
+      "Senior Project"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "senior-byle-evans-smith-2026",
+    "names": [
+      "Adam Byle",
+      "E.J. Evans",
+      "Alayna Smith"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Political Polarization in Christian Communities",
+    "start": "Fall 2026",
+    "end": "Spring 2027",
+    "outcomes": [
+      "Senior Project"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
+    "id": "senior-amonoo-mensah-2026",
+    "names": [
+      "Sally Amonoo-Mensah"
+    ],
+    "degree": "B.S.",
+    "institution": "Calvin University",
+    "project": "Matristics",
+    "start": "Fall 2026",
+    "end": "Spring 2027",
+    "outcomes": [
+      "Senior Project"
+    ],
+    "doi": null,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
     "id": "hoogeboom-quinn-2026",
     "names": [
       "David Quinn"
@@ -654,7 +713,7 @@
     "institution": "Calvin University",
     "project": "Cognitive Modeling of Churchgoers",
     "start": "Spring 2026",
-    "end": null,
+    "end": "Fall 2026",
     "outcomes": [
       "Senior Project"
     ],
@@ -673,7 +732,7 @@
     "institution": "Calvin University",
     "project": "VerseNet: A Visual Neo4j-Based Bible Knowledge Network",
     "start": "Spring 2026",
-    "end": null,
+    "end": "Fall 2026",
     "outcomes": [
       "Senior Project"
     ],
