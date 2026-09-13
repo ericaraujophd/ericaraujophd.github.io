@@ -115,6 +115,13 @@ const nameParts = (s: Student) => s.names.map(n => ({ name: n, url: s.links?.[n]
                   }
                 </p>
                 <p class="pub-venue">{s.institution} · {s.start}–{s.end && s.end !== 'present' ? s.end : 'present'}</p>
+                {/* Outcomes show for current students too: a fellowship or grant that
+                    funds ongoing work is worth seeing while the work is still running. */}
+                {s.outcomes.length > 0 && (
+                  <ul style="margin-top: 4px; padding-left: 16px; font-size: 12px; color: var(--accent);">
+                    {s.outcomes.map(o => <li>{o}</li>)}
+                  </ul>
+                )}
               </div>
             </li>
           ))}
