@@ -798,19 +798,21 @@ cv:
     - name: Miriam Crisman
       location: Calvin University
       date: Fall 2026 - Spring 2027
-      summary: B.S. - Political Polarization in the Global South
+      summary: B.S. - Computational Modeling of Political Polarization in Complex
+        Systems
       highlights:
       - Senior Project
-    - name: Adam Byle, E.J. Evans, Alayna Smith
+    - name: Adam Byle, Alayna Smith
       location: Calvin University
       date: Fall 2026 - Spring 2027
-      summary: B.S. - Political Polarization in Christian Communities
+      summary: B.S. - Data-Oriented Agent-Based Model of Polarization and Fracture
+        in Kenyan Society
       highlights:
       - Senior Project
     - name: Sally Amonoo-Mensah
       location: Calvin University
       date: Fall 2026 - Spring 2027
-      summary: B.S. - Matristics
+      summary: B.S. - What Is AI Saying about Junia?
       highlights:
       - Senior Project
     - name: David Quinn
@@ -1020,7 +1022,7 @@ cv:
     - name: Caleb Ausema
       location: Calvin University
       date: Spring 2026 - Fall 2026
-      summary: B.S. - Cognitive Modeling of Churchgoers
+      summary: B.S. - Agent-Based Modeling for Archaeology
       highlights:
       - Senior Project
     - name: Martin Liu
