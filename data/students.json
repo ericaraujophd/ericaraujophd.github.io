@@ -6,7 +6,7 @@
     ],
     "degree": "B.S.",
     "institution": "Calvin University",
-    "project": "Political Polarization in the Global South",
+    "project": "Computational Modeling of Political Polarization in Complex Systems",
     "start": "Fall 2026",
     "end": "Spring 2027",
     "outcomes": [
@@ -22,15 +22,14 @@
     }
   },
   {
-    "id": "senior-byle-evans-smith-2026",
+    "id": "senior-byle-smith-2026",
     "names": [
       "Adam Byle",
-      "E.J. Evans",
       "Alayna Smith"
     ],
     "degree": "B.S.",
     "institution": "Calvin University",
-    "project": "Political Polarization in Christian Communities",
+    "project": "Data-Oriented Agent-Based Model of Polarization and Fracture in Kenyan Society",
     "start": "Fall 2026",
     "end": "Spring 2027",
     "outcomes": [
@@ -53,7 +52,7 @@
     ],
     "degree": "B.S.",
     "institution": "Calvin University",
-    "project": "Matristics",
+    "project": "What Is AI Saying about Junia?",
     "start": "Fall 2026",
     "end": "Spring 2027",
     "outcomes": [
@@ -747,7 +746,7 @@
     ],
     "degree": "B.S.",
     "institution": "Calvin University",
-    "project": "Cognitive Modeling of Churchgoers",
+    "project": "Agent-Based Modeling for Archaeology",
     "start": "Spring 2026",
     "end": "Fall 2026",
     "outcomes": [
