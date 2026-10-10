@@ -48,7 +48,7 @@ const years = [...new Set(all.map(i => new Date(i.date_sent).getUTCFullYear()))]
 // Everything a search query should be able to match against.
 const haystack = (i: NewsItem) =>
   [
-    i.title, i.summary, i.note ?? '', i.source, i.byline ?? '', i.tags.join(' '),
+    i.title, i.summary, i.note ?? '', i.email_subject ?? '', i.source, i.byline ?? '', i.tags.join(' '),
     (i.archived ?? []).join(' '),
     (i.links ?? []).map(l => `${l.label} ${l.note ?? ''}`).join(' '),
   ]
@@ -67,7 +67,7 @@ const haystack = (i: NewsItem) =>
       <h1>Adams' News</h1>
       <div style="width: 36px; height: 2px; background: var(--accent); margin: 10px 0 16px;"></div>
       <p>
-        Prof. Joel Adams has a long habit of forwarding articles worth reading — on AI risk,
+        Prof. Joel Adams has a long habit of forwarding articles worth reading: on AI risk,
         the computing job market, and where the discipline is heading. This is my archive of
         them, kept so I can find one again months later. Each entry keeps his own note, a short
         summary, and an opening excerpt; the full article stays with its publisher, one click away.
@@ -194,7 +194,7 @@ const haystack = (i: NewsItem) =>
                           {item.archive_footer ??
                             (`My summary of ${item.source}` +
                               (item.article_date ? `, ${fmtDate(item.article_date)}` : '') +
-                              (item.url ? '' : ' — print only, no online edition') +
+                              (item.url ? '' : '. Print only, no online edition') +
                               '. Nothing from the original is reproduced here.')}
                         </span>
                       </p>
@@ -209,7 +209,7 @@ const haystack = (i: NewsItem) =>
                           Continue reading at {item.source} ↗
                         </a>
                         <span class="an-archive-note">
-                          Excerpt only{item.byline && ` · ${item.byline}`} — the article belongs to its publisher.
+                          Excerpt only{item.byline && ` · ${item.byline}`}. The article belongs to its publisher.
                         </span>
                       </p>
                     )}

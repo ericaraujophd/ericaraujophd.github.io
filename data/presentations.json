@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-10-09-modeling-communities-in-peril",
+    "type": "talk",
+    "title": "Modeling Communities in Peril: Polarization and the Changes in the Social Fabric of Congregations through an Agent-Based Approach",
+    "event": "Wisdom in the Age of AI Conference — Church track",
+    "location": "Calvin University, Grand Rapids, MI",
+    "date": "2026-10-09",
+    "url": "https://calvin.edu/faith-and-technology/faith-and-ai-conference",
+    "slides_url": "/presentations/2026/WisdomAI/Modeling_Communities_in_Peril_Slides.html",
+    "text_url": "/presentations/2026/WisdomAI/Modeling_Communities_in_Peril.pdf",
+    "notes": "\"Modeling Communities in Peril: Polarization and the Changes in the Social Fabric of Congregations through an Agent-Based Approach.\" Read paper on the BBB (Belief, Behavior, Belonging) agent-based model of congregational polarization, with the Brazilian and US context for church fragmentation.",
+    "student_presentation": false,
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": "docs/events/speaker/2026-WisdomAI/Modeling_Communities_in_Peril.pdf"
+  },
+  {
     "id": "2020-06-05-compcovid-2020-mesa-redonda",
     "type": "panel",
     "title": "Mesa Redonda: Computação e COVID-19",
