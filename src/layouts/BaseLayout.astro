@@ -4,11 +4,14 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  /** Keep this page out of search indexes (opt-in, per page). */
+  noindex?: boolean;
 }
 
 const {
   title,
   description = "Eric Araújo — Associate Professor of Computer Science at Calvin University",
+  noindex = false,
 } = Astro.props;
 
 const currentPath = Astro.url.pathname;
@@ -20,6 +23,7 @@ const currentPath = Astro.url.pathname;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={description} />
+  {noindex && <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />}
   <title>{title === "Home" ? "Eric Araújo" : `${title} — Eric Araújo`}</title>
   <link rel="icon" href="/files/Calvin_College.png" />
   <!-- Theme: apply stored preference before paint to avoid flash -->

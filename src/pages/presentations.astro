@@ -23,6 +23,8 @@ interface Presentation {
   date: string;
   url?: string;
   slides_url?: string;
+  // Written version of a read paper, served from public/ like slides_url.
+  text_url?: string;
   notes?: string;
   student_presentation?: boolean;
   visible_web: boolean;
@@ -77,7 +79,10 @@ const fmtDate = (d: string) => {
                       : p.title
                   }
                   {p.slides_url && (
-                    <> · <a href={p.slides_url} style="font-size:11px; font-style:normal;">Slides ↓</a></>
+                    <> · <a href={p.slides_url} target="_blank" style="font-size:11px; font-style:normal;">Slides ↗</a></>
+                  )}
+                  {p.text_url && (
+                    <> · <a href={p.text_url} target="_blank" style="font-size:11px; font-style:normal;">Text ↓</a></>
                   )}
                 </p>
                 <p class="pub-venue">
