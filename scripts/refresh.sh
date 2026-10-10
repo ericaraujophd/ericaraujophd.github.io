@@ -64,15 +64,17 @@ if [ "$DO_CHECK" = 1 ]; then
 import json, pathlib, sys
 missing = []
 for p in json.load(open("data/presentations.json")):
-    u = p.get("slides_url")
-    if u and u.startswith("/") and not pathlib.Path("public" + u).is_file():
-        missing.append(f'{u}   ({p["event"][:50]})')
+    # slides_url and text_url (written version of a talk) both live under public/
+    for key in ("slides_url", "text_url"):
+        u = p.get(key)
+        if u and u.startswith("/") and not pathlib.Path("public" + u).is_file():
+            missing.append(f'{u}   ({p["event"][:50]})')
 if missing:
-    print("\033[31m  FAIL  slides_url with no file under public/:\033[0m")
+    print("\033[31m  FAIL  slides_url/text_url with no file under public/:\033[0m")
     for m in missing:
         print("          " + m)
     sys.exit(1)
-print("\033[32m  ok    every slides_url resolves under public/\033[0m")
+print("\033[32m  ok    every slides_url/text_url resolves under public/\033[0m")
 PY
 
   if [ -d dist ]; then

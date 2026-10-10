@@ -458,6 +458,16 @@ cv:
       journal: VII Simpósio de Informática do Planalto Médio (SIPM 2007)
     events:
     - role: speaker
+      year: '2026'
+      name: Wisdom in the Age of AI Conference — Church track
+      url: https://calvin.edu/faith-and-technology/faith-and-ai-conference
+      location: Calvin University, Grand Rapids, MI
+      summary: '"Modeling Communities in Peril: Polarization and the Changes in the
+        Social Fabric of Congregations through an Agent-Based Approach." Read paper
+        on the BBB (Belief, Behavior, Belonging) agent-based model of congregational
+        polarization, with the Brazilian and US context for church fragmentation.'
+      date: Oct 2026
+    - role: speaker
       year: '2020'
       name: CompCOVID 2020
       url: https://www.youtube.com/watch?v=R6bpMjJi2Kw
