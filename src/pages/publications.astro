@@ -16,6 +16,9 @@ interface Pub {
   // `status` such as "In preparation" or "Under contract"; it is shown after
   // the venue so the entry is not read as already published.
   status?: string;
+  // 'editor' marks an edited volume: the names listed are its editors.
+  role?: string;
+  isbn?: string;
   visible_web: boolean;
 }
 
@@ -70,10 +73,11 @@ const typeLabel: Record<string, string> = {
                     : pub.title
                   }
                 </p>
-                <p class="pub-authors" set:html={renderAuthors(pub.authors)} />
+                <p class="pub-authors" set:html={renderAuthors(pub.authors) + (pub.role === 'editor' ? ' (Eds.)' : '')} />
                 <p class="pub-venue">
                   {pub.venue}
                   {pub.status && <> · <em>{pub.status}</em></>}
+                  {pub.isbn && <> · ISBN {pub.isbn}</>}
                   {pub.doi && (
                     <> · <a href={`https://doi.org/${pub.doi}`} target="_blank" style="font-style:normal; font-size:11px;">DOI ↗</a></>
                   )}
