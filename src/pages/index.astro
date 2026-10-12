@@ -39,6 +39,19 @@ const allNews: NewsItem[] = [...recentGrants, ...recentTalks, ...recentPubs, ...
   .sort((a, b) => toDate(b.date).getTime() - toDate(a.date).getTime())
   .slice(0, 6);
 
+// ── Featured books ──────────────────────────────────────────────────────────
+// A publication with type "book" and `featured: true` gets a card at the top
+// of the grid, with its cover (`cover`, a path under public/), its `blurb`,
+// `status` and link. Flip `featured` to false in data/publications.json when
+// the book should drop back into the ordinary publications list. The
+// authors array holds markdown bold for Eric's own name; it is stripped here
+// and the name is emphasised with <strong> instead.
+const featuredBooks = (news as any[])
+  .filter(p => p.type === 'book' && p.featured && p.visible_web)
+  .sort((a, b) => b.year - a.year);
+const plainName = (a: string) => a.replace(/\*\*/g, '');
+const isMe = (a: string) => a.startsWith('**');
+
 const fmtDate = (d: string) =>
   isIso(d)
     ? new Date(d).toLocaleDateString('en-US', d.length >= 7
@@ -74,8 +87,43 @@ const fmtDate = (d: string) =>
   <!-- Bento grid -->
   <div class="bento">
 
+    <!-- Featured book(s): data-driven, see frontmatter -->
+    {featuredBooks.length > 0 && (
+      <div class="bento-card bento-book fade-up" data-delay="0">
+        <span class="bento-label">New Book</span>
+        {featuredBooks.map(b => (
+          <article class="book-feature">
+            {b.cover && (
+              <a href={b.url} target="_blank" rel="noopener" class="book-cover">
+                <img src={b.cover} alt={`Cover of ${b.title}`} loading="lazy" width="900" height="1350" />
+              </a>
+            )}
+            <div class="book-body">
+              {b.status && <span class="book-status">{b.status}</span>}
+              <h3 class="book-title">
+                {b.url ? <a href={b.url} target="_blank" rel="noopener">{b.title}</a> : b.title}
+              </h3>
+              <p class="book-people">
+                {b.authors.map((a: string, i: number) => (
+                  <>{i > 0 && ', '}{isMe(a) ? <strong>{plainName(a)}</strong> : plainName(a)}</>
+                ))}
+                {b.role === 'editor' && ' (Eds.)'}
+                {' · '}{b.venue}
+              </p>
+              {b.blurb && <p class="book-blurb">{b.blurb}</p>}
+              {b.url && (
+                <a href={b.url} target="_blank" rel="noopener" class="book-go">
+                  {b.isbn ? `ISBN ${b.isbn} · ` : ''}Springer ↗
+                </a>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    )}
+
     <!-- Projects -->
-    <div class="bento-card bento-projects fade-up" data-delay="0">
+    <div class="bento-card bento-projects fade-up" data-delay="1">
       <span class="bento-label">Projects</span>
       <div class="project-grid">
 
@@ -105,7 +153,7 @@ const fmtDate = (d: string) =>
     </div>
 
     <!-- Recent News -->
-    <div class="bento-card bento-news fade-up" data-delay="1">
+    <div class="bento-card bento-news fade-up" data-delay="2">
       <span class="bento-label">Recent News</span>
       {allNews.map(item => (
         <div class="news-item">
@@ -122,7 +170,7 @@ const fmtDate = (d: string) =>
     </div>
 
     <!-- Formation -->
-    <div class="bento-card bento-formation fade-up" data-delay="2">
+    <div class="bento-card bento-formation fade-up" data-delay="3">
       <span class="bento-label">Formation</span>
       <div class="degree">
         <div class="degree-level">Ph.D.</div>
@@ -146,7 +194,7 @@ const fmtDate = (d: string) =>
     </div>
 
     <!-- Research -->
-    <div class="bento-card bento-research fade-up" data-delay="3">
+    <div class="bento-card bento-research fade-up" data-delay="4">
       <span class="bento-label">Research &amp; Scholarship</span>
       <p style="color: var(--text-muted); font-size: 15px;">
         My work bridges computer science and the social sciences, applying agent-based modeling
@@ -171,7 +219,7 @@ const fmtDate = (d: string) =>
     </div>
 
     <!-- Quote -->
-    <div class="bento-card bento-quote fade-up" data-delay="4">
+    <div class="bento-card bento-quote fade-up" data-delay="5">
       <blockquote>
         <p>There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: &#x2018;Mine!&#x2019;</p>
         <footer>— Abraham Kuyper</footer>

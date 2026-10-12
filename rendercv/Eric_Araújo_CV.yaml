@@ -84,15 +84,17 @@ cv:
       highlights:
       - Professor and Coordinator of the Information Systems course
     books:
-    - title: 'Revisiting AI Ethics: A Practice-Grounded Approach for Development,
-        Implementation and Policy Making'
+    - title: 'Revisiting AI Ethics: A Practice-Grounded Approach to Development, Application,
+        and Policy Making'
       authors:
       - Maarten Verkerk
       - Christine Boshuijzen-van Burken
-      - '**Eric Araújo**'
-      date: In preparation
-      journal: Springer. In preparation (under contract with Springer). Provisional
-        title. Applies Dooyeweerd's modal framework to the ethics of artificial intelligence.
+      - '**Eric Araújo** (Eds.)'
+      date: Feb 2027
+      journal: Springer Cham. Forthcoming, February 2027. ISBN 978-3-032-41252-2.
+        Edited volume. Applies Dooyeweerd's modal framework to the ethics of artificial
+        intelligence.
+      url: https://link.springer.com/book/9783032412522
     publications:
     - title: 'Brasil nas redes globais de pesquisa em Ciências da Vida e da Saúde:
         liderança dependente do contexto (2010–2019)'
@@ -235,7 +237,8 @@ cv:
       - Fábio Borges
       - Mariza Ferro
       date: '2021'
-      journal: Proceedings of the XIV Encontro Acadêmico de Modelagem Computacional
+      journal: Proceedings of the XIV Encontro Acadêmico de Modelagem Computacional.
+        ISBN 978-85-99961-27-8
       url: https://www.eamc.lncc.br/proceedings.html
     - title: 'The Virus and Socioeconomic Inequality: An Agent-based Model to Simulate
         and Assess the Impact of Interventions to Reduce the Spread of COVID-19 in
@@ -270,7 +273,8 @@ cv:
       - '**Eric Araújo**'
       - Charlotte Gerritsen
       date: '2020'
-      journal: Agent-Based Modelling for Criminological Theory Testing and Development
+      journal: Agent-Based Modelling for Criminological Theory Testing and Development.
+        ISBN 9780429277177
       doi: 10.4324/9780429277177
       url: https://doi.org/10.4324/9780429277177
     - title: 'Identifying Influence Agents That Promote Physical Activity Through
@@ -296,7 +300,7 @@ cv:
       - '**Eric Araújo**'
       date: '2019'
       journal: Proceedings of the 9th International Conference on Simulation and Modeling
-        Methodologies, Technologies and Applications
+        Methodologies, Technologies and Applications. ISBN 9789897583810
       doi: 10.5220/0007930601650175
       url: https://doi.org/10.5220/0007930601650175
     - title: Parameter Optimization for Deriving Bluetooth-Based Social Network Graphs
@@ -320,7 +324,7 @@ cv:
       authors:
       - '**Eric Araújo**'
       date: '2018'
-      journal: Vrije Universiteit Amsterdam
+      journal: Vrije Universiteit Amsterdam. ISBN 9789402811179
       url: https://research.vu.nl/en/publications/632878cc-e2e7-40ab-a34e-91bde40eaf50
     - title: Using Simulations for Exploring Interventions in Social Networks - Modeling
         Physical Activity Behaviour in Dutch School Classes
@@ -335,7 +339,7 @@ cv:
       - Moniek Buijzen
       date: '2018'
       journal: Proceedings of 8th International Conference on Simulation and Modeling
-        Methodologies, Technologies and Applications - SIMULTECH
+        Methodologies, Technologies and Applications - SIMULTECH. ISBN 978-989-758-323-0
       doi: 10.5220/0006857704140425
       url: https://doi.org/10.5220/0006857704140425
     - title: Applying Machine Learning Algorithms for Deriving Personality Traits
@@ -345,7 +349,8 @@ cv:
       - Bojan Simoski
       - Michel Klein
       date: '2018'
-      journal: Proceedings of the 33rd Annual ACM Symposium on Applied Computing
+      journal: Proceedings of the 33rd Annual ACM Symposium on Applied Computing.
+        ISBN 9781450351911
       doi: 10.1145/3167132.3167377
       url: https://doi.org/10.1145/3167132.3167377
     - title: 'Detecting Dutch Political Tweets: A Classifier based on Voting System
@@ -355,7 +360,7 @@ cv:
       - Dave Ebbelaar
       date: '2018'
       journal: 'Proceedings of the 10th International Conference on Agents and Artificial
-        Intelligence - Volume 1: ICAART'
+        Intelligence - Volume 1: ICAART. ISBN 978-989-758-275-2'
       doi: 10.5220/0006592004620469
       url: https://doi.org/10.5220/0006592004620469
     - title: Social Connection Dynamics in a Health Promotion Network
@@ -364,7 +369,7 @@ cv:
       - Michel Klein
       - Aart van Halteren
       date: '2017'
-      journal: Complex Networks & Their Applications V
+      journal: Complex Networks & Their Applications V. ISBN 978-3-319-50901-3
       doi: 10.1007/978-3-319-50901-3_61
       url: https://doi.org/10.1007/978-3-319-50901-3_61
     - title: Explaining Changes in Physical Activity Through a Computational Model
@@ -376,7 +381,7 @@ cv:
       - Aart T. van Halteren
       - Michel Klein
       date: '2017'
-      journal: Complex Networks VIII
+      journal: Complex Networks VIII. ISBN 978-3-319-54241-6
       doi: 10.1007/978-3-319-54241-6_19
       url: https://doi.org/10.1007/978-3-319-54241-6_19
     - title: Exploring Parameter Tuning for Analysis and Optimization of a Computational
@@ -386,7 +391,8 @@ cv:
       - '**Eric Araújo**'
       - Michel C. A. Klein
       date: '2017'
-      journal: 'Advances in Artificial Intelligence: From Theory to Practice'
+      journal: 'Advances in Artificial Intelligence: From Theory to Practice. ISBN
+        978-3-319-60045-1'
       doi: 10.1007/978-3-319-60045-1_36
       url: https://doi.org/10.1007/978-3-319-60045-1_36
     - title: A Temporal-Causal Model for Spread of Messages in Disasters
@@ -395,7 +401,7 @@ cv:
       - Annelore Franke
       - Rukshar Wagid Hosain
       date: '2017'
-      journal: Computational Collective Intelligence
+      journal: Computational Collective Intelligence. ISBN 978-3-319-67077-5
       doi: 10.1007/978-3-319-67077-5_37
       url: https://doi.org/10.1007/978-3-319-67077-5_37
     - title: A Computational Cognitive Model for Political Positioning and Reactions
@@ -414,7 +420,7 @@ cv:
       - '**Eric Araújo**'
       - Jan Treur
       date: '2016'
-      journal: Computational Collective Intelligence
+      journal: Computational Collective Intelligence. ISBN 978-3-319-45243-2
       doi: 10.1007/978-3-319-45243-2_3
       url: https://doi.org/10.1007/978-3-319-45243-2_3
     - title: 'Online Sharing of Physical Activity: Does It Accelerate the Impact of
@@ -439,7 +445,7 @@ cv:
       - Julia S. Mollee
       - Michel C. A. Klein
       date: '2015'
-      journal: Proceedings of the ASE BigData & SocialInformatics 2015
+      journal: Proceedings of the ASE BigData & SocialInformatics 2015. ISBN 9781450337359
       doi: 10.1145/2818869.2818922
       url: https://doi.org/10.1145/2818869.2818922
     - title: An Analysis of TCP Protocol Issues in Asymmetric Networks and Existing

@@ -412,6 +412,42 @@ hr {
   color: var(--text-muted);
 }
 
+/* --- Featured book card (home) -------------------------------
+   One row: cover on the left, text on the right. Below 640px the cover
+   sits above the text at a fixed width, so the card never squeezes the
+   title. The cover keeps its own aspect ratio (900×1350 at source). */
+.book-feature {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.book-feature + .book-feature { margin-top: 28px; padding-top: 28px; border-top: 1px solid var(--border); }
+.book-cover { display: block; line-height: 0; }
+.book-cover img {
+  width: 100%; height: auto; display: block;
+  border: 1px solid var(--border-mid);
+  box-shadow: 0 10px 24px -12px rgba(0,0,0,.6);
+  transition: transform .2s ease, border-color .2s ease;
+}
+.book-cover:hover img { transform: translateY(-2px); border-color: var(--accent); }
+.book-status {
+  display: inline-block; font-family: var(--mono); font-size: 12px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 10px;
+}
+.book-title { font-size: 22px; font-weight: 700; letter-spacing: -.01em; line-height: 1.25; margin: 0 0 8px; }
+.book-title a { color: inherit; text-decoration: none; }
+.book-title a:hover { color: var(--accent); opacity: 1; }
+.book-people { font-size: 14px; color: var(--text-muted); margin: 0 0 12px; }
+.book-people strong { color: var(--text); font-weight: 600; }
+.book-blurb { font-size: 15px; line-height: 1.65; color: var(--text-muted); max-width: 60ch; margin: 0 0 14px; }
+.book-go { font-family: var(--mono); font-size: 13px; letter-spacing: .08em; color: var(--text-dim); text-decoration: none; }
+.book-go:hover { color: var(--accent); opacity: 1; }
+@media (max-width: 640px) {
+  .book-feature { grid-template-columns: 1fr; gap: 18px; }
+  .book-cover { width: 130px; }
+}
+
 /* --- Standalone page quote (matches bento-quote style) ----- */
 blockquote.page-quote {
   max-width: 580px;
