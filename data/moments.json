@@ -1,5 +1,40 @@
 [
   {
+    "id": "2026-wisdom-in-the-age-of-ai",
+    "year": 2026,
+    "date": "2026-10-09",
+    "title": "Wisdom in the Age of AI",
+    "body": "Calvin's Wisdom in the Age of AI conference, 8 to 10 October, brought more than 600 people together to think about artificial intelligence across the disciplines in the light of the Gospel. On its opening day the university announced the Center for Faith and Technology, with Derek Schuurman as its inaugural director. I led the AI & STEM track and read my paper Modeling Communities in Peril in the Church track.",
+    "photos": [
+      {
+        "src": "/moments/2026/wisdom-ai-2026-talk.jpg",
+        "alt": "Eric Araújo at a wooden lectern, conference lanyard on, hands raised mid-sentence, reading Modeling Communities in Peril.",
+        "caption": "Reading Modeling Communities in Peril, 9 October."
+      },
+      {
+        "src": "/moments/2026/wisdom-ai-2026-room.jpg",
+        "alt": "A full seminar room seen from the back, Eric at the lectern on the right and the Thank You slide with a stylized congregation on the screen.",
+        "caption": "The Church track room at the end of the talk."
+      },
+      {
+        "src": "/moments/2026/wisdom-ai-2026-stem-track.jpg",
+        "alt": "Eric Araújo, Kenneth Arnold and Jeremy Van Antwerp at a Calvin lectern over two laptops, the track schedule on the screen above.",
+        "caption": "Running the AI & STEM track with Kenneth Arnold and Jeremy Van Antwerp, 8 October."
+      }
+    ],
+    "visible": true,
+    "links": [
+      {
+        "url": "https://calvin.edu/faith-and-technology/faith-and-ai-conference",
+        "label": "The conference"
+      },
+      {
+        "url": "https://calvin.edu/stories/extending-legacy-calvin-launches-center-faith-and-technology",
+        "label": "The center launch"
+      }
+    ]
+  },
+  {
     "id": "2026-mcgregor-presentation",
     "year": 2026,
     "date": "2026-07-17",
