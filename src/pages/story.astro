@@ -165,9 +165,14 @@ const orderedChapters = [...(chapters as any[])].sort((a, b) => b.start - a.star
                 <article class="moment">
                   <h3 class="moment-title">{m.title}</h3>
                   {m.body && <p class="moment-body">{m.body}</p>}
-                  {m.url && (
+                  {/* A moment may carry one link (`url` + `url_label`) or several
+                      (`links`: [{url, label}]). Both forms render in one line. */}
+                  {(m.url || (m.links && m.links.length > 0)) && (
                     <p class="moment-link">
-                      <a href={m.url} target="_blank" rel="noopener">{m.url_label ?? 'More'} ↗</a>
+                      {[...(m.url ? [{ url: m.url, label: m.url_label ?? 'More' }] : []), ...(m.links ?? [])]
+                        .map((l: any, i: number) => (
+                          <>{i > 0 && ' · '}<a href={l.url} target="_blank" rel="noopener">{l.label} ↗</a></>
+                        ))}
                     </p>
                   )}
                   {m.photos && m.photos.length > 0 && (
