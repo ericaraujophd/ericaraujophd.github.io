@@ -348,7 +348,7 @@
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": "docs/events/speaker/2025-AASG/2025-AASG-call-page.pdf"
   },
   {
     "id": "2025-05-28-algorithms-democracy-and-society-ch",
@@ -396,7 +396,7 @@
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": "docs/events/speaker/2025-ASA-Annual/2025-ASA-meeting-page-text-archive.pdf"
   },
   {
     "id": "2025-11-04-grace-hopper-celebration-2025",
@@ -412,23 +412,23 @@
     "visible_cv": true,
     "visible_web": true,
     "news": false,
-    "document_path": null
+    "document_path": "docs/events/speaker/2025-GHC/2025-GHC-page.pdf"
   },
   {
     "id": "2026-02-27-a-framework-for-modeling-christian",
     "type": "talk",
-    "title": "A Framework for Modeling Christian Communities with Agent-Based Models",
+    "title": "Cognitive Modeling of Christian Communities: Developing Intelligent Agents to Address the Polarization Effects in Churches",
     "event": "Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person in the Age of AI",
     "location": "Waco, TX",
-    "date": "2026-02-27",
-    "url": "https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-3",
+    "date": "2026-02-26",
+    "url": "https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-age",
     "slides_url": "/presentations/2026/Baylor/2026-Baylor.pdf",
-    "notes": null,
+    "notes": "\"Cognitive Modeling of Christian Communities: Developing Intelligent Agents to Address the Polarization Effects in Churches.\" Session \"AI and Relationships in Workplace Communities\" (chair: Tiffany Flood), Baines, Bill Daniel Student Center, February 26, 2026, 12:00–1:30 p.m.",
     "student_presentation": false,
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": "docs/events/speaker/2026-Baylor-Symposium/2026-Baylor-Symposium-Detailed-Schedule.pdf"
   },
   {
     "id": "2026-07-01-cognitive-modeling-of-church-polari",
@@ -444,7 +444,7 @@
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": "docs/events/speaker/2026-NetLogo-Conference/2026-NetLogo-conference-cfp-page.pdf"
   },
   {
     "id": "2026-08-prompted-s2e6-wisdom-in-the-age-of-ai",
@@ -476,6 +476,6 @@
     "visible_cv": true,
     "visible_web": true,
     "news": true,
-    "document_path": null
+    "document_path": "docs/events/speaker/2026-AAR-Annual/2026-AAR-session-page.pdf"
   }
 ]
