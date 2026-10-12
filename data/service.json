@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-wisdom-ai-conference-stem-track-leader",
+    "type": "university",
+    "role": "Track Leader, AI & STEM",
+    "title": "Wisdom in the Age of AI Conference",
+    "institution": "Calvin University, Center for Faith and Technology",
+    "date": "2026-10",
+    "summary": "Led the AI & STEM track of the Wisdom in the Age of AI conference (October 8–10, 2026, more than 600 participants), at which Calvin announced its Center for Faith and Technology.",
+    "url": "https://calvin.edu/faith-and-technology/faith-and-ai-conference",
+    "visible_cv": true,
+    "visible_web": true,
+    "news": true,
+    "document_path": null,
+    "scope": "university"
+  },
+  {
     "id": "2024-quali-rolf-pagotto-veiga",
     "type": "defense-committee",
     "role": "External Member",
