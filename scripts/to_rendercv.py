@@ -101,11 +101,16 @@ def _publication_entry(x):
     venue = x["venue"]
     if x.get("status"):
         venue = f'{venue}. {x["status"]}'
+    if x.get("isbn"):
+        venue = f'{venue}. ISBN {x["isbn"]}'
     if x.get("note"):
         venue = f'{venue}. {x["note"]}'
+    authors = list(x["authors"])
+    if x.get("role") == "editor" and authors:
+        authors[-1] = authors[-1] + " (Eds.)"
     pub = {
         "title":   x["title"],
-        "authors": x["authors"],
+        "authors": authors,
         "date":    x.get("date_display") or (f"{x['year']}-{x['month']:02d}" if x.get("month") else str(x["year"])),
         "journal": venue,
     }

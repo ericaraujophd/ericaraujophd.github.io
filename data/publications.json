@@ -2,26 +2,30 @@
   {
     "id": "2026-revisiting-ai-ethics-springer",
     "type": "book",
-    "title": "Revisiting AI Ethics: A Practice-Grounded Approach for Development, Implementation and Policy Making",
+    "title": "Revisiting AI Ethics: A Practice-Grounded Approach to Development, Application, and Policy Making",
     "authors": [
       "Maarten Verkerk",
       "Christine Boshuijzen-van Burken",
-      "**Eric Araújo** (Eds.)"
+      "**Eric Araújo**"
     ],
-    "venue": "Springer",
-    "year": 2026,
-    "month": null,
-    "status": "In preparation (under contract with Springer)",
-    "note": "Provisional title. Applies Dooyeweerd's modal framework to the ethics of artificial intelligence.",
+    "venue": "Springer Cham",
+    "year": 2027,
+    "month": 2,
+    "status": "Forthcoming, February 2027",
+    "note": "Edited volume. Applies Dooyeweerd's modal framework to the ethics of artificial intelligence.",
     "doi": null,
-    "url": null,
-    "isbn": null,
+    "url": "https://link.springer.com/book/9783032412522",
+    "isbn": "978-3-032-41252-2",
     "issn": null,
     "visible_cv": true,
     "visible_web": true,
     "news": true,
     "document_path": null,
-    "date_display": "In preparation"
+    "date_display": "Feb 2027",
+    "role": "editor",
+    "featured": true,
+    "cover": "/books/revisiting-ai-ethics-cover.jpg",
+    "blurb": "An ethical framework for AI that is rooted in professional practice and supported by well-established philosophical principles. Written jointly by engineers, policymakers, ethicists and philosophers, it offers five lenses for identifying the values at stake in a practice and translating them into design specifications."
   },
   {
     "id": "2026-ebbc-brasil-redes-globais-saude",
