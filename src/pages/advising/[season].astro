@@ -1,0 +1,32 @@
+---
+// /advising/<season>/ — one permanent page per advising season, e.g.
+// /advising/2027-spring/. Old seasons stay online with an "archived" banner
+// so links in past emails keep working. Drafts get a page only in dev.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdvisingGuide from '../../components/advising/AdvisingGuide.astro';
+import { getSeasons, getCatalog, getCurrentSeason, type Season } from '../../lib/advising';
+
+export function getStaticPaths() {
+  return getSeasons().map((season) => ({ params: { season: season.id }, props: { season } }));
+}
+
+const { season } = Astro.props as { season: Season };
+const current = getCurrentSeason();
+
+let banner: { kind: 'archive' | 'draft'; html: string } | undefined;
+if (season.draft) {
+  banner = { kind: 'draft', html: `<b>Draft.</b> Only visible in <code>npm run dev</code>. Set <code>"draft": false</code> in <code>data/advising/seasons/${season.id}.json</code> to publish.` };
+} else if (current && current.id !== season.id) {
+  banner = { kind: 'archive', html: `<b>Archived:</b> this was the advising guide for ${season.term}. Dates and links may be out of date. <a href="/advising">See the current guide →</a>` };
+}
+---
+
+<BaseLayout title={`Advising · ${season.term}`} description={`Academic advising guide for ${season.term}: booking, preparation, registration dates and course maps.`}>
+  <div class="page-wrapper adv-wrapper">
+    <AdvisingGuide season={season} catalog={getCatalog(season.catalog)} banner={banner} />
+  </div>
+</BaseLayout>
+
+<style>
+  .adv-wrapper { max-width: 1080px; }
+</style>
