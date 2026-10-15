@@ -8,7 +8,7 @@
   "hero": {
     "title": "Advising for Spring 2027",
     "tldrHtml": [
-      "Book a meeting with me between <b>Oct 12 and Oct 21</b>. We meet in NH293.",
+      "Book a meeting with me between <b>Oct 12 and Oct 21</b>. We meet in NH293. If you would rather meet on Teams, book the time first and then email me to ask.",
       "Before the meeting, update your <b>Academic Plan</b> and build a <b>Saved Schedule</b> for Spring 2027 in Workday. If you come without them, I will cancel the meeting.",
       "Request any <b>prerequisite overrides</b> now. The instructor has to approve them.",
       "I remove your <b>advising hold</b> after we meet.",
@@ -17,21 +17,7 @@
   },
   "booking": {
     "url": "https://bookings.cloud.microsoft/book/AdvisingDays12@calvincollege.onmicrosoft.com/s/8CNQBYXH7UOxWMuU51o6jQ2",
-    "label": "Book my advising meeting",
-    "details": [
-      [
-        "When",
-        "Oct 12 to Oct 21"
-      ],
-      [
-        "Where",
-        "NH293"
-      ],
-      [
-        "Remote",
-        "Only if we arrange it in advance"
-      ]
-    ]
+    "label": "Book my advising meeting"
   },
   "prepare": {
     "title": "Come with your plan already in Workday",

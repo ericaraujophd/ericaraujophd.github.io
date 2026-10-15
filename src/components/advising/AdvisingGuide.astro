@@ -47,12 +47,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     <ul class="tldr">
       {season.hero.tldrHtml.map((item) => <li set:html={item} />)}
     </ul>
-    <div class="book" aria-label="Book a meeting">
-      <a class="btn" href={season.booking.url}>{season.booking.label}</a>
-      <dl>
-        {season.booking.details.map(([k, v]) => <><dt>{k}</dt><dd>{v}</dd></>)}
-      </dl>
-    </div>
+    <a class="btn book-btn" href={season.booking.url}>{season.booking.label}</a>
   </header>
 
   <!-- ── Prepare ──────────────────────────────────────────── -->
@@ -100,7 +95,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     <div class="read">
       <div class="eyebrow">{catalog.label}</div>
       <h2>Course maps</h2>
-      <p>Each column is a semester, and the color shows the year a course is usually taken. An arrow goes from a prerequisite to the course that needs it. Click a course to see its details and its prerequisites.</p>
+      <p>Each row is a semester, and the color shows the year a course is usually taken. An arrow goes from a prerequisite to the course that needs it. Click a course to see its details and its prerequisites.</p>
     </div>
     <div class="tabs" role="tablist" aria-label="Program">
       {programs.map((p, i) => (
@@ -241,6 +236,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     document.getElementById('adv-reqs').innerHTML = p.requirements
       .map((r) => `<div><h3>${esc(r.heading)}</h3><ul>${r.items.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>`).join('');
     selected = null; map.classList.remove('focus'); detail.textContent = DEFAULT_DETAIL;
+    externalLinksInNewTab();
     requestAnimationFrame(draw);
   }
 
@@ -249,7 +245,13 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     const mr = map.getBoundingClientRect();
     const ink = getComputedStyle(map).getPropertyValue('--adv-arrow').trim();
     svg.setAttribute('width', map.scrollWidth); svg.setAttribute('height', map.scrollHeight);
-    svg.innerHTML = `<defs><marker id="adv-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${ink}"/></marker></defs>`;
+    svg.innerHTML = '';
+    // Arrowheads are drawn as their own small triangles rather than SVG
+    // <marker>s. Markers scale with the line width (so highlighted arrows got
+    // fat heads) and take their angle from the curve's last few pixels (so
+    // heads on short or bent ends came out tilted). A hand-drawn head is
+    // always the same size and always points straight into the box.
+    const HEAD_L = 7, HEAD_W = 4; // length and half-width in px
 
     // Box positions relative to the map.
     const box = {};
@@ -314,14 +316,18 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
       return d + ` L${last[0]},${last[1]}`;
     };
 
+    const downHead = (x, tipY) => `M${x},${tipY} L${x - HEAD_W},${tipY - HEAD_L} L${x + HEAD_W},${tipY - HEAD_L} Z`;
+
     live.forEach((e) => {
       const A = box[e.a], B = box[e.b];
-      let d;
+      let d, head;
       if (sameLine(e)) {
         // Same semester, side by side: short sideways arrow between the boxes.
         const right = B.l >= A.r;
-        const x1 = right ? A.r : A.l, x2 = right ? B.l - 2 : B.r + 2;
-        d = `M${x1},${A.cy} L${x2},${B.cy}`;
+        const x1 = right ? A.r : A.l, tipX = right ? B.l - 1 : B.r + 1;
+        const baseX = tipX + (right ? -HEAD_L : HEAD_L);
+        d = `M${x1},${A.cy} L${baseX},${B.cy}`;
+        head = `M${tipX},${B.cy} L${baseX},${B.cy - HEAD_W} L${baseX},${B.cy + HEAD_W} Z`;
       } else if (B.row - A.row >= 2) {
         // Skips at least one semester: go around the boxes (see above).
         const x1 = outX.get(e), x2 = inX.get(e);
@@ -329,19 +335,24 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
         const ci = channels.reduce((best, c, i) => Math.abs(c - mid) < Math.abs(channels[best] - mid) ? i : best, 0);
         const cx = channels[ci] + nudge('c' + ci);
         const y1 = gapBelow(A.row) + nudge('g' + A.row), y2 = gapBelow(B.row - 1) + nudge('g' + (B.row - 1));
-        d = rounded([[x1, A.b], [x1, y1], [cx, y1], [cx, y2], [x2, y2], [x2, B.t - 2]]);
+        d = rounded([[x1, A.b], [x1, y1], [cx, y1], [cx, y2], [x2, y2], [x2, B.t - 1 - HEAD_L]]);
+        head = downHead(x2, B.t - 1);
       } else {
         // Next semester: a smooth S-curve, with straight stubs at both ends so
         // the arrowhead always points straight down into the box.
-        const x1 = outX.get(e), y1 = A.b, x2 = inX.get(e), y2 = B.t - 2;
+        const x1 = outX.get(e), y1 = A.b, x2 = inX.get(e), y2 = B.t - 1 - HEAD_L;
+        head = downHead(x2, B.t - 1);
         const s1 = y1 + 6, s2 = y2 - 8, dy = Math.max(10, (s2 - s1) / 2);
         d = `M${x1},${y1} L${x1},${s1} C${x1},${s1 + dy} ${x2},${s2 - dy} ${x2},${s2} L${x2},${y2}`;
       }
       const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       p.setAttribute('d', d); p.setAttribute('fill', 'none'); p.setAttribute('stroke', ink);
-      p.setAttribute('stroke-width', '1.5'); p.setAttribute('marker-end', 'url(#adv-ah)');
+      p.setAttribute('stroke-width', '1.5');
       if (e.or) p.setAttribute('stroke-dasharray', '5 4');
       p.dataset.a = e.a; p.dataset.b = e.b; svg.appendChild(p);
+      const h = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      h.setAttribute('d', head); h.setAttribute('fill', ink); h.setAttribute('class', 'head');
+      h.dataset.a = e.a; h.dataset.b = e.b; svg.appendChild(h);
     });
     if (selected) highlight(selected);
   }
@@ -361,7 +372,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   function highlight(id) {
     const { up, down } = chain(id); map.classList.add('focus');
     map.querySelectorAll('.node').forEach((n) => n.classList.toggle('on', up.has(n.dataset.id) || down.has(n.dataset.id)));
-    // Only the connector paths fade; the arrowhead marker path has no data-a.
+    // Lines and their heads both carry data-a/data-b, so they fade together.
     map.querySelectorAll('path[data-a]').forEach((p) => p.classList.toggle('on',
       (up.has(p.dataset.a) && up.has(p.dataset.b)) || (down.has(p.dataset.a) && down.has(p.dataset.b))));
   }
@@ -372,6 +383,17 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     if (GROUP_INFO[id]) { detail.innerHTML = `<b>${esc(n.label)}</b><br>${esc(GROUP_INFO[id])}`; return; }
     const info = C[key(id)];
     detail.innerHTML = `<b>${esc(n.label || id)}</b>: ${esc(info.title)}<br>${esc(info.credits)} credits. Offered: ${esc(info.offered)}.<br>Prerequisites: ${esc(info.prereqs)}`;
+  }
+
+  // ── External links open in a new tab ───────────────────────────────────────
+  // Any link to another site (Workday guides, the catalog, Bookings, Calvin
+  // pages) gets target="_blank". rel="noopener" stops the new tab from being
+  // able to control this one. Runs once for the static page and again after
+  // each map render, because the program note link is created by render().
+  function externalLinksInNewTab() {
+    document.querySelectorAll('.adv a[href]').forEach((a) => {
+      if (a.host && a.host !== location.host) { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+    });
   }
 
   tabs.forEach((b) => b.addEventListener('click', () => {
@@ -430,14 +452,10 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv .adv-hero { padding: 28px 0 36px; max-width: 68ch; }
   .adv .adv-hero .tldr-head { font-family: var(--mono); font-size: .8rem; font-weight: 500; letter-spacing: .12em; color: var(--gold); margin: 1.4rem 0 .5rem; }
   .adv .tldr { padding-left: 1.2rem; display: grid; gap: .35rem; }
-  .adv .adv-hero .book { margin-top: 1.4rem; max-width: 420px; }
+  .adv .adv-hero .book-btn { display: inline-block; margin-top: 1.4rem; padding: 10px 28px; }
   .adv .adv-hero h1 { font-size: clamp(2rem, 4.5vw, 2.8rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; }
-  .adv .book { background: var(--bg-card); border: 1px solid var(--border-mid); border-top: 4px solid var(--accent); padding: 18px 20px; display: grid; gap: 12px; }
   .adv .btn { display: block; background: var(--accent); color: var(--accent-ink); font-weight: 600; font-size: 1.05rem; padding: 10px 18px; border-radius: 4px; text-align: center; }
   .adv .btn:hover { opacity: .88; }
-  .adv .book dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: .92rem; }
-  .adv .book dt { color: var(--text-muted); }
-  .adv .book dd { font-weight: 600; }
 
   /* rule + steps */
   .adv .rule { background: var(--gold-soft); border-left: 4px solid var(--gold); padding: 14px 18px; margin-top: 10px; }
@@ -485,7 +503,8 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv .map.focus .node { opacity: .28; }
   .adv .map.focus .node.on { opacity: 1; }
   .adv .map.focus path[data-a] { opacity: .12; }
-  .adv .map.focus path[data-a].on { opacity: 1; stroke-width: 2.6; }
+  .adv .map.focus path[data-a].on { opacity: 1; }
+  .adv .map.focus path[data-a].on:not(.head) { stroke-width: 2.4; }
   .adv .detail { margin-top: 12px; min-height: 3.2em; background: var(--bg-card); border: 1px solid var(--border-mid); border-left: 4px solid var(--accent); padding: 12px 16px; font-size: .92rem; line-height: 1.5; }
   .adv .detail b { font-family: var(--mono); font-weight: 500; }
   .adv .reqs { columns: 2 300px; column-gap: 28px; margin-top: 18px; }
