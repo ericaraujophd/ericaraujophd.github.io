@@ -27,7 +27,7 @@ export interface Season {
   updated: string;
   /** Page title and the TL;DR bullets under it (HTML allowed). */
   hero: { title: string; tldrHtml: string[] };
-  booking: { url: string; label: string; details: Pair[] };
+  booking: { url: string; label: string };
   prepare: {
     title: string;
     rule: string;
