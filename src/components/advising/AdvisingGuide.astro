@@ -116,6 +116,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
       <label class="toggle"><input type="checkbox" id="adv-show-electives" /> Show individual electives</label>
     </div>
     <div class="mapbox"><div class="map" id="adv-map"><noscript><p class="note" style="padding:12px">The course map needs JavaScript. The requirement lists below and the catalog links in Help have the same information.</p></noscript></div></div>
+    <p class="note" id="adv-narrow" hidden>On a small screen the arrows are hidden. Tap a course to highlight its prerequisites and the courses it leads to.</p>
     <div class="detail" id="adv-detail" aria-live="polite">Click a course to see its credits, when it is offered and its prerequisites.</div>
     <p class="note" id="adv-mapnote"></p>
     <div class="reqs" id="adv-reqs"></div>
@@ -160,14 +161,21 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
 
 <script is:inline define:vars={{ catalog }}>
   // ── Course map ─────────────────────────────────────────────────────────────
-  // Eight columns (Year 1 Fall … Year 4 Spring). Each program in the catalog
-  // lists its nodes (course id + column), prerequisite edges, and optional
+  // The map reads top to bottom: one row per semester (Year 1 Fall at the top,
+  // Year 4 Spring at the bottom), courses side by side inside each row.
+  //
+  // Data: each program in the catalog lists its nodes (course id + `col`,
+  // where col 0..7 is the semester row), prerequisite edges, and optional
   // electives that appear when "Show individual electives" is ticked.
   // Node ids ending in "*" stand for "this course or an alternative"; the
   // catalog's `aliases` maps them back to the real course for its details.
+  //
   // Arrows are SVG paths measured from the rendered boxes, so they are redrawn
-  // on resize, when fonts load, and when the site theme changes.
-  const COLS = ['Year 1 · Fall','Year 1 · Spring','Year 2 · Fall','Year 2 · Spring','Year 3 · Fall','Year 3 · Spring','Year 4 · Fall','Year 4 · Spring'];
+  // on resize, when fonts load, and when the site theme changes. An arrow
+  // leaves the bottom of the prerequisite and enters the top of the course
+  // that needs it. When two courses in the same semester depend on each other
+  // (MATH 251 → MATH 252, CS 375 → CS 376) the arrow runs sideways instead.
+  const ROWS = ['Year 1 Fall','Year 1 Spring','Year 2 Fall','Year 2 Spring','Year 3 Fall','Year 3 Spring','Year 4 Fall','Year 4 Spring'];
   const YC = ['--y1','--y1','--y2','--y2','--y3','--y3','--y4','--y4'];
   const C = catalog.courses, ALT = catalog.aliases, P = catalog.programs, GROUP_INFO = catalog.groupInfo;
   const DEFAULT_DETAIL = 'Click a course to see its credits, when it is offered and its prerequisites.';
@@ -179,6 +187,25 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   const key = (id) => ALT[id] || id;
   const sid = (id) => 'n-' + id.replace(/[^A-Za-z0-9]/g, '_');
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  // Put each course roughly under its prerequisites so arrows cross less.
+  // Row by row, a course's sort key is the average position (0..1) of its
+  // prerequisites in earlier rows; courses without one keep their place in
+  // the data. This is the classic "barycenter" trick for layered graphs.
+  function orderRows(nodes, edges) {
+    const pos = {}, rows = [];
+    for (let r = 0; r < 8; r++) {
+      const row = nodes.filter((n) => n.col === r);
+      const keyed = row.map((n, i) => {
+        const preds = edges.filter((e) => e.b === n.id && pos[e.a] !== undefined).map((e) => pos[e.a]);
+        const k = preds.length ? preds.reduce((x, y) => x + y, 0) / preds.length : (i + 0.5) / row.length;
+        return { n, k, i };
+      }).sort((x, y) => x.k - y.k || x.i - y.i);
+      keyed.forEach((x, i) => { pos[x.n.id] = (i + 0.5) / keyed.length; });
+      rows.push(keyed.map((x) => x.n));
+    }
+    return rows;
+  }
 
   function render() {
     const p = P[cur];
@@ -193,22 +220,23 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     }
     edgesNow = edges;
     map.innerHTML = '<svg class="edges" aria-hidden="true"></svg>';
-    for (let c = 0; c < 8; c++) {
-      const col = document.createElement('div');
-      col.className = 'col'; col.style.color = `var(${YC[c]})`;
-      col.innerHTML = `<div class="colhead">${COLS[c]}</div>`;
-      nodes.filter((n) => n.col === c).forEach((n) => {
+    orderRows(nodes, edges).forEach((rowNodes, r) => {
+      const head = document.createElement('div');
+      head.className = 'rowhead'; head.style.color = `var(${YC[r]})`; head.textContent = ROWS[r];
+      const row = document.createElement('div');
+      row.className = 'row';
+      rowNodes.forEach((n) => {
         const info = C[key(n.id)], b = document.createElement('button');
-        b.className = 'node ' + n.kind; b.id = sid(n.id); b.dataset.id = n.id;
-        b.style.setProperty('--yc', `var(${YC[c]})`);
+        b.className = 'node ' + n.kind; b.id = sid(n.id); b.dataset.id = n.id; b.dataset.row = r;
+        b.style.setProperty('--yc', `var(${YC[r]})`);
         b.innerHTML = n.kind === 'group'
           ? `<span class="t"><b>${esc(n.label)}</b></span>`
           : `<span class="c">${esc(n.label || n.id)}</span><span class="t">${info ? esc(info.title) : ''}</span><span class="h">${info ? esc(info.credits) + ' cr' : ''}</span>`;
         b.addEventListener('click', () => select(n.id));
-        col.appendChild(b);
+        row.appendChild(b);
       });
-      map.appendChild(col);
-    }
+      map.append(head, row);
+    });
     document.getElementById('adv-mapnote').innerHTML = `${esc(p.note)} ${esc(p.hours)}. <a href="${esc(p.link.url)}">${esc(p.link.label)}</a>`;
     document.getElementById('adv-reqs').innerHTML = p.requirements
       .map((r) => `<div><h3>${esc(r.heading)}</h3><ul>${r.items.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>`).join('');
@@ -222,19 +250,92 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     const ink = getComputedStyle(map).getPropertyValue('--adv-arrow').trim();
     svg.setAttribute('width', map.scrollWidth); svg.setAttribute('height', map.scrollHeight);
     svg.innerHTML = `<defs><marker id="adv-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${ink}"/></marker></defs>`;
-    edgesNow.forEach((e) => {
-      const A = document.getElementById(sid(e.a)), B = document.getElementById(sid(e.b)); if (!A || !B) return;
-      const a = A.getBoundingClientRect(), b = B.getBoundingClientRect();
+
+    // Box positions relative to the map.
+    const box = {};
+    edgesNow.forEach((e) => [e.a, e.b].forEach((id) => {
+      if (box[id]) return;
+      const el = document.getElementById(sid(id)); if (!el) return;
+      const r = el.getBoundingClientRect();
+      box[id] = { row: +el.dataset.row, l: r.left - mr.left, r: r.right - mr.left, t: r.top - mr.top, b: r.bottom - mr.top, cx: (r.left + r.right) / 2 - mr.left, cy: (r.top + r.bottom) / 2 - mr.top };
+    }));
+    // On a phone the rows wrap onto several lines and the arrows turn into a
+    // tangle, so they are not drawn there. Tapping a course still highlights
+    // its whole prerequisite chain (that uses the data, not the drawn lines).
+    const narrow = map.clientWidth < 560;
+    document.getElementById('adv-narrow').hidden = !narrow;
+    if (narrow) { if (selected) highlight(selected); return; }
+    const live = edgesNow.filter((e) => box[e.a] && box[e.b]);
+    const sameLine = (e) => Math.abs(box[e.a].t - box[e.b].t) < 5;
+
+    // Several arrows can leave the bottom of one box (or enter the top of one
+    // box). Spread their end points across the edge, ordered by where the
+    // other end is, so they do not pile up on the centre and cross needlessly.
+    const slot = (list, sideBox, otherX) => {
+      list.sort((x, y) => otherX(x) - otherX(y));
+      const m = new Map();
+      list.forEach((e, i) => m.set(e, sideBox.l + (sideBox.r - sideBox.l) * (i + 1) / (list.length + 1)));
+      return m;
+    };
+    const outX = new Map(), inX = new Map();
+    Object.keys(box).forEach((id) => {
+      const outs = live.filter((e) => e.a === id && !sameLine(e));
+      const ins = live.filter((e) => e.b === id && !sameLine(e));
+      slot(outs, box[id], (e) => box[e.b].cx).forEach((x, e) => outX.set(e, x));
+      slot(ins, box[id], (e) => box[e.a].cx).forEach((x, e) => inX.set(e, x));
+    });
+
+    // ── Routing arrows that skip a semester ──────────────────────────────────
+    // An arrow from Year 1 Fall to Year 2 Spring would cut straight through
+    // the boxes in the rows in between. Instead it travels in the empty space:
+    // down into the gap under its own row, sideways to a vertical "channel"
+    // (the gaps between box columns line up from row to row because every box
+    // has the same width), down the channel, and sideways again in the gap
+    // above the target row. Arrows sharing a channel or a gap are nudged a few
+    // pixels apart so they stay distinguishable.
+    const rowEls = [...map.querySelectorAll('.row')].map((el) => el.getBoundingClientRect());
+    const gapBelow = (r) => (rowEls[r].bottom + rowEls[r + 1].top) / 2 - mr.top;
+    const lefts = [...new Set([...map.querySelectorAll('.node')].map((n) => Math.round(n.getBoundingClientRect().left - mr.left)))].sort((x, y) => x - y);
+    const nodeW = map.querySelector('.node')?.getBoundingClientRect().width || 150;
+    const channels = [lefts[0] - 7, ...lefts.slice(1).map((x) => x - 9), lefts[lefts.length - 1] + nodeW + 10];
+    const used = {}; // how many arrows already run along a channel or gap
+    const nudge = (k) => { used[k] = (used[k] || 0) + 1; const n = used[k] - 1; return n === 0 ? 0 : (n % 2 ? 1 : -1) * Math.ceil(n / 2) * 4; };
+    // Polyline with softly rounded corners (radius 6px).
+    const rounded = (pts) => {
+      let d = `M${pts[0][0]},${pts[0][1]}`;
+      for (let i = 1; i < pts.length - 1; i++) {
+        const [px, py] = pts[i - 1], [x, y] = pts[i], [nx, ny] = pts[i + 1];
+        const r1 = Math.min(6, Math.hypot(x - px, y - py) / 2), r2 = Math.min(6, Math.hypot(nx - x, ny - y) / 2);
+        const ax = x - Math.sign(x - px) * r1, ay = y - Math.sign(y - py) * r1;
+        const bx = x + Math.sign(nx - x) * r2, by = y + Math.sign(ny - y) * r2;
+        d += ` L${ax},${ay} Q${x},${y} ${bx},${by}`;
+      }
+      const last = pts[pts.length - 1];
+      return d + ` L${last[0]},${last[1]}`;
+    };
+
+    live.forEach((e) => {
+      const A = box[e.a], B = box[e.b];
       let d;
-      if (Math.abs(a.left - b.left) < 5) {
-        // Same semester (e.g. CS 375 → CS 376): hook down the right-hand side.
-        const x = a.right - mr.left, y1 = a.top + a.height / 2 - mr.top, y2 = b.top + b.height / 2 - mr.top;
-        d = `M${x},${y1} C${x + 22},${y1} ${x + 22},${y2} ${x + 2},${y2}`;
+      if (sameLine(e)) {
+        // Same semester, side by side: short sideways arrow between the boxes.
+        const right = B.l >= A.r;
+        const x1 = right ? A.r : A.l, x2 = right ? B.l - 2 : B.r + 2;
+        d = `M${x1},${A.cy} L${x2},${B.cy}`;
+      } else if (B.row - A.row >= 2) {
+        // Skips at least one semester: go around the boxes (see above).
+        const x1 = outX.get(e), x2 = inX.get(e);
+        const mid = (x1 + x2) / 2;
+        const ci = channels.reduce((best, c, i) => Math.abs(c - mid) < Math.abs(channels[best] - mid) ? i : best, 0);
+        const cx = channels[ci] + nudge('c' + ci);
+        const y1 = gapBelow(A.row) + nudge('g' + A.row), y2 = gapBelow(B.row - 1) + nudge('g' + (B.row - 1));
+        d = rounded([[x1, A.b], [x1, y1], [cx, y1], [cx, y2], [x2, y2], [x2, B.t - 2]]);
       } else {
-        // Straight stubs at both ends keep the arrowhead flat against the box at any angle.
-        const x1 = a.right - mr.left, y1 = a.top + a.height / 2 - mr.top, x2 = b.left - mr.left - 2, y2 = b.top + b.height / 2 - mr.top;
-        const s1 = x1 + 8, s2 = x2 - 10, dx = Math.max(12, (s2 - s1) / 2);
-        d = `M${x1},${y1} L${s1},${y1} C${s1 + dx},${y1} ${s2 - dx},${y2} ${s2},${y2} L${x2},${y2}`;
+        // Next semester: a smooth S-curve, with straight stubs at both ends so
+        // the arrowhead always points straight down into the box.
+        const x1 = outX.get(e), y1 = A.b, x2 = inX.get(e), y2 = B.t - 2;
+        const s1 = y1 + 6, s2 = y2 - 8, dy = Math.max(10, (s2 - s1) / 2);
+        d = `M${x1},${y1} L${x1},${s1} C${x1},${s1 + dy} ${x2},${s2 - dy} ${x2},${s2} L${x2},${y2}`;
       }
       const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       p.setAttribute('d', d); p.setAttribute('fill', 'none'); p.setAttribute('stroke', ink);
@@ -367,11 +468,14 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv .legend .dash { width: 26px; height: 0; border: 0; border-top: 2px dashed var(--text-muted); border-radius: 0; }
   .adv .legend .solid { width: 26px; height: 0; border: 0; border-top: 2px solid var(--text-muted); border-radius: 0; }
   .adv label.toggle { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; color: var(--text); }
-  .adv .mapbox { overflow-x: auto; background: var(--bg-card); border: 1px solid var(--border-mid); border-radius: 6px; }
-  .adv .map { position: relative; display: grid; grid-template-columns: repeat(8, 158px); column-gap: 56px; padding: 12px 18px 18px; width: max-content; }
+  /* Map: a label column on the left, one row per semester. Rows are spaced
+     apart so the arrows have room to bend between them. */
+  .adv .mapbox { background: var(--bg-card); border: 1px solid var(--border-mid); border-radius: 6px; }
+  .adv .map { position: relative; display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); column-gap: 14px; row-gap: 38px; padding: 18px 16px 22px; }
   .adv .map svg.edges { position: absolute; inset: 0; pointer-events: none; overflow: visible; }
-  .adv .colhead { font-family: var(--mono); font-weight: 500; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; padding: 6px 0 8px; border-bottom: 3px solid currentColor; margin-bottom: 10px; }
-  .adv .col { display: flex; flex-direction: column; gap: 12px; }
+  .adv .rowhead { font-family: var(--mono); font-weight: 500; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; line-height: 1.3; padding: 4px 0 4px 8px; border-left: 3px solid currentColor; align-self: start; }
+  .adv .row { display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: flex-start; min-height: 2rem; }
+  .adv .row .node { flex: 0 0 150px; }
   .adv .node { position: relative; z-index: 1; background: color-mix(in srgb, var(--yc) 12%, var(--bg-card)); border: 2px solid var(--yc); border-radius: 6px; padding: 6px 8px; text-align: left; color: var(--text); font: inherit; line-height: 1.3; width: 100%; transition: opacity .15s; }
   .adv .node .c { font-family: var(--mono); font-weight: 500; font-size: .78rem; color: var(--yc); }
   .adv .node .t { display: block; font-size: .8rem; line-height: 1.25; }
@@ -399,6 +503,9 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
 
   @media (max-width: 760px) {
     .adv .two { grid-template-columns: minmax(0, 1fr); }
+    .adv .map { grid-template-columns: minmax(0, 1fr); row-gap: 8px; }
+    .adv .row { margin-bottom: 26px; }
+    .adv .row .node { flex-basis: calc(50% - 9px); }
   }
   @media (prefers-reduced-motion: reduce) { .adv * { transition: none !important; } }
 </style>
