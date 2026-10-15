@@ -1,0 +1,54 @@
+---
+// /advising/ — academic advising hub.
+//
+// Shows the newest published season in full (the same page as
+// /advising/<id>/), followed by a list of earlier seasons. If no season is
+// published yet, shows a short placeholder instead. Research students are on
+// /mentoring.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdvisingGuide from '../../components/advising/AdvisingGuide.astro';
+import { getSeasons, getCatalog, getCurrentSeason } from '../../lib/advising';
+
+const current = getCurrentSeason();
+const others = getSeasons().filter((s) => s.id !== current?.id);
+---
+
+<BaseLayout title="Advising" description="Academic advising for Eric Araújo's computer science and data science advisees at Calvin University.">
+  <div class="page-wrapper adv-wrapper">
+
+    {current ? (
+      <AdvisingGuide season={current} catalog={getCatalog(current.catalog)} />
+    ) : (
+      <div class="page-header fade-up" data-delay="0">
+        <h1>Advising</h1>
+        <div style="width: 36px; height: 2px; background: var(--accent); margin: 10px 0 16px;"></div>
+        <p>
+          Academic advising for my computer science and data science advisees at Calvin University.
+          The guide for the next registration period (how to book a meeting, what to prepare,
+          registration dates and course maps) will be posted here.
+        </p>
+        <p>Looking for research students and projects? See <a href="/mentoring">Mentoring</a>.</p>
+      </div>
+    )}
+
+    {others.length > 0 && (
+      <section class="adv-past">
+        <h2>{current ? 'Earlier advising guides' : 'Advising guides'}</h2>
+        <ul>
+          {others.map((s) => (
+            <li><a href={`/advising/${s.id}/`}>{s.term}</a>{s.draft && <span class="mono"> · draft (dev only)</span>}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {current && <p class="adv-mentoring">Research students and projects are on <a href="/mentoring">Mentoring</a>.</p>}
+  </div>
+</BaseLayout>
+
+<style>
+  .adv-wrapper { max-width: 1080px; }
+  .adv-past { margin-top: 40px; }
+  .adv-past ul { padding-left: 1.2rem; }
+  .adv-mentoring { margin-top: 24px; color: var(--text-muted); font-size: .9rem; }
+</style>

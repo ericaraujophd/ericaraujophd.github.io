@@ -1,0 +1,1422 @@
+{
+  "_about": "Course maps and core-requirement table for the academic advising guide (src/pages/advising/). One file per catalog year; a season file in data/advising/seasons/ names the catalog it uses in its `catalog` field. Sources: Calvin 2026-27 catalog (catoid=25), the department's 2026 BCS and CS Plus sample schedules, the CS department advising page, and the Spring 2027 section list. Columns run 0-7 = Year 1 Fall, Year 1 Spring, ... Year 4 Spring.",
+  "id": "2026-27",
+  "label": "2026–2027 catalog",
+  "catalogUrl": "https://catalog.calvin.edu/content.php?catoid=25&navoid=803",
+  "sourceNote": "Course data from the Calvin University 2026–2027 catalog; BCS and CS Plus semester placement follows the department’s 2026 sample schedules. The catalog is the official source if anything here differs.",
+  "programLinks": {
+    "bcs": "https://catalog.calvin.edu/preview_program.php?catoid=25&poid=13641",
+    "plus": "https://catalog.calvin.edu/preview_program.php?catoid=25&poid=13726",
+    "ds": "https://catalog.calvin.edu/preview_program.php?catoid=25&poid=13644"
+  },
+  "aliases": {
+    "CS 108*": "CS 108",
+    "MATH 132*": "MATH 132",
+    "STAT 143*": "STAT 143",
+    "CS 106*": "CS 106",
+    "MATH 161*": "MATH 161",
+    "STAT 243*": "STAT 243",
+    "CS 396*": "CS 396",
+    "CS 398*": "CS 398"
+  },
+  "courses": {
+    "CS 106": {
+      "title": "Intro to Scientific Computation & Modeling",
+      "credits": "3 (+lab)",
+      "offered": "Fall",
+      "prereqs": "None (lab corequisite)."
+    },
+    "CS 108": {
+      "title": "Introduction to Computing",
+      "credits": "3 (+lab)",
+      "offered": "Fall, Spring",
+      "prereqs": "None (lab corequisite)."
+    },
+    "CS 112": {
+      "title": "Introduction to Data Structures",
+      "credits": "3 (+lab)",
+      "offered": "Fall, Spring",
+      "prereqs": "CS 104, CS 106 or CS 108."
+    },
+    "CS 195": {
+      "title": "Introductory Computing Seminar ×3",
+      "credits": "0",
+      "offered": "Fall, Spring",
+      "prereqs": "First- or second-year standing. Take three times in years 1–2."
+    },
+    "CS 212": {
+      "title": "Data Structures & Algorithms",
+      "credits": "4",
+      "offered": "Fall",
+      "prereqs": "CS 112."
+    },
+    "CS 214": {
+      "title": "Programming Language Concepts",
+      "credits": "4",
+      "offered": "Spring",
+      "prereqs": "CS 112."
+    },
+    "CS 232": {
+      "title": "Operating Systems & Networking",
+      "credits": "4",
+      "offered": "Spring",
+      "prereqs": "CS 112, and ENGR 220 or ENGR 304 (may be taken concurrently)."
+    },
+    "CS 262": {
+      "title": "Software Engineering",
+      "credits": "4",
+      "offered": "Fall",
+      "prereqs": "CS 112 and at least junior standing."
+    },
+    "CS 295": {
+      "title": "Computing Seminar ×3",
+      "credits": "0",
+      "offered": "Fall, Spring",
+      "prereqs": "Junior or senior standing. Take three times in years 3–4."
+    },
+    "CS 383": {
+      "title": "External Practicum",
+      "credits": "1",
+      "offered": "Fall, Spring, Summer",
+      "prereqs": "Not open to first-year students; department approval."
+    },
+    "CS 384": {
+      "title": "Perspectives on Computing",
+      "credits": "4",
+      "offered": "Spring",
+      "prereqs": "Last year of a computing-related program."
+    },
+    "CS 396": {
+      "title": "Senior Project in Computing",
+      "credits": "2",
+      "offered": "Fall",
+      "prereqs": "Senior standing."
+    },
+    "CS 398": {
+      "title": "Senior Project in Computing II",
+      "credits": "2",
+      "offered": "Spring",
+      "prereqs": "CS 396."
+    },
+    "ENGR 220": {
+      "title": "Intro to Computer Architecture",
+      "credits": "3 (+lab)",
+      "offered": "Fall",
+      "prereqs": "A programming course (normally CS 104, 106 or 108)."
+    },
+    "DATA 202": {
+      "title": "Introduction to Machine Learning",
+      "credits": "4",
+      "offered": "Fall",
+      "prereqs": "CS 104, CS 106 or CS 108."
+    },
+    "DATA 304": {
+      "title": "Visualizing Data and Models",
+      "credits": "2",
+      "offered": "Spring",
+      "prereqs": "DATA 202 or STAT 245."
+    },
+    "DATA 385": {
+      "title": "Topics in Data Science (4 hrs)",
+      "credits": "2 or 4",
+      "offered": "Spring",
+      "prereqs": "DATA 202."
+    },
+    "DATA 396": {
+      "title": "Senior Project in Data Science",
+      "credits": "2",
+      "offered": "Fall",
+      "prereqs": "Senior standing."
+    },
+    "DATA 398": {
+      "title": "Senior Project in Data Science II",
+      "credits": "2",
+      "offered": "Spring",
+      "prereqs": "DATA 396."
+    },
+    "MATH 132": {
+      "title": "Calculus for Mgmt, Life & Social Sci.",
+      "credits": "4",
+      "offered": "Spring",
+      "prereqs": "None. Not open after MATH 161/162."
+    },
+    "MATH 161": {
+      "title": "Calculus: Modeling and Computation",
+      "credits": "4",
+      "offered": "Fall, Spring",
+      "prereqs": "None. AP Calculus AB 4+ takes MATH 163 instead."
+    },
+    "MATH 251": {
+      "title": "Discrete Mathematics I",
+      "credits": "2",
+      "offered": "Spring",
+      "prereqs": "MATH 132, 161 or 162."
+    },
+    "MATH 252": {
+      "title": "Discrete Mathematics II",
+      "credits": "2",
+      "offered": "Spring",
+      "prereqs": "CS 106 or CS 108, and MATH 251."
+    },
+    "MATH 255": {
+      "title": "Introductory Linear Algebra",
+      "credits": "4",
+      "offered": "Fall",
+      "prereqs": "MATH 161 or 162, or B- in MATH 132."
+    },
+    "STAT 143": {
+      "title": "Intro to Probability & Statistics",
+      "credits": "4",
+      "offered": "Fall, Spring",
+      "prereqs": "None."
+    },
+    "STAT 243": {
+      "title": "Statistics",
+      "credits": "4",
+      "offered": "Spring",
+      "prereqs": "MATH 161 or 162, or B- in MATH 132."
+    },
+    "STAT 245": {
+      "title": "Applied Data Analysis",
+      "credits": "4",
+      "offered": "Fall",
+      "prereqs": "STAT 143/145, PSYC 255 or SOC 255 with B- or better; or STAT 241/243/343 with C- or better; or AP Statistics 5."
+    },
+    "COMM 101": {
+      "title": "Oral Rhetoric",
+      "credits": "4",
+      "offered": "Fall, Spring",
+      "prereqs": "None."
+    },
+    "CS 300": {
+      "title": "Special Topics in CS",
+      "credits": "2 or 4",
+      "offered": "Varies",
+      "prereqs": "Varies by topic."
+    },
+    "CS 312": {
+      "title": "Logic, Computability & Complexity",
+      "credits": "4",
+      "offered": "As needed",
+      "prereqs": "MATH 255, or MATH 251 and 252."
+    },
+    "CS 320": {
+      "title": "Advanced Computer Architecture",
+      "credits": "2",
+      "offered": "Spring, select years",
+      "prereqs": "None listed."
+    },
+    "CS 326": {
+      "title": "Embedded Systems & IoT",
+      "credits": "4",
+      "offered": "Spring, alternate years",
+      "prereqs": "CS 112 (may be concurrent), and ENGR 204 or ENGR 220."
+    },
+    "CS 332": {
+      "title": "Advanced Computer Networks",
+      "credits": "2",
+      "offered": "Fall, alternate years",
+      "prereqs": "CS 232."
+    },
+    "CS 336": {
+      "title": "Web Development",
+      "credits": "4",
+      "offered": "Fall",
+      "prereqs": "CS 112."
+    },
+    "CS 338": {
+      "title": "Sys Admin: Infrastructure",
+      "credits": "2",
+      "offered": "Spring, first half (paired with CS 339)",
+      "prereqs": "CS 112."
+    },
+    "CS 339": {
+      "title": "Sys Admin: Cloud Services",
+      "credits": "2",
+      "offered": "Spring, second half (paired with CS 338)",
+      "prereqs": "CS 112."
+    },
+    "CS 354": {
+      "title": "Database Management Systems",
+      "credits": "2",
+      "offered": "Fall (confirmed by the department; the catalog still lists spring)",
+      "prereqs": "CS 262 or DATA 202."
+    },
+    "CS 360": {
+      "title": "Fundamentals of Cybersecurity",
+      "credits": "2",
+      "offered": "Fall",
+      "prereqs": "CS 112."
+    },
+    "CS 361": {
+      "title": "Fundamentals of Cyber Defense",
+      "credits": "2",
+      "offered": "Fall",
+      "prereqs": "CS 360."
+    },
+    "CS 363": {
+      "title": "Network Security",
+      "credits": "4",
+      "offered": "Spring",
+      "prereqs": "CS 232."
+    },
+    "CS 372": {
+      "title": "Computer Graphics",
+      "credits": "2",
+      "offered": "Spring, alternate years",
+      "prereqs": "CS 212 or CS 214."
+    },
+    "CS 374": {
+      "title": "High Performance Computing",
+      "credits": "2",
+      "offered": "Fall, alternate years",
+      "prereqs": "CS 112 and junior standing."
+    },
+    "CS 375": {
+      "title": "Machine Learning",
+      "credits": "2",
+      "offered": "Spring, first half",
+      "prereqs": "DATA 202, MATH 255, and STAT 243 or STAT 343."
+    },
+    "CS 376": {
+      "title": "Advanced Machine Learning",
+      "credits": "2",
+      "offered": "Spring, second half (same semester as CS 375)",
+      "prereqs": "CS 375."
+    },
+    "ENGR 304": {
+      "title": "Fundamentals of Digital Systems",
+      "credits": "3",
+      "offered": "Spring",
+      "prereqs": "ENGR 204 and a programming course."
+    },
+    "ENGR 325": {
+      "title": "Computer Arch. & Digital Systems Design",
+      "credits": "3",
+      "offered": "Fall",
+      "prereqs": "ENGR 304."
+    }
+  },
+  "groupInfo": {
+    "CSEL": "Choose from the 300-level CS courses, ENGR 304 or ENGR 325. Turn on “Show individual electives” to see them and their prerequisites.",
+    "SCI": "6 hours of laboratory science from the list in the catalog (astronomy, biology, chemistry, geology or physics). Many of these also count toward the core.",
+    "DOM1": "12 hours from one other department (or a cohesive set approved by the department), at least 2 hours at the 300 level. The sample schedule spreads it over years 2–4.",
+    "ETH": "PHIL 205 Ethics or BUS 392 Business Ethics.",
+    "MSEL": "4 hours from MATH 335, MATH 355, STAT 341, STAT 343, STAT 344 or STAT 385.",
+    "BUS": "At least 6 hours from ACCT 315, BUS 100, BUS 201, BUS 310, BUS 311, COMM 362 or ENGL 241."
+  },
+  "programs": {
+    "bcs": {
+      "name": "Computer Science (BCS)",
+      "hours": "76 hours in the major (124 to graduate)",
+      "note": "Semester placement follows the department's 2026 BCS sample schedule. All departmental courses need a C- or better.",
+      "link": {
+        "label": "BCS program page and sample schedule",
+        "url": "https://calvin.edu/majors-programs/bachelor-computer-science-bcs"
+      },
+      "nodes": [
+        {
+          "id": "CS 108",
+          "col": 0
+        },
+        {
+          "id": "MATH 161",
+          "col": 0
+        },
+        {
+          "id": "CS 195",
+          "col": 0
+        },
+        {
+          "id": "CS 112",
+          "col": 1
+        },
+        {
+          "id": "MATH 251",
+          "col": 1
+        },
+        {
+          "id": "MATH 252",
+          "col": 1
+        },
+        {
+          "id": "CS 212",
+          "col": 2
+        },
+        {
+          "id": "MATH 255",
+          "col": 2
+        },
+        {
+          "id": "DATA 202",
+          "col": 2
+        },
+        {
+          "id": "CS 214",
+          "col": 3
+        },
+        {
+          "id": "STAT 243",
+          "col": 3,
+          "label": "STAT 243 / 343"
+        },
+        {
+          "id": "COMM 101",
+          "col": 3
+        },
+        {
+          "id": "CS 262",
+          "col": 4
+        },
+        {
+          "id": "ENGR 220",
+          "col": 4
+        },
+        {
+          "id": "CS 295",
+          "col": 4
+        },
+        {
+          "id": "CS 232",
+          "col": 5
+        },
+        {
+          "id": "CSEL",
+          "col": 5,
+          "label": "CS electives · 10 hrs",
+          "kind": "group"
+        },
+        {
+          "id": "CS 396",
+          "col": 6
+        },
+        {
+          "id": "SCI",
+          "col": 6,
+          "label": "Lab science · 6 hrs",
+          "kind": "group"
+        },
+        {
+          "id": "CS 398",
+          "col": 7
+        },
+        {
+          "id": "CS 384",
+          "col": 7
+        }
+      ],
+      "edges": [
+        {
+          "from": "CS 108",
+          "to": "CS 112"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 212"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 214"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 232"
+        },
+        {
+          "from": "ENGR 220",
+          "to": "CS 232"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 262"
+        },
+        {
+          "from": "CS 108",
+          "to": "ENGR 220"
+        },
+        {
+          "from": "CS 108",
+          "to": "DATA 202"
+        },
+        {
+          "from": "MATH 161",
+          "to": "MATH 251"
+        },
+        {
+          "from": "MATH 251",
+          "to": "MATH 252"
+        },
+        {
+          "from": "CS 108",
+          "to": "MATH 252"
+        },
+        {
+          "from": "MATH 161",
+          "to": "MATH 255"
+        },
+        {
+          "from": "MATH 161",
+          "to": "STAT 243"
+        },
+        {
+          "from": "CS 396",
+          "to": "CS 398"
+        }
+      ],
+      "electives": [
+        {
+          "id": "CS 300",
+          "col": 4
+        },
+        {
+          "id": "CS 312",
+          "col": 4
+        },
+        {
+          "id": "CS 336",
+          "col": 4
+        },
+        {
+          "id": "CS 360",
+          "col": 4
+        },
+        {
+          "id": "CS 320",
+          "col": 5
+        },
+        {
+          "id": "CS 326",
+          "col": 5
+        },
+        {
+          "id": "CS 338",
+          "col": 5
+        },
+        {
+          "id": "CS 339",
+          "col": 5
+        },
+        {
+          "id": "CS 376",
+          "col": 5
+        },
+        {
+          "id": "CS 372",
+          "col": 5
+        },
+        {
+          "id": "CS 375",
+          "col": 5
+        },
+        {
+          "id": "ENGR 304",
+          "col": 5
+        },
+        {
+          "id": "CS 332",
+          "col": 6
+        },
+        {
+          "id": "CS 354",
+          "col": 6
+        },
+        {
+          "id": "CS 361",
+          "col": 6
+        },
+        {
+          "id": "CS 374",
+          "col": 6
+        },
+        {
+          "id": "ENGR 325",
+          "col": 6
+        },
+        {
+          "id": "CS 363",
+          "col": 7
+        }
+      ],
+      "electiveEdges": [
+        {
+          "from": "CS 232",
+          "to": "CS 332"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 336"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 338"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 339"
+        },
+        {
+          "from": "CS 262",
+          "to": "CS 354",
+          "or": true
+        },
+        {
+          "from": "DATA 202",
+          "to": "CS 354",
+          "or": true
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 360"
+        },
+        {
+          "from": "CS 360",
+          "to": "CS 361"
+        },
+        {
+          "from": "CS 232",
+          "to": "CS 363"
+        },
+        {
+          "from": "CS 212",
+          "to": "CS 372",
+          "or": true
+        },
+        {
+          "from": "CS 214",
+          "to": "CS 372",
+          "or": true
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 374"
+        },
+        {
+          "from": "DATA 202",
+          "to": "CS 375"
+        },
+        {
+          "from": "MATH 255",
+          "to": "CS 375"
+        },
+        {
+          "from": "STAT 243",
+          "to": "CS 375"
+        },
+        {
+          "from": "CS 375",
+          "to": "CS 376"
+        },
+        {
+          "from": "MATH 255",
+          "to": "CS 312",
+          "or": true
+        },
+        {
+          "from": "MATH 252",
+          "to": "CS 312",
+          "or": true
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 326"
+        },
+        {
+          "from": "ENGR 220",
+          "to": "CS 326",
+          "or": true
+        },
+        {
+          "from": "ENGR 304",
+          "to": "ENGR 325"
+        }
+      ],
+      "requirements": [
+        {
+          "heading": "Computer science",
+          "items": [
+            "CS 108, 112, 212, 214, 232, 262",
+            "CS 195 (3 semesters), CS 295 (3 semesters)",
+            "CS 384 Perspectives on Computing",
+            "CS 396 and CS 398 Senior Project"
+          ]
+        },
+        {
+          "heading": "Electives · 10 hours",
+          "items": [
+            "CS 300-level electives, ENGR 304 or ENGR 325 (turn on “Show individual electives”)"
+          ]
+        },
+        {
+          "heading": "Cognates",
+          "items": [
+            "COMM 101, DATA 202, ENGR 220",
+            "MATH 161 (or 162), MATH 251, 252, 255",
+            "STAT 243 (or STAT 343)"
+          ]
+        },
+        {
+          "heading": "Laboratory science · 6 hours",
+          "items": [
+            "ASTR 201/211, BIOL 160/161/231/232, CHEM 101/102/103, GEO 120/151/152/153, PHYS 130/131/133/235"
+          ]
+        }
+      ]
+    },
+    "plus": {
+      "name": "Computer Science Plus (BS)",
+      "hours": "67–70 hours in the major (124 to graduate)",
+      "note": "Semester placement follows the department's 2026 CS Plus sample schedule. A C or better in CS 212, 214, 232 or 262 is needed for admission to the program.",
+      "link": {
+        "label": "CS Plus program page and sample schedule",
+        "url": "https://calvin.edu/majors-programs/computer-science-plus"
+      },
+      "nodes": [
+        {
+          "id": "CS 108*",
+          "col": 0,
+          "label": "CS 108 / 106"
+        },
+        {
+          "id": "MATH 132*",
+          "col": 0,
+          "label": "MATH 132/161/162"
+        },
+        {
+          "id": "CS 195",
+          "col": 0
+        },
+        {
+          "id": "CS 112",
+          "col": 1
+        },
+        {
+          "id": "MATH 251",
+          "col": 1
+        },
+        {
+          "id": "MATH 252",
+          "col": 1
+        },
+        {
+          "id": "CS 212",
+          "col": 2
+        },
+        {
+          "id": "STAT 143*",
+          "col": 2,
+          "label": "STAT 143/145/243"
+        },
+        {
+          "id": "DATA 202",
+          "col": 2
+        },
+        {
+          "id": "CS 214",
+          "col": 3
+        },
+        {
+          "id": "DOM1",
+          "col": 3,
+          "label": "Domain study · 12 hrs",
+          "kind": "group"
+        },
+        {
+          "id": "CS 262",
+          "col": 4
+        },
+        {
+          "id": "ENGR 220",
+          "col": 4
+        },
+        {
+          "id": "CS 295",
+          "col": 4
+        },
+        {
+          "id": "CS 232",
+          "col": 5
+        },
+        {
+          "id": "CS 396*",
+          "col": 6,
+          "label": "CS 396 / 383"
+        },
+        {
+          "id": "CSEL",
+          "col": 6,
+          "label": "CS electives · 6 hrs",
+          "kind": "group"
+        },
+        {
+          "id": "CS 398*",
+          "col": 7,
+          "label": "CS 398 / 383"
+        },
+        {
+          "id": "CS 384",
+          "col": 7
+        }
+      ],
+      "edges": [
+        {
+          "from": "CS 108*",
+          "to": "CS 112"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 212"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 214"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 232"
+        },
+        {
+          "from": "ENGR 220",
+          "to": "CS 232"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 262"
+        },
+        {
+          "from": "CS 108*",
+          "to": "ENGR 220"
+        },
+        {
+          "from": "CS 108*",
+          "to": "DATA 202"
+        },
+        {
+          "from": "MATH 132*",
+          "to": "MATH 251"
+        },
+        {
+          "from": "MATH 251",
+          "to": "MATH 252"
+        },
+        {
+          "from": "CS 108*",
+          "to": "MATH 252"
+        },
+        {
+          "from": "CS 396*",
+          "to": "CS 398*"
+        }
+      ],
+      "electives": [
+        {
+          "id": "CS 300",
+          "col": 4
+        },
+        {
+          "id": "CS 312",
+          "col": 4
+        },
+        {
+          "id": "CS 336",
+          "col": 4
+        },
+        {
+          "id": "CS 360",
+          "col": 4
+        },
+        {
+          "id": "CS 320",
+          "col": 5
+        },
+        {
+          "id": "CS 326",
+          "col": 5
+        },
+        {
+          "id": "CS 338",
+          "col": 5
+        },
+        {
+          "id": "CS 339",
+          "col": 5
+        },
+        {
+          "id": "CS 376",
+          "col": 5
+        },
+        {
+          "id": "CS 372",
+          "col": 5
+        },
+        {
+          "id": "CS 375",
+          "col": 5
+        },
+        {
+          "id": "ENGR 304",
+          "col": 5
+        },
+        {
+          "id": "CS 332",
+          "col": 6
+        },
+        {
+          "id": "CS 354",
+          "col": 6
+        },
+        {
+          "id": "CS 361",
+          "col": 6
+        },
+        {
+          "id": "CS 374",
+          "col": 6
+        },
+        {
+          "id": "ENGR 325",
+          "col": 6
+        },
+        {
+          "id": "CS 363",
+          "col": 7
+        }
+      ],
+      "electiveEdges": [
+        {
+          "from": "CS 232",
+          "to": "CS 332"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 336"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 338"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 339"
+        },
+        {
+          "from": "CS 262",
+          "to": "CS 354",
+          "or": true
+        },
+        {
+          "from": "DATA 202",
+          "to": "CS 354",
+          "or": true
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 360"
+        },
+        {
+          "from": "CS 360",
+          "to": "CS 361"
+        },
+        {
+          "from": "CS 232",
+          "to": "CS 363"
+        },
+        {
+          "from": "CS 212",
+          "to": "CS 372",
+          "or": true
+        },
+        {
+          "from": "CS 214",
+          "to": "CS 372",
+          "or": true
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 374"
+        },
+        {
+          "from": "DATA 202",
+          "to": "CS 375"
+        },
+        {
+          "from": "MATH 255",
+          "to": "CS 375"
+        },
+        {
+          "from": "STAT 243",
+          "to": "CS 375"
+        },
+        {
+          "from": "CS 375",
+          "to": "CS 376"
+        },
+        {
+          "from": "MATH 255",
+          "to": "CS 312",
+          "or": true
+        },
+        {
+          "from": "MATH 252",
+          "to": "CS 312",
+          "or": true
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 326"
+        },
+        {
+          "from": "ENGR 220",
+          "to": "CS 326",
+          "or": true
+        },
+        {
+          "from": "ENGR 304",
+          "to": "ENGR 325"
+        }
+      ],
+      "requirements": [
+        {
+          "heading": "Computer science",
+          "items": [
+            "CS 108 (preferred) or CS 106, CS 112, 212, 214, 232, 262",
+            "CS 195 (3 semesters), CS 295 (3 semesters)",
+            "CS 384 Perspectives on Computing",
+            "CS 383 External Practicum, or CS 396 and CS 398"
+          ]
+        },
+        {
+          "heading": "Electives · 6 hours",
+          "items": [
+            "CS 300-level electives, ENGR 304 or ENGR 325"
+          ]
+        },
+        {
+          "heading": "Cognates",
+          "items": [
+            "DATA 202, ENGR 220, MATH 251, MATH 252",
+            "One statistics course: STAT 143, 145, 243 (preferred) or PSYC 255",
+            "One calculus course: MATH 132, 161 or 162"
+          ]
+        },
+        {
+          "heading": "Domain study · 12 hours",
+          "items": [
+            "12 hours in one department (or a cohesive set approved by the department), at least 2 hours at the 300 level"
+          ]
+        }
+      ]
+    },
+    "ds": {
+      "name": "Data Science (BS)",
+      "hours": "64 hours in the major (124 to graduate)",
+      "note": "The Data Science program page does not include a sample schedule. These semester placements are a suggestion built from the catalog's prerequisites and the terms each course is offered; confirm your own sequence with your advisor.",
+      "link": {
+        "label": "Data Science program page",
+        "url": "https://calvin.edu/majors-programs/data-science-major-bs-minor"
+      },
+      "nodes": [
+        {
+          "id": "CS 106*",
+          "col": 0,
+          "label": "CS 106 / 108"
+        },
+        {
+          "id": "MATH 161*",
+          "col": 0,
+          "label": "MATH 161 / 163"
+        },
+        {
+          "id": "CS 112",
+          "col": 1
+        },
+        {
+          "id": "STAT 243*",
+          "col": 1,
+          "label": "STAT 243 / 343"
+        },
+        {
+          "id": "DATA 202",
+          "col": 2
+        },
+        {
+          "id": "MATH 255",
+          "col": 2
+        },
+        {
+          "id": "STAT 245",
+          "col": 2
+        },
+        {
+          "id": "DATA 304",
+          "col": 3
+        },
+        {
+          "id": "ETH",
+          "col": 3,
+          "label": "Ethics: PHIL 205 or BUS 392",
+          "kind": "group"
+        },
+        {
+          "id": "CS 212",
+          "col": 4,
+          "label": "CS 212 · rec. elective"
+        },
+        {
+          "id": "MSEL",
+          "col": 4,
+          "label": "Math/stat elective · 4 hrs",
+          "kind": "group"
+        },
+        {
+          "id": "CS 375",
+          "col": 5
+        },
+        {
+          "id": "CS 376",
+          "col": 5
+        },
+        {
+          "id": "DATA 385",
+          "col": 5
+        },
+        {
+          "id": "DATA 396",
+          "col": 6
+        },
+        {
+          "id": "BUS",
+          "col": 6,
+          "label": "Business / soft-skills · 6 hrs",
+          "kind": "group"
+        },
+        {
+          "id": "DATA 398",
+          "col": 7
+        },
+        {
+          "id": "CS 384",
+          "col": 7
+        }
+      ],
+      "edges": [
+        {
+          "from": "CS 106*",
+          "to": "CS 112"
+        },
+        {
+          "from": "CS 106*",
+          "to": "DATA 202"
+        },
+        {
+          "from": "MATH 161*",
+          "to": "STAT 243*"
+        },
+        {
+          "from": "STAT 243*",
+          "to": "STAT 245"
+        },
+        {
+          "from": "MATH 161*",
+          "to": "MATH 255"
+        },
+        {
+          "from": "DATA 202",
+          "to": "DATA 304",
+          "or": true
+        },
+        {
+          "from": "STAT 245",
+          "to": "DATA 304",
+          "or": true
+        },
+        {
+          "from": "DATA 202",
+          "to": "DATA 385"
+        },
+        {
+          "from": "DATA 202",
+          "to": "CS 375"
+        },
+        {
+          "from": "MATH 255",
+          "to": "CS 375"
+        },
+        {
+          "from": "STAT 243*",
+          "to": "CS 375"
+        },
+        {
+          "from": "CS 375",
+          "to": "CS 376"
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 212"
+        },
+        {
+          "from": "DATA 396",
+          "to": "DATA 398"
+        }
+      ],
+      "electives": [
+        {
+          "id": "CS 354",
+          "col": 4
+        },
+        {
+          "id": "CS 374",
+          "col": 6
+        }
+      ],
+      "electiveEdges": [
+        {
+          "from": "DATA 202",
+          "to": "CS 354",
+          "or": true
+        },
+        {
+          "from": "CS 112",
+          "to": "CS 374"
+        }
+      ],
+      "requirements": [
+        {
+          "heading": "Computing and data science",
+          "items": [
+            "CS 106 (recommended) or CS 108, CS 112",
+            "DATA 202, DATA 304, DATA 385 (4 hours)",
+            "CS 375, CS 376, CS 384",
+            "DATA 396 and DATA 398 Senior Project"
+          ]
+        },
+        {
+          "heading": "Mathematics and statistics",
+          "items": [
+            "MATH 161 (or 163), MATH 255",
+            "STAT 243 (or STAT 343), STAT 245"
+          ]
+        },
+        {
+          "heading": "Electives",
+          "items": [
+            "CS · 4 hours: CS 212 (recommended), CS 354 or CS 374",
+            "Math/stat · 4 hours: MATH 335, 355, STAT 341, 343, 344 or 385",
+            "Ethics: PHIL 205 or BUS 392",
+            "Business / soft skills · 6 hours: ACCT 315, BUS 100, 201, 310, 311, COMM 362, ENGL 241"
+          ]
+        }
+      ]
+    }
+  },
+  "core": [
+    {
+      "requirement": "Community and Commitments",
+      "isNew": false,
+      "asks": "CORE 100 (or HNRS 110), at Calvin",
+      "bcs": {
+        "status": "no"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Foundations of Christianity I & II",
+      "isNew": false,
+      "asks": "REL 121 or 131, then one course from the Foundations II list",
+      "bcs": {
+        "status": "no"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Foundational Writing",
+      "isNew": false,
+      "asks": "ENGL 101 with a C or better",
+      "bcs": {
+        "status": "no"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Health and Movement",
+      "isNew": false,
+      "asks": "One personal-fitness and one leisure/sport PER course",
+      "bcs": {
+        "status": "no"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "World Languages I",
+      "isNew": false,
+      "asks": "A 102-level course, or a high-school exemption",
+      "bcs": {
+        "status": "no"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Knowledge & Understanding: Mathematical Sciences",
+      "isNew": false,
+      "asks": "Part of 26 hours across 5 of 6 categories",
+      "bcs": {
+        "status": "yes",
+        "courses": "CS 108, MATH 161"
+      },
+      "plus": {
+        "status": "yes",
+        "courses": "CS 108 or 106; calculus"
+      },
+      "ds": {
+        "status": "yes",
+        "courses": "CS 106/108, MATH 161"
+      }
+    },
+    {
+      "requirement": "Knowledge & Understanding: Arts, Oral & Visual Rhetoric",
+      "isNew": false,
+      "asks": "At least 2 hours",
+      "bcs": {
+        "status": "yes",
+        "courses": "COMM 101"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Knowledge & Understanding: Natural Sciences",
+      "isNew": false,
+      "asks": "Up to 6 hours",
+      "bcs": {
+        "status": "part",
+        "courses": "Lab science options such as PHYS 131, GEO 151, BIOL 160"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Knowledge & Understanding: Humanities; Social & Behavioral Sciences",
+      "isNew": false,
+      "asks": "At least 2 hours each",
+      "bcs": {
+        "status": "no"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Diversity and Difference (tag)",
+      "isNew": false,
+      "asks": "One tagged course",
+      "bcs": {
+        "status": "no"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "part",
+        "courses": "BUS 392 (ethics option)"
+      }
+    },
+    {
+      "requirement": "Environmental Sustainability (tag)",
+      "isNew": false,
+      "asks": "One tagged course",
+      "bcs": {
+        "status": "part",
+        "courses": "PHYS 131, GEO 120/151/153 or BIOL 160 as lab science"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Global Regions and Cultures (tag)",
+      "isNew": false,
+      "asks": "One tagged course",
+      "bcs": {
+        "status": "no"
+      },
+      "plus": {
+        "status": "no"
+      },
+      "ds": {
+        "status": "no"
+      }
+    },
+    {
+      "requirement": "Rhetoric in Disciplines",
+      "isNew": true,
+      "asks": "One course from the list, taken at Calvin. Applies to students who started in Fall 2026",
+      "bcs": {
+        "status": "no",
+        "courses": "No CS course approved yet. STAT 245 counts if you take it (for example, with a Data Science minor)"
+      },
+      "plus": {
+        "status": "no",
+        "courses": "No CS course approved yet. STAT 245 counts if you take it (for example, with a Data Science minor)"
+      },
+      "ds": {
+        "status": "yes",
+        "courses": "STAT 245"
+      }
+    },
+    {
+      "requirement": "Contemporary Challenges and Enduring Questions",
+      "isNew": false,
+      "asks": "One course, taken at Calvin",
+      "bcs": {
+        "status": "yes",
+        "courses": "CS 384"
+      },
+      "plus": {
+        "status": "yes",
+        "courses": "CS 384"
+      },
+      "ds": {
+        "status": "yes",
+        "courses": "CS 384"
+      }
+    }
+  ]
+}

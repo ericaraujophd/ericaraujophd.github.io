@@ -51,7 +51,7 @@ ericaraujophd.github.io/
 │   [Website source — Astro]
 ├── src/
 │     layouts/BaseLayout.astro
-│     pages/               ← index, publications, presentations, advising, teaching, updates
+│     pages/               ← index, publications, presentations, advising/ (academic advising), mentoring (research students), teaching, updates
 │     styles/global.css
 ├── public/                ← Static assets served as-is
 │     cv/                  ← Eric_Araujo_CV.pdf (live) + archive/
@@ -67,6 +67,37 @@ ericaraujophd.github.io/
 ```
 
 ---
+
+## Academic advising pages
+
+`/advising` is the academic-advising guide for my CS and Data Science advisees
+(booking, preparation, registration dates, course maps, core table).
+Research students live on `/mentoring` (`src/pages/mentoring.astro`).
+
+Each advising season keeps its own permanent page, so nothing is lost when the
+next semester starts:
+
+| What | Where |
+|---|---|
+| One file per season: dates, booking link, workshops, help links | `data/advising/seasons/<year>-<term>.json`, e.g. `2027-spring.json` (advising in Fall 2026 for Spring 2027) |
+| One file per catalog year: courses, program maps, core table | `data/advising/catalogs/<id>.json`, e.g. `2026-27.json` |
+| Loader (sorting, drafts) | `src/lib/advising.ts` |
+| The page itself | `src/components/advising/AdvisingGuide.astro` |
+| Routes | `src/pages/advising/index.astro` (newest published season + list of earlier ones), `src/pages/advising/[season].astro` (`/advising/<id>/` for every season) |
+
+**Start a new season**
+
+1. Copy the latest season file to the new id (`2027-fall.json`) and keep `"draft": true`.
+2. Change the dates, booking link, workshops, eyebrow text and help links.
+3. If the catalog year changed, copy `data/advising/catalogs/2026-27.json` to the new
+   year, update courses and maps, and point the season's `catalog` field at it.
+4. `npm run dev` and open `/advising/<id>/` (drafts show a red "Draft" banner).
+5. When it is ready, set `"draft": false` and push. `/advising` switches to the new
+   season; the old one stays at `/advising/<old-id>/` with an "Archived" banner.
+
+Drafts are never built in production (`npm run build`), so a draft season has no
+page and no link on the live site. With no published season, `/advising` shows a
+short placeholder that points to Mentoring.
 
 ## Running the site locally
 
@@ -105,7 +136,7 @@ scripts/refresh.sh --check   # checks only, rebuilds nothing
 | Check | Catches |
 |---|---|
 | Every `slides_url` resolves under `public/` | A talk linked to a PDF that Astro never ships |
-| No truncated year badges on `/advising/` | Term strings (`"Fall 2025"`) sliced to 4 chars |
+| No truncated year badges on `/mentoring/` | Term strings (`"Fall 2025"`) sliced to 4 chars |
 | Exactly one email address on the homepage | Hero and footer drifting apart |
 | CV PDF newer than `data/*.json` + `config/personal.yaml` | A published CV silently falling behind its sources |
 
