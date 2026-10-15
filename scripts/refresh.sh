@@ -79,10 +79,10 @@ PY
 
   if [ -d dist ]; then
     # 2. Year badges must not be truncated term strings.
-    if grep -qE 'class="pub-type-tag">(Fall|Spri|Sprin|Summ|Wint)<' dist/advising/index.html; then
-      fail "truncated year badges on /advising/"
+    if grep -qE 'class="pub-type-tag">(Fall|Spri|Sprin|Summ|Wint)<' dist/mentoring/index.html; then
+      fail "truncated year badges on /mentoring/"
     else
-      pass "advising year badges intact"
+      pass "mentoring year badges intact"
     fi
 
     # 3. Homepage should present a single address.
