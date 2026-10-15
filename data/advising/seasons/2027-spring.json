@@ -1,29 +1,38 @@
 {
-  "_about": "One advising season = the advising and registration period for one upcoming term. Copy this file to start the next season (e.g. 2027-fall.json), change the dates and links, and keep `draft: true` until it is ready. Fields ending in `Html` are rendered as HTML (links, <b>), everything else as plain text. See README › Academic advising pages.",
-
+  "_about": "One advising season = the advising and registration period for one upcoming term. Copy this file to start the next season (for example 2027-fall.json), change the dates and links, and keep `draft: true` until it is ready. Fields ending in `Html` are rendered as HTML (links, <b>), everything else as plain text. See README › Academic advising pages.",
   "id": "2027-spring",
   "term": "Spring 2027",
   "draft": false,
   "catalog": "2026-27",
   "updated": "2026-10-15",
-
   "hero": {
-    "eyebrow": "Advising for Spring 2027 · Dr. Eric Araújo",
-    "title": "Plan it in Workday.",
-    "titleAccent": "Then we talk.",
-    "intro": "Everything you need before your advising meeting: how to book, what to prepare, when you register, and maps of the computer science and data science programs."
+    "title": "Advising for Spring 2027",
+    "tldrHtml": [
+      "Book a meeting with me between <b>Oct 12 and Oct 21</b>. We meet in NH293.",
+      "Before the meeting, update your <b>Academic Plan</b> and build a <b>Saved Schedule</b> for Spring 2027 in Workday. If you come without them, I will cancel the meeting.",
+      "Request any <b>prerequisite overrides</b> now. The instructor has to approve them.",
+      "I remove your <b>advising hold</b> after we meet.",
+      "Register at your time: seniors Oct 21, juniors Oct 22, sophomores Oct 26, first-years Oct 27."
+    ]
   },
-
   "booking": {
     "url": "https://bookings.cloud.microsoft/book/AdvisingDays12@calvincollege.onmicrosoft.com/s/8CNQBYXH7UOxWMuU51o6jQ2",
     "label": "Book my advising meeting",
     "details": [
-      ["When", "Mon Oct 12 – Wed Oct 21"],
-      ["Where", "NH293"],
-      ["Remote", "Only if arranged in advance"]
+      [
+        "When",
+        "Oct 12 to Oct 21"
+      ],
+      [
+        "Where",
+        "NH293"
+      ],
+      [
+        "Remote",
+        "Only if we arrange it in advance"
+      ]
     ]
   },
-
   "prepare": {
     "title": "Come with your plan already in Workday",
     "rule": "No plan, no meeting.",
@@ -31,54 +40,109 @@
     "steps": [
       {
         "titleHtml": "<b>Check your Academic Progress</b> and note which requirements are still open. Use the course maps below to see what comes next.",
-        "links": [["Academic progress guide (PDF)", "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/academic-progress.pdf"]]
+        "links": [
+          [
+            "Academic progress guide (PDF)",
+            "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/academic-progress.pdf"
+          ]
+        ]
       },
       {
         "titleHtml": "<b>Update your Academic Plan</b> for Spring 2027, and beyond if you can.",
-        "links": [["Academic plan guide (PDF)", "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/academic-plan.pdf"]]
+        "links": [
+          [
+            "Academic plan guide (PDF)",
+            "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/academic-plan.pdf"
+          ]
+        ]
       },
       {
         "titleHtml": "<b>Build a Saved Schedule</b> for Spring 2027 with your first choices plus a couple of alternates.",
         "links": [
-          ["Saved Schedule video", "https://youtu.be/X4nlkRKCvtM"],
-          ["Saved schedule guide (PDF)", "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/schedule-plan.pdf"],
-          ["Finding course sections (PDF)", "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/find-course-sections.pdf"]
+          [
+            "Saved Schedule video",
+            "https://youtu.be/X4nlkRKCvtM"
+          ],
+          [
+            "Saved schedule guide (PDF)",
+            "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/schedule-plan.pdf"
+          ],
+          [
+            "Finding course sections (PDF)",
+            "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/find-course-sections.pdf"
+          ]
         ]
       },
       {
         "titleHtml": "<b>Check your registration time and holds.</b>",
         "links": [
-          ["Registration time (PDF)", "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/registration-appointment.pdf"],
-          ["Holds (PDF)", "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/holds.pdf"]
+          [
+            "Registration time (PDF)",
+            "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/registration-appointment.pdf"
+          ],
+          [
+            "Holds (PDF)",
+            "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/holds.pdf"
+          ]
         ]
       },
       {
         "titleHtml": "<b>Request prerequisite overrides now.</b> The course instructor has to approve them before you can register.",
-        "links": [["Override request guide (PDF)", "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/prerequisite-override-request.pdf"]]
+        "links": [
+          [
+            "Override request guide (PDF)",
+            "https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/prerequisite-override-request.pdf"
+          ]
+        ]
       }
     ],
-    "after": "Bring your laptop and your questions about minors, internships, summer courses or study abroad. Changed majors or switching advisors? Email me so I can update my list."
+    "after": "Bring your laptop. Bring your questions too: minors, internships, summer courses, study abroad. If you changed majors or are switching advisors, email me so I can update my list."
   },
-
   "dates": {
     "eyebrow": "Fall 2026 advising season",
     "registration": [
-      ["Seniors", "Wed Oct 21, 3:00 PM"],
-      ["Juniors", "Thu Oct 22, 4:00 PM"],
-      ["Sophomores", "Mon Oct 26, 4:00 PM"],
-      ["First-years", "Tue Oct 27, 4:00 PM"]
+      [
+        "Seniors",
+        "Wed Oct 21, 3:00 PM"
+      ],
+      [
+        "Juniors",
+        "Thu Oct 22, 4:00 PM"
+      ],
+      [
+        "Sophomores",
+        "Mon Oct 26, 4:00 PM"
+      ],
+      [
+        "First-years",
+        "Tue Oct 27, 4:00 PM"
+      ]
     ],
     "registrationNoteHtml": "At your time, open your Saved Schedule and click <b>Register</b>. Full classes may put you on a waitlist. <a href=\"https://calvin.edu/registrars-office/advising-registration/course-registration\">Registration schedule</a> · <a href=\"https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/registration.pdf\">How to register (PDF)</a> · <a href=\"https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/waitlist.pdf\">Waitlists (PDF)</a>",
     "events": [
-      ["Oct 12 – 21", "Advising meetings in NH293 (book above)"],
-      ["Tue Oct 13, 9:45 AM", "Workday workshop, Meeter Center Lecture Hall"],
-      ["Wed Oct 14, 4:00 PM", "Workday workshop, SC 301"],
-      ["Oct 20 – 21", "Advising days, no classes. Help table outside SC 360, 1:00–4:30 PM"],
-      ["Wed Oct 21, 10:00 AM", "Workday workshop, SC 301"]
+      [
+        "Oct 12 to 21",
+        "Advising meetings in NH293"
+      ],
+      [
+        "Tue Oct 13, 9:45 AM",
+        "Workday workshop, Meeter Center Lecture Hall"
+      ],
+      [
+        "Wed Oct 14, 4:00 PM",
+        "Workday workshop, SC 301"
+      ],
+      [
+        "Oct 20 to 21",
+        "Advising days, no classes. Help table outside SC 360, 1:00 to 4:30 PM"
+      ],
+      [
+        "Wed Oct 21, 10:00 AM",
+        "Workday workshop, SC 301"
+      ]
     ],
     "eventsNoteHtml": "Juniors and seniors: if you plan to walk at Commencement in May and will finish by December 2027, apply to graduate in Workday. <a href=\"https://calvincollege.sharepoint.com/sites/workday-info/Shared%20Documents/Training%20Library/WorkdayStudent/Students/apply-for-program-completion.pdf\">How to apply (PDF)</a>"
   },
-
   "help": [
     [
       "<a href=\"https://calvincollege.sharepoint.com/sites/workday-info/SitePages/Workday-for-Students.aspx\">Workday Student Support Hub</a>",

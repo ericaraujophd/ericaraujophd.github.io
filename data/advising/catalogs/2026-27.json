@@ -3,7 +3,7 @@
   "id": "2026-27",
   "label": "2026–2027 catalog",
   "catalogUrl": "https://catalog.calvin.edu/content.php?catoid=25&navoid=803",
-  "sourceNote": "Course data from the Calvin University 2026–2027 catalog; BCS and CS Plus semester placement follows the department’s 2026 sample schedules. The catalog is the official source if anything here differs.",
+  "sourceNote": "Course information comes from the 2026–2027 Calvin catalog. The BCS and CS Plus maps follow the department's 2026 sample schedules. If something here disagrees with the catalog, the catalog wins.",
   "programLinks": {
     "bcs": "https://catalog.calvin.edu/preview_program.php?catoid=25&poid=13641",
     "plus": "https://catalog.calvin.edu/preview_program.php?catoid=25&poid=13726",
@@ -239,7 +239,7 @@
     "CS 354": {
       "title": "Database Management Systems",
       "credits": "2",
-      "offered": "Fall (confirmed by the department; the catalog still lists spring)",
+      "offered": "Fall (the catalog still says spring, but the department moved it to fall)",
       "prereqs": "CS 262 or DATA 202."
     },
     "CS 360": {
@@ -383,7 +383,7 @@
         {
           "id": "CSEL",
           "col": 5,
-          "label": "CS electives · 10 hrs",
+          "label": "CS electives (10 hrs)",
           "kind": "group"
         },
         {
@@ -393,7 +393,7 @@
         {
           "id": "SCI",
           "col": 6,
-          "label": "Lab science · 6 hrs",
+          "label": "Lab science (6 hrs)",
           "kind": "group"
         },
         {
@@ -641,7 +641,7 @@
           ]
         },
         {
-          "heading": "Electives · 10 hours",
+          "heading": "Electives (10 hours)",
           "items": [
             "CS 300-level electives, ENGR 304 or ENGR 325 (turn on “Show individual electives”)"
           ]
@@ -655,7 +655,7 @@
           ]
         },
         {
-          "heading": "Laboratory science · 6 hours",
+          "heading": "Laboratory science (6 hours)",
           "items": [
             "ASTR 201/211, BIOL 160/161/231/232, CHEM 101/102/103, GEO 120/151/152/153, PHYS 130/131/133/235"
           ]
@@ -717,7 +717,7 @@
         {
           "id": "DOM1",
           "col": 3,
-          "label": "Domain study · 12 hrs",
+          "label": "Domain study (12 hrs)",
           "kind": "group"
         },
         {
@@ -744,7 +744,7 @@
         {
           "id": "CSEL",
           "col": 6,
-          "label": "CS electives · 6 hrs",
+          "label": "CS electives (6 hrs)",
           "kind": "group"
         },
         {
@@ -985,7 +985,7 @@
           ]
         },
         {
-          "heading": "Electives · 6 hours",
+          "heading": "Electives (6 hours)",
           "items": [
             "CS 300-level electives, ENGR 304 or ENGR 325"
           ]
@@ -999,7 +999,7 @@
           ]
         },
         {
-          "heading": "Domain study · 12 hours",
+          "heading": "Domain study (12 hours)",
           "items": [
             "12 hours in one department (or a cohesive set approved by the department), at least 2 hours at the 300 level"
           ]
@@ -1009,7 +1009,7 @@
     "ds": {
       "name": "Data Science (BS)",
       "hours": "64 hours in the major (124 to graduate)",
-      "note": "The Data Science program page does not include a sample schedule. These semester placements are a suggestion built from the catalog's prerequisites and the terms each course is offered; confirm your own sequence with your advisor.",
+      "note": "There is no official sample schedule for Data Science. This is my suggested order, based on the prerequisites and on when each course is offered. We can adjust it when we meet.",
       "link": {
         "label": "Data Science program page",
         "url": "https://calvin.edu/majors-programs/data-science-major-bs-minor"
@@ -1059,12 +1059,12 @@
         {
           "id": "CS 212",
           "col": 4,
-          "label": "CS 212 · rec. elective"
+          "label": "CS 212 (recommended elective)"
         },
         {
           "id": "MSEL",
           "col": 4,
-          "label": "Math/stat elective · 4 hrs",
+          "label": "Math/stat elective (4 hrs)",
           "kind": "group"
         },
         {
@@ -1086,7 +1086,7 @@
         {
           "id": "BUS",
           "col": 6,
-          "label": "Business / soft-skills · 6 hrs",
+          "label": "Business / soft skills (6 hrs)",
           "kind": "group"
         },
         {
@@ -1199,10 +1199,10 @@
         {
           "heading": "Electives",
           "items": [
-            "CS · 4 hours: CS 212 (recommended), CS 354 or CS 374",
-            "Math/stat · 4 hours: MATH 335, 355, STAT 341, 343, 344 or 385",
+            "CS, 4 hours: CS 212 (recommended), CS 354 or CS 374",
+            "Math/stat, 4 hours: MATH 335, 355, STAT 341, 343, 344 or 385",
             "Ethics: PHIL 205 or BUS 392",
-            "Business / soft skills · 6 hours: ACCT 315, BUS 100, 201, 310, 311, COMM 362, ENGL 241"
+            "Business / soft skills, 6 hours: ACCT 315, BUS 100, 201, 310, 311, COMM 362, ENGL 241"
           ]
         }
       ]

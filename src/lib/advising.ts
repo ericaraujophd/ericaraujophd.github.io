@@ -25,7 +25,8 @@ export interface Season {
   draft?: boolean;
   catalog: string;
   updated: string;
-  hero: { eyebrow: string; title: string; titleAccent: string; intro: string };
+  /** Page title and the TL;DR bullets under it (HTML allowed). */
+  hero: { title: string; tldrHtml: string[] };
   booking: { url: string; label: string; details: Pair[] };
   prepare: {
     title: string;
