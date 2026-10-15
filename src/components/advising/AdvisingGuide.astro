@@ -38,19 +38,21 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     <a href="#help">Help</a>
   </nav>
 
-  <!-- ── Hero ─────────────────────────────────────────────── -->
+  <!-- ── Title + TL;DR ───────────────────────────────────────
+       One column on purpose: title, the short version, then the booking
+       button. Everything after this is the long version. -->
   <header class="adv-hero" id="top">
-    <div>
-      <div class="eyebrow">{season.hero.eyebrow}</div>
-      <h1>{season.hero.title} <span>{season.hero.titleAccent}</span></h1>
-      <p>{season.hero.intro}</p>
-    </div>
-    <aside class="book" aria-label="Book a meeting">
+    <h1>{season.hero.title}</h1>
+    <h2 class="tldr-head">TL;DR</h2>
+    <ul class="tldr">
+      {season.hero.tldrHtml.map((item) => <li set:html={item} />)}
+    </ul>
+    <div class="book" aria-label="Book a meeting">
       <a class="btn" href={season.booking.url}>{season.booking.label}</a>
       <dl>
         {season.booking.details.map(([k, v]) => <><dt>{k}</dt><dd>{v}</dd></>)}
       </dl>
-    </aside>
+    </div>
   </header>
 
   <!-- ── Prepare ──────────────────────────────────────────── -->
@@ -98,7 +100,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     <div class="read">
       <div class="eyebrow">{catalog.label}</div>
       <h2>Course maps</h2>
-      <p>Each column is a semester. Colors show the year a course is usually taken; arrows point from a prerequisite to the course that needs it. Click or tap a course to see its details and highlight its prerequisite chain.</p>
+      <p>Each column is a semester, and the color shows the year a course is usually taken. An arrow goes from a prerequisite to the course that needs it. Click a course to see its details and its prerequisites.</p>
     </div>
     <div class="tabs" role="tablist" aria-label="Program">
       {programs.map((p, i) => (
@@ -114,7 +116,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
       <label class="toggle"><input type="checkbox" id="adv-show-electives" /> Show individual electives</label>
     </div>
     <div class="mapbox"><div class="map" id="adv-map"><noscript><p class="note" style="padding:12px">The course map needs JavaScript. The requirement lists below and the catalog links in Help have the same information.</p></noscript></div></div>
-    <div class="detail" id="adv-detail" aria-live="polite">Click a course to see its credits, when it is offered, and its prerequisites.</div>
+    <div class="detail" id="adv-detail" aria-live="polite">Click a course to see its credits, when it is offered and its prerequisites.</div>
     <p class="note" id="adv-mapnote"></p>
     <div class="reqs" id="adv-reqs"></div>
   </section>
@@ -122,9 +124,9 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   <!-- ── Core ─────────────────────────────────────────────── -->
   <section id="core">
     <div class="read">
-      <div class="eyebrow">Calvin Core · {catalog.label}</div>
-      <h2>Core requirements and what your major already covers</h2>
-      <p>Every Calvin student completes the same core. Some courses required by your major also count toward the core; the table shows where that happens. Check your Academic Progress in Workday for your own record, since transfer and AP credit can change the picture.</p>
+      <div class="eyebrow">{catalog.label}</div>
+      <h2>Core requirements</h2>
+      <p>Every Calvin student takes the same core. Some courses in your major also count toward it, and this table shows which. Your Academic Progress in Workday is your real record, especially if you have transfer or AP credit.</p>
     </div>
     <div class="tbl">
       <table>
@@ -142,13 +144,12 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
         </tbody>
       </table>
     </div>
-    <p class="note"><span class="cover yes">Covered</span> a required course in the major counts. <span class="cover part">Can be</span> a course in the major's options counts if you choose it. <span class="cover no">Open</span> take a course from the core list. Full lists: <a href={catalog.catalogUrl}>Core Program in the catalog</a>.</p>
+    <p class="note"><span class="cover yes">Covered</span> means a required course in your major counts. <span class="cover part">Can be</span> means one of the options in your major counts if you pick it. <span class="cover no">Open</span> means you take a course from the core list. Full lists: <a href={catalog.catalogUrl}>Core Program in the catalog</a>.</p>
   </section>
 
   <!-- ── Help ─────────────────────────────────────────────── -->
   <section id="help">
-    <div class="eyebrow">Help</div>
-    <h2>Where to get help</h2>
+        <h2>Help</h2>
     <div class="two">
       {season.help.map((col) => <ul>{col.map((item) => <li set:html={item} />)}</ul>)}
     </div>
@@ -169,7 +170,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   const COLS = ['Year 1 · Fall','Year 1 · Spring','Year 2 · Fall','Year 2 · Spring','Year 3 · Fall','Year 3 · Spring','Year 4 · Fall','Year 4 · Spring'];
   const YC = ['--y1','--y1','--y2','--y2','--y3','--y3','--y4','--y4'];
   const C = catalog.courses, ALT = catalog.aliases, P = catalog.programs, GROUP_INFO = catalog.groupInfo;
-  const DEFAULT_DETAIL = 'Click a course to see its credits, when it is offered, and its prerequisites.';
+  const DEFAULT_DETAIL = 'Click a course to see its credits, when it is offered and its prerequisites.';
 
   const map = document.getElementById('adv-map'), detail = document.getElementById('adv-detail');
   const toggle = document.getElementById('adv-show-electives');
@@ -269,7 +270,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     const n = [...P[cur].nodes, ...P[cur].electives].find((x) => x.id === id) || {};
     if (GROUP_INFO[id]) { detail.innerHTML = `<b>${esc(n.label)}</b><br>${esc(GROUP_INFO[id])}`; return; }
     const info = C[key(id)];
-    detail.innerHTML = `<b>${esc(n.label || id)}</b> · ${esc(info.title)} · ${esc(info.credits)} credits · Offered: ${esc(info.offered)}<br>Prerequisites: ${esc(info.prereqs)}`;
+    detail.innerHTML = `<b>${esc(n.label || id)}</b>: ${esc(info.title)}<br>${esc(info.credits)} credits. Offered: ${esc(info.offered)}.<br>Prerequisites: ${esc(info.prereqs)}`;
   }
 
   tabs.forEach((b) => b.addEventListener('click', () => {
@@ -325,10 +326,11 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv-nav a:hover { color: var(--accent); opacity: 1; }
 
   /* hero */
-  .adv .adv-hero { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 28px; align-items: end; padding: 32px 0 32px; }
-  .adv .adv-hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; }
-  .adv .adv-hero h1 span { color: var(--accent); }
-  .adv .adv-hero p { margin: .8rem 0 0; color: var(--text-muted); max-width: 52ch; }
+  .adv .adv-hero { padding: 28px 0 36px; max-width: 68ch; }
+  .adv .adv-hero .tldr-head { font-family: var(--mono); font-size: .8rem; font-weight: 500; letter-spacing: .12em; color: var(--gold); margin: 1.4rem 0 .5rem; }
+  .adv .tldr { padding-left: 1.2rem; display: grid; gap: .35rem; }
+  .adv .adv-hero .book { margin-top: 1.4rem; max-width: 420px; }
+  .adv .adv-hero h1 { font-size: clamp(2rem, 4.5vw, 2.8rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; }
   .adv .book { background: var(--bg-card); border: 1px solid var(--border-mid); border-top: 4px solid var(--accent); padding: 18px 20px; display: grid; gap: 12px; }
   .adv .btn { display: block; background: var(--accent); color: var(--accent-ink); font-weight: 600; font-size: 1.05rem; padding: 10px 18px; border-radius: 4px; text-align: center; }
   .adv .btn:hover { opacity: .88; }
@@ -350,7 +352,8 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv th, .adv td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border-mid); vertical-align: top; }
   .adv th { font-family: var(--mono); font-weight: 500; font-size: .72rem; letter-spacing: .08em; color: var(--text-muted); text-transform: uppercase; }
   .adv td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .adv .two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; margin-top: 16px; }
+  /* Stacked on purpose: the page reads top to bottom, one thing at a time. */
+  .adv .two { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; margin-top: 16px; max-width: 68ch; }
   .adv .note { color: var(--text-muted); font-size: .88rem; margin-top: .6rem; }
 
   /* course map */
@@ -395,7 +398,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv-foot { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--border-mid); color: var(--text-muted); font-size: .82rem; }
 
   @media (max-width: 760px) {
-    .adv .adv-hero, .adv .two { grid-template-columns: minmax(0, 1fr); }
+    .adv .two { grid-template-columns: minmax(0, 1fr); }
   }
   @media (prefers-reduced-motion: reduce) { .adv * { transition: none !important; } }
 </style>
