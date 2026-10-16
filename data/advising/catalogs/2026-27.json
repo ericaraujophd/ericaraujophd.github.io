@@ -1470,7 +1470,7 @@
     "items": [
       {
         "for": "Computer science students",
-        "html": "a <a href=\"https://calvin.edu/majors-programs/data-science-major-bs-minor\">Data Science minor</a> or a <a href=\"https://calvin.edu/majors-programs/statistics-major-ba-minor\">Statistics minor</a>"
+        "html": "a <a href=\"https://calvin.edu/majors-programs/data-science-major-bs-minor\">Data Science minor</a>, a <a href=\"https://calvin.edu/majors-programs/statistics-major-ba-minor\">Statistics minor</a> or the <a href=\"https://calvin.edu/majors-programs/cybersecurity-certificate\">Cybersecurity Certificate</a>"
       },
       {
         "for": "Data Science students",
@@ -1478,7 +1478,7 @@
       },
       {
         "for": "Anyone",
-        "html": "the <a href=\"https://calvin.edu/majors-programs/cybersecurity-certificate\">Cybersecurity Certificate</a>, the <a href=\"https://calvin.edu/majors-programs/information-systems-minor\">Information Systems minor</a> or the <a href=\"https://calvin.edu/majors-programs/entrepreneurship-major-ba-minor\">Entrepreneurship minor</a>"
+        "html": "the <a href=\"https://calvin.edu/majors-programs/information-systems-minor\">Information Systems minor</a> or the <a href=\"https://calvin.edu/majors-programs/entrepreneurship-major-ba-minor\">Entrepreneurship minor</a>"
       }
     ],
     "moreHtml": "Math and Statistics keep a page on <a href=\"https://mathstat-advising.stem.calvin.edu/minors-with-data.html\">minors that pair well with data work</a>."
