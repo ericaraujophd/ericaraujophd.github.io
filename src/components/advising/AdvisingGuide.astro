@@ -28,6 +28,11 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
 
 <div class="adv">
 
+  <!-- Corner ribbon: this guide is Eric's own summary, not an official
+       Calvin document. The catalog and Workday are the official sources. -->
+  <div class="adv-ribbon-wrap" aria-hidden="true"><div class="adv-ribbon">Unofficial document</div></div>
+  <p class="sr-only">This is an unofficial advising guide. The Calvin catalog and Workday are the official sources.</p>
+
   {banner && <div class={`adv-banner ${banner.kind}`} set:html={banner.html} />}
 
   <nav class="adv-nav" aria-label="Sections">
@@ -130,9 +135,9 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     <section id="addons">
       <div class="read">
         <h2>Minors and certificates</h2>
-        <p>{catalog.addOns.intro}</p>
+        {catalog.addOns.intro && <p>{catalog.addOns.intro}</p>}
         <ul>
-          {catalog.addOns.items.map((it) => <li><b>{it.for}:</b> <Fragment set:html={it.html} /></li>)}
+          {catalog.addOns.items.map((it) => <li>{it.for && <b>{it.for}: </b>}<Fragment set:html={it.html} /></li>)}
         </ul>
         {catalog.addOns.moreHtml && <p class="note" set:html={catalog.addOns.moreHtml} />}
       </div>
@@ -496,6 +501,22 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv p { margin-bottom: .8rem; }
   .adv ul { padding-left: 1.2rem; }
 
+  /* ── "Unofficial document" corner ribbon ──
+     The wrapper clips a rotated band to the top-right corner of the guide. */
+  .adv { position: relative; }
+  /* The band's centre sits 64px in from the top and right edges of a
+     170px box, so about 180px of it is visible between those two edges:
+     enough for the text. The ends are clipped by the box on purpose. */
+  .adv-ribbon-wrap { position: absolute; top: 0; right: -32px; width: 170px; height: 170px; overflow: hidden; pointer-events: none; z-index: 2; }
+  .adv-ribbon { position: absolute; left: -24px; top: 52px; width: 260px; transform: rotate(45deg); text-align: center;
+    background: var(--accent); color: var(--accent-ink); font-family: var(--mono); font-size: .66rem; font-weight: 500; line-height: 1;
+    letter-spacing: .08em; text-transform: uppercase; padding: 6px 0; box-shadow: 0 2px 6px rgba(0,0,0,.18); }
+  .adv .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  @media (max-width: 760px) {
+    .adv-ribbon-wrap { right: -20px; width: 130px; height: 130px; }
+    .adv-ribbon { left: -32px; top: 40px; width: 220px; font-size: .55rem; letter-spacing: .04em; padding: 5px 0; }
+    .adv .adv-nav { padding-right: 96px; }
+  }
   .adv-banner { margin: 28px 0 0; padding: 12px 16px; border: 1px solid var(--border-mid); border-left: 4px solid var(--gold); background: var(--bg-card); font-size: .95rem; }
   .adv-banner.draft { border-left-color: var(--accent); }
 
