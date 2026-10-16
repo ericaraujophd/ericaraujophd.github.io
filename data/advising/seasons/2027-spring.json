@@ -149,7 +149,7 @@
     ]
   ],
   "nextTerm": {
-    "_about": "Courses with sections next term, shown as a tag on the course map. Taken from Ken Arnold's advising page, which is not an official schedule; Workday is. Update or delete this block each season.",
+    "_about": "Courses with sections next term, shown as a tag on the course map. Taken from Ken Arnold's advising page. A course gets a plain 'Spring 2027' tag when the catalog also says it runs every spring (its `offered` field in the catalog file); it gets 'Spring 2027 (unofficial)' when only Ken's list says so, e.g. alternate-year or 'varies' courses. Update or delete this block each season.",
     "term": "Spring 2027",
     "sourceLabel": "Prof. Ken Arnold's list",
     "sourceUrl": "https://kenarnold.org/advising#spring-2027-courses",
