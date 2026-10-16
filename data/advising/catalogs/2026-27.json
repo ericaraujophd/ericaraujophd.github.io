@@ -3,7 +3,7 @@
   "id": "2026-27",
   "label": "2026–2027 catalog",
   "catalogUrl": "https://catalog.calvin.edu/content.php?catoid=25&navoid=803",
-  "sourceNote": "Course information comes from the 2026–2027 Calvin catalog. The BCS and CS Plus maps follow the department's 2026 sample schedules. If something here disagrees with the catalog, the catalog wins.",
+  "sourceNote": "Course information comes from the 2026–2027 Calvin catalog, which is the official source. The BCS and CS Plus maps follow the department's 2026 sample schedules.",
   "programLinks": {
     "bcs": "https://catalog.calvin.edu/preview_program.php?catoid=25&poid=13641",
     "plus": "https://catalog.calvin.edu/preview_program.php?catoid=25&poid=13726",
@@ -1466,7 +1466,7 @@
     }
   ],
   "addOns": {
-    "intro": "Consider adding one of these to your program. Some need only one or two extra courses, so ask me about them early.",
+    "intro": "Some of these need only one or two extra courses. Ask me about them.",
     "items": [
       {
         "for": "Computer science students",
