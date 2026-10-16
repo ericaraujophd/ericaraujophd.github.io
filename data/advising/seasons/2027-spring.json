@@ -43,7 +43,7 @@
         ]
       },
       {
-        "titleHtml": "<b>Build a Saved Schedule</b> for Spring 2027 with your first choices plus a couple of alternates.",
+        "titleHtml": "<b>Build a Saved Schedule</b> for Spring 2027 with your first choices plus a couple of alternates. For a course with a lab, pick one lecture section and one lab section. The section letters do not have to match.",
         "links": [
           [
             "Saved Schedule video",
@@ -135,8 +135,10 @@
       "<a href=\"https://calvincollege.sharepoint.com/sites/workday-info/SitePages/Training.aspx\">Workday training sessions</a>",
       "<a href=\"https://calvin.edu/registrars-office/advising-registration/course-registration\">Registration schedule</a>",
       "<a href=\"https://calvin.edu/student-success/student-concerns\">Student Success</a>",
-      "<a href=\"https://kenarnold.org/advising#spring-2027-courses\">Spring 2027 CS, Data, Math and Stat sections</a> (times and instructors)",
-      "<a href=\"https://calvin.edu/academics/school-stem/computer-science/student-experience/advising\">CS department advising page</a> (which courses run in fall vs. spring)"
+      "<a href=\"https://kenarnold.org/advising#spring-2027-courses\">Spring 2027 CS, Data, Math and Stat sections</a> (times, instructors and descriptions, kept by Prof. Ken Arnold)",
+      "<a href=\"https://calvin.edu/academics/school-stem/computer-science/student-experience/advising\">CS department advising page</a> (which courses run in fall and which in spring)",
+      "<a href=\"https://mathstat-advising.stem.calvin.edu/\">Math and Statistics advising</a> (with their <a href=\"https://mathstat-advising.stem.calvin.edu/course-offerings.html\">yearly course schedule</a>)",
+      "<a href=\"https://github.com/abhisheknaiidu/awesome-github-profile-readme?tab=readme-ov-file\">GitHub profile examples</a> for building your portfolio"
     ],
     [
       "<a href=\"https://catalog.calvin.edu/preview_program.php?catoid=25&amp;poid=13641\">BCS in the catalog</a>",
@@ -145,5 +147,55 @@
       "Program pages: <a href=\"https://calvin.edu/majors-programs/bachelor-computer-science-bcs\">BCS</a> · <a href=\"https://calvin.edu/majors-programs/computer-science-plus\">CS Plus</a> · <a href=\"https://calvin.edu/majors-programs/data-science-major-bs-minor\">Data Science</a>",
       "Questions? Stop by <b>NH293</b> or email me."
     ]
-  ]
+  ],
+  "nextTerm": {
+    "_about": "Courses with sections next term, shown as a tag on the course map. Taken from Ken Arnold's advising page, which is not an official schedule; Workday is. Update or delete this block each season.",
+    "term": "Spring 2027",
+    "sourceLabel": "Prof. Ken Arnold's list",
+    "sourceUrl": "https://kenarnold.org/advising#spring-2027-courses",
+    "checked": "2026-10-16",
+    "courses": [
+      "CS 108",
+      "CS 112",
+      "CS 195",
+      "CS 214",
+      "CS 232",
+      "CS 295",
+      "CS 300",
+      "CS 326",
+      "CS 338",
+      "CS 339",
+      "CS 363",
+      "CS 375",
+      "CS 376",
+      "CS 384",
+      "CS 398",
+      "DATA 102",
+      "DATA 304",
+      "DATA 385",
+      "DATA 398",
+      "STAT 143",
+      "STAT 145",
+      "STAT 241",
+      "STAT 243",
+      "STAT 341",
+      "STAT 385",
+      "MATH 132",
+      "MATH 161",
+      "MATH 162",
+      "MATH 163",
+      "MATH 221",
+      "MATH 231",
+      "MATH 251",
+      "MATH 252",
+      "MATH 271",
+      "MATH 324",
+      "MATH 359",
+      "MATH 361",
+      "MATH 365",
+      "MATH 367",
+      "MATH 385",
+      "MATH 391"
+    ]
+  }
 }

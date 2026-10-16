@@ -1,5 +1,5 @@
 {
-  "_about": "Course maps and core-requirement table for the academic advising guide (src/pages/advising/). One file per catalog year; a season file in data/advising/seasons/ names the catalog it uses in its `catalog` field. Sources: Calvin 2026-27 catalog (catoid=25), the department's 2026 BCS and CS Plus sample schedules, the CS department advising page, and the Spring 2027 section list. Columns run 0-7 = Year 1 Fall, Year 1 Spring, ... Year 4 Spring.",
+  "_about": "Course maps and core-requirement table for the academic advising guide (src/pages/advising/). One file per catalog year; a season file in data/advising/seasons/ names the catalog it uses in its `catalog` field. Sources: Calvin 2026-27 catalog (catoid=25), the department's 2026 BCS and CS Plus sample schedules, the CS department advising page, and the Spring 2027 section list. Columns run 0-7 = Year 1 Fall, Year 1 Spring, ... Year 4 Spring. Course descriptions are the catalog's own text, shortened to the first one or two sentences (read 2026-10-16).",
   "id": "2026-27",
   "label": "2026–2027 catalog",
   "catalogUrl": "https://catalog.calvin.edu/content.php?catoid=25&navoid=803",
@@ -24,277 +24,323 @@
       "title": "Intro to Scientific Computation & Modeling",
       "credits": "3 (+lab)",
       "offered": "Fall",
-      "prereqs": "None (lab corequisite)."
+      "prereqs": "None (lab corequisite).",
+      "description": "An introduction to computing as a tool for science, emphasizing programming as a methodology for problem solving, quantitative data analysis, and simulation in science and mathematics."
     },
     "CS 108": {
       "title": "Introduction to Computing",
       "credits": "3 (+lab)",
       "offered": "Fall, Spring",
-      "prereqs": "None (lab corequisite)."
+      "prereqs": "None (lab corequisite).",
+      "description": "An introduction to computing as a problem-solving discipline. A primary emphasis is on programming as a methodology for problem solving, including: the precise specification of a problem, the design of its solution, the encoding of that solution, and the testing, debugging and maintenance of programs."
     },
     "CS 112": {
       "title": "Introduction to Data Structures",
       "credits": "3 (+lab)",
       "offered": "Fall, Spring",
-      "prereqs": "CS 104, CS 106 or CS 108."
+      "prereqs": "CS 104, CS 106 or CS 108.",
+      "description": "A continuation of CS 104, CS 106, or CS 108, using C++ classes to introduce and implement the elementary data structures including lists, stacks, queues and trees."
     },
     "CS 195": {
       "title": "Introductory Computing Seminar ×3",
       "credits": "0",
       "offered": "Fall, Spring",
-      "prereqs": "First- or second-year standing. Take three times in years 1–2."
+      "prereqs": "First- or second-year standing. Take three times in years 1–2.",
+      "description": "This seminar explores a range of current topics in computing, including topics in research and practice. Students intending to major in a computing-related field must take this course three times in their freshman and sophomore years."
     },
     "CS 212": {
       "title": "Data Structures & Algorithms",
       "credits": "4",
       "offered": "Fall",
-      "prereqs": "CS 112."
+      "prereqs": "CS 112.",
+      "description": "A systematic study of algorithms and their application to more advanced data structures, including trees, heaps, hash tables, and graphs. Algorithms and data structures are analyzed in their use of both time and space, and the choice of data structure in problem solving is studied."
     },
     "CS 214": {
       "title": "Programming Language Concepts",
       "credits": "4",
       "offered": "Spring",
-      "prereqs": "CS 112."
+      "prereqs": "CS 112.",
+      "description": "Design principles and implementation issues of contemporary programming languages."
     },
     "CS 232": {
       "title": "Operating Systems & Networking",
       "credits": "4",
       "offered": "Spring",
-      "prereqs": "CS 112, and ENGR 220 or ENGR 304 (may be taken concurrently)."
+      "prereqs": "CS 112, and ENGR 220 or ENGR 304 (may be taken concurrently).",
+      "description": "An introduction to the major concepts modern operating systems must address, e.g., processes and threads, inter-process communication and synchronization, scheduling, main and secondary memory management, and file systems. An introduction to computer networking with emphasis on the TCP/IP protocol suite, including network security issues."
     },
     "CS 262": {
       "title": "Software Engineering",
       "credits": "4",
       "offered": "Fall",
-      "prereqs": "CS 112 and at least junior standing."
+      "prereqs": "CS 112 and at least junior standing.",
+      "description": "A survey of software engineering principles including software project management, system and requirements analysis, the design and implementation of software and information systems, design patterns, software quality assurance and testing, and software maintenance."
     },
     "CS 295": {
       "title": "Computing Seminar ×3",
       "credits": "0",
       "offered": "Fall, Spring",
-      "prereqs": "Junior or senior standing. Take three times in years 3–4."
+      "prereqs": "Junior or senior standing. Take three times in years 3–4.",
+      "description": "This seminar explores a range of current topics in computing, including topics in research and practice. It is a continuation of CS 195."
     },
     "CS 383": {
       "title": "External Practicum",
       "credits": "1",
       "offered": "Fall, Spring, Summer",
-      "prereqs": "Not open to first-year students; department approval."
+      "prereqs": "Not open to first-year students; department approval.",
+      "description": "Students work at least 60 hours in a position that must be related to their major. May be repeated multiple times for credit."
     },
     "CS 384": {
       "title": "Perspectives on Computing",
       "credits": "4",
       "offered": "Spring",
-      "prereqs": "Last year of a computing-related program."
+      "prereqs": "Last year of a computing-related program.",
+      "description": "This course addresses social, ethical, legal and professional issues that arise in computer science from a reformed, Christian perspective. Social issues concerning the computerization of society include privacy, security, the digital divide and changes in the way people receive information and relate with others."
     },
     "CS 396": {
       "title": "Senior Project in Computing",
       "credits": "2",
       "offered": "Fall",
-      "prereqs": "Senior standing."
+      "prereqs": "Senior standing.",
+      "description": "This is the first course of a two-semester sequence, in which the student will complete a department-approved computing project. This capstone experience will give students the opportunity to apply concepts and techniques learned in the classroom by developing a significant computing application."
     },
     "CS 398": {
       "title": "Senior Project in Computing II",
       "credits": "2",
       "offered": "Spring",
-      "prereqs": "CS 396."
+      "prereqs": "CS 396.",
+      "description": "A continuation of CS 396. The student will submit regular progress reports to a supervising faculty member and submit a final report for evaluation by a departmental committee."
     },
     "ENGR 220": {
       "title": "Intro to Computer Architecture",
       "credits": "3 (+lab)",
       "offered": "Fall",
-      "prereqs": "A programming course (normally CS 104, 106 or 108)."
+      "prereqs": "A programming course (normally CS 104, 106 or 108).",
+      "description": "A study of computer organization (including memory hierarchy, I/O, bus-based systems, distributed systems, and parallel systems), and computer architecture (including CPU control, pipelining, and instruction set architecture)."
     },
     "DATA 202": {
       "title": "Introduction to Machine Learning",
       "credits": "4",
       "offered": "Fall",
-      "prereqs": "CS 104, CS 106 or CS 108."
+      "prereqs": "CS 104, CS 106 or CS 108.",
+      "description": "A conceptual and practical introduction to machine learning. Students will develop workflows for acquiring, cleaning, transforming, and joining tabular data, and apply both supervised and unsupervised learning methods to real-world problems."
     },
     "DATA 304": {
       "title": "Visualizing Data and Models",
       "credits": "2",
       "offered": "Spring",
-      "prereqs": "DATA 202 or STAT 245."
+      "prereqs": "DATA 202 or STAT 245.",
+      "description": "An introduction to principles and applications for visualizing data and models. Students will learn how to design static and interactive visualizations that accurately, effectively, and aesthetically display information about data and models."
     },
     "DATA 385": {
       "title": "Topics in Data Science (4 hrs)",
       "credits": "2 or 4",
       "offered": "Spring",
-      "prereqs": "DATA 202."
+      "prereqs": "DATA 202.",
+      "description": "Advanced study of selected topics in data science. Consult instructor for course information."
     },
     "DATA 396": {
       "title": "Senior Project in Data Science",
       "credits": "2",
       "offered": "Fall",
-      "prereqs": "Senior standing."
+      "prereqs": "Senior standing.",
+      "description": "This is the first course of a two-semester sequence, in which the student will complete a department-approved data science project. This capstone experience will give students the opportunity to apply concepts and techniques learned in the classroom by developing a significant data science analysis."
     },
     "DATA 398": {
       "title": "Senior Project in Data Science II",
       "credits": "2",
       "offered": "Spring",
-      "prereqs": "DATA 396."
+      "prereqs": "DATA 396.",
+      "description": "A continuation of DATA 396. The student will submit regular progress reports to a faculty mentor and submit a final report for evaluation by a departmental committee."
     },
     "MATH 132": {
       "title": "Calculus for Mgmt, Life & Social Sci.",
       "credits": "4",
       "offered": "Spring",
-      "prereqs": "None. Not open after MATH 161/162."
+      "prereqs": "None. Not open after MATH 161/162.",
+      "description": "Functions, limits, and derivatives. Applications of derivatives to maximum-minimum problems, exponential and logarithmic functions, integrals, and functions of several variables."
     },
     "MATH 161": {
       "title": "Calculus: Modeling and Computation",
       "credits": "4",
       "offered": "Fall, Spring",
-      "prereqs": "None. AP Calculus AB 4+ takes MATH 163 instead."
+      "prereqs": "None. AP Calculus AB 4+ takes MATH 163 instead.",
+      "description": "This course serves as an introduction to calculus. Topics include functions, limits, derivatives, applications of derivatives, integrals, and applications of integrals."
     },
     "MATH 251": {
       "title": "Discrete Mathematics I",
       "credits": "2",
       "offered": "Spring",
-      "prereqs": "MATH 132, 161 or 162."
+      "prereqs": "MATH 132, 161 or 162.",
+      "description": "An introduction to a number of topics in discrete mathematics, including propositional and predicate logic, functions and sets, induction and other proof techniques, and modular arithmetic."
     },
     "MATH 252": {
       "title": "Discrete Mathematics II",
       "credits": "2",
       "offered": "Spring",
-      "prereqs": "CS 106 or CS 108, and MATH 251."
+      "prereqs": "CS 106 or CS 108, and MATH 251.",
+      "description": "An introduction to counting techniques, discrete probability, and graph theory."
     },
     "MATH 255": {
       "title": "Introductory Linear Algebra",
       "credits": "4",
       "offered": "Fall",
-      "prereqs": "MATH 161 or 162, or B- in MATH 132."
+      "prereqs": "MATH 161 or 162, or B- in MATH 132.",
+      "description": "An introduction to linear algebra, including applications."
     },
     "STAT 143": {
       "title": "Intro to Probability & Statistics",
       "credits": "4",
       "offered": "Fall, Spring",
-      "prereqs": "None."
+      "prereqs": "None.",
+      "description": "An introduction to the concepts and methods of probability and statistics. The course is designed for students interested in the application of probability and statistics in business, economics, and the social and life sciences."
     },
     "STAT 243": {
       "title": "Statistics",
       "credits": "4",
       "offered": "Spring",
-      "prereqs": "MATH 161 or 162, or B- in MATH 132."
+      "prereqs": "MATH 161 or 162, or B- in MATH 132.",
+      "description": "Data analysis, data collection, random sampling, experimental design, descriptive statistics, probability, random variables and standard distributions, Central Limit Theorem, statistical inference, hypothesis tests, point and interval estimates, simple linear regression. Examples will be chosen from a variety of disciplines."
     },
     "STAT 245": {
       "title": "Applied Data Analysis",
       "credits": "4",
       "offered": "Fall",
-      "prereqs": "STAT 143/145, PSYC 255 or SOC 255 with B- or better; or STAT 241/243/343 with C- or better; or AP Statistics 5."
+      "prereqs": "STAT 143/145, PSYC 255 or SOC 255 with B- or better; or STAT 241/243/343 with C- or better; or AP Statistics 5.",
+      "description": "This course takes a practical approach to the fitting, assessment, and interpretation of statistical models."
     },
     "COMM 101": {
       "title": "Oral Rhetoric",
       "credits": "4",
       "offered": "Fall, Spring",
-      "prereqs": "None."
+      "prereqs": "None.",
+      "description": "In this course you will learn the fundamental skills of oral rhetoric, how to create a message strategically adapted for a specific audience and situation. You will also learn how to effectively deliver your speeches and how to be an engaged, thoughtful listener."
     },
     "CS 300": {
       "title": "Special Topics in CS",
       "credits": "2 or 4",
       "offered": "Varies",
-      "prereqs": "Varies by topic."
+      "prereqs": "Varies by topic.",
+      "description": "Advanced study of selected topics of current interest in computer science."
     },
     "CS 312": {
       "title": "Logic, Computability & Complexity",
       "credits": "4",
       "offered": "As needed",
-      "prereqs": "MATH 255, or MATH 251 and 252."
+      "prereqs": "MATH 255, or MATH 251 and 252.",
+      "description": "An introduction to first-order logic, computability and computational complexity."
     },
     "CS 320": {
       "title": "Advanced Computer Architecture",
       "credits": "2",
       "offered": "Spring, select years",
-      "prereqs": "None listed."
+      "prereqs": "None listed.",
+      "description": "Principles of computer design, instruction set design principles, instruction-level parallelism, cache principles, and multiprocessor systems."
     },
     "CS 326": {
       "title": "Embedded Systems & IoT",
       "credits": "4",
       "offered": "Spring, alternate years",
-      "prereqs": "CS 112 (may be concurrent), and ENGR 204 or ENGR 220."
+      "prereqs": "CS 112 (may be concurrent), and ENGR 204 or ENGR 220.",
+      "description": "An introduction to topics in embedded systems and the Internet of Things (IoT) including hardware and software considerations for special-purpose computing applications that interact with the physical world."
     },
     "CS 332": {
       "title": "Advanced Computer Networks",
       "credits": "2",
       "offered": "Fall, alternate years",
-      "prereqs": "CS 232."
+      "prereqs": "CS 232.",
+      "description": "This course investigates advanced topics in the field of computer networking."
     },
     "CS 336": {
       "title": "Web Development",
       "credits": "4",
       "offered": "Fall",
-      "prereqs": "CS 112."
+      "prereqs": "CS 112.",
+      "description": "An introduction to software development for websites using common platforms and frameworks. In addition to development, topics include common vulnerabilities and means of defending against them, web user interfaces and usability, and practical, legal, and ethical issues associated with building and administering websites."
     },
     "CS 338": {
       "title": "Sys Admin: Infrastructure",
       "credits": "2",
       "offered": "Spring, first half (paired with CS 339)",
-      "prereqs": "CS 112."
+      "prereqs": "CS 112.",
+      "description": "This course provides a holistic introduction to the support of organizational information technology computing and networking infrastructure. It covers computer hardware and servers, designing and maintaining networks, virtualization, and performing basic security configuration."
     },
     "CS 339": {
       "title": "Sys Admin: Cloud Services",
       "credits": "2",
       "offered": "Spring, second half (paired with CS 338)",
-      "prereqs": "CS 112."
+      "prereqs": "CS 112.",
+      "description": "This course provides a holistic introduction to the support of organizational information technology cloud computing and services."
     },
     "CS 354": {
       "title": "Database Management Systems",
       "credits": "2",
       "offered": "Fall (the catalog still says spring, but the department moved it to fall)",
-      "prereqs": "CS 262 or DATA 202."
+      "prereqs": "CS 262 or DATA 202.",
+      "description": "An introduction to the structures necessary to implement a database management system. Topics include data models (including hierarchical, network and relational data models), normal forms for data relations, data description languages, query facilities."
     },
     "CS 360": {
       "title": "Fundamentals of Cybersecurity",
       "credits": "2",
       "offered": "Fall",
-      "prereqs": "CS 112."
+      "prereqs": "CS 112.",
+      "description": "This course is to equip students with the fundamental concepts and vocabulary in the cybersecurity domain, a basic understanding of the secure design principles, and exposure to legal and ethical issues related to the topics. This course is grounded on a Christian view of cybersecurity."
     },
     "CS 361": {
       "title": "Fundamentals of Cyber Defense",
       "credits": "2",
       "offered": "Fall",
-      "prereqs": "CS 360."
+      "prereqs": "CS 360.",
+      "description": "This course introduces the technical aspects of cyberattacks and countermeasures, applied cryptography and security protocols, and network defense in addition to legal and ethical issues related to the topics. This course is grounded on a Christian view of cybersecurity."
     },
     "CS 363": {
       "title": "Network Security",
       "credits": "4",
       "offered": "Spring",
-      "prereqs": "CS 232."
+      "prereqs": "CS 232.",
+      "description": "This course provides an in-depth understanding of the major security issues concerning the Internet infrastructure, including, but not limited to, domain name system (DNS), transport layer, Internet Protocol (IP) layer, and the Transport Layer Security (TLS)."
     },
     "CS 372": {
       "title": "Computer Graphics",
       "credits": "2",
       "offered": "Spring, alternate years",
-      "prereqs": "CS 212 or CS 214."
+      "prereqs": "CS 212 or CS 214.",
+      "description": "An introduction to interactive 2D and 3D computer graphics techniques including geometric transformations, lighting, shading, texture mapping, and hidden surface removal."
     },
     "CS 374": {
       "title": "High Performance Computing",
       "credits": "2",
       "offered": "Fall, alternate years",
-      "prereqs": "CS 112 and junior standing."
+      "prereqs": "CS 112 and junior standing.",
+      "description": "A study of architectures, algorithms and programming techniques that help minimize the execution times of computer programs that solve particular problems."
     },
     "CS 375": {
       "title": "Machine Learning",
       "credits": "2",
       "offered": "Spring, first half",
-      "prereqs": "DATA 202, MATH 255, and STAT 243 or STAT 343."
+      "prereqs": "DATA 202, MATH 255, and STAT 243 or STAT 343.",
+      "description": "An introduction to artificial intelligence systems using machine learning, with an emphasis on deep neural networks. Students learn how neural networks compute and are trained, how to train them, and how to apply them to tasks such as image classification."
     },
     "CS 376": {
       "title": "Advanced Machine Learning",
       "credits": "2",
       "offered": "Spring, second half (same semester as CS 375)",
-      "prereqs": "CS 375."
+      "prereqs": "CS 375.",
+      "description": "An in-depth study of modern generative AI systems, with an emphasis on large language models (LLMs). Students examine computational architectures, learn practical techniques for building and evaluating ML-powered applications, and discern the trajectory and implications of the machine learning approach to AI."
     },
     "ENGR 304": {
       "title": "Fundamentals of Digital Systems",
       "credits": "3",
       "offered": "Spring",
-      "prereqs": "ENGR 204 and a programming course."
+      "prereqs": "ENGR 204 and a programming course.",
+      "description": "An introduction to the fundamental principles of logic design in digital systems."
     },
     "ENGR 325": {
       "title": "Computer Arch. & Digital Systems Design",
       "credits": "3",
       "offered": "Fall",
-      "prereqs": "ENGR 304."
+      "prereqs": "ENGR 304.",
+      "description": "Design of advanced digital systems using programmable logic, Application-Specific Integrated Circuits (ASICs), and microprocessors."
     }
   },
   "groupInfo": {
@@ -1418,5 +1464,23 @@
         "courses": "CS 384"
       }
     }
-  ]
+  ],
+  "addOns": {
+    "intro": "Consider adding one of these to your program. Some need only one or two extra courses, so ask me about them early.",
+    "items": [
+      {
+        "for": "Computer science students",
+        "html": "a <a href=\"https://calvin.edu/majors-programs/data-science-major-bs-minor\">Data Science minor</a> or a <a href=\"https://calvin.edu/majors-programs/statistics-major-ba-minor\">Statistics minor</a>"
+      },
+      {
+        "for": "Data Science students",
+        "html": "a <a href=\"https://calvin.edu/majors-programs/computer-science-plus\">Computer Science minor</a> (on the CS Plus page)"
+      },
+      {
+        "for": "Anyone",
+        "html": "the <a href=\"https://calvin.edu/majors-programs/cybersecurity-certificate\">Cybersecurity Certificate</a>, the <a href=\"https://calvin.edu/majors-programs/information-systems-minor\">Information Systems minor</a> or the <a href=\"https://calvin.edu/majors-programs/entrepreneurship-major-ba-minor\">Entrepreneurship minor</a>"
+      }
+    ],
+    "moreHtml": "Math and Statistics keep a page on <a href=\"https://mathstat-advising.stem.calvin.edu/minors-with-data.html\">minors that pair well with data work</a>."
+  }
 }

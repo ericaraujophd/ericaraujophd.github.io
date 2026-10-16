@@ -34,6 +34,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     <a href="#prepare">Prepare</a>
     <a href="#dates">Dates</a>
     <a href="#maps">Course maps</a>
+    <a href="#addons">Minors</a>
     <a href="#core">Core</a>
     <a href="#help">Help</a>
   </nav>
@@ -107,6 +108,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
         <span style="color:var(--y1)"><i></i>Year 1</span><span style="color:var(--y2)"><i></i>Year 2</span>
         <span style="color:var(--y3)"><i></i>Year 3</span><span style="color:var(--y4)"><i></i>Year 4</span>
         <span><i class="solid"></i>required prerequisite</span><span><i class="dash"></i>one of several options</span>
+        {season.nextTerm && <span><b class="next">{season.nextTerm.term} (unofficial)</b> has sections next term</span>}
       </div>
       <label class="toggle"><input type="checkbox" id="adv-show-electives" /> Show individual electives</label>
     </div>
@@ -114,8 +116,28 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     <p class="note" id="adv-narrow" hidden>On a small screen the arrows are hidden. Tap a course to highlight its prerequisites and the courses it leads to.</p>
     <div class="detail" id="adv-detail" aria-live="polite">Click a course to see its credits, when it is offered and its prerequisites.</div>
     <p class="note" id="adv-mapnote"></p>
+    {season.nextTerm && (
+      <p class="note">
+        The <b class="next">{season.nextTerm.term} (unofficial)</b> tags come from <a href={season.nextTerm.sourceUrl}>{season.nextTerm.sourceLabel}</a>, checked {season.nextTerm.checked}.
+        It is not the official schedule. Workday is, so check there before you build your Saved Schedule.
+      </p>
+    )}
     <div class="reqs" id="adv-reqs"></div>
   </section>
+
+  <!-- ── Minors and certificates (from the catalog file) ──── -->
+  {catalog.addOns && (
+    <section id="addons">
+      <div class="read">
+        <h2>Minors and certificates</h2>
+        <p>{catalog.addOns.intro}</p>
+        <ul>
+          {catalog.addOns.items.map((it) => <li><b>{it.for}:</b> <Fragment set:html={it.html} /></li>)}
+        </ul>
+        {catalog.addOns.moreHtml && <p class="note" set:html={catalog.addOns.moreHtml} />}
+      </div>
+    </section>
+  )}
 
   <!-- ── Core ─────────────────────────────────────────────── -->
   <section id="core">
@@ -154,7 +176,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   <p class="adv-foot">{catalog.sourceNote} Page updated {season.updated}.</p>
 </div>
 
-<script is:inline define:vars={{ catalog }}>
+<script is:inline define:vars={{ catalog, nextTerm: season.nextTerm ?? null }}>
   // ── Course map ─────────────────────────────────────────────────────────────
   // The map reads top to bottom: one row per semester (Year 1 Fall at the top,
   // Year 4 Spring at the bottom), courses side by side inside each row.
@@ -173,6 +195,17 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   const ROWS = ['Year 1 Fall','Year 1 Spring','Year 2 Fall','Year 2 Spring','Year 3 Fall','Year 3 Spring','Year 4 Fall','Year 4 Spring'];
   const YC = ['--y1','--y1','--y2','--y2','--y3','--y3','--y4','--y4'];
   const C = catalog.courses, ALT = catalog.aliases, P = catalog.programs, GROUP_INFO = catalog.groupInfo;
+  // Courses with sections next term (an unofficial list kept in the season
+  // file). A node label such as "STAT 143/145/243" or "CS 108 / 106" stands
+  // for several courses, so every code in the label is checked.
+  const NEXT = new Set(nextTerm ? nextTerm.courses : []);
+  function codesIn(n) {
+    const codes = [key(n.id)];
+    const m = (n.label || '').match(/^([A-Z]{2,4})\s(\d{3})((?:\s?\/\s?\d{3})*)/);
+    if (m) { codes.push(`${m[1]} ${m[2]}`); (m[3].match(/\d{3}/g) || []).forEach((d) => codes.push(`${m[1]} ${d}`)); }
+    return codes;
+  }
+  const runsNext = (n) => n.kind !== 'group' && codesIn(n).some((c) => NEXT.has(c));
   const DEFAULT_DETAIL = 'Click a course to see its credits, when it is offered and its prerequisites.';
 
   const map = document.getElementById('adv-map'), detail = document.getElementById('adv-detail');
@@ -226,7 +259,8 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
         b.style.setProperty('--yc', `var(${YC[r]})`);
         b.innerHTML = n.kind === 'group'
           ? `<span class="t"><b>${esc(n.label)}</b></span>`
-          : `<span class="c">${esc(n.label || n.id)}</span><span class="t">${info ? esc(info.title) : ''}</span><span class="h">${info ? esc(info.credits) + ' cr' : ''}</span>`;
+          : `<span class="c">${esc(n.label || n.id)}</span><span class="t">${info ? esc(info.title) : ''}</span><span class="h">${info ? esc(info.credits) + ' cr' : ''}</span>`
+            + (runsNext(n) ? `<span class="next">${esc(nextTerm.term)} (unofficial)</span>` : '');
         b.addEventListener('click', () => select(n.id));
         row.appendChild(b);
       });
@@ -382,7 +416,13 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     const n = [...P[cur].nodes, ...P[cur].electives].find((x) => x.id === id) || {};
     if (GROUP_INFO[id]) { detail.innerHTML = `<b>${esc(n.label)}</b><br>${esc(GROUP_INFO[id])}`; return; }
     const info = C[key(id)];
-    detail.innerHTML = `<b>${esc(n.label || id)}</b>: ${esc(info.title)}<br>${esc(info.credits)} credits. Offered: ${esc(info.offered)}.<br>Prerequisites: ${esc(info.prereqs)}`;
+    // Title, then the catalog description, then the practical facts.
+    const next = nextTerm
+      ? (runsNext({ ...n, id }) ? `<br>${esc(nextTerm.term)}: has sections (unofficial list).` : `<br>${esc(nextTerm.term)}: no sections on the unofficial list.`)
+      : '';
+    detail.innerHTML = `<b>${esc(n.label || id)}</b>: ${esc(info.title)}`
+      + (info.description ? `<p class="desc">${esc(info.description)}</p>` : '<br>')
+      + `${esc(info.credits)} credits. Offered: ${esc(info.offered)}.<br>Prerequisites: ${esc(info.prereqs)}${next}`;
   }
 
   // ── External links open in a new tab ───────────────────────────────────────
@@ -498,6 +538,10 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv .node .c { font-family: var(--mono); font-weight: 500; font-size: .78rem; color: var(--yc); }
   .adv .node .t { display: block; font-size: .8rem; line-height: 1.25; }
   .adv .node .h { font-family: var(--mono); font-size: .68rem; color: var(--text-muted); }
+  /* "Spring 2027 (unofficial)" tag on courses with sections next term. */
+  .adv .next { display: inline-block; font-family: var(--mono); font-weight: 500; font-size: .6rem; letter-spacing: .02em; line-height: 1.3; color: var(--text); background: var(--gold-soft); border: 1px dashed var(--gold); border-radius: 3px; padding: 1px 5px; }
+  .adv .node .next { display: block; width: fit-content; margin-top: 4px; white-space: nowrap; font-size: .56rem; letter-spacing: 0; padding: 1px 4px; }
+  .adv .detail .desc { margin: .4rem 0; color: var(--text-muted); }
   .adv .node.group { border-style: dashed; background: var(--bg-card); }
   .adv .node.elective { border-style: dotted; }
   .adv .map.focus .node { opacity: .28; }
