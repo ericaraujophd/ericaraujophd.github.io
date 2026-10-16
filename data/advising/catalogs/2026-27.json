@@ -1055,7 +1055,7 @@
     "ds": {
       "name": "Data Science (BS)",
       "hours": "64 hours in the major (124 to graduate)",
-      "note": "There is no official sample schedule for Data Science. This is my suggested order, based on the prerequisites and on when each course is offered. We can adjust it when we meet.",
+      "note": "There is no official sample schedule for Data Science. This order follows the prerequisites and the terms each course is offered.",
       "link": {
         "label": "Data Science program page",
         "url": "https://calvin.edu/majors-programs/data-science-major-bs-minor"
@@ -1466,21 +1466,27 @@
     }
   ],
   "addOns": {
-    "intro": "Some of these need only one or two extra courses. Ask me about them.",
+    "intro": "",
     "items": [
       {
-        "for": "Computer science students",
-        "html": "a <a href=\"https://calvin.edu/majors-programs/data-science-major-bs-minor\">Data Science minor</a>, a <a href=\"https://calvin.edu/majors-programs/statistics-major-ba-minor\">Statistics minor</a> or the <a href=\"https://calvin.edu/majors-programs/cybersecurity-certificate\">Cybersecurity Certificate</a>"
+        "html": "<a href=\"https://calvin.edu/majors-programs/data-science-major-bs-minor\">Data Science minor</a>"
       },
       {
-        "for": "Data Science students",
-        "html": "a <a href=\"https://calvin.edu/majors-programs/computer-science-plus\">Computer Science minor</a> (on the CS Plus page)"
+        "html": "<a href=\"https://calvin.edu/majors-programs/statistics-major-ba-minor\">Statistics minor</a>"
       },
       {
-        "for": "Anyone",
-        "html": "the <a href=\"https://calvin.edu/majors-programs/information-systems-minor\">Information Systems minor</a> or the <a href=\"https://calvin.edu/majors-programs/entrepreneurship-major-ba-minor\">Entrepreneurship minor</a>"
+        "html": "<a href=\"https://calvin.edu/majors-programs/computer-science-plus\">Computer Science minor</a> (on the CS Plus page)"
+      },
+      {
+        "html": "<a href=\"https://calvin.edu/majors-programs/cybersecurity-certificate\">Cybersecurity Certificate</a>"
+      },
+      {
+        "html": "<a href=\"https://calvin.edu/majors-programs/information-systems-minor\">Information Systems minor</a>"
+      },
+      {
+        "html": "<a href=\"https://calvin.edu/majors-programs/entrepreneurship-major-ba-minor\">Entrepreneurship minor</a>"
       }
     ],
-    "moreHtml": "Math and Statistics keep a page on <a href=\"https://mathstat-advising.stem.calvin.edu/minors-with-data.html\">minors that pair well with data work</a>."
+    "moreHtml": "Math and Statistics list their minors on <a href=\"https://mathstat-advising.stem.calvin.edu/minors-with-data.html\">their advising site</a>."
   }
 }

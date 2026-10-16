@@ -55,7 +55,7 @@ export interface Catalog {
   sourceNote: string;
   programs: Record<string, { name: string; [k: string]: unknown }>;
   /** Optional "Minors and certificates" section. Items' html may hold links. */
-  addOns?: { intro: string; items: { for: string; html: string }[]; moreHtml?: string };
+  addOns?: { intro?: string; items: { for?: string; html: string }[]; moreHtml?: string };
   core: {
     requirement: string;
     isNew?: boolean;
