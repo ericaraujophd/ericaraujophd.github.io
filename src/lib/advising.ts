@@ -44,6 +44,8 @@ export interface Season {
   };
   /** Two columns of list items (HTML). */
   help: string[][];
+  /** Optional, unofficial list of courses with sections next term (map tags). */
+  nextTerm?: { term: string; sourceLabel: string; sourceUrl: string; checked: string; courses: string[] };
 }
 
 export interface Catalog {
@@ -52,6 +54,8 @@ export interface Catalog {
   catalogUrl: string;
   sourceNote: string;
   programs: Record<string, { name: string; [k: string]: unknown }>;
+  /** Optional "Minors and certificates" section. Items' html may hold links. */
+  addOns?: { intro: string; items: { for: string; html: string }[]; moreHtml?: string };
   core: {
     requirement: string;
     isNew?: boolean;
