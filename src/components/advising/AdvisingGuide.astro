@@ -108,7 +108,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
         <span style="color:var(--y1)"><i></i>Year 1</span><span style="color:var(--y2)"><i></i>Year 2</span>
         <span style="color:var(--y3)"><i></i>Year 3</span><span style="color:var(--y4)"><i></i>Year 4</span>
         <span><i class="solid"></i>required prerequisite</span><span><i class="dash"></i>one of several options</span>
-        {season.nextTerm && <span><b class="next">{season.nextTerm.term} (unofficial)</b> has sections next term</span>}
+        {season.nextTerm && <span><b class="next">{season.nextTerm.term}</b> has sections next term</span>}
       </div>
       <label class="toggle"><input type="checkbox" id="adv-show-electives" /> Show individual electives</label>
     </div>
@@ -118,8 +118,8 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     <p class="note" id="adv-mapnote"></p>
     {season.nextTerm && (
       <p class="note">
-        The <b class="next">{season.nextTerm.term} (unofficial)</b> tags come from <a href={season.nextTerm.sourceUrl}>{season.nextTerm.sourceLabel}</a>, checked {season.nextTerm.checked}.
-        It is not the official schedule. Workday is, so check there before you build your Saved Schedule.
+        The {season.nextTerm.term} tags come from <a href={season.nextTerm.sourceUrl}>{season.nextTerm.sourceLabel}</a> (checked {season.nextTerm.checked}) and match the catalog.
+        A tag marked <b class="next unofficial">(unofficial)</b> appears only on his list: the catalog says the course runs in alternate years or varies, so confirm it in Workday.
       </p>
     )}
     <div class="reqs" id="adv-reqs"></div>
@@ -206,6 +206,19 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     return codes;
   }
   const runsNext = (n) => n.kind !== 'group' && codesIn(n).some((c) => NEXT.has(c));
+  // The tag is "confirmed" when the official catalog agrees: the course is
+  // listed as running every term of that kind (e.g. "Spring", "Fall, Spring").
+  // Alternate-year, select-year, "varies" and "as needed" courses cannot be
+  // confirmed that way, so for those the tag says "(unofficial)".
+  const season = nextTerm ? nextTerm.term.split(' ')[0] : '';
+  const confirmedBy = (code) => {
+    const off = (C[code] || {}).offered || '';
+    return new RegExp(season, 'i').test(off) && !/alternate|select|varies|as needed/i.test(off);
+  };
+  const confirmedNext = (n) => codesIn(n).some((c) => NEXT.has(c) && confirmedBy(c));
+  const nextTag = (n) => confirmedNext(n)
+    ? `<span class="next">${esc(nextTerm.term)}</span>`
+    : `<span class="next unofficial">${esc(nextTerm.term)} (unofficial)</span>`;
   const DEFAULT_DETAIL = 'Click a course to see its credits, when it is offered and its prerequisites.';
 
   const map = document.getElementById('adv-map'), detail = document.getElementById('adv-detail');
@@ -260,7 +273,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
         b.innerHTML = n.kind === 'group'
           ? `<span class="t"><b>${esc(n.label)}</b></span>`
           : `<span class="c">${esc(n.label || n.id)}</span><span class="t">${info ? esc(info.title) : ''}</span><span class="h">${info ? esc(info.credits) + ' cr' : ''}</span>`
-            + (runsNext(n) ? `<span class="next">${esc(nextTerm.term)} (unofficial)</span>` : '');
+            + (runsNext(n) ? nextTag(n) : '');
         b.addEventListener('click', () => select(n.id));
         row.appendChild(b);
       });
@@ -418,7 +431,9 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
     const info = C[key(id)];
     // Title, then the catalog description, then the practical facts.
     const next = nextTerm
-      ? (runsNext({ ...n, id }) ? `<br>${esc(nextTerm.term)}: has sections (unofficial list).` : `<br>${esc(nextTerm.term)}: no sections on the unofficial list.`)
+      ? (!runsNext({ ...n, id }) ? `<br>${esc(nextTerm.term)}: no sections listed.`
+         : confirmedNext({ ...n, id }) ? `<br>${esc(nextTerm.term)}: has sections.`
+         : `<br>${esc(nextTerm.term)}: has sections according to Prof. Arnold's list, but the catalog does not confirm it. Check Workday.`)
       : '';
     detail.innerHTML = `<b>${esc(n.label || id)}</b>: ${esc(info.title)}`
       + (info.description ? `<p class="desc">${esc(info.description)}</p>` : '<br>')
@@ -540,6 +555,7 @@ const coverLabel = { yes: 'Covered', part: 'Can be', no: 'Open' } as const;
   .adv .node .h { font-family: var(--mono); font-size: .68rem; color: var(--text-muted); }
   /* "Spring 2027 (unofficial)" tag on courses with sections next term. */
   .adv .next { display: inline-block; font-family: var(--mono); font-weight: 500; font-size: .6rem; letter-spacing: .02em; line-height: 1.3; color: var(--text); background: var(--gold-soft); border: 1px dashed var(--gold); border-radius: 3px; padding: 1px 5px; }
+  .adv .next.unofficial { background: transparent; }
   .adv .node .next { display: block; width: fit-content; margin-top: 4px; white-space: nowrap; font-size: .56rem; letter-spacing: 0; padding: 1px 4px; }
   .adv .detail .desc { margin: .4rem 0; color: var(--text-muted); }
   .adv .node.group { border-style: dashed; background: var(--bg-card); }
