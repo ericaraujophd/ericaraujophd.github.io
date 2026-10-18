@@ -17,6 +17,22 @@
     "document_path": null
   },
   {
+    "id": "tolle-lege-2026",
+    "name": "Tolle Lege — Pocket Classics to Print and Sew",
+    "url": "https://ericaraujo.com/tolle-lege/",
+    "start_date": "2026",
+    "end_date": "present",
+    "location": "Calvin University",
+    "summary": "Founder, editor and typesetter.",
+    "highlights": [
+      "Free pocket-size booklets of short public-domain classics on attention, study and the spiritual life, each in the most recent public-domain translation, laid out for home printing and hand binding. Begun for a student reading group at Calvin University; layouts CC BY 4.0, code MIT."
+    ],
+    "visible_cv": true,
+    "visible_web": true,
+    "news": false,
+    "document_path": null
+  },
+  {
     "id": "cs-prayers-2026",
     "name": "CS Prayers — A Book of Hours for Computing",
     "url": "https://csprayers.com",

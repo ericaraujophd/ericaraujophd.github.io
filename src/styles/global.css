@@ -273,10 +273,19 @@ hr {
 .degree-note { font-size: 16px; color: var(--text-muted); font-style: italic; margin-top: 3px; }
 
 /* Projects card */
+/* Three cards sit in one row from 760px up and stack to one column below
+   it. A two-column middle state would leave the third card alone on a
+   row, so there is deliberately no two-column breakpoint. */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
   gap: 16px;
+}
+@media (min-width: 760px) {
+  .project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  /* three narrow columns: keep the tag and the link on one line each so
+     the titles line up across the row */
+  .project-tag, .project-go { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: 0.1em; }
 }
 
 .project-card {
@@ -330,6 +339,7 @@ hr {
   letter-spacing: -0.02em;
   color: var(--text);
   margin-bottom: 8px;
+  overflow-wrap: anywhere;
 }
 
 .project-desc {
