@@ -1,5 +1,28 @@
 [
   {
+    "id": "2026-10-11-gr-press-infyshine-openings",
+    "date_sent": "2026-10-11T16:24:44Z",
+    "sender": "Joel Adams",
+    "email_subject": "Infyshine openings",
+    "note": "A company called Infyshine is advertising for software developers (w/ 2 years of experience) in today’s GR Press classified ads: I had not heard of Infyshine before, but looking over their website, they are apparently an IT consultancy with offices in India, UK, Texas, and GR (625 Kenmoor SE Ave., Suite 301 Grand Rapids, MI 49546), so not too far from campus. Does anyone know anything about them?",
+    "title": "Infyshine software developer openings, Grand Rapids Press classifieds, 11 October 2026",
+    "source": "The Grand Rapids Press",
+    "byline": "Classified advertising",
+    "article_date": "2026-10-11",
+    "summary": "Joel asks whether anyone knows this company, and the honest answer is that the ad format tells you more than the company name does. This is the same PERM labor-certification advertising as the August classifieds: \"various unanticipated locations throughout the US\", a posted salary, a bachelor's in any science, technology or engineering field accepted, and applications by email to HR. Employers must run these in print as part of a permanent labour certification filing, so the roles are real but the ad exists to satisfy the filing rather than to recruit anyone reading the paper. That also explains why an IT consultancy with its main offices in India would be buying column inches in the Grand Rapids Press at all. Worth noting for advising: the posted salary is 95,000 dollars for two years of experience, against the 127,504 dollars Makcats listed for a software developer in the August batch, so the spread between local PERM postings is wide enough that students should not read any one of them as the going rate. ## Why I am keeping this one The stacks are the useful part. Job 152 is C# and ASP.NET MVC against SQL Server, and the database work named is tables, stored procedures, functions and triggers, which is essentially the back half of CS354 written as a job description. Job 153 is native Android in Java and Kotlin with MVVM, Retrofit, Jetpack, and unit and UI testing in JUnit and Espresso. Both are worth pointing at when a student asks what the local market actually wants, and the testing line is a nice echo of the CACM piece Joel sent a few days earlier.",
+    "tags": [
+      "Labor Market",
+      "Teaching Ideas"
+    ],
+    "archive_type": "notes",
+    "archived": [
+      "## Infyshine Inc. (Grand Rapids, MI, and various unanticipated locations throughout the US)",
+      "Job 152, software developer. Design, develop, deploy and implement applications; design responsive user interfaces; manage and optimise SQL Server databases, including tables, stored procedures, functions and triggers; troubleshoot and resolve issues. Skills required: JavaScript, C#, ASP.NET MVC, Angular JS, Bootstrap, SQL Server and Web APIs.",
+      "Job 153, software developer. Design and develop native Android mobile applications in Java and Kotlin within MVVM architectural patterns; integrate RESTful APIs and third-party SDKs using Retrofit and OkHttp; implement secure authentication and session management for mobile platforms; use the Android SDK and Jetpack libraries to build across Android devices and OS versions; conduct unit and UI testing with JUnit and Espresso.",
+      "Both roles: a bachelor's degree in any science, technology or engineering field plus two years of experience in the role offered or a related occupation. Salary 95,000 dollars a year. Applications by email to the company's HR address."
+    ]
+  },
+  {
     "id": "2026-09-28-cacm-tdd-machine-requires-it",
     "date_sent": "2026-10-02T13:11:00Z",
     "sender": "Joel Adams",
