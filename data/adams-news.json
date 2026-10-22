@@ -70,18 +70,18 @@
     "sender": "Joel Adams",
     "email_subject": "AI training visualization",
     "note": "Today’s NYT has an article (apparently open-access) with a visualization comparing the number of calculations used to train the different generations of GPT models: The visualization appears after you scroll past the initial part… The rest of the article discusses related issues including energy consumption.",
-    "title": "AI data center math",
+    "title": "What Are Data Centers Doing? A Mind-Boggling Amount of Math.",
     "url": "https://www.nytimes.com/interactive/2026/10/15/upshot/ai-data-center-math.html",
     "source": "The New York Times",
     "article_date": "2026-10-15",
-    "summary": "This is an interactive from the Upshot, and Joel's directions are the useful part: the visualization sits below the opening section, so scroll past it, and the rest of the piece covers related questions, energy use among them. By his description it lays the number of calculations needed to train each generation of GPT model side by side. A FlowingData write-up of the same piece, which credits the graphics to Aatish Bhatia, says the totals reach octillions of calculations, the kind of number that is easier to see than to read. I have not opened the page myself, so I am keeping this as a pointer with Joel's framing intact. If it does what he says, it is a good single slide for explaining why training cost and energy demand are the same story.",
+    "summary": "This is an interactive from the Upshot, and Joel's directions are the useful part: the visualization sits below the opening section, so scroll past it, and the rest of the piece covers related questions, energy use among them. By his description it lays the number of calculations needed to train each generation of GPT model side by side. A FlowingData write-up of the same piece, which credits the graphics to Aatish Bhatia, says the totals reach octillions of calculations, the kind of number that is easier to see than to read. This entry is built from Joel's description and the FlowingData write-up rather than from the page itself, so I am keeping it as a pointer with his framing intact. If it does what he says, it is a good single slide for explaining why training cost and energy demand are the same story.",
     "tags": [
       "Energy",
       "Infrastructure",
       "AI Research"
     ],
     "archive_type": "notes",
-    "archive_footer": "A link Joel forwarded to the CS faculty list, with directions for where to look. I was not able to open the page when building this entry, so nothing here describes it beyond what he and a FlowingData write-up say, and the title is as the URL gives it.",
+    "archive_footer": "A link Joel forwarded to the CS faculty list, with directions for where to look. The description here comes from Joel's note and a FlowingData write-up rather than from the page itself.",
     "archived": [
       "Filed for the link and for Joel's directions to the visualization. He noted the page looked open-access to him; check that before sending it to students."
     ]
