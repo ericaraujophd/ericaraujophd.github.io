@@ -1,5 +1,92 @@
 [
   {
+    "id": "2026-10-19-che-computer-science-gamble",
+    "date_sent": "2026-10-21T16:01:43Z",
+    "sender": "Joel Adams",
+    "email_subject": "CHE article: The Computer-Science Gamble",
+    "note": "Chronicle of Higher Education coverage of the current CS enrollment downturn…",
+    "title": "The Computer-Science Gamble",
+    "url": "https://www.chronicle.com/article/the-computer-science-gamble",
+    "source": "The Chronicle of Higher Education",
+    "byline": "Francie Diep",
+    "article_date": "2026-10-19",
+    "summary": "Joel's line is general, but the article is built around one university, which makes it easier to see what a downturn does to a department. Oregon State lost nearly a thousand computer science majors in a year, with the steepest losses in its online programs. Those programs had become the online campus's biggest earner and were budgeted as though the growth would continue. When it stopped, the shortfall was large enough that the president named it to the trustees, and the engineering and computer science school has already cut staff, graduate teaching assistants and online instructors. A plan floated at a faculty retreat for furloughs and more layoffs is described by the university as never approved, which leaves the faculty union saying nobody has told them anything since. The rest of the piece widens out and is more mixed than the headline. Nationally, undergraduate CS majors at four-year colleges fell by more than eight percent in a year. Boulder lost eleven percent of its CS-related majors, Rice has not yet seen a drop in declared majors, a Michigan community college calls the dip cyclical and notes that credit hours are up, and Washington's capped program drew about two thousand fewer applicants but still more than five thousand for 630 seats. The chairs interviewed say two things: programs with open enrollment are the most exposed, and jobs still exist. What I would underline is the closing point, that CS faculty have never had to sell their field before and now do. The article ends on the irony that the university's most famous alumnus runs the company whose chips power the models, and gave fifty million dollars toward the engineering complex there. Read it next to the Fast Company piece in this archive on what employers still want from CS graduates (2026-09-18).",
+    "tags": [
+      "Higher Ed",
+      "Labor Market",
+      "AI Economics"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "The students started noticing when the Discord, subreddit, and internal chat platform they used went quiet.",
+      "Between the spring of 2025 and the spring of 2026, Oregon State University lost nearly 1,000 computer-science majors, or 23 percent of its overall enrollment in the field. The drop-off was especially steep in its online programs, which lost 30 percent of their students. Computer science is the university’s most popular major, and the “melting down” of that enrollment was so significant that during a board meeting in March, Jayathi Y. Murthy, Oregon State’s president, told trustees it was responsible for a $19-million budget shortfall."
+    ]
+  },
+  {
+    "id": "2026-10-16-youtube-how-ai-works",
+    "date_sent": "2026-10-16T18:00:00Z",
+    "sender": "Joel Adams",
+    "email_subject": "How AI works",
+    "note": "A Friday-afternoon-appropriate video clip, courtesy of Len DeRooy:",
+    "title": "How AI works",
+    "url": "https://www.youtube.com/shorts/eu_6z8fzVuw",
+    "source": "YouTube",
+    "article_date": "2026-10",
+    "summary": "One of Joel's lighter sends: a short video with a single line of framing, mailed on a Friday afternoon. I was not able to watch it when building this entry, so I am not going to guess at the joke. The title is the subject line he gave the email, and the clip itself is behind the link.",
+    "tags": [
+      "Odds & Ends"
+    ],
+    "archive_type": "notes",
+    "archive_footer": "A video short Joel forwarded to the CS faculty list. I could not view it when building this entry, so nothing here describes it, and the title is the email's subject line rather than the clip's own.",
+    "archived": [
+      "Filed under odds and ends for the link and for Joel's framing."
+    ]
+  },
+  {
+    "id": "2026-10-15-ihe-philosophy-ai-hiring",
+    "date_sent": "2026-10-16T15:55:40Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: Philosophy Departments Increasingly Hiring For AI-Specific Positions",
+    "note": "From today’s ENGR News…",
+    "title": "Universities Are on an AI Philosopher Hiring Spree",
+    "url": "https://www.insidehighered.com/news/faculty/2026/10/15/universities-have-gone-ai-philosopher-hiring-spree",
+    "source": "Inside Higher Ed",
+    "byline": "Kathryn Palmer",
+    "article_date": "2026-10-15",
+    "summary": "Joel forwarded a digest item, so I went to the Inside Higher Ed article behind it. The claim is that philosophy is one of the few humanities fields hiring right now, and AI is the reason. More than a dozen departments, Purdue, UIC and Georgia Tech among them, announced AI-focused tenure-track searches this fall, and some philosophers have moved into AI companies. Student interest in what AI will do to their lives is driving part of it, and administrators have approved lines labelled AI that they might not have approved otherwise. The article is not a victory lap. It notes that new philosophy doctorates fell from 580 in 2011 to 477 in 2022, that few graduates have the AI expertise being asked for, and it quotes a prominent critic who thinks departments are spending scarce positions on a fashion. Another voice observes that companies employing philosophers have not always welcomed research on the downsides of their products. I would read it next to the Chronicle's piece on computer science enrollment in this archive (2026-10-19): the same shift seen from the next building over, with the field that was the sure bet shrinking while a field with no history of tech hiring adds positions to study the technology.",
+    "tags": [
+      "Higher Ed",
+      "Labor Market"
+    ],
+    "archive_type": "notes",
+    "archive_footer": "Joel forwarded this from a digest called ENGR News, adding only the line above. The digest's own link carried a tracking address and is not reproduced; the link here goes to the Inside Higher Ed article directly. Nothing from the article is reproduced here.",
+    "archived": [
+      "Filed to the article the digest was summarising, with the digest named only as the route it reached Joel by."
+    ]
+  },
+  {
+    "id": "2026-10-15-nyt-ai-data-center-math",
+    "date_sent": "2026-10-16T15:26:54Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI training visualization",
+    "note": "Today’s NYT has an article (apparently open-access) with a visualization comparing the number of calculations used to train the different generations of GPT models: The visualization appears after you scroll past the initial part… The rest of the article discusses related issues including energy consumption.",
+    "title": "AI data center math",
+    "url": "https://www.nytimes.com/interactive/2026/10/15/upshot/ai-data-center-math.html",
+    "source": "The New York Times",
+    "article_date": "2026-10-15",
+    "summary": "This is an interactive from the Upshot, and Joel's directions are the useful part: the visualization sits below the opening section, so scroll past it, and the rest of the piece covers related questions, energy use among them. By his description it lays the number of calculations needed to train each generation of GPT model side by side. A FlowingData write-up of the same piece, which credits the graphics to Aatish Bhatia, says the totals reach octillions of calculations, the kind of number that is easier to see than to read. I have not opened the page myself, so I am keeping this as a pointer with Joel's framing intact. If it does what he says, it is a good single slide for explaining why training cost and energy demand are the same story.",
+    "tags": [
+      "Energy",
+      "Infrastructure",
+      "AI Research"
+    ],
+    "archive_type": "notes",
+    "archive_footer": "A link Joel forwarded to the CS faculty list, with directions for where to look. I was not able to open the page when building this entry, so nothing here describes it beyond what he and a FlowingData write-up say, and the title is as the URL gives it.",
+    "archived": [
+      "Filed for the link and for Joel's directions to the visualization. He noted the page looked open-access to him; check that before sending it to students."
+    ]
+  },
+  {
     "id": "2026-10-11-gr-press-infyshine-openings",
     "date_sent": "2026-10-11T16:24:44Z",
     "sender": "Joel Adams",
