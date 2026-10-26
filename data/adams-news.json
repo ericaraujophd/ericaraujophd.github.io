@@ -1,5 +1,50 @@
 [
   {
+    "id": "2026-10-22-che-cs-bleeding-students-not-first-time",
+    "date_sent": "2026-10-26T16:27:48Z",
+    "sender": "Joel Adams",
+    "email_subject": "CHE article on CS enrollments",
+    "note": "It’s good to see the Chronicle of Higher Education spreading the word that the CS enrollment drop is cyclical; hopefully it will help inform administrators and head off any short-sighted actions…",
+    "title": "Computer Science Is Bleeding Students. It’s Not the First Time.",
+    "url": "https://www.chronicle.com/article/computer-science-is-bleeding-students-its-not-the-first-time",
+    "source": "The Chronicle of Higher Education",
+    "byline": "Karin Fischer",
+    "article_date": "2026-10-22",
+    "summary": "Joel's hope is that administrators read this before they act, and the piece is built to be read that way. It is the counterweight to the Chronicle's \"Computer-Science Gamble\" from three days earlier in this archive (2026-10-19): that one shows what a drop does to a single department, this one argues the drop is the field's third. The first, in the 1980s, was not a loss of student interest at all. Colleges could not hire faculty fast enough and capped the major. The second followed the dot-com collapse and took most of a decade to recover from. Along the way a national task force in 2016 urged planned growth, and some colleges answered by restricting the major, which screened out first-generation and underrepresented students. The article is clear about what is different now: the disruptor is AI itself, entry-level programming jobs are where the losses have fallen, two-thirds of undergraduate programs reported shrinking enrollment last year, interest among high-school sophomores has dropped sharply, and falling international enrollment is hitting a major that enrolls more foreign students than any other. The remedies it offers are blended majors (half of Illinois's computer science majors are in one of seventeen) and computing for liberal-arts students, on the argument that less interest in programming jobs is not less interest in computing. It closes on the point I would hand to a dean: no 18-year-old has seen a downturn before. Read it with the Fast Company piece on what employers still want from CS graduates (2026-09-18).",
+    "tags": [
+      "Higher Ed",
+      "Labor Market",
+      "Teaching Ideas"
+    ],
+    "archive_type": "excerpt",
+    "archived": [
+      "“Students saying no to computer science,” declared one digital-media site. A major daily paper reported from a half-empty college-lecture hall, noting the “zapped” appeal of a previously waitlisted programming course.",
+      "Those headlines could be from today. In fact, they’re more than 20 years old. In the early 2000s, computer-science enrollments plummeted following the collapse of the first wave of internet start-up companies. It took the better part of a decade after the dot-com crash for student interest in the field to begin to recover."
+    ]
+  },
+  {
+    "id": "2026-10-23-wbur-ai-major-programs",
+    "date_sent": "2026-10-26T16:01:48Z",
+    "sender": "Joel Adams",
+    "email_subject": "AI major programs",
+    "note": "",
+    "title": "In higher education, the race is on to offer AI as an undergraduate major",
+    "url": "https://www.wbur.org/news/2026/10/23/ai-college-major-massachusetts",
+    "source": "WBUR",
+    "byline": "Suevon Lee",
+    "article_date": "2026-10-23",
+    "summary": "Joel sent this with no comment, as an item from the ENGR News digest, so the question to the department is implicit: is an AI major something we should be weighing? The count is the news. More than a hundred US colleges now offer an AI major inside a computer science department, nearly double a year earlier, according to a database kept by Northeastern's Center for Inclusive Computing. That database only looks at computing departments and is built by scraping websites, so the real total is probably higher. The article's explanation for the surge is student anxiety about an AI-shaped job market, with administrators treating the major as a competitive edge. Its examples are mostly Boston-area: one business school's program with nearly a hundred undergraduates, MIT's AI and decision-making major now its second most popular, and a new bachelor's at a technical institute that requires a responsible-AI course. Northeastern's own study found more than a third of the programs it surveyed require an ethics course, which is the detail I would look at first. The piece names no critics, so it reads as a trend report rather than an evaluation. It is one answer to the enrollment decline in the two Chronicle pieces in this archive (2026-10-19 and 2026-10-22), alongside the blended majors described in the second.",
+    "tags": [
+      "Higher Ed",
+      "Labor Market"
+    ],
+    "archive_type": "notes",
+    "archive_footer": "Joel forwarded this from a digest called ENGR News without adding a note. The digest's own link carried a tracking address and is not reproduced; the link here goes to the WBUR article directly. Nothing from the article is reproduced here.",
+    "archived": [
+      "Filed to the article the digest was summarising, with the digest named only as the route it reached Joel by."
+    ]
+  },
+  {
     "id": "2026-10-19-che-computer-science-gamble",
     "date_sent": "2026-10-21T16:01:43Z",
     "sender": "Joel Adams",
