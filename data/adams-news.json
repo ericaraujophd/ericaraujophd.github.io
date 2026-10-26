@@ -45,6 +45,32 @@
     ]
   },
   {
+    "id": "2026-10-22-facebook-luhn-c64-basic",
+    "date_sent": "2026-10-22T19:43:38Z",
+    "sender": "Joel Adams",
+    "email_subject": "Luhn algorithm",
+    "note": "When you mistype your credit card number on a website and the website flags the mistake, the site may be using the “Luhn Algorithm” to check what you entered. The post below is from FB—I have not tried it—but perhaps the problem might serve as an exercise in CS 108 or 112. The provided solution is also an illustrative example of C-64 BASIC spaghetti coding; imagine trying to trace the logic if the rem comments were omitted… 😂",
+    "title": "The Luhn algorithm in Commodore 64 BASIC",
+    "source": "Facebook",
+    "summary": "Joel's pitch is that the check-digit problem would make a good exercise for an intro course, and I agree it is a clean one. The rule is short: starting from the digit next to the check digit and moving left, double every second digit, subtract nine from any result above nine, add everything up, and the number is well-formed if the total is a multiple of ten. It was devised at IBM in 1954, is still how a website catches a mistyped card number, and the same checksum protects 15-digit phone IMEI codes. What it cannot do is tell you whether the card exists, only whether someone fumbled a digit. For students the exercise packs a lot into a few lines: reading a number as a string, looping from the right, tracking position parity, modular arithmetic, and rejecting bad input. The Facebook post behind it supplies a worked solution as a full Commodore 64 BASIC listing, and Joel's aside is the other lesson. The program is numbered lines and jumps, and he doubts anyone could follow its logic without the REM comments, which makes it a fair specimen for a discussion of why structured control flow and comments exist. The post's screenshot runs a well-known textbook sample number and reports it valid; I checked that one by hand, and it does sum to 70. Joel says he has not tried the program, and neither have I, so treat the listing as an illustration rather than a reference. The Wikipedia page below is the better source for the algorithm itself.",
+    "tags": [
+      "Teaching Ideas",
+      "Odds & Ends"
+    ],
+    "archive_type": "notes",
+    "links": [
+      {
+        "label": "Luhn algorithm, Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Luhn_algorithm",
+        "note": "The algorithm itself, with worked examples."
+      }
+    ],
+    "archive_footer": "Joel forwarded this from a Facebook post and gave no link, so there is no original to point to. The post's text, program listing and screenshot are not reproduced here, and its author, a private individual, is not named.",
+    "archived": [
+      "Filed for Joel's suggestion that the Luhn check would make a good exercise for CS 108 or 112, and for his aside about the listing."
+    ]
+  },
+  {
     "id": "2026-10-19-che-computer-science-gamble",
     "date_sent": "2026-10-21T16:01:43Z",
     "sender": "Joel Adams",
