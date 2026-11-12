@@ -1,5 +1,26 @@
 [
   {
+    "id": "2026-11-09-wapo-vanderbilt-cyber-incident",
+    "date_sent": "2026-11-10T17:35:26Z",
+    "sender": "Joel Adams",
+    "email_subject": "Vanderbilt Cybersecurity Incident",
+    "note": "",
+    "title": "Vanderbilt University shuts down devices after cyber attack",
+    "url": "https://www.washingtonpost.com/education/2026/11/09/vanderbilt-university-shuts-down-devices-after-cyber-attack/",
+    "source": "The Washington Post",
+    "article_date": "2026-11-09",
+    "summary": "Joel sent this with no comment, as an item from the ENGR News digest. On November 9 Vanderbilt told its community to shut down university devices, disconnect from campus WiFi and stay vigilant while it investigated an active cybersecurity incident. A website said to belong to a ransomware group posted a message to the university claiming locked databases and more than a million records, including Social Security numbers. Vanderbilt said it had not confirmed those figures, so the scale of the breach is the attackers' claim and not an established fact. What is documented is the response: a request to power down machines, and a list of warning signs, namely unexpected pop-ups and security notifications, and unexpected requests to enter a password, approve an authentication prompt or supply login credentials. The digest's second item, from The Tennessean, adds that some students left campus to find working WiFi for homework, exam study and spring registration. That detail is worth keeping in mind: for a campus, an outage like this is a teaching and registration problem long before it is a data problem. It is a current case of what a network-wide response costs, and a useful counterpart to the security items elsewhere in this archive.",
+    "tags": [
+      "Security",
+      "Higher Ed"
+    ],
+    "archive_type": "notes",
+    "archive_footer": "Joel forwarded this from a digest called ENGR News without adding a note. The digest summarised two reports, one from The Washington Post and one from The Tennessean. Its own links carried tracking addresses and are not reproduced; the link here goes to the Post article directly. The Tennessean report is described in the summary but is not filed separately, since I did not locate its page. Nothing from either article is reproduced here.",
+    "archived": [
+      "Filed to the article the digest was summarising, with the digest named only as the route it reached Joel by."
+    ]
+  },
+  {
     "id": "2026-10-22-che-cs-bleeding-students-not-first-time",
     "date_sent": "2026-10-26T16:27:48Z",
     "sender": "Joel Adams",
