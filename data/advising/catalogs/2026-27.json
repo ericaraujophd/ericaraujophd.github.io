@@ -355,7 +355,7 @@
     "bcs": {
       "name": "Computer Science (BCS)",
       "hours": "76 hours in the major (124 to graduate)",
-      "note": "Semester placement follows the department's 2026 BCS sample schedule. All departmental courses need a C- or better.",
+      "note": "Semester placement follows the department's 2026 BCS sample schedule. All CS courses need a C- or better. The rule does not apply to MATH, STAT, ENGR or other cognates (confirmed by the department, Nov 2026).",
       "link": {
         "label": "BCS program page and sample schedule",
         "url": "https://calvin.edu/majors-programs/bachelor-computer-science-bcs"
