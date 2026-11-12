@@ -45,6 +45,35 @@
     ]
   },
   {
+    "id": "2026-10-22-engagecsedu-repository",
+    "date_sent": "2026-10-22T21:28:32Z",
+    "sender": "Joel Adams",
+    "email_subject": "FW: Free Webinar: Publish Your AI and Computing Teaching Materials — November 17",
+    "note": "",
+    "title": "EngageCSEdu: peer-reviewed open resources for computing courses",
+    "url": "https://www.engage-csedu.org/content/engagecsedu",
+    "source": "EngageCSEdu",
+    "summary": "Joel forwarded a Computing Research Association announcement for a webinar and added nothing of his own. The webinar is not what I am filing. The permanent part is the repository it introduces, which is worth knowing about whatever the date. EngageCSEdu is a library of open educational resources for computing courses, concentrated on the introductory ones: the first programming courses, data structures and discrete math. It holds small, classroom-tested pieces rather than whole courses, such as assignments, labs, lecture notes, assessments and projects. What sets it apart is the entry requirement. Every resource has to build in at least one research-based practice for engaging a broad range of students, and an instructor submits a short paper explaining it alongside anonymised student-facing materials. Submissions go through an editor check and two rounds of peer review by computing educators and learning scientists, which is also why the announcement pitches it as a route to a peer-reviewed publication for teaching work. Access is free, and authors choose the Creative Commons licence and keep their copyright. The site describes it as an ACM Education Board project that began at NCWIT. Two uses for me: a source of assignments to borrow or adapt before I write the next lab, and a venue for the ones I have already tested.",
+    "tags": [
+      "Teaching Ideas",
+      "Higher Ed"
+    ],
+    "archive_type": "notes",
+    "archive_label": "Resources",
+    "link_label": "EngageCSEdu website",
+    "links": [
+      {
+        "label": "EngageCSEdu FAQs",
+        "url": "https://www.engage-csedu.org/faqs",
+        "note": "What the repository is, how review works and how licensing is handled."
+      }
+    ],
+    "archive_footer": "Joel forwarded a CRA announcement of a webinar on this repository, with no comment of his own. The webinar is not filed here, only the repository. The announcement's own links carried tracking identifiers and are not reproduced; the links here go to the site directly. Nothing from the repository is reproduced.",
+    "archived": [
+      "Filed as a resource: the repository the webinar announcement introduced, not the webinar itself."
+    ]
+  },
+  {
     "id": "2026-10-22-facebook-luhn-c64-basic",
     "date_sent": "2026-10-22T19:43:38Z",
     "sender": "Joel Adams",
