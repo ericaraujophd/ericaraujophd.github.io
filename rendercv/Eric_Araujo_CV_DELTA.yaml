@@ -1,0 +1,402 @@
+cv:
+  name: Eric Araújo
+  headline: Associate Professor
+  location: Grand Rapids, MI
+  email: eric.araujo@calvin.edu
+  phone: +1-616-215-8643
+  website: https://ericaraujo.com/
+  photo: ../config/headshot.jpg
+  social_networks:
+  - network: LinkedIn
+    username: ericaraujophd
+  - network: GitHub
+    username: ericaraujophd
+  - network: ResearchGate
+    username: Eric-Araujo
+  - network: ORCID
+    username: 0000-0003-4263-9075
+  sections:
+    Summary:
+    - I am a computer scientist at Calvin University who studies how opinions, emotions and behaviors
+      spread through communities, using agent-based models. I am committed to helping Christians think
+      well about artificial intelligence and the people it forms, in the classroom, at conferences and
+      in the church. I led the AI & STEM track of Calvin's Wisdom in the Age of AI conference, will be
+      part of Calvin's new Center for Faith and Technology, and am completing a Master of Divinity at
+      Calvin Theological Seminary. I co-edit *Revisiting AI Ethics* (Springer, 2027).
+    education:
+    - institution: Calvin Theological Seminary
+      area: Divinity
+      degree: M.Div.
+      start_date: 2025-09
+      end_date: present
+      location: Grand Rapids, MI
+    - institution: Vrije Universiteit Amsterdam
+      area: Computer Science
+      degree: Ph.D.
+      start_date: 2014-08
+      end_date: 2018-09
+      location: Amsterdam, NL
+      highlights:
+      - 'Thesis: [Contagious: Modeling the Spread of Behaviours, Perceptions and Emotions in Social Networks](https://research.vu.nl/en/publications/632878cc-e2e7-40ab-a34e-91bde40eaf50)'
+    - institution: Universidade Federal de Minas Gerais
+      area: Computer Science
+      degree: M.Sc.
+      start_date: 2007-03
+      end_date: 2009-09
+      location: Belo Horizonte, Brazil
+    - institution: Universidade Federal de Viçosa
+      area: Computer Science
+      degree: B.Sc.
+      start_date: 2003-03
+      end_date: 2006-12
+      location: Viçosa, Brazil
+    experience:
+    - company: Calvin University
+      position: Associate Professor
+      start_date: 2024-07
+      end_date: present
+      location: Grand Rapids MI USA
+    - company: FIOCRUZ
+      position: Researcher
+      start_date: '2022'
+      end_date: '2024'
+      location: Rio de Janeiro Brazil
+      highlights:
+      - Research on the circulation of researchers in Brazilian health sciences.
+    - company: Vrije Universiteit Amsterdam
+      position: Guest Researcher
+      start_date: 2018-10
+      end_date: 2022-04
+      highlights:
+      - Criminology models with Prof. Dr. Charlotte Gerritsen.
+    - company: Universidade Federal de Lavras
+      position: Associate Professor
+      start_date: 2011-02
+      end_date: 2024-06
+      location: Minas Gerais Brazil
+      highlights:
+      - Thirteen years of teaching and graduate supervision in computer science.
+    - company: Gammon Presbyterian Faculty
+      position: Professor
+      start_date: 2010-01
+      end_date: 2011-01
+      location: Minas Gerais Brazil
+      highlights:
+      - Professor and Coordinator of the Information Systems course.
+    teaching:
+    - code: CS112
+      name: Introduction to Data Structures
+      url: https://ericaraujo.com/26sp-cs112/
+      location: Calvin University USA
+      start_date: 2024-09
+      end_date: present
+    - code: CS354A
+      name: Databases Management Systems
+      url: https://ericaraujo.com/dbms/
+      location: Calvin University USA
+      start_date: 2025-01
+      end_date: present
+    - code: CS300b
+      name: Agent-based Modeling
+      location: Calvin University USA
+      start_date: 2024-09
+      end_date: present
+    - code: CS214
+      name: Concepts of Programming Languages
+      url: https://ericaraujo.com/26sp-cs214/
+      location: Calvin University USA
+      start_date: 2026-01
+      end_date: present
+    - code: Cor Inquietum
+      name: '*Cor Inquietum*: The Restless Heart in a Digital Age (reading group)'
+      location: Calvin University USA
+      date: Spring 2027
+      summary: Non-credit pilot on the cardinal virtues, spiritual disciplines and digital technology;
+        basis of the proposed DELTA Signature Course, beginning in Calvin's Honors program.
+    selected_talks:
+    - role: speaker
+      year: '2026'
+      name: Wisdom in the Age of AI Conference — Church track
+      url: https://calvin.edu/faith-and-technology/faith-and-ai-conference
+      location: Calvin University, Grand Rapids, MI
+      summary: '"Modeling Communities in Peril: Polarization and the Changes in the Social Fabric of Congregations
+        through an Agent-Based Approach."'
+      date: Oct 2026
+    - role: speaker
+      year: '2026'
+      name: Baylor Symposium on Faith & Culture 2026 — Technology and the Human Person in the Age of AI
+      url: https://ifl.web.baylor.edu/conferences-and-symposiums/baylor-symposium-faith-and-culture/2026-technology-and-human-person-age
+      location: Waco, TX
+      summary: '"Cognitive Modeling of Christian Communities: Developing Intelligent Agents to Address
+        the Polarization Effects in Churches."'
+      date: Feb 2026
+    - role: speaker
+      year: '2026'
+      name: American Academy of Religion (AAR) Annual Meeting 2026 — History of Christianity Unit
+      url: https://papers.aarweb.org/papers-session/112792-history-present-futures-christianitys-past
+      location: Denver, CO
+      summary: Empirical evaluation of LLM accuracy on Macrina the Younger and Olympias of Constantinople.
+      date: Nov 2026
+    - role: speaker
+      year: '2025'
+      name: American Scientific Affiliation (ASA) Annual Meeting 2025
+      url: https://network.asa3.org/mpage/ASA2025
+      location: Colorado Christian University, Lakewood, CO
+      date: July 2025
+    grants_and_fellowships:
+    - name: Templeton World Charity Foundation — Planning Grant
+      url: https://www.templetonworldcharity.org/
+      institution: Templeton World Charity Foundation, in partnership with the Nagel Institute for the
+        Study of World Christianity
+      summary: $100,000 planning grant (Listening and Learning in a Polarized World), co-led with Dr.
+        Damaris Parsitau, on agent-based models of congregations in Brazil and Kenya.
+      date: June 2026 – Jan 2027
+    - name: Marjorie G. Hoogeboom Student Faculty Research Fellowship
+      institution: Calvin University — Computer Science
+      summary: Inaugural award, supporting a summer research placement for student David Quinn on the
+        church-polarization project.
+      date: Summer 2026
+    - name: Calvin Research Fellowship
+      url: https://calvin.edu/faculty-development-research/faculty-research-opportunities/calvin-research-fellowships
+      institution: Calvin University
+      summary: Four load hours in 2026-2027 for "Modeling Political and Religious Polarization in Christian
+        Communities." Diekema Fellow.
+      date: 2026 – 2027
+    - name: Nagel Institute Fellowship
+      url: https://nagelinstitute.org/fellowships/
+      institution: Nagel Institute for the Study of World Christianity — Calvin University
+      summary: Supporting research on computational modeling of world Christian communities.
+      date: '2026'
+    - name: McGregor Summer Research Fellowship
+      url: https://calvin.edu/faculty-development-research/student-research-opportunities/mcgregor-undergraduate-research-program
+      institution: Calvin University
+      summary: Supporting collaborative faculty-student research.
+      date: May 2026 – Aug 2026
+    research_projects:
+    - name: 'Matristics: Evaluating Large Language Models on the Women of the Early Church'
+      url: https://ericaraujo.com/matristics
+      location: Calvin University
+      summary: With D. Rylaarsdam. Supported by a McGregor Undergraduate Research Fellowship.
+      highlights:
+      - A public benchmark testing whether leading large language models (Claude, ChatGPT, Gemini, Grok)
+        reproduce the androcentric silences of the historical record about women in early Christianity.
+      date: 2026 – present
+    - name: CS Prayers — A Book of Hours for Computing
+      url: https://csprayers.com
+      location: Calvin University
+      summary: Founder and curator.
+      highlights:
+      - A public collection of liturgies for the rhythms of studying, teaching, and practicing computer
+        science, open to contributions from students and faculty at any institution.
+      date: 2026 – present
+    - name: Procores
+      url: https://procores-cnpq.github.io/
+      location: UFMG Brazil
+      summary: Research group funded by CNPq (Brazil)
+      highlights:
+      - Research group on social networks, contagion processes and complex data (CNPq Universal 2022).
+      date: May 2022 – present
+    supervised_students:
+    - name: Miriam Crisman
+      location: Calvin University
+      date: Fall 2026 - Spring 2027
+      summary: B.S. - Computational Modeling of Political Polarization in Complex Systems
+    - name: Adam Byle, Alayna Smith
+      location: Calvin University
+      date: Fall 2026 - Spring 2027
+      summary: B.S. - Data-Oriented Agent-Based Model of Polarization and Fracture in Kenyan Society
+    - name: Sally Amonoo-Mensah
+      location: Calvin University
+      date: Fall 2026 - Spring 2027
+      summary: B.S. - What Is AI Saying about Junia?
+    - name: Katelin Jandris, Ryan Klein, Övgü Tufan
+      location: Calvin University
+      date: Fall 2025 - Spring 2026
+      summary: B.S. - Cognitive Modeling of Church Polarization
+    - name: Jaden Brookens, Daniel Kwon
+      location: Calvin University
+      date: Fall 2024 - Spring 2025
+      summary: 'B.S. - Modeling Introversion in the Classroom: An Agent-Based Approach'
+    - name: Ian Hawthorne, Nathan Holtrop
+      location: Calvin University
+      date: Summer 2026
+      summary: 'B.S. - Teaching Ancient Wisdom with Modern AI: Evaluating LLMs in Early Christian Studies'
+    - name: Graduate and undergraduate students
+      location: UFLA and UFSC — Brazil
+      date: 2011 - 2025
+      summary: Supervised one Ph.D. dissertation, seven M.S. theses and nineteen undergraduate theses
+        and research projects.
+    university_service:
+    - name: Track Leader, AI & STEM - Wisdom in the Age of AI Conference, Calvin University, Center for
+        Faith and Technology
+      date: Oct 2026
+      summary: Led the AI & STEM track (October 8-10, 2026, more than 600 participants).
+    - name: Promotions Committee, Computer Science, Calvin University
+      date: 2026 – present
+    - name: Planning team, School of Engineering and Computer Science, Calvin University
+      date: 2026 – present
+    - name: Faculty planning group, CCCS grant on political polarization, Calvin University
+      date: 2025 – present
+    - name: Interviewer, prospective Honors students, Calvin University
+      date: 2025 – present
+    - name: Faculty Advisor, Girls Who Code, Calvin University
+      date: 2025 – present
+      summary: Includes leading the student delegation to the Grace Hopper Celebration.
+    professional_service:
+    - name: Faculty Fellow, Nagel Institute for the Study of World Christianity
+      date: Dec 2025
+    church_and_community_service:
+    - name: Elder - Plymouth Heights Christian Reformed Church, Grand Rapids, MI
+      date: May 2025 – present
+      summary: Assists with liturgy; hospitality ministry to college students.
+    professional_development:
+    - name: CCCS Writing Co-Op
+      location: Calvin University
+      summary: 'Week-long writing residency: "Temperance and the Digital Life" (article for The Banner).'
+      date: July 2026
+    - name: G&M Young Leaders Training Conference
+      location: Grace & Mercy Foundation, New York
+      summary: On the public reading of Scripture and the Just Show Up book club at Calvin.
+      date: July 2026
+    - name: Faith & Learning Fellowship
+      location: de Vries Institute, Calvin University
+      summary: On integrating Christian faith with scholarly work.
+      date: Sept 2025 – Dec 2025
+    - name: CCCS Writing Co-Op
+      location: Calvin University
+      summary: 'Week-long writing residency: "Prudence and the Digital Life."'
+      date: Jan 2025
+    - name: Kuiper Seminar
+      location: Calvin University
+      summary: Year-long seminar on faith and learning, pedagogy and the Reformed tradition.
+      date: Sept 2024 – May 2025
+    books:
+    - title: 'Revisiting AI Ethics: A Practice-Grounded Approach to Development, Application, and Policy
+        Making'
+      authors:
+      - Maarten Verkerk
+      - Christine Boshuijzen-van Burken
+      - '**Eric Araújo** (Eds.)'
+      date: Feb 2027
+      journal: Springer Cham. Forthcoming, February 2027. ISBN 978-3-032-41252-2. Edited volume. Applies
+        Dooyeweerd's modal framework to the ethics of artificial intelligence.
+      url: https://link.springer.com/book/9783032412522
+    selected_publications:
+    - title: 'Context-dependent leadership in global health science: Brazil''s role across North–South,
+        South–South, and triangular collaboration models (2010–2019)'
+      authors:
+      - Juliana Freitas Lopes
+      - Priscila Costa Albuquerque
+      - '**Eric Araújo**'
+      - Fabio Zicker
+      - Bruna de Paula Fonseca
+      date: 2026-08
+      journal: Scientometrics
+      doi: 10.1007/s11192-026-05781-0
+      url: https://doi.org/10.1007/s11192-026-05781-0
+    - title: 'From brain drain to brain circulation: International researcher mobility in Brazilian health
+        and life sciences (2005–2020)'
+      authors:
+      - Leonardo Biazoli
+      - Priscila Costa Albuquerque
+      - '**Eric Araújo**'
+      - Izabela Regina Cardoso de Oliveira
+      - Bruna de Paula Fonseca
+      date: 2026-02
+      journal: Quantitative Science Studies
+      doi: 10.1162/QSS.a.411
+      url: https://doi.org/10.1162/QSS.a.411
+    - title: 'Exploring the link between urban topology and street crime using complex networks: a case
+        study from Southeast Brazil'
+      authors:
+      - Matheus de Andrade Flausino
+      - '**Eric Araújo**'
+      - Angélica Sousa da Mata
+      date: 2025-07
+      journal: Journal of Complex Networks
+      doi: 10.1093/comnet/cnaf016
+      url: https://doi.org/10.1093/comnet/cnaf016
+    - title: 'Political Polarization on Twitter During the COVID-19 Pandemic: A Case Study in Brazil'
+      authors:
+      - Pedro Brum
+      - Matheus Cândido Teixeira
+      - Renato Vimieiro
+      - '**Eric Araújo**'
+      - Wagner Meira Jr
+      - Gisele Lobo Pappa
+      date: '2022'
+      journal: Social Network Analysis and Mining
+      doi: 10.1007/s13278-022-00949-x
+      url: https://doi.org/10.1007/s13278-022-00949-x
+    - title: 'Disconnecting for the Good: A Network-Oriented Model for Social Contagion of Opinions and
+        Social Network Interventions to Increase Adherence to Social Distancing'
+      authors:
+      - '**Eric Araújo**'
+      - Mariza Ferro
+      - Gabrieli Silva
+      date: '2020'
+      journal: Proceedings of the IX Brazilian Workshop on Social Network Analysis and Mining
+      doi: 10.5753/brasnam.2020.11170
+      url: https://doi.org/10.5753/brasnam.2020.11170
+    - title: 'Identifying Influence Agents That Promote Physical Activity Through the Simulation of Social
+        Network Interventions: Agent-Based Modeling Study'
+      authors:
+      - Thabo J. van Woudenberg
+      - Bojan Simoski
+      - '**Eric Araújo**'
+      - Kirsten E. Bevelander
+      - William J. Burk
+      - Crystal R. Smit
+      - Laura Buijs
+      - Michel Klein
+      - Moniek Buijzen
+      date: '2019'
+      journal: Journal of Medical Internet Research
+      doi: 10.2196/12914
+      url: https://doi.org/10.2196/12914
+    - title: 'Contagious: Modeling the Spread of Behaviours, Perceptions and Emotions in Social Networks
+        (PhD Thesis)'
+      authors:
+      - '**Eric Araújo**'
+      date: '2018'
+      journal: Vrije Universiteit Amsterdam. ISBN 9789402811179
+      url: https://research.vu.nl/en/publications/632878cc-e2e7-40ab-a34e-91bde40eaf50
+    - title: A Computational Cognitive Model for Political Positioning and Reactions in Web Media
+      authors:
+      - '**Eric Araújo**'
+      - Michel Klein
+      date: '2017'
+      journal: 2017 IEEE 16th International Conference on Cognitive Informatics & Cognitive Computing
+        (ICCI*CC)
+      doi: 10.1109/ICCI-CC.2017.8109782
+      url: https://doi.org/10.1109/ICCI-CC.2017.8109782
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.6in
+    bottom_margin: 0.6in
+    left_margin: 0.65in
+    right_margin: 0.65in
+    show_top_note: false
+  header:
+    photo_width: 2.6cm
+    space_below_name: 0.4cm
+    space_below_headline: 0.4cm
+    space_below_connections: 0.4cm
+  section_titles:
+    space_above: 0.35cm
+    space_below: 0.2cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0.8em
+    show_time_spans_in: []
+  entries:
+    allow_page_break: false
+  colors:
+    body: rgb(46, 52, 64)
+    name: rgb(62, 92, 118)
+    headline: rgb(62, 92, 118)
+    connections: rgb(62, 92, 118)
+    section_titles: rgb(62, 92, 118)
+    links: rgb(62, 92, 118)

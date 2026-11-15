@@ -1136,3 +1136,15 @@ cv:
     - '**Programming:** Proficient with Python, C++, Netlogo, and Git; good understanding
       of Web development.'
     - '**Languages:** English (fluent), Portuguese (native), Dutch (basic).'
+
+# Colors chosen by Eric on Nov 15, 2026: a calmer slate blue for the name,
+# headline, links and section titles, and soft charcoal for the body text.
+design:
+  theme: classic
+  colors:
+    body: rgb(46, 52, 64)
+    name: rgb(62, 92, 118)
+    headline: rgb(62, 92, 118)
+    connections: rgb(62, 92, 118)
+    section_titles: rgb(62, 92, 118)
+    links: rgb(62, 92, 118)
